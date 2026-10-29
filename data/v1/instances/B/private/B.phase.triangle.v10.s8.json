@@ -1,0 +1,163 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_phase_clean"
+ ],
+ "family": "triangle",
+ "hash": "sha256:9d6be05441a76fba09d549086fdee27156d06200cc6fa73089c87fea9e884e77",
+ "id": "B.phase.triangle.v10.s8",
+ "params": {
+  "p": 0.5,
+  "seed": 8,
+  "v": 10
+ },
+ "private": {
+  "aig_ands": 90,
+  "b_min": 12,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 48,
+   "cone_bennett(abc resyn2)": 48,
+   "esop+mcx": 12
+  },
+  "edges": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    3
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    0,
+    5
+   ],
+   [
+    0,
+    7
+   ],
+   [
+    0,
+    8
+   ],
+   [
+    1,
+    6
+   ],
+   [
+    1,
+    7
+   ],
+   [
+    1,
+    8
+   ],
+   [
+    1,
+    9
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    8,
+    9
+   ]
+  ],
+  "m": 1,
+  "n": 10,
+  "n_solutions": 13,
+  "n_solutions_method": "exhaustive",
+  "n_triangles": 13,
+  "size_bin": "S",
+  "solution_fraction_log2": -6.2996,
+  "solution_sparse": true
+ },
+ "public_hash": "sha256:9d6be05441a76fba09d549086fdee27156d06200cc6fa73089c87fea9e884e77",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "triangle",
+  "ref": "parametrised QCircuitBench grover_triangle",
+  "version": "1"
+ },
+ "task": "oracle_phase_clean",
+ "tracks": [
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 12
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 18
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+tool,track,status,count,example_instance,reason
+bennett(aig),tof@bmin,unsupported,488,B.bitflip.arith.carry.n10,does not fit the qubit budget: needs more than 12 qubits
+per-clause MCX (qiskit MCX),tof@bmin,unsupported,423,B.bitflip.arith.carry.n10,function is not given as a CNF (AND of ORs)
+per-clause MCX (qiskit MCX),tof@1.5bmin,unsupported,393,B.bitflip.arith.carry.n10,function is not given as a CNF (AND of ORs)
+bennett(aig),tof@1.5bmin,unsupported,356,B.bitflip.arith.carry.n10,does not fit the qubit budget: needs more than 18 qubits
+per-clause MCX (qiskit MCX),cx@inf,unsupported,350,B.bitflip.arith.carry.n10,function is not given as a CNF (AND of ORs)
+per-clause MCX (qiskit MCX),tof@inf,unsupported,350,B.bitflip.arith.carry.n10,function is not given as a CNF (AND of ORs)
+solution enumeration + prefix-trie MCX,tof@bmin,unsupported,304,B.bitflip.arith.carry.n10,does not fit the qubit budget: needs more than 12 qubits
+bennett(abc resyn2),tof@bmin,unsupported,294,B.bitflip.arith.carry.n10,does not fit the qubit budget: needs more than 12 qubits
+"pebbling SAT (Meuli et al. 2019, re-impl.)",tof@bmin,unsupported,278,B.bitflip.arith.carry.n10,no pebbling schedule with 1 pebbles exists up to the step bound (UNSAT)
+esop(qiskit EsopGenerator)+qiskit MCX,cx@inf,unsupported,275,B.bitflip.arith.carry.n20,ESOP from the full truth table only for <= 16 inputs (Qiskit warns above 16)
+esop(qiskit EsopGenerator)+qiskit MCX,tof@1.5bmin,unsupported,275,B.bitflip.arith.carry.n20,ESOP from the full truth table only for <= 16 inputs (Qiskit warns above 16)
+esop(qiskit EsopGenerator)+qiskit MCX,tof@bmin,unsupported,275,B.bitflip.arith.carry.n20,ESOP from the full truth table only for <= 16 inputs (Qiskit warns above 16)
+esop(qiskit EsopGenerator)+qiskit MCX,tof@inf,unsupported,275,B.bitflip.arith.carry.n20,ESOP from the full truth table only for <= 16 inputs (Qiskit warns above 16)
+"XAG + MC (Meuli et al. 2019, re-impl.)",tof@bmin,unsupported,271,B.bitflip.arith.carry.n10,does not fit the qubit budget: needs more than 12 qubits
+XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),tof@bmin,unsupported,264,B.bitflip.arith.carry.n10,does not fit the qubit budget: needs more than 12 qubits
+bennett(abc resyn2),tof@1.5bmin,unsupported,246,B.bitflip.arith.carry.n10,does not fit the qubit budget: needs more than 18 qubits
+cone_bennett(abc resyn2),tof@bmin,unsupported,220,B.bitflip.arith.carry.n10,does not fit the qubit budget: needs more than 12 qubits
+solution enumeration + prefix-trie MCX,tof@1.5bmin,unsupported,220,B.bitflip.arith.carry.n10,does not fit the qubit budget: needs more than 18 qubits
+"XAG + MC (Meuli et al. 2019, re-impl.)",tof@1.5bmin,unsupported,204,B.bitflip.arith.carry.n10,does not fit the qubit budget: needs more than 18 qubits
+cone_bennett(abc resyn2),tof@1.5bmin,unsupported,190,B.bitflip.arith.carry.n10,does not fit the qubit budget: needs more than 18 qubits
+solution enumeration + prefix-trie MCX,cx@inf,unsupported,181,B.bitflip.arith.carry.n14,more than 4096 solutions (or enumeration out of time)
+solution enumeration + prefix-trie MCX,t_mbu@inf,unsupported,181,B.bitflip.arith.carry.n14,more than 4096 solutions (or enumeration out of time)
+solution enumeration + prefix-trie MCX,tof@inf,unsupported,181,B.bitflip.arith.carry.n14,more than 4096 solutions (or enumeration out of time)
+XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),tof@1.5bmin,unsupported,178,B.bitflip.arith.majority.n11,does not fit the qubit budget: needs more than 20 qubits
+"pebbling SAT (Meuli et al. 2019, re-impl.)",tof@1.5bmin,timeout,173,B.bitflip.arith.carry.n12,no pebbling schedule with 8 pebbles within the SAT conflict budget (1000000 conflicts per call)
+"pebbling SAT (Meuli et al. 2019, re-impl.)",tof@1.5bmin,unsupported,149,B.bitflip.arith.majority.n41,SAT pebbling limited to <= 400 AND nodes
+"pebbling SAT (Meuli et al. 2019, re-impl.)",tof@bmin,timeout,132,B.bitflip.arith.majority.n21,killed after 80.4 s (budget 60.0 s + grace 20.0 s)
+"pebbling SAT (Meuli et al. 2019, re-impl.)",cx@inf,unsupported,122,B.bitflip.arith.majority.n41,SAT pebbling limited to <= 400 AND nodes
+"pebbling SAT (Meuli et al. 2019, re-impl.)",tof@inf,unsupported,122,B.bitflip.arith.majority.n41,SAT pebbling limited to <= 400 AND nodes
+"pebbling SAT (Meuli et al. 2019, re-impl.)",cx@inf,timeout,112,B.bitflip.arith.majority.n21,killed after 80.5 s (budget 60.0 s + grace 20.0 s)
+"pebbling SAT (Meuli et al. 2019, re-impl.)",tof@inf,timeout,112,B.bitflip.arith.majority.n21,killed after 80.4 s (budget 60.0 s + grace 20.0 s)
+"XAG MC cut rewriting (mockturtle xag_minmc_resynthesis) [circuit reused, re-verified on tof_clifford@inf]",tof_clifford@inf,fail,63,B.bitflip.arith.mul_bit.n10.j4,gates outside the allowed set: ['mbu']
+per-clause MCX (qiskit MCX),cx@inf,unverified,59,B.bitflip.compare.eq.n22,unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check
+per-clause MCX (qiskit MCX),tof@1.5bmin,unverified,59,B.bitflip.compare.eq.n22,unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check
+per-clause MCX (qiskit MCX),tof@inf,unverified,59,B.bitflip.compare.eq.n22,unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check
+"XAG + MC (Meuli et al. 2019, re-impl.) [circuit reused, re-verified on tof_clifford@inf]",tof_clifford@inf,fail,47,B.bitflip.arith.threshold.n10.k5,gates outside the allowed set: ['mbu']
+per-clause MCX (qiskit MCX),tof@bmin,unverified,44,B.bitflip.compare.eq.n22,unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check
+"bennett(abc resyn2) [circuit reused, re-verified on tof_clifford@inf]",tof_clifford@inf,fail,33,B.bitflip.arith.threshold.n14.k4,gates outside the allowed set: ['mbu']
+"cone_bennett(abc resyn2) [circuit reused, re-verified on tof_clifford@inf]",tof_clifford@inf,fail,33,B.bitflip.arith.threshold.n14.k4,gates outside the allowed set: ['mbu']
+esop(qiskit EsopGenerator)+qiskit MCX,cx@inf,unverified,18,B.bitflip.epfl.ctrl,unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check
+esop(qiskit EsopGenerator)+qiskit MCX,tof@1.5bmin,unverified,18,B.bitflip.epfl.ctrl,unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check
+esop(qiskit EsopGenerator)+qiskit MCX,tof@bmin,unverified,18,B.bitflip.epfl.ctrl,unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check
+esop(qiskit EsopGenerator)+qiskit MCX,tof@inf,unverified,18,B.bitflip.epfl.ctrl,unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check
+XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),tof@inf,unverified,16,B.bitflip.arith.majority.n41,unverified: SAT miter exceeded 600 s
+XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),cx@inf,unverified,15,B.bitflip.arith.majority.n41,unverified: SAT miter exceeded 600 s
+XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),t_mbu@inf,unverified,15,B.bitflip.arith.majority.n41,unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check
+esop(qiskit EsopGenerator)+qiskit MCX,cx@inf,timeout,15,B.bitflip.arith.mul_bit.n14.j8,killed after 80.1 s (budget 60.0 s + grace 20.0 s)
+esop(qiskit EsopGenerator)+qiskit MCX,tof@1.5bmin,timeout,15,B.bitflip.arith.mul_bit.n14.j8,killed after 80.3 s (budget 60.0 s + grace 20.0 s)
+esop(qiskit EsopGenerator)+qiskit MCX,tof@bmin,timeout,15,B.bitflip.arith.mul_bit.n14.j8,killed after 80.1 s (budget 60.0 s + grace 20.0 s)
+esop(qiskit EsopGenerator)+qiskit MCX,tof@inf,timeout,15,B.bitflip.arith.mul_bit.n14.j8,killed after 80.1 s (budget 60.0 s + grace 20.0 s)
+"bennett(aig) [circuit reused, re-verified on tof_clifford@inf]",tof_clifford@inf,fail,9,B.bitflip.compare.interval.n12.s5106,gates outside the allowed set: ['mbu']
+solution enumeration + prefix-trie MCX,cx@inf,unverified,7,B.bitflip.compare.eq.n24,verification exceeded 600 s
+solution enumeration + prefix-trie MCX,t_mbu@inf,unverified,7,B.bitflip.compare.eq.n24,verification exceeded 600 s
+solution enumeration + prefix-trie MCX,tof@1.5bmin,unverified,7,B.bitflip.compare.eq.n24,unverified: SAT miter exceeded 600 s
+solution enumeration + prefix-trie MCX,tof@bmin,unverified,7,B.bitflip.compare.eq.n24,unverified: SAT miter exceeded 600 s
+solution enumeration + prefix-trie MCX,tof@inf,unverified,7,B.bitflip.compare.eq.n24,unverified: SAT miter exceeded 600 s
+XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),tof@1.5bmin,unverified,6,B.bitflip.arith.majority.n41,unverified: SAT miter exceeded 600 s
+XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),tof@bmin,unverified,6,B.bitflip.arith.majority.n41,verification exceeded 600 s
+"XAG + MC (Meuli et al. 2019, re-impl.)",cx@inf,unverified,3,B.bitflip.arith.majority.n63,verification exceeded 600 s
+"XAG + MC (Meuli et al. 2019, re-impl.)",t_mbu@inf,unverified,3,B.bitflip.arith.majority.n63,unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check
+"XAG + MC (Meuli et al. 2019, re-impl.)",tof@1.5bmin,unverified,3,B.bitflip.arith.majority.n63,unverified: SAT miter exceeded 600 s
+"XAG + MC (Meuli et al. 2019, re-impl.)",tof@bmin,unverified,3,B.bitflip.arith.majority.n63,unverified: SAT miter exceeded 600 s
+"XAG + MC (Meuli et al. 2019, re-impl.)",tof@inf,unverified,3,B.bitflip.arith.majority.n63,unverified: SAT miter exceeded 600 s
+XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),cx@inf,timeout,2,B.bitflip.arith.majority.n51,minmc: out of time
+XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),t_mbu@inf,timeout,2,B.bitflip.arith.majority.n51,minmc: out of time
+XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),tof@1.5bmin,timeout,1,B.bitflip.arith.majority.n63,minmc: out of time
+XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),tof@bmin,timeout,1,B.bitflip.arith.majority.n63,minmc: out of time
+XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),tof@inf,timeout,1,B.bitflip.arith.majority.n63,minmc: out of time
+bennett(aig),cx@inf,unverified,1,B.bitflip.iscas85.c6288,unverified: SAT miter exceeded 600 s
+bennett(aig),t_mbu@inf,unverified,1,B.bitflip.iscas85.c6288,unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check
+bennett(aig),tof@1.5bmin,unverified,1,B.bitflip.iscas85.c6288,unverified: SAT miter exceeded 600 s
+bennett(aig),tof@inf,unverified,1,B.bitflip.iscas85.c6288,unverified: SAT miter exceeded 600 s
+cone_bennett(abc resyn2),cx@inf,unverified,1,B.bitflip.iscas85.c6288,unverified: SAT miter exceeded 600 s
+cone_bennett(abc resyn2),t_mbu@inf,unverified,1,B.bitflip.iscas85.c6288,unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check
+cone_bennett(abc resyn2),tof@1.5bmin,unverified,1,B.bitflip.iscas85.c6288,unverified: SAT miter exceeded 600 s
+cone_bennett(abc resyn2),tof@bmin,unverified,1,B.bitflip.iscas85.c6288,unverified: SAT miter exceeded 600 s
+cone_bennett(abc resyn2),tof@inf,unverified,1,B.bitflip.iscas85.c6288,unverified: SAT miter exceeded 600 s

@@ -1,0 +1,72 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_bitflip_clean"
+ ],
+ "family": "sbox",
+ "hash": "sha256:3504f7208e559740fea2f5e99b07b901de92861f96f1d0b119264d84c4fdc7eb",
+ "id": "B.bitflip.sbox.kuznyechik_pi",
+ "params": {
+  "sbox": "GOST R 34.12-2015 (Kuznyechik) Pi"
+ },
+ "private": {
+  "aig_ands": 683,
+  "b_min": 17,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 686,
+   "cone_bennett(abc resyn2)": 165,
+   "esop+mcx": 17
+  },
+  "m": 8,
+  "n": 8,
+  "n_solutions": null,
+  "n_solutions_method": "multi-output",
+  "redistributable": true,
+  "size_bin": "S",
+  "solution_fraction_log2": null,
+  "solution_sparse": false
+ },
+ "public_hash": "sha256:3504f7208e559740fea2f5e99b07b901de92861f96f1d0b119264d84c4fdc7eb",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "external",
+  "license": "IETF RFC (table values of a published standard)",
+  "name": "GOST R 34.12-2015 (Kuznyechik) Pi",
+  "ref": "https://www.rfc-editor.org/rfc/rfc7801.txt",
+  "sha256": "4e78cccae8ba582fa2e316aa8cbbb404ae0355d0a06b76d685482c0a0a842c69",
+  "version": "RFC 7801"
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": [
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 17
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 26
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

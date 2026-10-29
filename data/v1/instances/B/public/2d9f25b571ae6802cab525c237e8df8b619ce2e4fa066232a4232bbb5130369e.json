@@ -1,0 +1,122 @@
+{
+ "aiger_b64": "YWlnIDc0IDE5IDAgOSA1NQo1OAo2NQo3Nwo4OQoxMDEKMTEzCjEyNQoxMzcKMTQ5Cg4CAgwCDAIMAgwCDCABAh0GDAICKhAIHQECKAEpAwECARE4DgECJgsnDQECAR1EDAECMAsxDQECASlQCgECOgs7DQECATVcCAECRAtFDQECAUFoBgECTgtPDQECAU10BAECWAtZDQECAVmAAQIBAmkwIGEKaTEgYgppMiBjCmkzIGQKaTQgZQppNSBmCmk2IGcKaTcgaAppOCBpCmk5IGoKaTEwIGsKaTExIGwKaTEyIG0KaTEzIG4KaTE0IG8KaTE1IHAKaTE2IHEKaTE3IHIKaTE4IHMKbzAgdApvMSB1Cm8yIHYKbzMgdwpvNCB4Cm81IHkKbzYgegpvNyBhMApvOCBiMAo=",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:2d9f25b571ae6802cab525c237e8df8b619ce2e4fa066232a4232bbb5130369e",
+ "input_names": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 19,
+ "n_outputs": 9,
+ "output_names": [
+  "t",
+  "u",
+  "v",
+  "w",
+  "x",
+  "y",
+  "z",
+  "a0",
+  "b0"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "outputs": [
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27
+  ]
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 63
+  },
+  "tof@bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 42
+  },
+  "tof@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

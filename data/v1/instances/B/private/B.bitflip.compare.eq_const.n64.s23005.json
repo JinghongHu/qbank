@@ -1,0 +1,72 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_bitflip_clean"
+ ],
+ "family": "compare",
+ "hash": "sha256:9863aceb0f1f73c4d2ba7566e42670e41dde43d29e81cf6358c58d5c9781c41a",
+ "id": "B.bitflip.compare.eq_const.n64.s23005",
+ "params": {
+  "const": 8637641236698600451,
+  "kind": "eq_const",
+  "seed": 23005,
+  "w": 32
+ },
+ "private": {
+  "aig_ands": 63,
+  "b_min": 128,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 128,
+   "cone_bennett(abc resyn2)": 128
+  },
+  "m": 1,
+  "n": 64,
+  "n_solutions": 1,
+  "n_solutions_method": "BDD model count",
+  "size_bin": "XL",
+  "solution_fraction_log2": -64.0,
+  "solution_sparse": true
+ },
+ "public_hash": "sha256:9863aceb0f1f73c4d2ba7566e42670e41dde43d29e81cf6358c58d5c9781c41a",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "compare",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": [
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 128
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 192
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

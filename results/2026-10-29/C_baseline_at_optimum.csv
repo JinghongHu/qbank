@@ -1,0 +1,585 @@
+instance,split,track,value,best_source
+C.queko.16QBT_05CYC_TFL_0,probe,depth2q,5,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_0,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_1,probe,depth2q,4,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_1,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_2,probe,depth2q,4,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_2,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_3,probe,depth2q,4,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_3,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_4,probe,depth2q,5,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_4,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_5,probe,depth2q,4,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_5,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_6,probe,depth2q,4,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_6,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_7,probe,depth2q,4,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_7,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_8,probe,depth2q,5,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_8,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_9,probe,depth2q,4,pytket LexiRoute
+C.queko.16QBT_05CYC_TFL_9,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_0,probe,depth2q,7,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_0,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_1,probe,depth2q,7,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_1,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_2,probe,depth2q,7,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_2,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_3,probe,depth2q,8,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_3,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_4,probe,depth2q,7,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_4,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_5,probe,depth2q,7,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_5,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_6,probe,depth2q,7,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_6,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_7,probe,depth2q,6,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_7,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_8,probe,depth2q,7,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_8,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_9,probe,depth2q,7,pytket LexiRoute
+C.queko.16QBT_10CYC_TFL_9,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_0,probe,depth2q,11,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_0,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_1,probe,depth2q,11,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_1,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_2,probe,depth2q,10,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_2,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_3,probe,depth2q,10,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_3,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_4,probe,depth2q,9,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_4,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_5,probe,depth2q,10,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_5,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_6,probe,depth2q,9,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_6,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_7,probe,depth2q,10,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_7,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_8,probe,depth2q,10,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_8,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_9,probe,depth2q,11,pytket LexiRoute
+C.queko.16QBT_15CYC_TFL_9,probe,swaps,0,pytket LexiRoute
+C.queko.54QBT_05CYC_QSE_0,probe,depth2q,5,pytket LexiRoute
+C.queko.54QBT_05CYC_QSE_0,probe,swaps,0,pytket LexiRoute
+C.queko.54QBT_05CYC_QSE_1,probe,depth2q,5,pytket LexiRoute
+C.queko.54QBT_05CYC_QSE_1,probe,swaps,0,pytket LexiRoute
+C.queko.54QBT_05CYC_QSE_2,probe,depth2q,5,pytket LexiRoute
+C.queko.54QBT_05CYC_QSE_2,probe,swaps,0,pytket LexiRoute
+C.queko.54QBT_05CYC_QSE_3,probe,depth2q,5,pytket LexiRoute
+C.queko.54QBT_05CYC_QSE_3,probe,swaps,0,pytket LexiRoute
+C.queko.54QBT_05CYC_QSE_4,probe,depth2q,5,pytket LexiRoute
+C.queko.54QBT_05CYC_QSE_4,probe,swaps,0,pytket LexiRoute
+C.queko.54QBT_05CYC_QSE_6,probe,depth2q,5,pytket LexiRoute
+C.queko.54QBT_05CYC_QSE_6,probe,swaps,0,pytket LexiRoute
+C.queko.54QBT_05CYC_QSE_8,probe,depth2q,5,pytket LexiRoute
+C.queko.54QBT_05CYC_QSE_8,probe,swaps,0,pytket LexiRoute
+C.queko.54QBT_10CYC_QSE_1,probe,depth2q,10,pytket LexiRoute
+C.queko.54QBT_10CYC_QSE_1,probe,swaps,0,pytket LexiRoute
+C.queko.54QBT_10CYC_QSE_2,probe,depth2q,10,pytket LexiRoute
+C.queko.54QBT_10CYC_QSE_2,probe,swaps,0,pytket LexiRoute
+C.queko.54QBT_10CYC_QSE_4,probe,depth2q,9,pytket LexiRoute
+C.queko.54QBT_10CYC_QSE_4,probe,swaps,0,pytket LexiRoute
+C.queko.54QBT_10CYC_QSE_9,probe,depth2q,10,pytket LexiRoute
+C.queko.54QBT_10CYC_QSE_9,probe,swaps,0,pytket LexiRoute
+C.queko.54QBT_15CYC_QSE_4,probe,depth2q,13,pytket LexiRoute
+C.queko.54QBT_15CYC_QSE_4,probe,swaps,0,pytket LexiRoute
+C.queko.54QBT_15CYC_QSE_5,probe,depth2q,14,pytket LexiRoute
+C.queko.54QBT_15CYC_QSE_5,probe,swaps,0,pytket LexiRoute
+C.queko.16QBT_100CYC_QSE_0,test_ood,depth2q,69,pytket LexiRoute
+C.queko.16QBT_100CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_100CYC_QSE_1,test_ood,depth2q,66,pytket LexiRoute
+C.queko.16QBT_100CYC_QSE_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_100CYC_QSE_4,test_ood,depth2q,73,pytket LexiRoute
+C.queko.16QBT_100CYC_QSE_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_100CYC_QSE_5,test_ood,depth2q,70,pytket LexiRoute
+C.queko.16QBT_100CYC_QSE_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_100CYC_QSE_7,test_ood,depth2q,72,pytket LexiRoute
+C.queko.16QBT_100CYC_QSE_7,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_100CYC_QSE_8,test_ood,depth2q,69,pytket LexiRoute
+C.queko.16QBT_100CYC_QSE_8,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_100CYC_QSE_9,test_ood,depth2q,73,pytket LexiRoute
+C.queko.16QBT_100CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_0,test_ood,depth2q,141,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_1,test_ood,depth2q,145,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_2,test_ood,depth2q,146,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_4,test_ood,depth2q,141,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_5,test_ood,depth2q,143,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_7,test_ood,depth2q,139,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_7,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_8,test_ood,depth2q,140,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_8,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_9,test_ood,depth2q,142,pytket LexiRoute
+C.queko.16QBT_200CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_20CYC_TFL_1,test_ood,depth2q,16,pytket LexiRoute
+C.queko.16QBT_20CYC_TFL_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_20CYC_TFL_3,test_ood,depth2q,14,pytket LexiRoute
+C.queko.16QBT_20CYC_TFL_3,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_20CYC_TFL_4,test_ood,depth2q,15,pytket LexiRoute
+C.queko.16QBT_20CYC_TFL_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_20CYC_TFL_5,test_ood,depth2q,15,pytket LexiRoute
+C.queko.16QBT_20CYC_TFL_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_20CYC_TFL_6,test_ood,depth2q,14,pytket LexiRoute
+C.queko.16QBT_20CYC_TFL_6,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_20CYC_TFL_7,test_ood,depth2q,14,pytket LexiRoute
+C.queko.16QBT_20CYC_TFL_7,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_25CYC_TFL_0,test_ood,depth2q,15,pytket LexiRoute
+C.queko.16QBT_25CYC_TFL_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_25CYC_TFL_2,test_ood,depth2q,15,pytket LexiRoute
+C.queko.16QBT_25CYC_TFL_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_25CYC_TFL_3,test_ood,depth2q,17,pytket LexiRoute
+C.queko.16QBT_25CYC_TFL_3,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_25CYC_TFL_5,test_ood,depth2q,16,pytket LexiRoute
+C.queko.16QBT_25CYC_TFL_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_25CYC_TFL_7,test_ood,depth2q,15,pytket LexiRoute
+C.queko.16QBT_25CYC_TFL_7,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_25CYC_TFL_9,test_ood,depth2q,19,pytket LexiRoute
+C.queko.16QBT_25CYC_TFL_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_300CYC_QSE_0,test_ood,depth2q,217,pytket LexiRoute
+C.queko.16QBT_300CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_300CYC_QSE_1,test_ood,depth2q,214,pytket LexiRoute
+C.queko.16QBT_300CYC_QSE_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_300CYC_QSE_2,test_ood,depth2q,211,pytket LexiRoute
+C.queko.16QBT_300CYC_QSE_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_300CYC_QSE_5,test_ood,depth2q,217,pytket LexiRoute
+C.queko.16QBT_300CYC_QSE_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_300CYC_QSE_7,test_ood,depth2q,221,pytket LexiRoute
+C.queko.16QBT_300CYC_QSE_7,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_300CYC_QSE_8,test_ood,depth2q,210,pytket LexiRoute
+C.queko.16QBT_300CYC_QSE_8,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_300CYC_QSE_9,test_ood,depth2q,214,pytket LexiRoute
+C.queko.16QBT_300CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_30CYC_TFL_0,test_ood,depth2q,18,pytket LexiRoute
+C.queko.16QBT_30CYC_TFL_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_30CYC_TFL_1,test_ood,depth2q,21,pytket LexiRoute
+C.queko.16QBT_30CYC_TFL_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_30CYC_TFL_2,test_ood,depth2q,19,pytket LexiRoute
+C.queko.16QBT_30CYC_TFL_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_30CYC_TFL_4,test_ood,depth2q,20,pytket LexiRoute
+C.queko.16QBT_30CYC_TFL_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_30CYC_TFL_5,test_ood,depth2q,19,pytket LexiRoute
+C.queko.16QBT_30CYC_TFL_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_30CYC_TFL_8,test_ood,depth2q,20,pytket LexiRoute
+C.queko.16QBT_30CYC_TFL_8,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_0,test_ood,depth2q,25,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_1,test_ood,depth2q,24,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_2,test_ood,depth2q,24,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_3,test_ood,depth2q,24,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_3,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_4,test_ood,depth2q,22,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_5,test_ood,depth2q,23,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_8,test_ood,depth2q,24,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_8,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_9,test_ood,depth2q,26,pytket LexiRoute
+C.queko.16QBT_35CYC_TFL_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_400CYC_QSE_0,test_ood,depth2q,279,pytket LexiRoute
+C.queko.16QBT_400CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_400CYC_QSE_2,test_ood,depth2q,286,pytket LexiRoute
+C.queko.16QBT_400CYC_QSE_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_400CYC_QSE_5,test_ood,depth2q,285,pytket LexiRoute
+C.queko.16QBT_400CYC_QSE_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_400CYC_QSE_6,test_ood,depth2q,287,pytket LexiRoute
+C.queko.16QBT_400CYC_QSE_6,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_400CYC_QSE_7,test_ood,depth2q,287,pytket LexiRoute
+C.queko.16QBT_400CYC_QSE_7,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_400CYC_QSE_9,test_ood,depth2q,284,pytket LexiRoute
+C.queko.16QBT_400CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_40CYC_TFL_1,test_ood,depth2q,27,pytket LexiRoute
+C.queko.16QBT_40CYC_TFL_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_40CYC_TFL_5,test_ood,depth2q,26,pytket LexiRoute
+C.queko.16QBT_40CYC_TFL_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_40CYC_TFL_8,test_ood,depth2q,26,pytket LexiRoute
+C.queko.16QBT_40CYC_TFL_8,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_40CYC_TFL_9,test_ood,depth2q,26,pytket LexiRoute
+C.queko.16QBT_40CYC_TFL_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_45CYC_TFL_0,test_ood,depth2q,30,pytket LexiRoute
+C.queko.16QBT_45CYC_TFL_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_45CYC_TFL_2,test_ood,depth2q,31,pytket LexiRoute
+C.queko.16QBT_45CYC_TFL_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_45CYC_TFL_4,test_ood,depth2q,33,pytket LexiRoute
+C.queko.16QBT_45CYC_TFL_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_45CYC_TFL_5,test_ood,depth2q,30,pytket LexiRoute
+C.queko.16QBT_45CYC_TFL_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_45CYC_TFL_6,test_ood,depth2q,32,pytket LexiRoute
+C.queko.16QBT_45CYC_TFL_6,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_45CYC_TFL_8,test_ood,depth2q,30,pytket LexiRoute
+C.queko.16QBT_45CYC_TFL_8,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_500CYC_QSE_0,test_ood,depth2q,352,pytket LexiRoute
+C.queko.16QBT_500CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_500CYC_QSE_1,test_ood,depth2q,351,pytket LexiRoute
+C.queko.16QBT_500CYC_QSE_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_500CYC_QSE_2,test_ood,depth2q,353,pytket LexiRoute
+C.queko.16QBT_500CYC_QSE_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_500CYC_QSE_3,test_ood,depth2q,348,pytket LexiRoute
+C.queko.16QBT_500CYC_QSE_3,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_500CYC_QSE_7,test_ood,depth2q,357,pytket LexiRoute
+C.queko.16QBT_500CYC_QSE_7,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_500CYC_QSE_8,test_ood,depth2q,351,pytket LexiRoute
+C.queko.16QBT_500CYC_QSE_8,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_500CYC_QSE_9,test_ood,depth2q,356,pytket LexiRoute
+C.queko.16QBT_500CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_600CYC_QSE_0,test_ood,depth2q,430,pytket LexiRoute
+C.queko.16QBT_600CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_600CYC_QSE_1,test_ood,depth2q,433,pytket LexiRoute
+C.queko.16QBT_600CYC_QSE_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_600CYC_QSE_4,test_ood,depth2q,430,pytket LexiRoute
+C.queko.16QBT_600CYC_QSE_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_600CYC_QSE_6,test_ood,depth2q,422,pytket LexiRoute
+C.queko.16QBT_600CYC_QSE_6,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_600CYC_QSE_7,test_ood,depth2q,425,pytket LexiRoute
+C.queko.16QBT_600CYC_QSE_7,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_600CYC_QSE_8,test_ood,depth2q,421,pytket LexiRoute
+C.queko.16QBT_600CYC_QSE_8,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_700CYC_QSE_0,test_ood,depth2q,494,pytket LexiRoute
+C.queko.16QBT_700CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_700CYC_QSE_1,test_ood,depth2q,498,pytket LexiRoute
+C.queko.16QBT_700CYC_QSE_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_700CYC_QSE_2,test_ood,depth2q,496,pytket LexiRoute
+C.queko.16QBT_700CYC_QSE_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_700CYC_QSE_4,test_ood,depth2q,492,pytket LexiRoute
+C.queko.16QBT_700CYC_QSE_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_700CYC_QSE_5,test_ood,depth2q,493,pytket LexiRoute
+C.queko.16QBT_700CYC_QSE_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_700CYC_QSE_8,test_ood,depth2q,496,pytket LexiRoute
+C.queko.16QBT_700CYC_QSE_8,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_700CYC_QSE_9,test_ood,depth2q,514,pytket LexiRoute
+C.queko.16QBT_700CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_0,test_ood,depth2q,560,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_1,test_ood,depth2q,559,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_2,test_ood,depth2q,569,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_4,test_ood,depth2q,555,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_5,test_ood,depth2q,564,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_7,test_ood,depth2q,571,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_7,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_8,test_ood,depth2q,567,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_8,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_9,test_ood,depth2q,571,pytket LexiRoute
+C.queko.16QBT_800CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_0,test_ood,depth2q,640,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_1,test_ood,depth2q,629,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_3,test_ood,depth2q,641,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_3,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_4,test_ood,depth2q,644,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_5,test_ood,depth2q,640,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_6,test_ood,depth2q,645,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_6,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_7,test_ood,depth2q,625,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_7,test_ood,swaps,0,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_9,test_ood,depth2q,651,pytket LexiRoute
+C.queko.16QBT_900CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_100CYC_QSE_0,test_ood,depth2q,80,pytket LexiRoute
+C.queko.20QBT_100CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_100CYC_QSE_3,test_ood,depth2q,75,qiskit LightSABRE (anytime)
+C.queko.20QBT_100CYC_QSE_3,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.20QBT_100CYC_QSE_7,test_ood,depth2q,81,pytket LexiRoute
+C.queko.20QBT_100CYC_QSE_7,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_100CYC_QSE_8,test_ood,depth2q,82,pytket LexiRoute
+C.queko.20QBT_100CYC_QSE_8,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_200CYC_QSE_0,test_ood,depth2q,159,pytket LexiRoute
+C.queko.20QBT_200CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_200CYC_QSE_3,test_ood,depth2q,166,pytket LexiRoute
+C.queko.20QBT_200CYC_QSE_3,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_200CYC_QSE_4,test_ood,depth2q,159,pytket LexiRoute
+C.queko.20QBT_200CYC_QSE_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_200CYC_QSE_5,test_ood,depth2q,158,pytket LexiRoute
+C.queko.20QBT_200CYC_QSE_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_200CYC_QSE_8,test_ood,depth2q,160,pytket LexiRoute
+C.queko.20QBT_200CYC_QSE_8,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_200CYC_QSE_9,test_ood,depth2q,159,pytket LexiRoute
+C.queko.20QBT_200CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_300CYC_QSE_3,test_ood,depth2q,239,pytket LexiRoute
+C.queko.20QBT_300CYC_QSE_3,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_300CYC_QSE_5,test_ood,depth2q,236,qiskit LightSABRE (anytime)
+C.queko.20QBT_300CYC_QSE_5,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.20QBT_300CYC_QSE_6,test_ood,depth2q,238,pytket LexiRoute
+C.queko.20QBT_300CYC_QSE_6,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_300CYC_QSE_8,test_ood,depth2q,244,pytket LexiRoute
+C.queko.20QBT_300CYC_QSE_8,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_400CYC_QSE_0,test_ood,depth2q,310,pytket LexiRoute
+C.queko.20QBT_400CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_400CYC_QSE_4,test_ood,depth2q,325,pytket LexiRoute
+C.queko.20QBT_400CYC_QSE_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_400CYC_QSE_7,test_ood,depth2q,321,pytket LexiRoute
+C.queko.20QBT_400CYC_QSE_7,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_400CYC_QSE_9,test_ood,depth2q,315,pytket LexiRoute
+C.queko.20QBT_400CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_500CYC_QSE_0,test_ood,depth2q,386,pytket LexiRoute
+C.queko.20QBT_500CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_500CYC_QSE_1,test_ood,depth2q,395,pytket LexiRoute
+C.queko.20QBT_500CYC_QSE_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_500CYC_QSE_3,test_ood,depth2q,387,pytket LexiRoute
+C.queko.20QBT_500CYC_QSE_3,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_500CYC_QSE_5,test_ood,depth2q,403,pytket LexiRoute
+C.queko.20QBT_500CYC_QSE_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_500CYC_QSE_6,test_ood,depth2q,398,pytket LexiRoute
+C.queko.20QBT_500CYC_QSE_6,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_600CYC_QSE_0,test_ood,depth2q,467,pytket LexiRoute
+C.queko.20QBT_600CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_600CYC_QSE_1,test_ood,depth2q,463,pytket LexiRoute
+C.queko.20QBT_600CYC_QSE_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_600CYC_QSE_2,test_ood,depth2q,485,pytket LexiRoute
+C.queko.20QBT_600CYC_QSE_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_600CYC_QSE_3,test_ood,depth2q,486,pytket LexiRoute
+C.queko.20QBT_600CYC_QSE_3,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_600CYC_QSE_8,test_ood,depth2q,471,pytket LexiRoute
+C.queko.20QBT_600CYC_QSE_8,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_600CYC_QSE_9,test_ood,depth2q,481,pytket LexiRoute
+C.queko.20QBT_600CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_700CYC_QSE_0,test_ood,depth2q,555,qiskit LightSABRE (anytime)
+C.queko.20QBT_700CYC_QSE_0,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.20QBT_700CYC_QSE_1,test_ood,depth2q,561,qiskit LightSABRE (anytime)
+C.queko.20QBT_700CYC_QSE_1,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.20QBT_700CYC_QSE_2,test_ood,depth2q,559,pytket LexiRoute
+C.queko.20QBT_700CYC_QSE_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_700CYC_QSE_3,test_ood,depth2q,560,pytket LexiRoute
+C.queko.20QBT_700CYC_QSE_3,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_700CYC_QSE_5,test_ood,depth2q,555,pytket LexiRoute
+C.queko.20QBT_700CYC_QSE_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_700CYC_QSE_8,test_ood,depth2q,562,qiskit LightSABRE (anytime)
+C.queko.20QBT_700CYC_QSE_8,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.20QBT_700CYC_QSE_9,test_ood,depth2q,547,pytket LexiRoute
+C.queko.20QBT_700CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_800CYC_QSE_0,test_ood,depth2q,638,pytket LexiRoute
+C.queko.20QBT_800CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_800CYC_QSE_1,test_ood,depth2q,639,pytket LexiRoute
+C.queko.20QBT_800CYC_QSE_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_800CYC_QSE_2,test_ood,depth2q,623,pytket LexiRoute
+C.queko.20QBT_800CYC_QSE_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_800CYC_QSE_4,test_ood,depth2q,643,pytket LexiRoute
+C.queko.20QBT_800CYC_QSE_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_800CYC_QSE_5,test_ood,depth2q,632,qiskit LightSABRE (anytime)
+C.queko.20QBT_800CYC_QSE_5,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.20QBT_800CYC_QSE_9,test_ood,depth2q,622,pytket LexiRoute
+C.queko.20QBT_800CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_0,test_ood,depth2q,711,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_1,test_ood,depth2q,703,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_2,test_ood,depth2q,712,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_3,test_ood,depth2q,723,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_3,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_5,test_ood,depth2q,708,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_6,test_ood,depth2q,716,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_6,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_7,test_ood,depth2q,723,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_7,test_ood,swaps,0,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_9,test_ood,depth2q,709,pytket LexiRoute
+C.queko.20QBT_900CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.53QBT_100CYC_QSE_0,test_ood,depth2q,76,pytket LexiRoute
+C.queko.53QBT_100CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.53QBT_100CYC_QSE_1,test_ood,depth2q,75,pytket LexiRoute
+C.queko.53QBT_100CYC_QSE_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.53QBT_200CYC_QSE_0,test_ood,depth2q,148,qiskit LightSABRE (anytime)
+C.queko.53QBT_200CYC_QSE_2,test_ood,depth2q,151,pytket LexiRoute
+C.queko.53QBT_200CYC_QSE_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.53QBT_200CYC_QSE_3,test_ood,depth2q,150,qiskit LightSABRE (anytime)
+C.queko.53QBT_300CYC_QSE_0,test_ood,depth2q,222,qiskit LightSABRE (anytime)
+C.queko.53QBT_300CYC_QSE_2,test_ood,depth2q,228,pytket LexiRoute
+C.queko.53QBT_300CYC_QSE_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.53QBT_300CYC_QSE_3,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_300CYC_QSE_4,test_ood,depth2q,227,pytket LexiRoute
+C.queko.53QBT_300CYC_QSE_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.53QBT_300CYC_QSE_5,test_ood,depth2q,224,pytket LexiRoute
+C.queko.53QBT_300CYC_QSE_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.53QBT_300CYC_QSE_6,test_ood,depth2q,217,pytket LexiRoute
+C.queko.53QBT_300CYC_QSE_6,test_ood,swaps,0,pytket LexiRoute
+C.queko.53QBT_300CYC_QSE_7,test_ood,depth2q,224,qiskit LightSABRE (anytime)
+C.queko.53QBT_300CYC_QSE_8,test_ood,depth2q,227,qiskit LightSABRE (anytime)
+C.queko.53QBT_300CYC_QSE_9,test_ood,depth2q,225,qiskit LightSABRE (anytime)
+C.queko.53QBT_400CYC_QSE_4,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_400CYC_QSE_5,test_ood,depth2q,303,pytket LexiRoute
+C.queko.53QBT_400CYC_QSE_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.53QBT_400CYC_QSE_7,test_ood,depth2q,294,qiskit LightSABRE (anytime)
+C.queko.53QBT_400CYC_QSE_9,test_ood,depth2q,299,pytket LexiRoute
+C.queko.53QBT_400CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.53QBT_500CYC_QSE_0,test_ood,depth2q,378,qiskit LightSABRE (anytime)
+C.queko.53QBT_500CYC_QSE_0,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_500CYC_QSE_1,test_ood,depth2q,373,qiskit LightSABRE (anytime)
+C.queko.53QBT_500CYC_QSE_1,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_500CYC_QSE_4,test_ood,depth2q,374,qiskit LightSABRE (anytime)
+C.queko.53QBT_500CYC_QSE_4,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_500CYC_QSE_5,test_ood,depth2q,363,qiskit LightSABRE (anytime)
+C.queko.53QBT_500CYC_QSE_5,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_500CYC_QSE_6,test_ood,depth2q,375,qiskit LightSABRE (anytime)
+C.queko.53QBT_500CYC_QSE_6,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_500CYC_QSE_7,test_ood,depth2q,369,qiskit LightSABRE (anytime)
+C.queko.53QBT_500CYC_QSE_7,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_500CYC_QSE_8,test_ood,depth2q,379,qiskit LightSABRE (anytime)
+C.queko.53QBT_500CYC_QSE_8,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_500CYC_QSE_9,test_ood,depth2q,379,qiskit LightSABRE (anytime)
+C.queko.53QBT_600CYC_QSE_0,test_ood,depth2q,444,qiskit LightSABRE (anytime)
+C.queko.53QBT_600CYC_QSE_1,test_ood,depth2q,446,qiskit LightSABRE (anytime)
+C.queko.53QBT_600CYC_QSE_1,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_600CYC_QSE_2,test_ood,depth2q,443,qiskit LightSABRE (anytime)
+C.queko.53QBT_600CYC_QSE_2,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_600CYC_QSE_3,test_ood,depth2q,453,pytket LexiRoute
+C.queko.53QBT_600CYC_QSE_3,test_ood,swaps,0,pytket LexiRoute
+C.queko.53QBT_600CYC_QSE_5,test_ood,depth2q,445,qiskit LightSABRE (anytime)
+C.queko.53QBT_600CYC_QSE_5,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_600CYC_QSE_6,test_ood,depth2q,446,qiskit LightSABRE (anytime)
+C.queko.53QBT_600CYC_QSE_6,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_600CYC_QSE_7,test_ood,depth2q,440,qiskit LightSABRE (anytime)
+C.queko.53QBT_600CYC_QSE_7,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_600CYC_QSE_8,test_ood,depth2q,444,qiskit LightSABRE (anytime)
+C.queko.53QBT_600CYC_QSE_8,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_700CYC_QSE_0,test_ood,depth2q,514,pytket LexiRoute
+C.queko.53QBT_700CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.53QBT_700CYC_QSE_1,test_ood,depth2q,512,qiskit LightSABRE (anytime)
+C.queko.53QBT_700CYC_QSE_1,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_700CYC_QSE_8,test_ood,depth2q,524,qiskit LightSABRE (anytime)
+C.queko.53QBT_700CYC_QSE_8,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_800CYC_QSE_0,test_ood,depth2q,599,qiskit LightSABRE (anytime)
+C.queko.53QBT_800CYC_QSE_0,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_800CYC_QSE_1,test_ood,depth2q,587,qiskit LightSABRE (anytime)
+C.queko.53QBT_800CYC_QSE_1,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_800CYC_QSE_2,test_ood,depth2q,585,qiskit LightSABRE (anytime)
+C.queko.53QBT_800CYC_QSE_2,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_800CYC_QSE_3,test_ood,depth2q,589,qiskit LightSABRE (anytime)
+C.queko.53QBT_800CYC_QSE_3,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_800CYC_QSE_7,test_ood,depth2q,597,qiskit LightSABRE (anytime)
+C.queko.53QBT_800CYC_QSE_7,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_900CYC_QSE_1,test_ood,depth2q,667,qiskit LightSABRE (anytime)
+C.queko.53QBT_900CYC_QSE_1,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_900CYC_QSE_3,test_ood,depth2q,673,pytket LexiRoute
+C.queko.53QBT_900CYC_QSE_3,test_ood,swaps,0,pytket LexiRoute
+C.queko.53QBT_900CYC_QSE_4,test_ood,depth2q,649,qiskit LightSABRE (anytime)
+C.queko.53QBT_900CYC_QSE_4,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_900CYC_QSE_5,test_ood,depth2q,668,pytket LexiRoute
+C.queko.53QBT_900CYC_QSE_5,test_ood,swaps,0,pytket LexiRoute
+C.queko.53QBT_900CYC_QSE_7,test_ood,depth2q,669,qiskit LightSABRE (anytime)
+C.queko.53QBT_900CYC_QSE_7,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_900CYC_QSE_8,test_ood,depth2q,668,qiskit LightSABRE (anytime)
+C.queko.53QBT_900CYC_QSE_8,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.53QBT_900CYC_QSE_9,test_ood,depth2q,666,qiskit LightSABRE (anytime)
+C.queko.53QBT_900CYC_QSE_9,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_100CYC_QSE_2,test_ood,depth2q,83,qiskit LightSABRE (anytime)
+C.queko.54QBT_100CYC_QSE_2,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_100CYC_QSE_3,test_ood,depth2q,80,qiskit LightSABRE (anytime)
+C.queko.54QBT_100CYC_QSE_4,test_ood,depth2q,79,qiskit LightSABRE (anytime)
+C.queko.54QBT_100CYC_QSE_7,test_ood,depth2q,81,qiskit LightSABRE (anytime)
+C.queko.54QBT_100CYC_QSE_7,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_100CYC_QSE_9,test_ood,depth2q,82,qiskit LightSABRE (anytime)
+C.queko.54QBT_200CYC_QSE_1,test_ood,depth2q,161,qiskit LightSABRE (anytime)
+C.queko.54QBT_200CYC_QSE_1,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_200CYC_QSE_3,test_ood,depth2q,161,qiskit LightSABRE (anytime)
+C.queko.54QBT_200CYC_QSE_3,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_200CYC_QSE_6,test_ood,depth2q,166,qiskit LightSABRE (anytime)
+C.queko.54QBT_200CYC_QSE_6,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_200CYC_QSE_7,test_ood,depth2q,164,qiskit LightSABRE (anytime)
+C.queko.54QBT_200CYC_QSE_7,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_200CYC_QSE_8,test_ood,depth2q,161,qiskit LightSABRE (anytime)
+C.queko.54QBT_200CYC_QSE_8,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_20CYC_QSE_3,test_ood,depth2q,16,pytket LexiRoute
+C.queko.54QBT_25CYC_QSE_0,test_ood,depth2q,21,pytket LexiRoute
+C.queko.54QBT_25CYC_QSE_0,test_ood,swaps,0,pytket LexiRoute
+C.queko.54QBT_25CYC_QSE_8,test_ood,depth2q,22,pytket LexiRoute
+C.queko.54QBT_300CYC_QSE_0,test_ood,depth2q,254,qiskit LightSABRE (anytime)
+C.queko.54QBT_300CYC_QSE_0,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_300CYC_QSE_2,test_ood,depth2q,240,qiskit LightSABRE (anytime)
+C.queko.54QBT_300CYC_QSE_2,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_300CYC_QSE_3,test_ood,depth2q,246,qiskit LightSABRE (anytime)
+C.queko.54QBT_300CYC_QSE_3,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_300CYC_QSE_5,test_ood,depth2q,242,qiskit LightSABRE (anytime)
+C.queko.54QBT_300CYC_QSE_5,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_300CYC_QSE_6,test_ood,depth2q,244,qiskit LightSABRE (anytime)
+C.queko.54QBT_300CYC_QSE_6,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_300CYC_QSE_8,test_ood,depth2q,255,qiskit LightSABRE (anytime)
+C.queko.54QBT_300CYC_QSE_8,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_300CYC_QSE_9,test_ood,depth2q,240,qiskit LightSABRE (anytime)
+C.queko.54QBT_300CYC_QSE_9,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_35CYC_QSE_1,test_ood,depth2q,31,pytket LexiRoute
+C.queko.54QBT_35CYC_QSE_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.54QBT_400CYC_QSE_3,test_ood,depth2q,329,qiskit LightSABRE (anytime)
+C.queko.54QBT_400CYC_QSE_3,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_400CYC_QSE_4,test_ood,depth2q,324,qiskit LightSABRE (anytime)
+C.queko.54QBT_400CYC_QSE_4,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_400CYC_QSE_6,test_ood,depth2q,325,qiskit LightSABRE (anytime)
+C.queko.54QBT_400CYC_QSE_6,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_400CYC_QSE_9,test_ood,depth2q,328,pytket LexiRoute
+C.queko.54QBT_400CYC_QSE_9,test_ood,swaps,0,pytket LexiRoute
+C.queko.54QBT_40CYC_QSE_2,test_ood,depth2q,37,pytket LexiRoute
+C.queko.54QBT_40CYC_QSE_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.54QBT_45CYC_QSE_4,test_ood,depth2q,37,pytket LexiRoute
+C.queko.54QBT_45CYC_QSE_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.54QBT_500CYC_QSE_0,test_ood,depth2q,409,qiskit LightSABRE (anytime)
+C.queko.54QBT_500CYC_QSE_0,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_500CYC_QSE_3,test_ood,depth2q,407,qiskit LightSABRE (anytime)
+C.queko.54QBT_500CYC_QSE_3,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_500CYC_QSE_4,test_ood,depth2q,415,qiskit LightSABRE (anytime)
+C.queko.54QBT_500CYC_QSE_4,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_500CYC_QSE_5,test_ood,depth2q,405,qiskit LightSABRE (anytime)
+C.queko.54QBT_500CYC_QSE_5,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_500CYC_QSE_6,test_ood,depth2q,402,qiskit LightSABRE (anytime)
+C.queko.54QBT_500CYC_QSE_6,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_600CYC_QSE_0,test_ood,depth2q,497,qiskit LightSABRE (anytime)
+C.queko.54QBT_600CYC_QSE_0,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_600CYC_QSE_2,test_ood,depth2q,489,qiskit LightSABRE (anytime)
+C.queko.54QBT_600CYC_QSE_2,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_600CYC_QSE_6,test_ood,depth2q,477,qiskit LightSABRE (anytime)
+C.queko.54QBT_600CYC_QSE_6,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_600CYC_QSE_8,test_ood,depth2q,488,qiskit LightSABRE (anytime)
+C.queko.54QBT_600CYC_QSE_8,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_600CYC_QSE_9,test_ood,depth2q,492,qiskit LightSABRE (anytime)
+C.queko.54QBT_600CYC_QSE_9,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_700CYC_QSE_0,test_ood,depth2q,569,qiskit LightSABRE (anytime)
+C.queko.54QBT_700CYC_QSE_0,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_700CYC_QSE_1,test_ood,depth2q,569,pytket LexiRoute
+C.queko.54QBT_700CYC_QSE_1,test_ood,swaps,0,pytket LexiRoute
+C.queko.54QBT_700CYC_QSE_3,test_ood,depth2q,574,pytket LexiRoute
+C.queko.54QBT_700CYC_QSE_3,test_ood,swaps,0,pytket LexiRoute
+C.queko.54QBT_700CYC_QSE_5,test_ood,depth2q,578,qiskit LightSABRE (anytime)
+C.queko.54QBT_700CYC_QSE_5,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_700CYC_QSE_8,test_ood,depth2q,573,qiskit LightSABRE (anytime)
+C.queko.54QBT_700CYC_QSE_8,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_700CYC_QSE_9,test_ood,depth2q,581,qiskit LightSABRE (anytime)
+C.queko.54QBT_700CYC_QSE_9,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_800CYC_QSE_0,test_ood,depth2q,642,qiskit LightSABRE (anytime)
+C.queko.54QBT_800CYC_QSE_0,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_800CYC_QSE_2,test_ood,depth2q,648,qiskit LightSABRE (anytime)
+C.queko.54QBT_800CYC_QSE_2,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_800CYC_QSE_3,test_ood,depth2q,654,qiskit LightSABRE (anytime)
+C.queko.54QBT_800CYC_QSE_3,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_800CYC_QSE_4,test_ood,depth2q,659,pytket LexiRoute
+C.queko.54QBT_800CYC_QSE_4,test_ood,swaps,0,pytket LexiRoute
+C.queko.54QBT_800CYC_QSE_5,test_ood,depth2q,649,qiskit LightSABRE (anytime)
+C.queko.54QBT_800CYC_QSE_5,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_800CYC_QSE_6,test_ood,depth2q,663,qiskit LightSABRE (anytime)
+C.queko.54QBT_800CYC_QSE_6,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_800CYC_QSE_7,test_ood,depth2q,653,qiskit LightSABRE (anytime)
+C.queko.54QBT_800CYC_QSE_7,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_800CYC_QSE_9,test_ood,depth2q,648,qiskit LightSABRE (anytime)
+C.queko.54QBT_800CYC_QSE_9,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_900CYC_QSE_1,test_ood,depth2q,743,qiskit LightSABRE (anytime)
+C.queko.54QBT_900CYC_QSE_1,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_900CYC_QSE_2,test_ood,depth2q,731,pytket LexiRoute
+C.queko.54QBT_900CYC_QSE_2,test_ood,swaps,0,pytket LexiRoute
+C.queko.54QBT_900CYC_QSE_3,test_ood,depth2q,734,qiskit LightSABRE (anytime)
+C.queko.54QBT_900CYC_QSE_3,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_900CYC_QSE_4,test_ood,depth2q,744,qiskit LightSABRE (anytime)
+C.queko.54QBT_900CYC_QSE_4,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_900CYC_QSE_5,test_ood,depth2q,738,qiskit LightSABRE (anytime)
+C.queko.54QBT_900CYC_QSE_5,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_900CYC_QSE_6,test_ood,depth2q,738,qiskit LightSABRE (anytime)
+C.queko.54QBT_900CYC_QSE_6,test_ood,swaps,0,qiskit LightSABRE (anytime)
+C.queko.54QBT_900CYC_QSE_7,test_ood,depth2q,746,qiskit LightSABRE (anytime)
+C.queko.54QBT_900CYC_QSE_7,test_ood,swaps,0,qiskit LightSABRE (anytime)

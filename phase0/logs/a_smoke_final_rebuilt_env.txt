@@ -1,0 +1,118 @@
+
+== steane_7: n=7 k=1  negative controls: {'wrong_sign_detected_gf2': True, 'wrong_sign_detected_stim': True, 'logical_flip_rejected_gf2': True, 'logical_flip_rejected_stim': True}
+  qiskit.synth_circuit_from_stabilizers          0.25s {'status': 'ok', 'two_qubit_gates': 21, 'two_qubit_depth': 10, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_layers                 0.13s {'status': 'ok', 'two_qubit_gates': 9, 'two_qubit_depth': 5, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_depth_lnn              0.13s {'status': 'ok', 'two_qubit_gates': 48, 'two_qubit_depth': 16, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_greedy                   0.12s {'status': 'ok', 'two_qubit_gates': 14, 'two_qubit_depth': 7, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_ag                       0.13s {'status': 'ok', 'two_qubit_gates': 19, 'two_qubit_depth': 11, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_layers                   0.13s {'status': 'ok', 'two_qubit_gates': 29, 'two_qubit_depth': 15, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(elimination)                   0.00s {'status': 'ok', 'two_qubit_gates': 20, 'two_qubit_depth': 17, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(graph_state)                   0.00s {'status': 'ok', 'two_qubit_gates': 9, 'two_qubit_depth': 5, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  rustiq.stabilizer_state_synthesis              0.00s {'status': 'ok', 'two_qubit_gates': 8, 'two_qubit_depth': 5, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  mqt.qecc.heuristic_prep_circuit                3.84s {'status': 'ok', 'two_qubit_gates': 8, 'two_qubit_depth': 5, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  pytket.CliffordResynthesis+FPO                 2.08s {'status': 'ok', 'two_qubit_gates': 8, 'two_qubit_depth': 6, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+
+== surface_rot_d3: n=9 k=1  negative controls: {'wrong_sign_detected_gf2': True, 'wrong_sign_detected_stim': True, 'logical_flip_rejected_gf2': True, 'logical_flip_rejected_stim': True}
+  qiskit.synth_circuit_from_stabilizers          0.13s {'status': 'ok', 'two_qubit_gates': 35, 'two_qubit_depth': 15, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_layers                 0.12s {'status': 'ok', 'two_qubit_gates': 10, 'two_qubit_depth': 6, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_depth_lnn              0.13s {'status': 'ok', 'two_qubit_gates': 80, 'two_qubit_depth': 20, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_greedy                   0.12s {'status': 'ok', 'two_qubit_gates': 29, 'two_qubit_depth': 11, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_ag                       0.13s {'status': 'ok', 'two_qubit_gates': 33, 'two_qubit_depth': 16, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_layers                   0.13s {'status': 'ok', 'two_qubit_gates': 33, 'two_qubit_depth': 16, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(elimination)                   0.00s {'status': 'ok', 'two_qubit_gates': 30, 'two_qubit_depth': 25, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(graph_state)                   0.00s {'status': 'ok', 'two_qubit_gates': 10, 'two_qubit_depth': 6, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  rustiq.stabilizer_state_synthesis              0.01s {'status': 'ok', 'two_qubit_gates': 9, 'two_qubit_depth': 6, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': True} 
+  mqt.qecc.heuristic_prep_circuit                0.76s {'status': 'ok', 'two_qubit_gates': 8, 'two_qubit_depth': 6, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  pytket.CliffordResynthesis+FPO                 1.40s {'status': 'ok', 'two_qubit_gates': 9, 'two_qubit_depth': 6, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+
+== carbon_12: n=12 k=2  negative controls: {'wrong_sign_detected_gf2': True, 'wrong_sign_detected_stim': True, 'logical_flip_rejected_gf2': True, 'logical_flip_rejected_stim': True}
+  qiskit.synth_circuit_from_stabilizers          0.13s {'status': 'ok', 'two_qubit_gates': 49, 'two_qubit_depth': 20, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_layers                 0.13s {'status': 'ok', 'two_qubit_gates': 21, 'two_qubit_depth': 9, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_depth_lnn              0.13s {'status': 'ok', 'two_qubit_gates': 143, 'two_qubit_depth': 26, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_greedy                   0.13s {'status': 'ok', 'two_qubit_gates': 32, 'two_qubit_depth': 15, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_ag                       0.13s {'status': 'ok', 'two_qubit_gates': 50, 'two_qubit_depth': 21, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_layers                   0.13s {'status': 'ok', 'two_qubit_gates': 57, 'two_qubit_depth': 24, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(elimination)                   0.00s {'status': 'ok', 'two_qubit_gates': 34, 'two_qubit_depth': 23, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(graph_state)                   0.00s {'status': 'ok', 'two_qubit_gates': 21, 'two_qubit_depth': 9, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  rustiq.stabilizer_state_synthesis              0.01s {'status': 'ok', 'two_qubit_gates': 17, 'two_qubit_depth': 11, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  mqt.qecc.heuristic_prep_circuit                0.52s {'status': 'ok', 'two_qubit_gates': 19, 'two_qubit_depth': 9, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  pytket.CliffordResynthesis+FPO                 1.52s {'status': 'ok', 'two_qubit_gates': 18, 'two_qubit_depth': 10, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+
+== hamming_r4_15: n=15 k=7  negative controls: {'wrong_sign_detected_gf2': True, 'wrong_sign_detected_stim': True, 'logical_flip_rejected_gf2': True, 'logical_flip_rejected_stim': True}
+  qiskit.synth_circuit_from_stabilizers          0.14s {'status': 'ok', 'two_qubit_gates': 79, 'two_qubit_depth': 27, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_layers                 0.14s {'status': 'ok', 'two_qubit_gates': 28, 'two_qubit_depth': 10, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_depth_lnn              0.14s {'status': 'ok', 'two_qubit_gates': 224, 'two_qubit_depth': 32, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_greedy                   0.13s {'status': 'ok', 'two_qubit_gates': 58, 'two_qubit_depth': 23, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_ag                       0.14s {'status': 'ok', 'two_qubit_gates': 96, 'two_qubit_depth': 43, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_layers                   0.14s {'status': 'ok', 'two_qubit_gates': 76, 'two_qubit_depth': 33, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(elimination)                   0.00s {'status': 'ok', 'two_qubit_gates': 57, 'two_qubit_depth': 30, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(graph_state)                   0.00s {'status': 'ok', 'two_qubit_gates': 28, 'two_qubit_depth': 11, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  rustiq.stabilizer_state_synthesis              0.01s {'status': 'ok', 'two_qubit_gates': 22, 'two_qubit_depth': 14, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  mqt.qecc.heuristic_prep_circuit                0.54s {'status': 'ok', 'two_qubit_gates': 22, 'two_qubit_depth': 8, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  pytket.CliffordResynthesis+FPO                 1.59s {'status': 'ok', 'two_qubit_gates': 24, 'two_qubit_depth': 11, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+
+== color666_d5: n=19 k=1  negative controls: {'wrong_sign_detected_gf2': True, 'wrong_sign_detected_stim': True, 'logical_flip_rejected_gf2': True, 'logical_flip_rejected_stim': True}
+  qiskit.synth_circuit_from_stabilizers          0.15s {'status': 'ok', 'two_qubit_gates': 112, 'two_qubit_depth': 48, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_layers                 0.15s {'status': 'ok', 'two_qubit_gates': 43, 'two_qubit_depth': 15, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_depth_lnn              0.15s {'status': 'ok', 'two_qubit_gates': 360, 'two_qubit_depth': 40, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_greedy                   0.15s {'status': 'ok', 'two_qubit_gates': 52, 'two_qubit_depth': 26, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_ag                       0.16s {'status': 'ok', 'two_qubit_gates': 116, 'two_qubit_depth': 45, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_layers                   0.16s {'status': 'ok', 'two_qubit_gates': 154, 'two_qubit_depth': 61, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(elimination)                   0.00s {'status': 'ok', 'two_qubit_gates': 70, 'two_qubit_depth': 43, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(graph_state)                   0.00s {'status': 'ok', 'two_qubit_gates': 57, 'two_qubit_depth': 17, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  rustiq.stabilizer_state_synthesis              0.01s {'status': 'ok', 'two_qubit_gates': 30, 'two_qubit_depth': 14, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': True} 
+  mqt.qecc.heuristic_prep_circuit                0.53s {'status': 'ok', 'two_qubit_gates': 27, 'two_qubit_depth': 10, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  pytket.CliffordResynthesis+FPO                 1.76s {'status': 'ok', 'two_qubit_gates': 45, 'two_qubit_depth': 31, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+
+== golay_23: n=23 k=1  negative controls: {'wrong_sign_detected_gf2': True, 'wrong_sign_detected_stim': True, 'logical_flip_rejected_gf2': True, 'logical_flip_rejected_stim': True}
+  qiskit.synth_circuit_from_stabilizers          0.17s {'status': 'ok', 'two_qubit_gates': 171, 'two_qubit_depth': 66, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_layers                 0.17s {'status': 'ok', 'two_qubit_gates': 77, 'two_qubit_depth': 21, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_depth_lnn              0.17s {'status': 'ok', 'two_qubit_gates': 528, 'two_qubit_depth': 48, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_greedy                   0.17s {'status': 'ok', 'two_qubit_gates': 73, 'two_qubit_depth': 37, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_ag                       0.17s {'status': 'ok', 'two_qubit_gates': 142, 'two_qubit_depth': 60, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_layers                   0.18s {'status': 'ok', 'two_qubit_gates': 279, 'two_qubit_depth': 96, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(elimination)                   0.00s {'status': 'ok', 'two_qubit_gates': 99, 'two_qubit_depth': 69, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(graph_state)                   0.00s {'status': 'ok', 'two_qubit_gates': 77, 'two_qubit_depth': 21, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  rustiq.stabilizer_state_synthesis              0.02s {'status': 'ok', 'two_qubit_gates': 50, 'two_qubit_depth': 29, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': True} 
+  mqt.qecc.heuristic_prep_circuit                0.55s {'status': 'ok', 'two_qubit_gates': 51, 'two_qubit_depth': 22, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  pytket.CliffordResynthesis+FPO                 1.92s {'status': 'ok', 'two_qubit_gates': 66, 'two_qubit_depth': 42, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+
+== surface_rot_d5: n=25 k=1  negative controls: {'wrong_sign_detected_gf2': True, 'wrong_sign_detected_stim': True, 'logical_flip_rejected_gf2': True, 'logical_flip_rejected_stim': True}
+  qiskit.synth_circuit_from_stabilizers          0.16s {'status': 'ok', 'two_qubit_gates': 130, 'two_qubit_depth': 35, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_layers                 0.17s {'status': 'ok', 'two_qubit_gates': 48, 'two_qubit_depth': 14, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_depth_lnn              0.17s {'status': 'ok', 'two_qubit_gates': 624, 'two_qubit_depth': 52, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_greedy                   0.16s {'status': 'ok', 'two_qubit_gates': 99, 'two_qubit_depth': 25, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_ag                       0.16s {'status': 'ok', 'two_qubit_gates': 139, 'two_qubit_depth': 41, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_layers                   0.18s {'status': 'ok', 'two_qubit_gates': 132, 'two_qubit_depth': 39, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(elimination)                   0.00s {'status': 'ok', 'two_qubit_gates': 98, 'two_qubit_depth': 47, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(graph_state)                   0.00s {'status': 'ok', 'two_qubit_gates': 48, 'two_qubit_depth': 14, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  rustiq.stabilizer_state_synthesis              0.02s {'status': 'ok', 'two_qubit_gates': 32, 'two_qubit_depth': 9, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  mqt.qecc.heuristic_prep_circuit                0.53s {'status': 'ok', 'two_qubit_gates': 28, 'two_qubit_depth': 12, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  pytket.CliffordResynthesis+FPO                 1.70s {'status': 'ok', 'two_qubit_gates': 32, 'two_qubit_depth': 17, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+
+== color488_d5: n=17 k=1  negative controls: {'wrong_sign_detected_gf2': True, 'wrong_sign_detected_stim': True, 'logical_flip_rejected_gf2': True, 'logical_flip_rejected_stim': True}
+  qiskit.synth_circuit_from_stabilizers          0.14s {'status': 'ok', 'two_qubit_gates': 83, 'two_qubit_depth': 36, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_layers                 0.14s {'status': 'ok', 'two_qubit_gates': 32, 'two_qubit_depth': 10, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_depth_lnn              0.14s {'status': 'ok', 'two_qubit_gates': 288, 'two_qubit_depth': 36, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_greedy                   0.14s {'status': 'ok', 'two_qubit_gates': 46, 'two_qubit_depth': 20, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_ag                       0.14s {'status': 'ok', 'two_qubit_gates': 78, 'two_qubit_depth': 30, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_layers                   0.14s {'status': 'ok', 'two_qubit_gates': 109, 'two_qubit_depth': 41, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(elimination)                   0.00s {'status': 'ok', 'two_qubit_gates': 52, 'two_qubit_depth': 30, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(graph_state)                   0.00s {'status': 'ok', 'two_qubit_gates': 32, 'two_qubit_depth': 12, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  rustiq.stabilizer_state_synthesis              0.01s {'status': 'ok', 'two_qubit_gates': 26, 'two_qubit_depth': 11, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': True} 
+  mqt.qecc.heuristic_prep_circuit                0.53s {'status': 'ok', 'two_qubit_gates': 23, 'two_qubit_depth': 7, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  pytket.CliffordResynthesis+FPO                 1.58s {'status': 'ok', 'two_qubit_gates': 32, 'two_qubit_depth': 21, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+
+== bb_72: n=72 k=12  negative controls: {'wrong_sign_detected_gf2': True, 'wrong_sign_detected_stim': True, 'logical_flip_rejected_gf2': True, 'logical_flip_rejected_stim': True}
+  qiskit.synth_circuit_from_stabilizers          0.99s {'status': 'ok', 'two_qubit_gates': 1166, 'two_qubit_depth': 346, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_layers                 1.06s {'status': 'ok', 'two_qubit_gates': 412, 'two_qubit_depth': 48, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_stabilizer_depth_lnn            120.01s {'status': 'timeout', 'two_qubit_gates': None, 'two_qubit_depth': None, 'verified_gf2': None, 'verified_stim': None, 'pauli_correction': None} 
+  qiskit.synth_clifford_greedy                   1.02s {'status': 'ok', 'two_qubit_gates': 482, 'two_qubit_depth': 231, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_ag                       1.02s {'status': 'ok', 'two_qubit_gates': 1190, 'two_qubit_depth': 393, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  qiskit.synth_clifford_layers                   1.04s {'status': 'ok', 'two_qubit_gates': 2169, 'two_qubit_depth': 460, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(elimination)                   0.01s {'status': 'ok', 'two_qubit_gates': 558, 'two_qubit_depth': 275, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  stim.to_circuit(graph_state)                   0.01s {'status': 'ok', 'two_qubit_gates': 502, 'two_qubit_depth': 57, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  rustiq.stabilizer_state_synthesis              1.15s {'status': 'ok', 'two_qubit_gates': 211, 'two_qubit_depth': 67, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': True} 
+  mqt.qecc.heuristic_prep_circuit                0.66s {'status': 'ok', 'two_qubit_gates': 150, 'two_qubit_depth': 41, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+  pytket.CliffordResynthesis+FPO                 5.24s {'status': 'ok', 'two_qubit_gates': 400, 'two_qubit_depth': 202, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+written /Users/hjh/PycharmProjects/Qevovle/qbank/phase0/logs/a_smoke_t120.json

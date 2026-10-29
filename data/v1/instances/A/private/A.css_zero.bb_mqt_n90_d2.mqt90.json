@@ -1,0 +1,86 @@
+{
+ "category": "A",
+ "contracts": [
+  "css_logical_zero",
+  "codespace_state"
+ ],
+ "family": "bb_mqt_n90_d2",
+ "hash": "sha256:bf8d23d39a1789db8aab6a8844a690004593ffd2dfc4fed29ff26ee33009303d",
+ "id": "A.css_zero.bb_mqt_n90_d2.mqt90",
+ "params": {
+  "constructor": "mqt.qecc construct_bb_code(90)",
+  "l": 15,
+  "m": 3
+ },
+ "private": {
+  "aliases": [],
+  "code": {
+   "k": 8,
+   "n": 90,
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": 2,
+     "dX": null,
+     "dZ": null,
+     "d_lower": null,
+     "k": 8,
+     "method": "low_weight_search(w<=4)"
+    },
+    "k": 8,
+    "max_x_weight": 6,
+    "max_z_weight": 6,
+    "n": 90,
+    "rank_hx": 41,
+    "rank_hz": 41
+   }
+  },
+  "composite": false,
+  "no_room": false,
+  "notes": [
+   "labelled [[90,8,10]] in mqt.qecc, StabilizerBench and QECirc (90-8-10) but has distance 2 (weight-2 Z logical on qubits 45,60); not Bravyi's code"
+  ],
+  "published": true,
+  "size_bin": "M",
+  "size_features": {
+   "k": 8,
+   "n": 90
+  }
+ },
+ "public_hash": "sha256:bf8d23d39a1789db8aab6a8844a690004593ffd2dfc4fed29ff26ee33009303d",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "external",
+  "license": "MIT",
+  "name": "mqt.qecc.codes.construct_bb_code(90)",
+  "ref": "labelled [[90,8,10]] by MQT/StabilizerBench/QECirc; actually has a weight-2 logical",
+  "version": "mqt.qecc 2.0.0"
+ },
+ "task": "css_logical_zero",
+ "tracks": [
+  {
+   "connectivity": "all",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "a2a_2q"
+  },
+  {
+   "connectivity": "line",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "line_2q"
+  },
+  {
+   "connectivity": "grid",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "grid_2q"
+  },
+  {
+   "connectivity": "all",
+   "contract": "codespace_state",
+   "metric": "two_qubit_gates",
+   "name": "codespace_a2a_2q"
+  }
+ ]
+}

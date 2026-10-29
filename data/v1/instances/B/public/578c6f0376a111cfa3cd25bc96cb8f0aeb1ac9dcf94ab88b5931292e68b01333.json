@@ -1,0 +1,105 @@
+{
+ "aiger_b64": "YWlnIDExOSA4IDAgMSAxMTEKMjM5Cg0DEAEBAhQCAxAGEAECCREBCQQHAQIICAsWDhYBAhEXAQoECgECCAkBEQQPAQIIEBMkFiQBAhklARIEEgECCBEBEgQSAQIIEQEZBBcBAggYGzoeOgECITsBGgQaAQIIGQEaBBoBAggZARoEGgECCBkBIQQfAQIIICNYJlgBAilZASIEIgECCCEBIgQiAQIIIQEiBCIBAgghASIEIgECCCEBKQQnAQIIKCt/AiMBHgQeAQIIHQEeBB4BAggdAR4EHgECCB0BHgQeAQIIHQElBCMBAggkAQMCDAIWAiACKmkwIHgwCmkxIHgxCmkyIHgyCmkzIHgzCmk0IHg0Cmk1IHg1Cmk2IHg2Cmk3IHg3Cm8wIHBvcGNvdW50X2dlX2sK",
+ "contract_version": 2,
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:578c6f0376a111cfa3cd25bc96cb8f0aeb1ac9dcf94ab88b5931292e68b01333",
+ "input_names": [
+  "x0",
+  "x1",
+  "x2",
+  "x3",
+  "x4",
+  "x5",
+  "x6",
+  "x7"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 8,
+ "n_outputs": 1,
+ "output_names": [
+  "popcount_ge_k"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "outputs": [
+   8
+  ]
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 15
+  },
+  "tof@bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 10
+  },
+  "tof@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  },
+  "tof_clifford@inf": {
+   "contract": "oracle_bitflip_clean",
+   "contract_version": 2,
+   "gate_set": [
+    "x",
+    "cx",
+    "ccx",
+    "ccz",
+    "rccx",
+    "rc3x",
+    "swap",
+    "z",
+    "s",
+    "sdg",
+    "cz"
+   ],
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

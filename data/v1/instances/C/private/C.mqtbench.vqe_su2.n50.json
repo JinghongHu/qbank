@@ -1,0 +1,43 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_equiv"
+ ],
+ "family": "mqtbench",
+ "hash": "sha256:4a13693a59e3b825fa5d618724a01a666b410b3b5dc2cfdf98f191a7b2a508a8",
+ "id": "C.mqtbench.vqe_su2.n50",
+ "params": {
+  "benchmark": "vqe_su2",
+  "n": 50
+ },
+ "private": {
+  "device": "heavy_hex_d5",
+  "size_bin": "L"
+ },
+ "public_hash": "sha256:4a13693a59e3b825fa5d618724a01a666b410b3b5dc2cfdf98f191a7b2a508a8",
+ "qbank_version": "1.1.0",
+ "source": {
+  "benchmark": "vqe_su2",
+  "kind": "external",
+  "level": "INDEP",
+  "license": "MIT",
+  "name": "MQT Bench",
+  "redistributable": true,
+  "ref": "github.com/munich-quantum-toolkit/bench (PyPI mqt.bench)",
+  "rewrite": "qiskit 2.5.2 transpile(basis=['h', 'x', 'y', 'z', 's', 'sdg', 't', 'tdg', 'sx', 'rz', 'rx', 'ry', 'cx', 'cz', 'rzz', 'rxx', 'ryy'], optimization_level=1, seed_transpiler=0); measure/barrier removed",
+  "version": "2.3.0"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  }
+ ]
+}

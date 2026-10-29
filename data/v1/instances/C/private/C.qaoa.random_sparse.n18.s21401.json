@@ -1,0 +1,190 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "qaoa",
+ "hash": "sha256:347b10051c3b6f15f875fc68d447ffd26a81fee4694d41bdf9d1f1bfea27d8d8",
+ "id": "C.qaoa.random_sparse.n18.s21401",
+ "params": {
+  "device_kind": "random_sparse",
+  "graph": "gnp",
+  "n": 18,
+  "p": 3,
+  "seed": 21401
+ },
+ "private": {
+  "device": "random_sparse_18",
+  "interaction_edges": [
+   [
+    0,
+    10
+   ],
+   [
+    0,
+    14
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    2,
+    9
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    3,
+    11
+   ],
+   [
+    3,
+    13
+   ],
+   [
+    3,
+    16
+   ],
+   [
+    3,
+    17
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    8
+   ],
+   [
+    4,
+    11
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    6,
+    16
+   ],
+   [
+    7,
+    13
+   ],
+   [
+    7,
+    14
+   ],
+   [
+    7,
+    17
+   ],
+   [
+    8,
+    12
+   ],
+   [
+    8,
+    14
+   ],
+   [
+    9,
+    11
+   ],
+   [
+    9,
+    13
+   ],
+   [
+    9,
+    16
+   ],
+   [
+    10,
+    13
+   ],
+   [
+    11,
+    13
+   ],
+   [
+    11,
+    14
+   ],
+   [
+    11,
+    15
+   ],
+   [
+    11,
+    16
+   ],
+   [
+    11,
+    17
+   ],
+   [
+    13,
+    14
+   ],
+   [
+    14,
+    15
+   ]
+  ],
+  "size_bin": "M"
+ },
+ "public_hash": "sha256:347b10051c3b6f15f875fc68d447ffd26a81fee4694d41bdf9d1f1bfea27d8d8",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "qaoa_on_random_sparse",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

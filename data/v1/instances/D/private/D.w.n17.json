@@ -1,0 +1,107 @@
+{
+ "category": "D",
+ "contracts": [
+  "state_exact"
+ ],
+ "family": "w",
+ "hash": "sha256:8062c4ba42943f7539882e3e1d7f9c5ee28f733dc4c1440caa623bb478024708",
+ "id": "D.w.n17",
+ "params": {
+  "n": 17
+ },
+ "private": {
+  "nonzeros": 17,
+  "size_bin": "M"
+ },
+ "public_hash": "sha256:8062c4ba42943f7539882e3e1d7f9c5ee28f733dc4c1440caa623bb478024708",
+ "qbank_version": "1.0.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "w",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "state_prep",
+ "tracks": [
+  {
+   "contract": "state_exact",
+   "metric": "cx_count",
+   "name": "cx",
+   "tolerance": 1e-09
+  },
+  {
+   "contract": "state_exact",
+   "coupling_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "metric": "two_qubit_depth",
+   "name": "depth2q@line",
+   "output_map_allowed": true,
+   "tolerance": 1e-09
+  }
+ ]
+}

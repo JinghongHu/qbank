@@ -1,0 +1,10 @@
+[
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "mqt.qecc.gate_optimal_prep_circuit(SAT)",
+  "status": "timeout",
+  "time_s": 900.0211287918501
+ }
+]

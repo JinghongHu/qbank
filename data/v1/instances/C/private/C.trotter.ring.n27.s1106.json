@@ -1,0 +1,197 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "trotter",
+ "hash": "sha256:9b2ea812f257f7f738dd837986ecb5eaf5b0c9fa4b9d57d3e3d77fd91cf2905b",
+ "id": "C.trotter.ring.n27.s1106",
+ "params": {
+  "device_kind": "ring",
+  "model": "ising",
+  "n": 27,
+  "seed": 1106
+ },
+ "private": {
+  "device": "ring_27",
+  "interaction_edges": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    5
+   ],
+   [
+    0,
+    6
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    0,
+    15
+   ],
+   [
+    1,
+    16
+   ],
+   [
+    1,
+    25
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    2,
+    24
+   ],
+   [
+    2,
+    25
+   ],
+   [
+    3,
+    26
+   ],
+   [
+    4,
+    9
+   ],
+   [
+    4,
+    12
+   ],
+   [
+    4,
+    26
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    11
+   ],
+   [
+    5,
+    23
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    6,
+    19
+   ],
+   [
+    7,
+    12
+   ],
+   [
+    7,
+    20
+   ],
+   [
+    8,
+    16
+   ],
+   [
+    9,
+    10
+   ],
+   [
+    9,
+    13
+   ],
+   [
+    11,
+    13
+   ],
+   [
+    11,
+    19
+   ],
+   [
+    11,
+    22
+   ],
+   [
+    13,
+    15
+   ],
+   [
+    14,
+    15
+   ],
+   [
+    14,
+    23
+   ],
+   [
+    18,
+    19
+   ],
+   [
+    18,
+    23
+   ],
+   [
+    19,
+    21
+   ],
+   [
+    20,
+    24
+   ],
+   [
+    21,
+    22
+   ],
+   [
+    21,
+    23
+   ],
+   [
+    23,
+    24
+   ]
+  ],
+  "size_bin": "M"
+ },
+ "public_hash": "sha256:9b2ea812f257f7f738dd837986ecb5eaf5b0c9fa4b9d57d3e3d77fd91cf2905b",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "trotter_on_ring",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "category": "D",
+ "contracts": [
+  "state_exact"
+ ],
+ "family": "w",
+ "hash": "sha256:4b570ccc91e761f7a00a2d3f422316fd33f26041bb37237434060c95c8838260",
+ "id": "D.w.n7",
+ "params": {
+  "n": 7
+ },
+ "private": {
+  "nonzeros": 7,
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:4b570ccc91e761f7a00a2d3f422316fd33f26041bb37237434060c95c8838260",
+ "qbank_version": "1.0.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "w",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "state_prep",
+ "tracks": [
+  {
+   "contract": "state_exact",
+   "metric": "cx_count",
+   "name": "cx",
+   "tolerance": 1e-09
+  },
+  {
+   "contract": "state_exact",
+   "coupling_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "metric": "two_qubit_depth",
+   "name": "depth2q@line",
+   "output_map_allowed": true,
+   "tolerance": 1e-09
+  }
+ ]
+}

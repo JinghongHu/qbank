@@ -1,0 +1,106 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_equiv"
+ ],
+ "family": "queko",
+ "hash": "sha256:c8da03b6d8230091a220ea045ccfa79a87967446b1dd3bb44a230ae8f13e779e",
+ "id": "C.queko.54QBT_05CYC_QSE_2",
+ "params": {
+  "density": "QSE",
+  "n": 54,
+  "optimal_depth_cycles": 5,
+  "serial": 2,
+  "set": "BNTF"
+ },
+ "private": {
+  "device": "Sycamore (QUEKO CONNECTION.py)",
+  "known_optimal": {
+   "depth_cycles": 5,
+   "source": "QUEKO construction (zero-SWAP mapping, meta/*_solution.csv)",
+   "swaps": 0,
+   "witness_initial_layout": [
+    32,
+    9,
+    27,
+    35,
+    44,
+    18,
+    43,
+    26,
+    38,
+    1,
+    12,
+    17,
+    33,
+    2,
+    46,
+    15,
+    21,
+    50,
+    42,
+    10,
+    47,
+    16,
+    49,
+    51,
+    0,
+    8,
+    36,
+    29,
+    31,
+    30,
+    3,
+    25,
+    13,
+    20,
+    28,
+    7,
+    22,
+    11,
+    5,
+    6,
+    48,
+    45,
+    23,
+    37,
+    19,
+    40,
+    53,
+    4,
+    14,
+    39,
+    34,
+    24,
+    52,
+    41
+   ]
+  },
+  "size_bin": "L"
+ },
+ "public_hash": "sha256:c8da03b6d8230091a220ea045ccfa79a87967446b1dd3bb44a230ae8f13e779e",
+ "qbank_version": "1.1.0",
+ "source": {
+  "file": "BNTF/54QBT_05CYC_QSE_2.qasm",
+  "kind": "external",
+  "license": "BSD-3-Clause",
+  "name": "QUEKO",
+  "redistributable": true,
+  "ref": "arXiv:2002.09783; github.com/UCLA-VAST/QUEKO-benchmark",
+  "sha256": "30b90fa1aeeb284fa28e268ef9cc3fdeb029280ad8bbfe7ac4c8287f0e757c8c",
+  "version": "2ee23a12aff894f1861d3d49eb14d09d9f9956bd"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  }
+ ]
+}

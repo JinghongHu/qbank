@@ -1,0 +1,104 @@
+{
+ "aiger_b64": "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",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:adc8f5691c833b341c4344a6d85f12964d5da3857a107fb9fb080e2549f35619",
+ "input_names": [
+  "s0",
+  "s1",
+  "s2",
+  "s3",
+  "s4",
+  "s5",
+  "s6",
+  "s7",
+  "s8",
+  "s9",
+  "s10",
+  "s11",
+  "s12",
+  "s13",
+  "s14",
+  "s15",
+  "s16",
+  "s17",
+  "s18"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 19,
+ "n_outputs": 1,
+ "output_names": [
+  "is_triangle"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "outputs": []
+ },
+ "task": "oracle_phase_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 561
+  },
+  "tof@bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 374
+  },
+  "tof@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

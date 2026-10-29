@@ -1,0 +1,90 @@
+[
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "ok",
+  "time_s": 1.8163340829778463,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 8,
+  "depth": 7,
+  "two_qubit_depth": 6
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "ok",
+  "time_s": 1.4909196658991277,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 18,
+  "depth": 11,
+  "two_qubit_depth": 10
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "ok",
+  "time_s": 1.9260448748245835,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 66,
+  "depth": 43,
+  "two_qubit_depth": 42
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "ok",
+  "time_s": 5.235953791067004,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 400,
+  "depth": 203,
+  "two_qubit_depth": 202
+ }
+]

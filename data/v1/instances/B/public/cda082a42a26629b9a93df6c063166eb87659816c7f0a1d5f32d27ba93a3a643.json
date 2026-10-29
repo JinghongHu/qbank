@@ -1,0 +1,80 @@
+{
+ "aiger_b64": "YWlnIDI0IDcgMCAxIDE3CjQ5CgoEAggJBgcCAgICBhQGAhIZAgIKAgQKEBkEAggCBAkKAgFpMCBzMAppMSBzMQppMiBzMgppMyBzMwppNCBzNAppNSBzNQppNiBzNgpvMCBpc190cmlhbmdsZQo=",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:cda082a42a26629b9a93df6c063166eb87659816c7f0a1d5f32d27ba93a3a643",
+ "input_names": [
+  "s0",
+  "s1",
+  "s2",
+  "s3",
+  "s4",
+  "s5",
+  "s6"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 7,
+ "n_outputs": 1,
+ "output_names": [
+  "is_triangle"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "outputs": []
+ },
+ "task": "oracle_phase_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 14
+  },
+  "tof@bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 9
+  },
+  "tof@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

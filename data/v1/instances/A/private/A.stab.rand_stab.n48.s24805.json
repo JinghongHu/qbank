@@ -1,0 +1,53 @@
+{
+ "category": "A",
+ "contracts": [
+  "stabilizer_state"
+ ],
+ "family": "rand_stab",
+ "hash": "sha256:01242b62a72b42d0b9b85f616be4900b3204e9174099beec3cd5f7cf4250e132",
+ "id": "A.stab.rand_stab.n48.s24805",
+ "params": {
+  "n": 48,
+  "seed": 24805
+ },
+ "private": {
+  "aliases": [],
+  "composite": false,
+  "no_room": false,
+  "qiskit_seed": 803434399,
+  "size_bin": "XL",
+  "size_features": {
+   "n": 48
+  }
+ },
+ "public_hash": "sha256:01242b62a72b42d0b9b85f616be4900b3204e9174099beec3cd5f7cf4250e132",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "random_stabilizer_state",
+  "ref": "qiskit.quantum_info.random_clifford(n, seed) applied to |0^n>",
+  "version": "1"
+ },
+ "task": "stabilizer_state",
+ "tracks": [
+  {
+   "connectivity": "all",
+   "contract": "stabilizer_state",
+   "metric": "two_qubit_gates",
+   "name": "a2a_2q"
+  },
+  {
+   "connectivity": "line",
+   "contract": "stabilizer_state",
+   "metric": "two_qubit_gates",
+   "name": "line_2q"
+  },
+  {
+   "connectivity": "grid",
+   "contract": "stabilizer_state",
+   "metric": "two_qubit_gates",
+   "name": "grid_2q"
+  }
+ ]
+}

@@ -1,0 +1,250 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "qaoa",
+ "hash": "sha256:341980646b8307fe73d95c7155d22f09c814109e8b19c4e9cb4b4e824a1c1e0d",
+ "id": "C.qaoa.ring.n25.s1100",
+ "params": {
+  "device_kind": "ring",
+  "graph": "reg4",
+  "n": 25,
+  "p": 2,
+  "seed": 1100
+ },
+ "private": {
+  "device": "ring_25",
+  "interaction_edges": [
+   [
+    0,
+    6
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    0,
+    16
+   ],
+   [
+    0,
+    22
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    1,
+    17
+   ],
+   [
+    1,
+    18
+   ],
+   [
+    1,
+    21
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    2,
+    24
+   ],
+   [
+    3,
+    10
+   ],
+   [
+    3,
+    15
+   ],
+   [
+    3,
+    17
+   ],
+   [
+    3,
+    22
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    4,
+    9
+   ],
+   [
+    4,
+    13
+   ],
+   [
+    4,
+    15
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    17
+   ],
+   [
+    5,
+    22
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    7,
+    14
+   ],
+   [
+    8,
+    12
+   ],
+   [
+    8,
+    13
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    9,
+    12
+   ],
+   [
+    9,
+    19
+   ],
+   [
+    9,
+    20
+   ],
+   [
+    10,
+    14
+   ],
+   [
+    10,
+    22
+   ],
+   [
+    11,
+    12
+   ],
+   [
+    11,
+    14
+   ],
+   [
+    11,
+    20
+   ],
+   [
+    13,
+    20
+   ],
+   [
+    13,
+    21
+   ],
+   [
+    14,
+    19
+   ],
+   [
+    15,
+    16
+   ],
+   [
+    15,
+    17
+   ],
+   [
+    16,
+    23
+   ],
+   [
+    16,
+    24
+   ],
+   [
+    18,
+    21
+   ],
+   [
+    18,
+    24
+   ],
+   [
+    19,
+    23
+   ],
+   [
+    19,
+    24
+   ],
+   [
+    20,
+    23
+   ],
+   [
+    21,
+    23
+   ]
+  ],
+  "size_bin": "M"
+ },
+ "public_hash": "sha256:341980646b8307fe73d95c7155d22f09c814109e8b19c4e9cb4b4e824a1c1e0d",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "qaoa_on_ring",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

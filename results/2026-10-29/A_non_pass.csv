@@ -1,0 +1,39 @@
+tool,track,status,count,example_instance,reason
+mqt.qmap.synthesize_clifford(heuristic),a2a_2q,unavailable,493,A.css_zero.bb_mqt_n90_d2.mqt90,not re-run: MQT QMAP 3.10.0 heuristic Clifford synthesis segfaults deterministically on the Phase-0 machine (SIGSEGV in clifford_synthesis.abi3.so; wheels 3.3.1
+mqt.qecc.heuristic_prep_circuit,a2a_2q,unsupported,169,A.stab.composite.carbon_o_five_qubit,CSS codes only
+mqt.qecc.heuristic_prep_circuit+sabre,grid_2q,unsupported,156,A.stab.rand_stab.n12.s11200,CSS codes only
+mqt.qecc.heuristic_prep_circuit+sabre,line_2q,unsupported,156,A.stab.rand_stab.n12.s11200,CSS codes only
+qiskit.synth_stabilizer_depth_lnn(native path),grid_2q,unsupported,123,A.css_zero.bb_published.bravyi108,grid has no row-snake Hamiltonian path for this n
+rustiq.stabilizer_state_synthesis+sabre,grid_2q,timeout,113,A.css_zero.bb_published.bravyi108,result delivered after the budget (65.3 s)
+rustiq.stabilizer_state_synthesis+sabre,line_2q,timeout,113,A.css_zero.bb_published.bravyi108,result delivered after the budget (70.6 s)
+rustiq.stabilizer_state_synthesis,a2a_2q,timeout,112,A.css_zero.bb_published.bravyi108,result delivered after the budget (66.7 s)
+pytket.CliffordResynthesis+FPO+sabre,line_2q,timeout,61,A.css_zero.bb_published.bravyi288,killed after 80.4 s (budget 60.0 s + grace 20.0 s)
+pytket.CliffordResynthesis+FPO+sabre,grid_2q,timeout,59,A.css_zero.bb_published.bravyi288,killed after 80.2 s (budget 60.0 s + grace 20.0 s)
+pytket.CliffordResynthesis+FPO,a2a_2q,timeout,58,A.css_zero.bb_published.bravyi288,killed after 80.5 s (budget 60.0 s + grace 20.0 s)
+qiskit.synth_clifford_layers+sabre,line_2q,timeout,32,A.css_zero.bb_published.bravyi288,killed after 80.1 s (budget 60.0 s + grace 20.0 s)
+"mqt.qecc.heuristic_prep_circuit(|0_L>,|+_L>)",codespace_a2a_2q,timeout,30,A.css_zero.bb_published.bravyi360,killed after 80.2 s (budget 60.0 s + grace 20.0 s)
+qiskit.synth_stabilizer_depth_lnn+sabre,grid_2q,timeout,29,A.css_zero.bb_published.bravyi288,killed after 80.1 s (budget 60.0 s + grace 20.0 s)
+qiskit.synth_circuit_from_stabilizers(underconstrained),codespace_a2a_2q,timeout,28,A.css_zero.bb_published.bravyi288,result delivered after the budget (67.1 s)
+qiskit.synth_circuit_from_stabilizers+sabre,grid_2q,timeout,28,A.css_zero.bb_published.bravyi288,result delivered after the budget (60.7 s)
+qiskit.synth_circuit_from_stabilizers+sabre,line_2q,timeout,28,A.css_zero.bb_published.bravyi288,result delivered after the budget (63.8 s)
+qiskit.synth_clifford_ag,a2a_2q,timeout,28,A.css_zero.bb_published.bravyi288,result delivered after the budget (62.4 s)
+qiskit.synth_clifford_ag+sabre,grid_2q,timeout,28,A.css_zero.bb_published.bravyi288,killed after 80.1 s (budget 60.0 s + grace 20.0 s)
+qiskit.synth_clifford_ag+sabre,line_2q,timeout,28,A.css_zero.bb_published.bravyi288,result delivered after the budget (65.2 s)
+qiskit.synth_clifford_greedy,a2a_2q,timeout,28,A.css_zero.bb_published.bravyi288,result delivered after the budget (62.6 s)
+qiskit.synth_clifford_greedy+sabre,grid_2q,timeout,28,A.css_zero.bb_published.bravyi288,result delivered after the budget (60.7 s)
+qiskit.synth_clifford_greedy+sabre,line_2q,timeout,28,A.css_zero.bb_published.bravyi288,result delivered after the budget (62.9 s)
+qiskit.synth_clifford_layers,a2a_2q,timeout,28,A.css_zero.bb_published.bravyi288,killed after 80.1 s (budget 60.0 s + grace 20.0 s)
+qiskit.synth_clifford_layers+sabre,grid_2q,timeout,28,A.css_zero.bb_published.bravyi288,killed after 80.1 s (budget 60.0 s + grace 20.0 s)
+qiskit.synth_stabilizer_depth_lnn,a2a_2q,timeout,28,A.css_zero.bb_published.bravyi288,killed after 80.2 s (budget 60.0 s + grace 20.0 s)
+qiskit.synth_stabilizer_depth_lnn(native path),line_2q,timeout,28,A.css_zero.bb_published.bravyi288,result delivered after the budget (67.2 s)
+qiskit.synth_stabilizer_depth_lnn+sabre,line_2q,timeout,28,A.css_zero.bb_published.bravyi288,result delivered after the budget (65.1 s)
+qiskit.synth_stabilizer_layers,a2a_2q,timeout,28,A.css_zero.bb_published.bravyi288,result delivered after the budget (64.5 s)
+qiskit.synth_stabilizer_layers+sabre,grid_2q,timeout,28,A.css_zero.bb_published.bravyi288,result delivered after the budget (62.8 s)
+qiskit.synth_stabilizer_layers+sabre,line_2q,timeout,28,A.css_zero.bb_published.bravyi288,result delivered after the budget (64.6 s)
+qiskit.synth_circuit_from_stabilizers,a2a_2q,timeout,27,A.css_zero.bb_published.bravyi288,result delivered after the budget (63.5 s)
+qiskit.synth_stabilizer_depth_lnn(native path),grid_2q,timeout,24,A.css_zero.bb_published.bravyi288,result delivered after the budget (63.2 s)
+mqt.qecc.heuristic_prep_circuit,a2a_2q,timeout,21,A.css_zero.bb_published.bravyi360,result delivered after the budget (61.6 s)
+mqt.qecc.heuristic_prep_circuit+sabre,grid_2q,timeout,21,A.css_zero.bb_published.bravyi360,result delivered after the budget (70.3 s > 60.0 s)
+mqt.qecc.heuristic_prep_circuit+sabre,line_2q,timeout,21,A.css_zero.bb_published.bravyi360,result delivered after the budget (72.9 s > 60.0 s)
+"mqt.qecc.heuristic_prep_circuit(|0_L>,|+_L>)",codespace_a2a_2q,unsupported,13,A.stab.composite.carbon_o_five_qubit,CSS codes only
+mqt.qmap.synthesize_clifford(heuristic),a2a_2q,crash,11,A.css_zero.bb_published.bravyi108,QMAP process killed by signal 11 (heuristic=True)

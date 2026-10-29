@@ -1,0 +1,23 @@
+track,tool,best_count,instances,percent
+cx,qclib MergeInitialize,249,530,46.98
+cx,qclib LowRankInitialize,140,530,26.42
+cx,Dicke construction (Bärtschi-Eidenbenz),73,530,13.77
+cx,bqskit compile(StateVector),72,530,13.58
+cx,qclib SVDInitialize,56,530,10.57
+cx,qclib UCGEInitialize,11,530,2.08
+cx,qiskit StatePreparation,11,530,2.08
+cx@F0.99,qclib MergeInitialize,210,414,50.72
+cx@F0.99,qclib BaaLowRankInitialize (approx),135,414,32.61
+cx@F0.99,qclib LowRankInitialize,134,414,32.37
+cx@F0.99,bqskit compile(StateVector),70,414,16.91
+cx@F0.99,qclib SVDInitialize,53,414,12.8
+cx@F0.99,qclib UCGEInitialize,9,414,2.17
+cx@F0.99,qiskit StatePreparation,9,414,2.17
+depth2q@line,qclib MergeInitialize,207,530,39.06
+depth2q@line,qclib LowRankInitialize,148,530,27.92
+depth2q@line,Dicke construction (Bärtschi-Eidenbenz),73,530,13.77
+depth2q@line,qclib SVDInitialize,69,530,13.02
+depth2q@line,bqskit compile(StateVector),53,530,10.0
+depth2q@line,"W constructions (cascade, log-depth tree)",39,530,7.36
+depth2q@line,qclib UCGEInitialize,10,530,1.89
+depth2q@line,qiskit StatePreparation,10,530,1.89

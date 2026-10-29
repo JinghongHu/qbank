@@ -1,0 +1,122 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "qaoa",
+ "hash": "sha256:e68d047048b59375dddc27f43df920beb43805af6340c881c9d73b3467d95647",
+ "id": "C.qaoa.random_sparse.n12.s10401",
+ "params": {
+  "device_kind": "random_sparse",
+  "graph": "reg3",
+  "n": 12,
+  "p": 3,
+  "seed": 10401
+ },
+ "private": {
+  "device": "random_sparse_12",
+  "interaction_edges": [
+   [
+    0,
+    3
+   ],
+   [
+    0,
+    8
+   ],
+   [
+    0,
+    9
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    1,
+    7
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    10
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    4,
+    10
+   ],
+   [
+    5,
+    8
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    11
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    9,
+    11
+   ],
+   [
+    10,
+    11
+   ]
+  ],
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:e68d047048b59375dddc27f43df920beb43805af6340c881c9d73b3467d95647",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "qaoa_on_random_sparse",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

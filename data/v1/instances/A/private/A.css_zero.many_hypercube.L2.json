@@ -1,0 +1,80 @@
+{
+ "category": "A",
+ "contracts": [
+  "css_logical_zero",
+  "codespace_state"
+ ],
+ "family": "many_hypercube",
+ "hash": "sha256:9aaa2ae0fbd8d606061f6b8a26ba957b63fa123070b11b925ffd70ab0e64643f",
+ "id": "A.css_zero.many_hypercube.L2",
+ "params": {
+  "L": 2
+ },
+ "private": {
+  "aliases": [],
+  "code": {
+   "k": 16,
+   "n": 36,
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": 4,
+     "dX": 4,
+     "dZ": 4,
+     "k": 16,
+     "method": "exact_kernel_enumeration"
+    },
+    "k": 16,
+    "max_x_weight": 24,
+    "max_z_weight": 24,
+    "n": 36,
+    "rank_hx": 10,
+    "rank_hz": 10
+   }
+  },
+  "composite": false,
+  "no_room": false,
+  "notes": [],
+  "size_bin": "S",
+  "size_features": {
+   "k": 16,
+   "n": 36
+  }
+ },
+ "public_hash": "sha256:9aaa2ae0fbd8d606061f6b8a26ba957b63fa123070b11b925ffd70ab0e64643f",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "library",
+  "license": "MIT",
+  "name": "mqt.qecc.codes.construct_many_hypercube_code",
+  "ref": "Goto, arXiv:2403.16054 ([[6^L,4^L,2^L]])",
+  "version": "mqt.qecc 2.0.0"
+ },
+ "task": "css_logical_zero",
+ "tracks": [
+  {
+   "connectivity": "all",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "a2a_2q"
+  },
+  {
+   "connectivity": "line",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "line_2q"
+  },
+  {
+   "connectivity": "grid",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "grid_2q"
+  },
+  {
+   "connectivity": "all",
+   "contract": "codespace_state",
+   "metric": "two_qubit_gates",
+   "name": "codespace_a2a_2q"
+  }
+ ]
+}

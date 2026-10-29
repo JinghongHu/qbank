@@ -1,0 +1,43 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_equiv"
+ ],
+ "family": "struct_random",
+ "hash": "sha256:cc0d0ff4ffb614797cc4ff7d0841f54fda3f0d48bafce45562a3b338026f3a5f",
+ "id": "C.struct_random.grid.n61.s2208",
+ "params": {
+  "device_kind": "grid",
+  "interaction_degree": 2,
+  "n": 61,
+  "seed": 2208,
+  "two_qubit_gates": 196
+ },
+ "private": {
+  "device": "grid_8x8",
+  "interaction_edges": null,
+  "size_bin": "L"
+ },
+ "public_hash": "sha256:cc0d0ff4ffb614797cc4ff7d0841f54fda3f0d48bafce45562a3b338026f3a5f",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "struct_random_on_grid",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  }
+ ]
+}

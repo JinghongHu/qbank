@@ -1,0 +1,137 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_phase_clean"
+ ],
+ "family": "sudoku",
+ "hash": "sha256:cf76c237b28ece5b7668688121265262ff5a1048ea41a183ac93611ac9ada0e5",
+ "id": "B.phase.sudoku6.k3.s1",
+ "params": {
+  "k": 3,
+  "seed": 1,
+  "size": 6
+ },
+ "private": {
+  "aig_ands": 72,
+  "b_min": 11,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 17,
+   "cone_bennett(abc resyn2)": 17,
+   "esop+mcx": 11,
+   "per-clause mcx": 59
+  },
+  "blanks": [
+   [
+    0,
+    5
+   ],
+   [
+    3,
+    0
+   ],
+   [
+    4,
+    2
+   ]
+  ],
+  "m": 1,
+  "n": 9,
+  "n_solutions": 1,
+  "n_solutions_method": "exhaustive",
+  "size_bin": "S",
+  "solution": [
+   [
+    4,
+    0,
+    5,
+    3,
+    1,
+    2
+   ],
+   [
+    3,
+    1,
+    2,
+    4,
+    0,
+    5
+   ],
+   [
+    0,
+    2,
+    3,
+    1,
+    5,
+    4
+   ],
+   [
+    1,
+    5,
+    4,
+    0,
+    2,
+    3
+   ],
+   [
+    2,
+    4,
+    1,
+    5,
+    3,
+    0
+   ],
+   [
+    5,
+    3,
+    0,
+    2,
+    4,
+    1
+   ]
+  ],
+  "solution_fraction_log2": -9.0,
+  "solution_sparse": true
+ },
+ "public_hash": "sha256:cf76c237b28ece5b7668688121265262ff5a1048ea41a183ac93611ac9ada0e5",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "sudoku",
+  "ref": "parametrised QCircuitBench grover_sudoku (4x4 and 6x6)",
+  "version": "1"
+ },
+ "task": "oracle_phase_clean",
+ "tracks": [
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 11
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 17
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

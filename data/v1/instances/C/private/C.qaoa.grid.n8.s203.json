@@ -1,0 +1,98 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "qaoa",
+ "hash": "sha256:200ca519d0be6a13b8295aac7715ad76e8173e0dd117c678dde82c388bd45ddb",
+ "id": "C.qaoa.grid.n8.s203",
+ "params": {
+  "device_kind": "grid",
+  "graph": "gnp",
+  "n": 8,
+  "p": 2,
+  "seed": 203
+ },
+ "private": {
+  "device": "grid_3x3",
+  "interaction_edges": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    0,
+    5
+   ],
+   [
+    0,
+    7
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ]
+  ],
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:200ca519d0be6a13b8295aac7715ad76e8173e0dd117c678dde82c388bd45ddb",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "qaoa_on_grid",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "A": [
+  {
+   "archived": "splits/archive/A.v1.0.0.json",
+   "frozen": "2026-09-26",
+   "sha256": "36e7f77e23c035730db3d2186385ab70b114f6998e7973d69c928dfc6b7fddbf",
+   "superseded_by": "1.1.0",
+   "version": "1.0.0"
+  },
+  {
+   "archived": "splits/archive/A.v1.1.0.json",
+   "created": "2026-09-26",
+   "frozen": "2026-09-26",
+   "reason": "Instance A.css_zero.bb_published.mqt90 renamed to A.css_zero.bb_mqt_n90_d2.mqt90 and its family from bb_published to bb_mqt_n90_d2: it comes from construct_bb_code(90) of MQT QECC 2.0.0, which swaps l and m; its distance is <= 2 and it is not the [[90,8,10]] code of Bravyi et al. (that one is bravyi90). Content hash, split and all other instances unchanged",
+   "sha256": "635c696131378dc88a311d7c10355058f21dfe2b7a35520442a04cf0f2015c5f",
+   "superseded_by": "1.2.0",
+   "version": "1.1.0"
+  },
+  {
+   "created": "2026-10-28",
+   "reason": "Added 6 named codes (color_666 d11/d13, color_488 d11/d13, QRM(2,m) for m = 6, 7) so that the test set of task pack v2 contains named codes within the training size range: those that go to the pack's train/val are marked train here, those that go to the pack's test are marked val; the d9 codes and qrm.m7 of qbank's test_in never enter the task pack, so the larger new codes form the upper end of the training range. Content and split of the 498 existing instances unchanged (AB_design.md)",
+   "version": "1.2.0"
+  }
+ ],
+ "B": [
+  {
+   "archived": "splits/archive/B.v1.0.0.json",
+   "frozen": "2026-09-26",
+   "sha256": "269ee05b560dab631f5718791ad3dceef176073b76edf65e3885e5e5c2f3bf71",
+   "superseded_by": "1.1.0",
+   "version": "1.0.0"
+  },
+  {
+   "archived": "splits/archive/B.v1.1.0.json",
+   "created": "2026-09-26",
+   "frozen": "2026-09-26",
+   "reason": "Removed 12 unsatisfiable SATLIB formulas (constant functions, for which the empty circuit is optimal) and used satisfiable uf50 formulas instead; constant functions are now detected semantically (SAT); solution-sparse families are marked",
+   "sha256": "177d05b97d46828a7b27c40e162a48e1283cf9e67369b7c5b2a2585c4c4d599a",
+   "superseded_by": "1.2.0",
+   "version": "1.1.0"
+  },
+  {
+   "archived": "splits/archive/B.v1.2.0.json",
+   "created": "2026-09-26",
+   "frozen": "2026-09-26",
+   "reason": "Added 38 external structural test_ood instances (13 block-cipher S-boxes from RFCs, 5 from ISCAS-85, 20 from MCNC LGSynth'91; all exactly verified with constructive baselines); solution-sparse is now decided by the fraction of solutions (exact n_solutions for every single-output instance, rule n_solutions < 2^(n/2)); the XAG and pebbling baselines use deterministic limits; new mockturtle XAG cut-rewriting baseline; best_known recomputed. Content and split of the 428 existing instances unchanged",
+   "sha256": "588e2590c29d0bbe4df66e46da807c0407df7d9e071ab383f58bcdbf5f83a5fb",
+   "superseded_by": "1.3.0",
+   "version": "1.2.0"
+  },
+  {
+   "created": "2026-10-28",
+   "reason": "Added 63 parametrised structural instances (compare.lt_const, compare.interval, arith.threshold, arith.mul_bit; 8-21 inputs, single-output bit-flip oracles) that satisfy the strict structural rule min(#solutions, 2^n - #solutions) >= 2^(n/2), use every input, and have an NPN signature different from all existing instances and from each other; those that go to the pack's train/val are marked train here, those that go to the pack's test are marked val. Content and split of the 466 existing instances unchanged (AB_design.md)",
+   "version": "1.3.0"
+  }
+ ],
+ "C": [
+  {
+   "archived": "splits/archive/C.v1.0.0.json",
+   "frozen": "2026-09-26",
+   "sha256": "6d3a215871338eb6587bf06613a58bdea9aef529ad95be37882fe61156d6ed22",
+   "superseded_by": "1.1.0",
+   "version": "1.0.0"
+  },
+  {
+   "created": "2026-09-26",
+   "reason": "Fixed 3 infeasible 27-qubit instances (FakeCairoV2 has an isolated qubit) and a non-reproducible MQT Bench generator (graphstate had no seed); the hashes of 7 instances changed",
+   "version": "1.1.0"
+  }
+ ]
+}

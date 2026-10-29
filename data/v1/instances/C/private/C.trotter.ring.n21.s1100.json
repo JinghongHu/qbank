@@ -1,0 +1,193 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "trotter",
+ "hash": "sha256:e0ef437351e9f52ab08d2a378e7aa3439175348709d011ffa650ceaec58ddce3",
+ "id": "C.trotter.ring.n21.s1100",
+ "params": {
+  "device_kind": "ring",
+  "model": "heisenberg",
+  "n": 21,
+  "seed": 1100
+ },
+ "private": {
+  "device": "ring_21",
+  "interaction_edges": [
+   [
+    0,
+    3
+   ],
+   [
+    0,
+    6
+   ],
+   [
+    0,
+    16
+   ],
+   [
+    0,
+    17
+   ],
+   [
+    0,
+    19
+   ],
+   [
+    1,
+    13
+   ],
+   [
+    1,
+    15
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    2,
+    13
+   ],
+   [
+    2,
+    16
+   ],
+   [
+    3,
+    12
+   ],
+   [
+    4,
+    19
+   ],
+   [
+    5,
+    8
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    11
+   ],
+   [
+    5,
+    14
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    7,
+    13
+   ],
+   [
+    7,
+    15
+   ],
+   [
+    7,
+    20
+   ],
+   [
+    8,
+    10
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    9,
+    10
+   ],
+   [
+    10,
+    14
+   ],
+   [
+    10,
+    20
+   ],
+   [
+    11,
+    17
+   ],
+   [
+    12,
+    14
+   ],
+   [
+    12,
+    16
+   ],
+   [
+    12,
+    19
+   ],
+   [
+    13,
+    19
+   ],
+   [
+    16,
+    17
+   ],
+   [
+    16,
+    20
+   ],
+   [
+    17,
+    18
+   ],
+   [
+    17,
+    20
+   ],
+   [
+    19,
+    20
+   ]
+  ],
+  "size_bin": "M"
+ },
+ "public_hash": "sha256:e0ef437351e9f52ab08d2a378e7aa3439175348709d011ffa650ceaec58ddce3",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "trotter_on_ring",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

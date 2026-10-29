@@ -1,0 +1,28 @@
+instance,value,arxiv,location,eligible,reproduced_value
+A.css_zero.color_666.d3,8,2503.14660v3,"Table 5 (A*, Greedy, RLFQC columns)",True,8
+A.css_zero.color_666.d3,8,1106.2190v2,Figure 5(b) caption,True,8
+A.css_zero.rot_surface.d3,8,2408.11894v3,Table 1 (SAT column; optimal within the CNOT-only model),True,8
+A.css_zero.rot_surface.d5,28,2408.11894v3,Table 1 (Heur column),True,28
+A.css_zero.rot_surface.d7,60,2601.05113v1,"Table 1, formula (3t+1)(d-1), t=floor((d-1)/2)",True,
+A.css_zero.rot_surface.d9,104,2601.05113v1,Table 1 formula,True,
+A.css_zero.rot_surface.d11,160,2601.05113v1,Table 1 formula,True,
+A.css_zero.qrm.m4,22,2408.11894v3,Table 1 (SAT column),True,
+A.css_zero.qhamming.r4,22,2605.15266v1,"Table 1 and Table 2 (Zero, Ours)",True,22
+A.css_zero.color_488.d5,23,2605.15266v1,"Table 1/2 (Zero, Ours)",True,23
+A.css_zero.color_666.d5,27,2605.15266v1,"Table 1/2 (Zero, Ours)",True,27
+A.css_zero.color_488.d7,45,2605.15266v1,"Table 2 (Zero, Ours)",True,45
+A.css_zero.qhamming.r5,52,2605.15266v1,"Table 1 (Zero, Ours)",True,52
+A.css_zero.color_666.d7,57,2605.15266v1,"Table 2 (Zero, Ours)",True,57
+A.css_zero.sporadic.golay,44,2603.17743v1,Table 1 (QuSynth column) and Fig. 21,True,45
+A.css_zero.sporadic.golay,45,2605.15266v1,"Table 2 (Zero, Ours)",True,45
+A.css_zero.sporadic.golay,57,1106.2190v2,Figure 4 caption,True,45
+A.css_zero.sporadic.carbon,16,2603.17743v1,Table 1 (BeFS column),True,16
+A.css_zero.sporadic.mqt_30_6_5,61,2605.15266v1,"Table 2 (Zero, Ours)",True,61
+A.css_zero.shor_concat.3x3,8,2408.11894v3,Table 2 (SAT column),True,8
+A.css_zero.bb_published.bravyi72,150,2605.15266v1,"Table 2 (Zero, Ours)",True,150
+A.css_zero.bb_published.bravyi108,402,2605.15266v1,"Table 2 (Zero, Ours); the text says 430",True,367
+A.css_zero.bb_published.bravyi144,330,2605.15266v1,"Table 2 (Zero, Ours); text: 330 CNOTs at depth 17",True,330
+A.css_zero.bb_published.bravyi144,357,2603.17743v1,"Table 1 (RL, + LC-optimization row)",True,330
+A.css_zero.bb_mqt_n90_d2.mqt90,134,2605.15266v1,"Table 2 (Zero, Ours), row labelled [[90,8,10]]",True,134
+A.stab.sporadic.mqt_8_3_3,11,2605.15266v1,"Table 2 (Zero, Ours)",False,
+A.stab.sporadic.mqt_15_3_5,36,2605.15266v1,"Table 2 (Zero, Ours)",False,

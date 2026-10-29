@@ -1,0 +1,98 @@
+{
+ "cross_split_pairs": [
+  {
+   "a": "C.qaoa.line.n20.s1006",
+   "b": "C.qaoa.line.n20.s11000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal relabelling invariants (treated as duplicate)"
+  },
+  {
+   "a": "C.qaoa.ring.n14.s100",
+   "b": "C.qaoa.ring.n14.s20100",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal relabelling invariants (treated as duplicate)"
+  },
+  {
+   "a": "C.qaoa.ring.n8.s103",
+   "b": "C.qaoa.ring.n8.s20101",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal relabelling invariants (treated as duplicate)"
+  },
+  {
+   "a": "C.qaoa.grid.n28.s1200",
+   "b": "C.qaoa.grid.n28.s11200",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal relabelling invariants (treated as duplicate)"
+  },
+  {
+   "a": "C.qaoa.heavy_hex.n46.s2308",
+   "b": "C.qaoa.heavy_hex.n46.s22300",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal relabelling invariants (treated as duplicate)"
+  }
+ ],
+ "dropped": [
+  "C.qaoa.grid.n28.s11200",
+  "C.qaoa.heavy_hex.n46.s22300",
+  "C.qaoa.line.n20.s11000",
+  "C.qaoa.ring.n14.s20100",
+  "C.qaoa.ring.n8.s20101"
+ ],
+ "n_instances": 1605,
+ "refills": [
+  {
+   "attempts": 1,
+   "dropped": "C.qaoa.line.n20.s11000",
+   "replacement": "C.qaoa.line.n19.s11100"
+  },
+  {
+   "attempts": 1,
+   "dropped": "C.qaoa.ring.n14.s20100",
+   "replacement": "C.qaoa.ring.n9.s20200"
+  },
+  {
+   "attempts": 1,
+   "dropped": "C.qaoa.ring.n8.s20101",
+   "replacement": "C.qaoa.ring.n10.s20201"
+  },
+  {
+   "attempts": 1,
+   "dropped": "C.qaoa.grid.n28.s11200",
+   "replacement": "C.qaoa.grid.n24.s11300"
+  },
+  {
+   "attempts": 1,
+   "dropped": "C.qaoa.heavy_hex.n46.s22300",
+   "replacement": "C.qaoa.heavy_hex.n37.s22400"
+  }
+ ],
+ "seconds": 214,
+ "totals": {
+  "probe": 60,
+  "test_in": 270,
+  "test_ood": 555,
+  "train": 540,
+  "val": 180
+ },
+ "variants": 2475
+}

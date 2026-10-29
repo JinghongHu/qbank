@@ -1,0 +1,163 @@
+{
+ "instances": [
+  {
+   "id": "A.css_zero.color_666.d13",
+   "n": 127,
+   "pack_v2_split": "train",
+   "qbank_split": "train",
+   "reported": null,
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": null,
+     "dX": null,
+     "dZ": null,
+     "d_lower": 5,
+     "k": 1,
+     "method": "low_weight_search(w<=4): no logical of weight <= 4 found"
+    },
+    "k": 1,
+    "max_x_weight": 6,
+    "max_z_weight": 6,
+    "n": 127,
+    "rank_hx": 63,
+    "rank_hz": 63
+   }
+  },
+  {
+   "id": "A.css_zero.color_666.d11",
+   "n": 91,
+   "pack_v2_split": "test",
+   "qbank_split": "val",
+   "reported": null,
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": null,
+     "dX": null,
+     "dZ": null,
+     "d_lower": 5,
+     "k": 1,
+     "method": "low_weight_search(w<=4): no logical of weight <= 4 found"
+    },
+    "k": 1,
+    "max_x_weight": 6,
+    "max_z_weight": 6,
+    "n": 91,
+    "rank_hx": 45,
+    "rank_hz": 45
+   }
+  },
+  {
+   "id": "A.css_zero.color_488.d13",
+   "n": 97,
+   "pack_v2_split": "train",
+   "qbank_split": "train",
+   "reported": null,
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": null,
+     "dX": null,
+     "dZ": null,
+     "d_lower": 5,
+     "k": 1,
+     "method": "low_weight_search(w<=4): no logical of weight <= 4 found"
+    },
+    "k": 1,
+    "max_x_weight": 8,
+    "max_z_weight": 8,
+    "n": 97,
+    "rank_hx": 48,
+    "rank_hz": 48
+   }
+  },
+  {
+   "id": "A.css_zero.color_488.d11",
+   "n": 71,
+   "pack_v2_split": "test",
+   "qbank_split": "val",
+   "reported": null,
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": null,
+     "dX": null,
+     "dZ": null,
+     "d_lower": 5,
+     "k": 1,
+     "method": "low_weight_search(w<=4): no logical of weight <= 4 found"
+    },
+    "k": 1,
+    "max_x_weight": 8,
+    "max_z_weight": 8,
+    "n": 71,
+    "rank_hx": 35,
+    "rank_hz": 35
+   }
+  },
+  {
+   "id": "A.css_zero.qrm.m7r2",
+   "n": 127,
+   "pack_v2_split": "train",
+   "qbank_split": "train",
+   "reported": {
+    "d": 7,
+    "source": "QRM(r, m) distance min(2^(r+1) - 1, 2^(m-r) - 1) (formula; not recomputed)"
+   },
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": null,
+     "dX": null,
+     "dZ": null,
+     "d_lower": 5,
+     "k": 1,
+     "method": "low_weight_search(w<=4): no logical of weight <= 4 found"
+    },
+    "k": 1,
+    "max_x_weight": 64,
+    "max_z_weight": 64,
+    "n": 127,
+    "rank_hx": 28,
+    "rank_hz": 98
+   }
+  },
+  {
+   "id": "A.css_zero.qrm.m6r2",
+   "n": 63,
+   "pack_v2_split": "test",
+   "qbank_split": "val",
+   "reported": {
+    "d": 7,
+    "source": "QRM(r, m) distance min(2^(r+1) - 1, 2^(m-r) - 1) (formula; not recomputed)"
+   },
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": 15,
+     "dX": 15,
+     "dZ": null,
+     "d_lower": null,
+     "k": 1,
+     "method": "low_weight_search(w<=4)"
+    },
+    "k": 1,
+    "max_x_weight": 32,
+    "max_z_weight": 32,
+    "n": 63,
+    "rank_hx": 21,
+    "rank_hz": 41
+   }
+  }
+ ],
+ "manifest_sha256": "df6592014006ac2f0cb3edefe87bc0063ab3aeafeb78eff24bf05abce494e7c5",
+ "totals": {
+  "probe": 34,
+  "test_in": 105,
+  "test_ood": 90,
+  "train": 206,
+  "val": 69
+ },
+ "version": "1.2.0"
+}

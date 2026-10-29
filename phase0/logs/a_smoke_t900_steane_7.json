@@ -1,0 +1,24 @@
+[
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "mqt.qecc.gate_optimal_prep_circuit(SAT)",
+  "status": "ok",
+  "time_s": 142.63044199999422,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 8,
+  "depth": 5,
+  "two_qubit_depth": 4
+ }
+]

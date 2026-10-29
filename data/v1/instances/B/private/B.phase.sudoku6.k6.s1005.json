@@ -1,0 +1,147 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_phase_clean"
+ ],
+ "family": "sudoku",
+ "hash": "sha256:3b376059d45424e737ae904308a64eb6d1f50c666a8704f1c8dd1fc94be502a8",
+ "id": "B.phase.sudoku6.k6.s1005",
+ "params": {
+  "k": 6,
+  "seed": 1005,
+  "size": 6
+ },
+ "private": {
+  "aig_ands": 198,
+  "b_min": 126,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 126,
+   "cone_bennett(abc resyn2)": 126
+  },
+  "blanks": [
+   [
+    0,
+    2
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    3,
+    0
+   ],
+   [
+    5,
+    2
+   ]
+  ],
+  "m": 1,
+  "n": 18,
+  "n_solutions": 1,
+  "n_solutions_method": "exhaustive",
+  "size_bin": "M",
+  "solution": [
+   [
+    4,
+    0,
+    5,
+    2,
+    1,
+    3
+   ],
+   [
+    1,
+    3,
+    2,
+    5,
+    4,
+    0
+   ],
+   [
+    0,
+    5,
+    1,
+    4,
+    3,
+    2
+   ],
+   [
+    3,
+    2,
+    4,
+    1,
+    0,
+    5
+   ],
+   [
+    2,
+    4,
+    0,
+    3,
+    5,
+    1
+   ],
+   [
+    5,
+    1,
+    3,
+    0,
+    2,
+    4
+   ]
+  ],
+  "solution_fraction_log2": -18.0,
+  "solution_sparse": true
+ },
+ "public_hash": "sha256:3b376059d45424e737ae904308a64eb6d1f50c666a8704f1c8dd1fc94be502a8",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "sudoku",
+  "ref": "parametrised QCircuitBench grover_sudoku (4x4 and 6x6)",
+  "version": "1"
+ },
+ "task": "oracle_phase_clean",
+ "tracks": [
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 126
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 189
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+track,tool,best_count,instances,percent
+depth2q,qiskit LightSABRE (anytime),1476,1605,91.96
+depth2q,pytket LexiRoute,322,1605,20.06
+depth2q,"OLSQ2 (TB, swap objective)",70,1605,4.36
+depth2q,mqt.qmap heuristic,20,1605,1.25
+swaps,qiskit LightSABRE (anytime),1464,1605,91.21
+swaps,pytket LexiRoute,329,1605,20.5
+swaps,"OLSQ2 (TB, swap objective)",80,1605,4.98
+swaps,mqt.qmap heuristic,33,1605,2.06
+swaps_commuting,qiskit LightSABRE + block reordering (anytime),673,715,94.13
+swaps_commuting,qiskit LightSABRE (anytime),63,715,8.81
+swaps_commuting,"OLSQ2 (TB, swap objective)",14,715,1.96
+swaps_commuting,mqt.qmap heuristic,9,715,1.26
+swaps_commuting,pytket LexiRoute,9,715,1.26

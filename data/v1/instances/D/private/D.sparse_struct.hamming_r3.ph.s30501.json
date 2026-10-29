@@ -1,0 +1,77 @@
+{
+ "category": "D",
+ "contracts": [
+  "state_approx",
+  "state_exact"
+ ],
+ "family": "sparse_struct",
+ "hash": "sha256:0aa325203499c6f7beb9f08d3e5fc5bc3d639cfdb1afcb7900dc522be9d90a1e",
+ "id": "D.sparse_struct.hamming_r3.ph.s30501",
+ "params": {
+  "amplitudes": "random phases",
+  "n": 7,
+  "nonzeros": 16,
+  "seed": 30501,
+  "support": "hamming_r3"
+ },
+ "private": {
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:0aa325203499c6f7beb9f08d3e5fc5bc3d639cfdb1afcb7900dc522be9d90a1e",
+ "qbank_version": "1.0.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "structured support (hamming_r3), random phases",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "state_prep",
+ "tracks": [
+  {
+   "contract": "state_exact",
+   "metric": "cx_count",
+   "name": "cx",
+   "tolerance": 1e-09
+  },
+  {
+   "contract": "state_exact",
+   "coupling_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "metric": "two_qubit_depth",
+   "name": "depth2q@line",
+   "output_map_allowed": true,
+   "tolerance": 1e-09
+  },
+  {
+   "contract": "state_approx",
+   "metric": "cx_count",
+   "min_fidelity": 0.99,
+   "name": "cx@F0.99"
+  }
+ ]
+}

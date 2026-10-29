@@ -1,0 +1,72 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_equiv"
+ ],
+ "family": "queko",
+ "hash": "sha256:312f5525af22683e4be3200ec9173b6e7580de36aca068eb594f6363eebbd4af",
+ "id": "C.queko.20QBT_800CYC_QSE_2",
+ "params": {
+  "density": "QSE",
+  "n": 20,
+  "optimal_depth_cycles": 800,
+  "serial": 2,
+  "set": "BSS"
+ },
+ "private": {
+  "device": "Tokyo (QUEKO CONNECTION.py)",
+  "known_optimal": {
+   "depth_cycles": 800,
+   "source": "QUEKO construction (zero-SWAP mapping, meta/*_solution.csv)",
+   "swaps": 0,
+   "witness_initial_layout": [
+    10,
+    4,
+    8,
+    17,
+    2,
+    0,
+    7,
+    5,
+    6,
+    13,
+    11,
+    3,
+    18,
+    14,
+    1,
+    19,
+    16,
+    9,
+    12,
+    15
+   ]
+  },
+  "size_bin": "M"
+ },
+ "public_hash": "sha256:312f5525af22683e4be3200ec9173b6e7580de36aca068eb594f6363eebbd4af",
+ "qbank_version": "1.1.0",
+ "source": {
+  "file": "BSS/20QBT_800CYC_QSE_2.qasm",
+  "kind": "external",
+  "license": "BSD-3-Clause",
+  "name": "QUEKO",
+  "redistributable": true,
+  "ref": "arXiv:2002.09783; github.com/UCLA-VAST/QUEKO-benchmark",
+  "sha256": "7c4cbe334becf1e802bbf8e5756dace534e358641648e213bf51d2cb463ee6b9",
+  "version": "2ee23a12aff894f1861d3d49eb14d09d9f9956bd"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  }
+ ]
+}

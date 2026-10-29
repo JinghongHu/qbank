@@ -1,0 +1,226 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "qaoa",
+ "hash": "sha256:1f1cc3e74ea56e1aeb870470e868072ac254d42691e99183700cdd4610e644d2",
+ "id": "C.qaoa.grid.n23.s11203",
+ "params": {
+  "device_kind": "grid",
+  "graph": "gnp",
+  "n": 23,
+  "p": 1,
+  "seed": 11203
+ },
+ "private": {
+  "device": "grid_5x5",
+  "interaction_edges": [
+   [
+    0,
+    3
+   ],
+   [
+    0,
+    10
+   ],
+   [
+    1,
+    6
+   ],
+   [
+    1,
+    8
+   ],
+   [
+    1,
+    10
+   ],
+   [
+    2,
+    10
+   ],
+   [
+    2,
+    16
+   ],
+   [
+    2,
+    17
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    3,
+    11
+   ],
+   [
+    3,
+    13
+   ],
+   [
+    3,
+    21
+   ],
+   [
+    4,
+    14
+   ],
+   [
+    4,
+    18
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    12
+   ],
+   [
+    5,
+    16
+   ],
+   [
+    5,
+    21
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    6,
+    15
+   ],
+   [
+    6,
+    16
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    8,
+    9
+   ],
+   [
+    8,
+    11
+   ],
+   [
+    8,
+    13
+   ],
+   [
+    8,
+    22
+   ],
+   [
+    9,
+    10
+   ],
+   [
+    9,
+    21
+   ],
+   [
+    10,
+    13
+   ],
+   [
+    10,
+    19
+   ],
+   [
+    10,
+    21
+   ],
+   [
+    10,
+    22
+   ],
+   [
+    11,
+    13
+   ],
+   [
+    11,
+    14
+   ],
+   [
+    11,
+    21
+   ],
+   [
+    12,
+    20
+   ],
+   [
+    13,
+    18
+   ],
+   [
+    15,
+    17
+   ],
+   [
+    15,
+    21
+   ],
+   [
+    16,
+    17
+   ],
+   [
+    17,
+    18
+   ],
+   [
+    17,
+    20
+   ],
+   [
+    17,
+    22
+   ],
+   [
+    20,
+    22
+   ]
+  ],
+  "size_bin": "M"
+ },
+ "public_hash": "sha256:1f1cc3e74ea56e1aeb870470e868072ac254d42691e99183700cdd4610e644d2",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "qaoa_on_grid",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

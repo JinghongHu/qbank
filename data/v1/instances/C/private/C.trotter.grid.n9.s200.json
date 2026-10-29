@@ -1,0 +1,93 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "trotter",
+ "hash": "sha256:c1e1fb7dd7cd703a644e5d323d6148941befcbcaca71c5097a2e122d7716a225",
+ "id": "C.trotter.grid.n9.s200",
+ "params": {
+  "device_kind": "grid",
+  "model": "heisenberg",
+  "n": 9,
+  "seed": 200
+ },
+ "private": {
+  "device": "grid_3x3",
+  "interaction_edges": [
+   [
+    0,
+    3
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    0,
+    5
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    4,
+    8
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    6,
+    8
+   ]
+  ],
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:c1e1fb7dd7cd703a644e5d323d6148941befcbcaca71c5097a2e122d7716a225",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "trotter_on_grid",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

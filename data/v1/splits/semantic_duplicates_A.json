@@ -1,0 +1,69 @@
+{
+ "_doc": "A instances whose main-track target (the signed stabilizer group of |0_L>, rref; same qubit labels) is identical: the same preparation task under two names (quantum Hamming CSS(H_r,H_r) and punctured QRM(1,r) share Hx). Found 2026-10-29 (Codex review) by src/qbank/categories/A/semantic_duplicates.py. The frozen splits are not changed; evaluations must drop `exclude_from_evaluation` (the copy in the later split; within one split count the pair once).",
+ "groups": [
+  {
+   "track": "a2a_2q",
+   "ids": [
+    "A.css_zero.qhamming.r4",
+    "A.css_zero.qrm.m4"
+   ],
+   "splits": [
+    "train",
+    "train"
+   ],
+   "cross_split": false,
+   "keep": "A.css_zero.qhamming.r4",
+   "exclude_from_evaluation": [
+    "A.css_zero.qrm.m4"
+   ]
+  },
+  {
+   "track": "a2a_2q",
+   "ids": [
+    "A.css_zero.qhamming.r5",
+    "A.css_zero.qrm.m5"
+   ],
+   "splits": [
+    "val",
+    "train"
+   ],
+   "cross_split": true,
+   "keep": "A.css_zero.qrm.m5",
+   "exclude_from_evaluation": [
+    "A.css_zero.qhamming.r5"
+   ]
+  },
+  {
+   "track": "a2a_2q",
+   "ids": [
+    "A.css_zero.qhamming.r6",
+    "A.css_zero.qrm.m6"
+   ],
+   "splits": [
+    "test_in",
+    "val"
+   ],
+   "cross_split": true,
+   "keep": "A.css_zero.qrm.m6",
+   "exclude_from_evaluation": [
+    "A.css_zero.qhamming.r6"
+   ]
+  },
+  {
+   "track": "a2a_2q",
+   "ids": [
+    "A.css_zero.qhamming.r7",
+    "A.css_zero.qrm.m7"
+   ],
+   "splits": [
+    "test_in",
+    "test_in"
+   ],
+   "cross_split": false,
+   "keep": "A.css_zero.qhamming.r7",
+   "exclude_from_evaluation": [
+    "A.css_zero.qrm.m7"
+   ]
+  }
+ ]
+}

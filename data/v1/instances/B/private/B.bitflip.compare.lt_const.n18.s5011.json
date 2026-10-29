@@ -1,0 +1,90 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_bitflip_clean"
+ ],
+ "family": "compare",
+ "hash": "sha256:43241d57f86c9537331e78a837b6c735f44e3bb6bae1b9dc5a8c61349717d434",
+ "id": "B.bitflip.compare.lt_const.n18.s5011",
+ "params": {
+  "c": 66345,
+  "draws": 1,
+  "kind": "lt_const",
+  "n": 18,
+  "seed": 5011
+ },
+ "private": {
+  "added_in": "1.3.0",
+  "aig_ands": 27,
+  "b_min": 36,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 36,
+   "cone_bennett(abc resyn2)": 36
+  },
+  "m": 1,
+  "n": 18,
+  "n_solutions": 66345,
+  "n_solutions_method": "exhaustive",
+  "npn_signature": "5aa5ba1c235e05e51d5bf00171c22d505cc5d2fb",
+  "pack_v2_split": "val",
+  "rejected_draws": {},
+  "size_bin": "M",
+  "solution_fraction_log2": -1.9823,
+  "solution_sparse": false,
+  "strict_structural": {
+   "min_count": 66345,
+   "passed": true,
+   "rule": "min(n_solutions, 2^n - n_solutions) >= 2^(n/2) and every input matters",
+   "threshold_2^(n/2)": 512.0
+  },
+  "subtype": "lt_const"
+ },
+ "public_hash": "sha256:43241d57f86c9537331e78a837b6c735f44e3bb6bae1b9dc5a8c61349717d434",
+ "qbank_version": "1.3.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "compare.lt_const",
+  "ref": "qbank B 1.3.0 parametrised structural sub-type (10-28)",
+  "version": "1"
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": [
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 36
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 54
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof_clifford@inf",
+   "qubit_budget": null
+  }
+ ]
+}

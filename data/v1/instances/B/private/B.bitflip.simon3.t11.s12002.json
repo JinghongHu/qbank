@@ -1,0 +1,216 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_bitflip_clean"
+ ],
+ "family": "simon3",
+ "hash": "sha256:bce34d2ffa52eabac839ef24bd81967d9ba8520fdbfe1ea31944d9c21702c63b",
+ "id": "B.bitflip.simon3.t11.s12002",
+ "params": {
+  "n_trits": 11,
+  "r": 8,
+  "seed": 12002
+ },
+ "private": {
+  "M": [
+   [
+    2,
+    2,
+    1,
+    2,
+    0,
+    2,
+    0,
+    2,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    2,
+    2,
+    1,
+    0,
+    0,
+    2,
+    0,
+    2,
+    1,
+    2
+   ],
+   [
+    2,
+    1,
+    2,
+    2,
+    1,
+    1,
+    1,
+    2,
+    2,
+    1,
+    2
+   ],
+   [
+    2,
+    2,
+    1,
+    2,
+    0,
+    2,
+    0,
+    2,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    2,
+    2,
+    0
+   ],
+   [
+    2,
+    0,
+    0,
+    2,
+    2,
+    0,
+    2,
+    2,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    1
+   ],
+   [
+    1,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    2
+   ],
+   [
+    2,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    2,
+    1,
+    2,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    2,
+    1,
+    0,
+    1,
+    1
+   ]
+  ],
+  "aig_ands": 596,
+  "b_min": 180,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 631,
+   "cone_bennett(abc resyn2)": 180
+  },
+  "m": 22,
+  "n": 22,
+  "n_solutions": null,
+  "n_solutions_method": "multi-output",
+  "size_bin": "L",
+  "solution_fraction_log2": null,
+  "solution_sparse": false
+ },
+ "public_hash": "sha256:bce34d2ffa52eabac839ef24bd81967d9ba8520fdbfe1ea31944d9c21702c63b",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "simon3",
+  "ref": "ternary generalized Simon oracle (QCircuitBench, parametrised)",
+  "version": "1"
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": [
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 180
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 270
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

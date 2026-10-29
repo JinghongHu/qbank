@@ -1,0 +1,4 @@
+
+== surface_rot_d3: n=9 k=1  negative controls: {'wrong_sign_detected_gf2': True, 'wrong_sign_detected_stim': True, 'logical_flip_rejected_gf2': True, 'logical_flip_rejected_stim': True}
+  mqt.qecc.gate_optimal_prep_circuit(SAT)      245.21s {'status': 'ok', 'two_qubit_gates': 8, 'two_qubit_depth': 3, 'verified_gf2': True, 'verified_stim': True, 'pauli_correction': None} 
+written /Users/hjh/PycharmProjects/Qevovle/qbank/phase0/logs/a_smoke_t900_surface_rot_d3.json

@@ -1,0 +1,2316 @@
+[
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.20449208305217326,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 21,
+  "depth": 19,
+  "two_qubit_depth": 10
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.13553079194389284,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 9,
+  "depth": 7,
+  "two_qubit_depth": 5
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.14059074991382658,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 48,
+  "depth": 22,
+  "two_qubit_depth": 16
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.13574791606515646,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 14,
+  "depth": 8,
+  "two_qubit_depth": 7
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.13001608313061297,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 19,
+  "depth": 14,
+  "two_qubit_depth": 11
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.1372017920948565,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 29,
+  "depth": 17,
+  "two_qubit_depth": 15
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.00046591716818511486,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 20,
+  "depth": 18,
+  "two_qubit_depth": 17
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0005081661511212587,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 9,
+  "depth": 7,
+  "two_qubit_depth": 5
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.006894499994814396,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 8,
+  "depth": 7,
+  "two_qubit_depth": 5
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.6527374580036849,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 8,
+  "depth": 6,
+  "two_qubit_depth": 5
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "ok",
+  "time_s": 2.0309513329993933,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 8,
+  "depth": 7,
+  "two_qubit_depth": 6
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.13125645904801786,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 35,
+  "depth": 26,
+  "two_qubit_depth": 15
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.13501149998046458,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 10,
+  "depth": 8,
+  "two_qubit_depth": 6
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.13574270787648857,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 80,
+  "depth": 27,
+  "two_qubit_depth": 20
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.13249674998223782,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 29,
+  "depth": 13,
+  "two_qubit_depth": 11
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.13221037504263222,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 33,
+  "depth": 19,
+  "two_qubit_depth": 16
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.1354897089768201,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 33,
+  "depth": 18,
+  "two_qubit_depth": 16
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.0005786251276731491,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 30,
+  "depth": 26,
+  "two_qubit_depth": 25
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0005337500479072332,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 10,
+  "depth": 8,
+  "two_qubit_depth": 6
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.00392524991184473,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 9,
+  "depth": 6,
+  "two_qubit_depth": 4
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.5733536249026656,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 8,
+  "depth": 7,
+  "two_qubit_depth": 6
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "ok",
+  "time_s": 1.5217192498967052,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 9,
+  "depth": 7,
+  "two_qubit_depth": 6
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.14403866697102785,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 49,
+  "depth": 35,
+  "two_qubit_depth": 20
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.14472383284009993,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 21,
+  "depth": 11,
+  "two_qubit_depth": 9
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.13641425012610853,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 143,
+  "depth": 35,
+  "two_qubit_depth": 26
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.14110670913942158,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 32,
+  "depth": 16,
+  "two_qubit_depth": 15
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.13884870894253254,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 50,
+  "depth": 24,
+  "two_qubit_depth": 21
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.1423547500744462,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 57,
+  "depth": 26,
+  "two_qubit_depth": 24
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.0006373331416398287,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 34,
+  "depth": 23,
+  "two_qubit_depth": 23
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0006389578338712454,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 21,
+  "depth": 11,
+  "two_qubit_depth": 9
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.006066041998565197,
+  "raw_check_gf2": [
+   [],
+   [
+    0,
+    3,
+    4,
+    5,
+    11
+   ]
+  ],
+  "raw_check_stim": [
+   [],
+   [
+    0,
+    3,
+    4,
+    5,
+    11
+   ]
+  ],
+  "pauli_correction": true,
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 18,
+  "depth": 17,
+  "two_qubit_depth": 11
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.5834863749332726,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 19,
+  "depth": 10,
+  "two_qubit_depth": 9
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "ok",
+  "time_s": 1.5526210421230644,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 18,
+  "depth": 11,
+  "two_qubit_depth": 10
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.14500887505710125,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 79,
+  "depth": 47,
+  "two_qubit_depth": 27
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.14119875011965632,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 28,
+  "depth": 12,
+  "two_qubit_depth": 10
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.15365141700021923,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 224,
+  "depth": 42,
+  "two_qubit_depth": 32
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.1489614169113338,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 58,
+  "depth": 24,
+  "two_qubit_depth": 23
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.15477558295242488,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 96,
+  "depth": 46,
+  "two_qubit_depth": 43
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.15450491709634662,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 76,
+  "depth": 35,
+  "two_qubit_depth": 33
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.0007454170845448971,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 57,
+  "depth": 32,
+  "two_qubit_depth": 30
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0007295000832527876,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 28,
+  "depth": 13,
+  "two_qubit_depth": 11
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.007878332864493132,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 22,
+  "depth": 15,
+  "two_qubit_depth": 13
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.5399618330411613,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 22,
+  "depth": 9,
+  "two_qubit_depth": 8
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "ok",
+  "time_s": 1.6481611668132246,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 24,
+  "depth": 12,
+  "two_qubit_depth": 11
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.15831995895132422,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 112,
+  "depth": 67,
+  "two_qubit_depth": 48
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.16735674999654293,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 43,
+  "depth": 17,
+  "two_qubit_depth": 15
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.16712474985979497,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 360,
+  "depth": 52,
+  "two_qubit_depth": 40
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.16654695803299546,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 52,
+  "depth": 27,
+  "two_qubit_depth": 26
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.15730491699650884,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 116,
+  "depth": 47,
+  "two_qubit_depth": 45
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.1638966251630336,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 154,
+  "depth": 63,
+  "two_qubit_depth": 61
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.0008874170016497374,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 70,
+  "depth": 43,
+  "two_qubit_depth": 43
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0008436248172074556,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 57,
+  "depth": 19,
+  "two_qubit_depth": 17
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.012492334004491568,
+  "raw_check_gf2": [
+   [],
+   [
+    2,
+    5,
+    7,
+    9,
+    10,
+    14,
+    15,
+    16,
+    17
+   ]
+  ],
+  "raw_check_stim": [
+   [],
+   [
+    2,
+    5,
+    7,
+    9,
+    10,
+    14,
+    15,
+    16,
+    17
+   ]
+  ],
+  "pauli_correction": true,
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 33,
+  "depth": 24,
+  "two_qubit_depth": 17
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.5872984160669148,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 27,
+  "depth": 11,
+  "two_qubit_depth": 10
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "ok",
+  "time_s": 1.7994015000294894,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 45,
+  "depth": 32,
+  "two_qubit_depth": 31
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.17600595904514194,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 171,
+  "depth": 88,
+  "two_qubit_depth": 66
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.18048141710460186,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 77,
+  "depth": 23,
+  "two_qubit_depth": 21
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.18515308294445276,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 528,
+  "depth": 62,
+  "two_qubit_depth": 48
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.18180587491951883,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 73,
+  "depth": 38,
+  "two_qubit_depth": 37
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.1813013751525432,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 142,
+  "depth": 62,
+  "two_qubit_depth": 60
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.18472095811739564,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 279,
+  "depth": 98,
+  "two_qubit_depth": 96
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.0012243748642504215,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 99,
+  "depth": 70,
+  "two_qubit_depth": 69
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0012002920266240835,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 77,
+  "depth": 23,
+  "two_qubit_depth": 21
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.026656082831323147,
+  "raw_check_gf2": [
+   [],
+   [
+    1,
+    3,
+    4,
+    5,
+    14,
+    16,
+    17,
+    19,
+    21
+   ]
+  ],
+  "raw_check_stim": [
+   [],
+   [
+    1,
+    3,
+    4,
+    5,
+    14,
+    16,
+    17,
+    19,
+    21
+   ]
+  ],
+  "pauli_correction": true,
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 54,
+  "depth": 39,
+  "two_qubit_depth": 27
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.6704302500002086,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 51,
+  "depth": 23,
+  "two_qubit_depth": 22
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "ok",
+  "time_s": 2.0097685831133276,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 66,
+  "depth": 43,
+  "two_qubit_depth": 42
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.17572499997913837,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 130,
+  "depth": 52,
+  "two_qubit_depth": 35
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.17759608291089535,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 48,
+  "depth": 16,
+  "two_qubit_depth": 14
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.17273862496949732,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 624,
+  "depth": 67,
+  "two_qubit_depth": 52
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.16801766701973975,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 99,
+  "depth": 26,
+  "two_qubit_depth": 25
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.16998100001364946,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 139,
+  "depth": 45,
+  "two_qubit_depth": 41
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.17606716696172953,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 132,
+  "depth": 41,
+  "two_qubit_depth": 39
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.0012586249504238367,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 98,
+  "depth": 48,
+  "two_qubit_depth": 47
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0012686660047620535,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 48,
+  "depth": 16,
+  "two_qubit_depth": 14
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.019866917049512267,
+  "raw_check_gf2": [
+   [],
+   [
+    3,
+    6,
+    21
+   ]
+  ],
+  "raw_check_stim": [
+   [],
+   [
+    3,
+    6,
+    21
+   ]
+  ],
+  "pauli_correction": true,
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 32,
+  "depth": 14,
+  "two_qubit_depth": 9
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.5783846250269562,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 28,
+  "depth": 13,
+  "two_qubit_depth": 12
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "ok",
+  "time_s": 1.747975624864921,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 32,
+  "depth": 18,
+  "two_qubit_depth": 17
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.15103054093196988,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 83,
+  "depth": 49,
+  "two_qubit_depth": 36
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.14977279189042747,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 32,
+  "depth": 12,
+  "two_qubit_depth": 10
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.15807070792652667,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 288,
+  "depth": 47,
+  "two_qubit_depth": 36
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.14681216701865196,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 46,
+  "depth": 21,
+  "two_qubit_depth": 20
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.15002404199913144,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 78,
+  "depth": 32,
+  "two_qubit_depth": 30
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.14994904096238315,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 109,
+  "depth": 43,
+  "two_qubit_depth": 41
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.0008997500408440828,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 52,
+  "depth": 30,
+  "two_qubit_depth": 30
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0007382088806480169,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 32,
+  "depth": 14,
+  "two_qubit_depth": 12
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.009191249962896109,
+  "raw_check_gf2": [
+   [],
+   [
+    1,
+    4,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    14
+   ]
+  ],
+  "raw_check_stim": [
+   [],
+   [
+    1,
+    4,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    14
+   ]
+  ],
+  "pauli_correction": true,
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 25,
+  "depth": 14,
+  "two_qubit_depth": 7
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.5576941671315581,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 23,
+  "depth": 8,
+  "two_qubit_depth": 7
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "ok",
+  "time_s": 1.6668807498645037,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 32,
+  "depth": 22,
+  "two_qubit_depth": 21
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 1.0350991250015795,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 1166,
+  "depth": 408,
+  "two_qubit_depth": 346
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 1.0713141248561442,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 412,
+  "depth": 50,
+  "two_qubit_depth": 48
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "timeout",
+  "time_s": 120.0077963329386
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 1.0857134170364588,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 482,
+  "depth": 232,
+  "two_qubit_depth": 231
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 1.0370799580123276,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 1190,
+  "depth": 395,
+  "two_qubit_depth": 393
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 1.0480404580011964,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 2169,
+  "depth": 462,
+  "two_qubit_depth": 460
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.011019541881978512,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 558,
+  "depth": 275,
+  "two_qubit_depth": 275
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.011147124925628304,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 502,
+  "depth": 59,
+  "two_qubit_depth": 57
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 1.153608749853447,
+  "raw_check_gf2": [
+   [],
+   [
+    4,
+    9,
+    10,
+    16,
+    18,
+    20,
+    21,
+    23,
+    29,
+    32,
+    34,
+    35,
+    36,
+    37,
+    38,
+    41,
+    42,
+    45,
+    46,
+    47,
+    48,
+    52,
+    53,
+    55,
+    56,
+    57,
+    62,
+    63,
+    64,
+    68,
+    70
+   ]
+  ],
+  "raw_check_stim": [
+   [],
+   [
+    4,
+    9,
+    10,
+    16,
+    18,
+    20,
+    21,
+    23,
+    29,
+    32,
+    34,
+    35,
+    36,
+    37,
+    38,
+    41,
+    42,
+    45,
+    46,
+    47,
+    48,
+    52,
+    53,
+    55,
+    56,
+    57,
+    62,
+    63,
+    64,
+    68,
+    70
+   ]
+  ],
+  "pauli_correction": true,
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 215,
+  "depth": 104,
+  "two_qubit_depth": 71
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.8731140419840813,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 150,
+  "depth": 42,
+  "two_qubit_depth": 41
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "ok",
+  "time_s": 5.719025250058621,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 400,
+  "depth": 203,
+  "two_qubit_depth": 202
+ }
+]

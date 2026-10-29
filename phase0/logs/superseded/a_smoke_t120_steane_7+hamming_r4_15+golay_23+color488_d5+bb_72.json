@@ -1,0 +1,157 @@
+[
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.19582370901480317,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 21,
+  "depth": 19,
+  "two_qubit_depth": 10
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "error",
+  "error": "RuntimeError: No known decomposition from TK1 to available gateset.",
+  "tb": "Traceback (most recent call last):\n  File \"/Users/hjh/PycharmProjects/Qevovle/qbank/phase0/scripts/a_smoke.py\", line 426, in _worker\n    out = TOOLS[tool_name](code, stabs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/hjh/PycharmProjects/Qevovle/qbank/phase0/scripts/a_smoke.py\", line 399, in tool_pytket_resynth\n    AutoRebase({OpType.CX, OpType.H, OpType.S, OpType.Sdg, OpType.X, OpType.Y, OpType.Z, OpType.SX, OpType.SXdg})]).apply(tk)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No known decomposition from TK1 to available gateset.\n"
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.31446604197844863,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 79,
+  "depth": 47,
+  "two_qubit_depth": 27
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "error",
+  "error": "RuntimeError: No known decomposition from TK1 to available gateset.",
+  "tb": "Traceback (most recent call last):\n  File \"/Users/hjh/PycharmProjects/Qevovle/qbank/phase0/scripts/a_smoke.py\", line 426, in _worker\n    out = TOOLS[tool_name](code, stabs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/hjh/PycharmProjects/Qevovle/qbank/phase0/scripts/a_smoke.py\", line 399, in tool_pytket_resynth\n    AutoRebase({OpType.CX, OpType.H, OpType.S, OpType.Sdg, OpType.X, OpType.Y, OpType.Z, OpType.SX, OpType.SXdg})]).apply(tk)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No known decomposition from TK1 to available gateset.\n"
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.3473494159989059,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 171,
+  "depth": 88,
+  "two_qubit_depth": 66
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "error",
+  "error": "RuntimeError: No known decomposition from TK1 to available gateset.",
+  "tb": "Traceback (most recent call last):\n  File \"/Users/hjh/PycharmProjects/Qevovle/qbank/phase0/scripts/a_smoke.py\", line 426, in _worker\n    out = TOOLS[tool_name](code, stabs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/hjh/PycharmProjects/Qevovle/qbank/phase0/scripts/a_smoke.py\", line 399, in tool_pytket_resynth\n    AutoRebase({OpType.CX, OpType.H, OpType.S, OpType.Sdg, OpType.X, OpType.Y, OpType.Z, OpType.SX, OpType.SXdg})]).apply(tk)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No known decomposition from TK1 to available gateset.\n"
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.3158329580910504,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 83,
+  "depth": 49,
+  "two_qubit_depth": 36
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "error",
+  "error": "RuntimeError: No known decomposition from TK1 to available gateset.",
+  "tb": "Traceback (most recent call last):\n  File \"/Users/hjh/PycharmProjects/Qevovle/qbank/phase0/scripts/a_smoke.py\", line 426, in _worker\n    out = TOOLS[tool_name](code, stabs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/hjh/PycharmProjects/Qevovle/qbank/phase0/scripts/a_smoke.py\", line 399, in tool_pytket_resynth\n    AutoRebase({OpType.CX, OpType.H, OpType.S, OpType.Sdg, OpType.X, OpType.Y, OpType.Z, OpType.SX, OpType.SXdg})]).apply(tk)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No known decomposition from TK1 to available gateset.\n"
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 1.0170172499492764,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 1166,
+  "depth": 408,
+  "two_qubit_depth": 346
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "error",
+  "error": "RuntimeError: No known decomposition from TK1 to available gateset.",
+  "tb": "Traceback (most recent call last):\n  File \"/Users/hjh/PycharmProjects/Qevovle/qbank/phase0/scripts/a_smoke.py\", line 426, in _worker\n    out = TOOLS[tool_name](code, stabs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/hjh/PycharmProjects/Qevovle/qbank/phase0/scripts/a_smoke.py\", line 399, in tool_pytket_resynth\n    AutoRebase({OpType.CX, OpType.H, OpType.S, OpType.Sdg, OpType.X, OpType.Y, OpType.Z, OpType.SX, OpType.SXdg})]).apply(tk)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No known decomposition from TK1 to available gateset.\n"
+ }
+]

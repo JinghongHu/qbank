@@ -1,0 +1,167 @@
+{
+ "amplitudes": [
+  [
+   "678940",
+   0.12139464110402151,
+   0.0
+  ],
+  [
+   "1315388",
+   -0.6212491193389803,
+   0.018863469648551984
+  ],
+  [
+   "2640513",
+   0.09639879652749006,
+   -0.2149463630570301
+  ],
+  [
+   "3719802",
+   0.7156595495542064,
+   0.0316316908457724
+  ],
+  [
+   "6552682",
+   0.11893057337994921,
+   -0.025538858572935193
+  ],
+  [
+   "7084982",
+   -0.12436658231510181,
+   0.00542763934593138
+  ]
+ ],
+ "format": "qbank.public/1",
+ "gate_set": [
+  "h",
+  "x",
+  "y",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "sx",
+  "sxdg",
+  "rx",
+  "ry",
+  "rz",
+  "p",
+  "u",
+  "cx",
+  "cz"
+ ],
+ "hash": "sha256:e3294bfb452212290ec68700bad7419a22aee72f6e7683a76af1e056ad47b856",
+ "n": 23,
+ "n_nonzero": 6,
+ "output": "circuit on exactly n qubits starting from |0...0>; qubit q is bit q of the basis index (little-endian); global phase is irrelevant",
+ "task": "state_prep",
+ "tracks": {
+  "cx": {
+   "contract": "state_exact",
+   "metric": "cx_count",
+   "tolerance": 1e-09
+  },
+  "cx@F0.99": {
+   "contract": "state_approx",
+   "metric": "cx_count",
+   "min_fidelity": 0.99
+  },
+  "depth2q@line": {
+   "contract": "state_exact",
+   "coupling_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     15,
+     16
+    ],
+    [
+     16,
+     17
+    ],
+    [
+     17,
+     18
+    ],
+    [
+     18,
+     19
+    ],
+    [
+     19,
+     20
+    ],
+    [
+     20,
+     21
+    ],
+    [
+     21,
+     22
+    ]
+   ],
+   "metric": "two_qubit_depth",
+   "output_map_allowed": true,
+   "tolerance": 1e-09
+  }
+ }
+}

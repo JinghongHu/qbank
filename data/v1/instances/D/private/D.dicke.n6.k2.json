@@ -1,0 +1,64 @@
+{
+ "category": "D",
+ "contracts": [
+  "state_exact"
+ ],
+ "family": "dicke",
+ "hash": "sha256:b0a91eac897eaae4ba1a9f48dda2aa02271f2739dc50b44c726442273abc2fbb",
+ "id": "D.dicke.n6.k2",
+ "params": {
+  "k": 2,
+  "n": 6
+ },
+ "private": {
+  "nonzeros": 15,
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:b0a91eac897eaae4ba1a9f48dda2aa02271f2739dc50b44c726442273abc2fbb",
+ "qbank_version": "1.0.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "dicke",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "state_prep",
+ "tracks": [
+  {
+   "contract": "state_exact",
+   "metric": "cx_count",
+   "name": "cx",
+   "tolerance": 1e-09
+  },
+  {
+   "contract": "state_exact",
+   "coupling_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "metric": "two_qubit_depth",
+   "name": "depth2q@line",
+   "output_map_allowed": true,
+   "tolerance": 1e-09
+  }
+ ]
+}

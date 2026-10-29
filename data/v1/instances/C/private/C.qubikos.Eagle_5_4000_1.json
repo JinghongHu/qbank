@@ -1,0 +1,50 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_equiv"
+ ],
+ "family": "qubikos",
+ "hash": "sha256:386bb14ea8b3ed72957fac676d00902f52ea772d8ee4dfd757e729e480a3b74c",
+ "id": "C.qubikos.Eagle_5_4000_1",
+ "params": {
+  "device": "Eagle",
+  "n": 127,
+  "serial": 1,
+  "two_qubit_gates": 4000
+ },
+ "private": {
+  "device": "Eagle (QUBIKOS coupling file)",
+  "known_optimal": {
+   "source": "QUBIKOS construction (arXiv:2502.08839); no witness shipped",
+   "swaps": 5,
+   "verified_by_qbank": false
+  },
+  "redistributable": false,
+  "size_bin": "XL"
+ },
+ "public_hash": "sha256:386bb14ea8b3ed72957fac676d00902f52ea772d8ee4dfd757e729e480a3b74c",
+ "qbank_version": "1.1.0",
+ "source": {
+  "file": "examples/Eagle/Eagle_5_4000_1.qasm",
+  "kind": "external",
+  "license": "none (all rights reserved)",
+  "name": "QUBIKOS",
+  "redistributable": false,
+  "ref": "arXiv:2502.08839; github.com/ping-shuo-hao/qubikos",
+  "sha256": "cdecfcf3eb6b5a1e4fce84114523fa65ba0cbc751653766a6565912483a07be3",
+  "version": "442a994884a6a5fd37725f59b8b42c90fd1be387"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  }
+ ]
+}

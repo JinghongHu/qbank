@@ -1,0 +1,603 @@
+=== numpy  (2026-09-25T21:33:50Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting numpy
+  Using cached numpy-2.4.6-cp311-cp311-macosx_14_0_arm64.whl (5.5 MB)
+Installing collected packages: numpy
+Successfully installed numpy-2.4.6
+OK   numpy
+=== scipy  (2026-09-25T21:33:53Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting scipy
+  Using cached scipy-1.17.1-cp311-cp311-macosx_14_0_arm64.whl (20.3 MB)
+Requirement already satisfied: numpy<2.7,>=1.26.4 in ./.venv/lib/python3.11/site-packages (from scipy) (2.4.6)
+Installing collected packages: scipy
+Successfully installed scipy-1.17.1
+OK   scipy
+=== networkx  (2026-09-25T21:33:56Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting networkx
+  Using cached networkx-3.6.1-py3-none-any.whl (2.1 MB)
+Installing collected packages: networkx
+Successfully installed networkx-3.6.1
+OK   networkx
+=== pyyaml  (2026-09-25T21:33:58Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pyyaml
+  Downloading pyyaml-6.0.3-cp311-cp311-macosx_11_0_arm64.whl (175 kB)
+Installing collected packages: pyyaml
+Successfully installed pyyaml-6.0.3
+OK   pyyaml
+=== jsonschema  (2026-09-25T21:34:00Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting jsonschema
+  Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+Collecting attrs>=22.2.0 (from jsonschema)
+  Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema)
+  Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Collecting referencing>=0.28.4 (from jsonschema)
+  Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema)
+  Downloading rpds_py-2026.6.3-cp311-cp311-macosx_11_0_arm64.whl (345 kB)
+Collecting typing-extensions>=4.4.0 (from referencing>=0.28.4->jsonschema)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Installing collected packages: typing-extensions, rpds-py, attrs, referencing, jsonschema-specifications, jsonschema
+
+Successfully installed attrs-26.1.0 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 referencing-0.37.0 rpds-py-2026.6.3 typing-extensions-4.16.0
+OK   jsonschema
+=== pytest  (2026-09-25T21:34:06Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pytest
+  Using cached pytest-9.1.1-py3-none-any.whl (386 kB)
+Collecting iniconfig>=1.0.1 (from pytest)
+  Using cached iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+Requirement already satisfied: packaging>=22 in ./.venv/lib/python3.11/site-packages (from pytest) (26.3)
+Collecting pluggy<2,>=1.5 (from pytest)
+  Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+Collecting pygments>=2.7.2 (from pytest)
+  Using cached pygments-2.21.0-py3-none-any.whl (1.3 MB)
+Installing collected packages: pygments, pluggy, iniconfig, pytest
+
+Successfully installed iniconfig-2.3.0 pluggy-1.6.0 pygments-2.21.0 pytest-9.1.1
+OK   pytest
+=== pandas  (2026-09-25T21:34:10Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pandas
+  Downloading pandas-3.0.6-cp311-cp311-macosx_11_0_arm64.whl (10.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.0/10.0 MB 5.1 MB/s  0:00:02
+Requirement already satisfied: numpy>=1.26.0 in ./.venv/lib/python3.11/site-packages (from pandas) (2.4.6)
+Collecting python-dateutil>=2.8.2 (from pandas)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+  Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, python-dateutil, pandas
+
+Successfully installed pandas-3.0.6 python-dateutil-2.9.0.post0 six-1.17.0
+OK   pandas
+=== tqdm  (2026-09-25T21:34:18Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting tqdm
+  Using cached tqdm-4.70.1-py3-none-any.whl (80 kB)
+Installing collected packages: tqdm
+Successfully installed tqdm-4.70.1
+OK   tqdm
+=== qiskit  (2026-09-25T21:34:19Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting qiskit
+  Using cached qiskit-2.5.2-cp310-abi3-macosx_11_0_arm64.whl (8.7 MB)
+Requirement already satisfied: numpy<3,>=2.0 in ./.venv/lib/python3.11/site-packages (from qiskit) (2.4.6)
+Requirement already satisfied: scipy>=1.14 in ./.venv/lib/python3.11/site-packages (from qiskit) (1.17.1)
+Collecting rustworkx>=0.15.0 (from qiskit)
+  Using cached rustworkx-0.18.1-cp310-abi3-macosx_11_0_arm64.whl (2.1 MB)
+Collecting dill>=0.3 (from qiskit)
+  Using cached dill-0.4.1-py3-none-any.whl (120 kB)
+Collecting stevedore>=3.0.0 (from qiskit)
+  Using cached stevedore-5.9.1-py3-none-any.whl (54 kB)
+Requirement already satisfied: typing-extensions in ./.venv/lib/python3.11/site-packages (from qiskit) (4.16.0)
+Installing collected packages: stevedore, rustworkx, dill, qiskit
+
+Successfully installed dill-0.4.1 qiskit-2.5.2 rustworkx-0.18.1 stevedore-5.9.1
+OK   qiskit
+=== qiskit-qasm3-import  (2026-09-25T21:34:23Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting qiskit-qasm3-import
+  Using cached qiskit_qasm3_import-0.6.0-py3-none-any.whl (29 kB)
+Requirement already satisfied: qiskit>=0.37.0 in ./.venv/lib/python3.11/site-packages (from qiskit-qasm3-import) (2.5.2)
+Collecting openqasm3<2.0,>=0.4 (from openqasm3[parser]<2.0,>=0.4->qiskit-qasm3-import)
+  Using cached openqasm3-1.0.1-py3-none-any.whl (541 kB)
+Collecting antlr4_python3_runtime<4.14,>=4.7 (from openqasm3[parser]<2.0,>=0.4->qiskit-qasm3-import)
+  Using cached antlr4_python3_runtime-4.13.2-py3-none-any.whl (144 kB)
+Requirement already satisfied: numpy<3,>=2.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=0.37.0->qiskit-qasm3-import) (2.4.6)
+Requirement already satisfied: scipy>=1.14 in ./.venv/lib/python3.11/site-packages (from qiskit>=0.37.0->qiskit-qasm3-import) (1.17.1)
+Requirement already satisfied: rustworkx>=0.15.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=0.37.0->qiskit-qasm3-import) (0.18.1)
+Requirement already satisfied: dill>=0.3 in ./.venv/lib/python3.11/site-packages (from qiskit>=0.37.0->qiskit-qasm3-import) (0.4.1)
+Requirement already satisfied: stevedore>=3.0.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=0.37.0->qiskit-qasm3-import) (5.9.1)
+Requirement already satisfied: typing-extensions in ./.venv/lib/python3.11/site-packages (from qiskit>=0.37.0->qiskit-qasm3-import) (4.16.0)
+Installing collected packages: openqasm3, antlr4_python3_runtime, qiskit-qasm3-import
+
+Successfully installed antlr4_python3_runtime-4.13.2 openqasm3-1.0.1 qiskit-qasm3-import-0.6.0
+OK   qiskit-qasm3-import
+=== stim  (2026-09-25T21:34:26Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting stim
+  Using cached stim-1.16.0-cp311-cp311-macosx_11_0_arm64.whl (1.9 MB)
+Requirement already satisfied: numpy in ./.venv/lib/python3.11/site-packages (from stim) (2.4.6)
+Installing collected packages: stim
+Successfully installed stim-1.16.0
+OK   stim
+=== mqt.qmap  (2026-09-25T21:34:31Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting mqt.qmap
+  Downloading mqt_qmap-3.10.0-cp311-abi3-macosx_13_0_arm64.whl (10.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 6.3 MB/s  0:00:01
+Collecting mqt-core~=3.10.0 (from mqt.qmap)
+  Downloading mqt_core-3.10.0-cp311-abi3-macosx_13_0_arm64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 28.8 MB/s  0:00:00
+Collecting nanobind-backend>=1 (from mqt.qmap)
+  Downloading nanobind_backend-1.0.0-cp311-cp311-macosx_11_0_arm64.whl (76 kB)
+Requirement already satisfied: qiskit>=2.1 in ./.venv/lib/python3.11/site-packages (from qiskit[qasm3-import]>=2.1->mqt.qmap) (2.5.2)
+Requirement already satisfied: rustworkx>=0.16 in ./.venv/lib/python3.11/site-packages (from rustworkx[all]>=0.16->mqt.qmap) (0.18.1)
+Requirement already satisfied: numpy<3,>=2.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=2.1->qiskit[qasm3-import]>=2.1->mqt.qmap) (2.4.6)
+Requirement already satisfied: scipy>=1.14 in ./.venv/lib/python3.11/site-packages (from qiskit>=2.1->qiskit[qasm3-import]>=2.1->mqt.qmap) (1.17.1)
+Requirement already satisfied: dill>=0.3 in ./.venv/lib/python3.11/site-packages (from qiskit>=2.1->qiskit[qasm3-import]>=2.1->mqt.qmap) (0.4.1)
+Requirement already satisfied: stevedore>=3.0.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=2.1->qiskit[qasm3-import]>=2.1->mqt.qmap) (5.9.1)
+Requirement already satisfied: typing-extensions in ./.venv/lib/python3.11/site-packages (from qiskit>=2.1->qiskit[qasm3-import]>=2.1->mqt.qmap) (4.16.0)
+Requirement already satisfied: qiskit-qasm3-import>=0.1.0 in ./.venv/lib/python3.11/site-packages (from qiskit[qasm3-import]>=2.1->mqt.qmap) (0.6.0)
+Requirement already satisfied: openqasm3<2.0,>=0.4 in ./.venv/lib/python3.11/site-packages (from openqasm3[parser]<2.0,>=0.4->qiskit-qasm3-import>=0.1.0->qiskit[qasm3-import]>=2.1->mqt.qmap) (1.0.1)
+Requirement already satisfied: antlr4_python3_runtime<4.14,>=4.7 in ./.venv/lib/python3.11/site-packages (from openqasm3[parser]<2.0,>=0.4->qiskit-qasm3-import>=0.1.0->qiskit[qasm3-import]>=2.1->mqt.qmap) (4.13.2)
+Collecting matplotlib>=3.0 (from rustworkx[all]>=0.16->mqt.qmap)
+  Using cached matplotlib-3.11.2-cp311-cp311-macosx_11_0_arm64.whl (9.3 MB)
+Collecting pillow>=5.4 (from rustworkx[all]>=0.16->mqt.qmap)
+  Using cached pillow-12.3.0-cp311-cp311-macosx_11_0_arm64.whl (4.8 MB)
+Collecting contourpy>=1.0.1 (from matplotlib>=3.0->rustworkx[all]>=0.16->mqt.qmap)
+  Using cached contourpy-1.3.3-cp311-cp311-macosx_11_0_arm64.whl (270 kB)
+Collecting cycler>=0.10 (from matplotlib>=3.0->rustworkx[all]>=0.16->mqt.qmap)
+  Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting fonttools>=4.28.2 (from matplotlib>=3.0->rustworkx[all]>=0.16->mqt.qmap)
+  Using cached fonttools-4.66.0-cp311-cp311-macosx_10_9_universal2.whl (3.1 MB)
+Collecting kiwisolver>=1.3.1 (from matplotlib>=3.0->rustworkx[all]>=0.16->mqt.qmap)
+  Using cached kiwisolver-1.5.1-cp311-cp311-macosx_11_0_arm64.whl (64 kB)
+Requirement already satisfied: packaging>=20.0 in ./.venv/lib/python3.11/site-packages (from matplotlib>=3.0->rustworkx[all]>=0.16->mqt.qmap) (26.3)
+Collecting pyparsing>=3 (from matplotlib>=3.0->rustworkx[all]>=0.16->mqt.qmap)
+  Using cached pyparsing-3.3.3-py3-none-any.whl (126 kB)
+Requirement already satisfied: python-dateutil>=2.7 in ./.venv/lib/python3.11/site-packages (from matplotlib>=3.0->rustworkx[all]>=0.16->mqt.qmap) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in ./.venv/lib/python3.11/site-packages (from python-dateutil>=2.7->matplotlib>=3.0->rustworkx[all]>=0.16->mqt.qmap) (1.17.0)
+Installing collected packages: pyparsing, pillow, nanobind-backend, kiwisolver, fonttools, cycler, contourpy, mqt-core, matplotlib, mqt.qmap
+
+Successfully installed contourpy-1.3.3 cycler-0.12.1 fonttools-4.66.0 kiwisolver-1.5.1 matplotlib-3.11.2 mqt-core-3.10.0 mqt.qmap-3.10.0 nanobind-backend-1.0.0 pillow-12.3.0 pyparsing-3.3.3
+OK   mqt.qmap
+=== mqt.qcec  (2026-09-25T21:34:43Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting mqt.qcec
+  Downloading mqt_qcec-3.10.0-cp311-abi3-macosx_13_0_arm64.whl (263 kB)
+Requirement already satisfied: mqt-core~=3.10.0 in ./.venv/lib/python3.11/site-packages (from mqt.qcec) (3.10.0)
+Requirement already satisfied: nanobind-backend>=1 in ./.venv/lib/python3.11/site-packages (from mqt.qcec) (1.0.0)
+Requirement already satisfied: numpy>=1.24 in ./.venv/lib/python3.11/site-packages (from mqt.qcec) (2.4.6)
+Installing collected packages: mqt.qcec
+Successfully installed mqt.qcec-3.10.0
+OK   mqt.qcec
+=== mqt.qecc  (2026-09-25T21:34:46Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting mqt.qecc
+  Using cached mqt_qecc-2.0.0-py3-none-any.whl (667 kB)
+Collecting bposd>=1.6 (from mqt.qecc)
+  Using cached bposd-2.1-py3-none-any.whl (16 kB)
+Collecting ldpc>=2.3.10 (from mqt.qecc)
+  Using cached ldpc-2.4.1-cp311-cp311-macosx_11_0_arm64.whl (1.8 MB)
+Requirement already satisfied: matplotlib>=3.7.1 in ./.venv/lib/python3.11/site-packages (from mqt.qecc) (3.11.2)
+Collecting multiprocess>=0.70.17 (from mqt.qecc)
+  Using cached multiprocess-0.70.19-py311-none-any.whl (144 kB)
+Requirement already satisfied: networkx>=3.4.2 in ./.venv/lib/python3.11/site-packages (from mqt.qecc) (3.6.1)
+Collecting numba>=0.57 (from mqt.qecc)
+  Using cached numba-0.67.0-cp311-cp311-macosx_12_0_arm64.whl (2.7 MB)
+Requirement already satisfied: numpy>=1.24.1 in ./.venv/lib/python3.11/site-packages (from mqt.qecc) (2.4.6)
+Collecting pymatching>=2.2.2 (from mqt.qecc)
+  Using cached pymatching-2.4.0-cp311-cp311-macosx_11_0_arm64.whl (381 kB)
+Collecting qecsim>=1.0b9 (from mqt.qecc)
+  Using cached qecsim-1.0b9-py3-none-any.whl (148 kB)
+Requirement already satisfied: qiskit>=1.0.0 in ./.venv/lib/python3.11/site-packages (from qiskit[qasm3-import]>=1.0.0->mqt.qecc) (2.5.2)
+Requirement already satisfied: scipy>=1.15.2 in ./.venv/lib/python3.11/site-packages (from mqt.qecc) (1.17.1)
+Collecting sinter>=1.14.0 (from mqt.qecc)
+  Using cached sinter-1.16.0-py3-none-any.whl
+Requirement already satisfied: stim>=1.14.0 in ./.venv/lib/python3.11/site-packages (from mqt.qecc) (1.16.0)
+Requirement already satisfied: tqdm>=4.66.2 in ./.venv/lib/python3.11/site-packages (from mqt.qecc) (4.70.1)
+Collecting z3-solver>=4.15.3 (from mqt.qecc)
+  Using cached z3_solver-5.1.0.0-py3-none-macosx_13_0_arm64.whl (38.8 MB)
+Requirement already satisfied: pytest in ./.venv/lib/python3.11/site-packages (from ldpc>=2.3.10->mqt.qecc) (9.1.1)
+Requirement already satisfied: contourpy>=1.0.1 in ./.venv/lib/python3.11/site-packages (from matplotlib>=3.7.1->mqt.qecc) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in ./.venv/lib/python3.11/site-packages (from matplotlib>=3.7.1->mqt.qecc) (0.12.1)
+Requirement already satisfied: fonttools>=4.28.2 in ./.venv/lib/python3.11/site-packages (from matplotlib>=3.7.1->mqt.qecc) (4.66.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in ./.venv/lib/python3.11/site-packages (from matplotlib>=3.7.1->mqt.qecc) (1.5.1)
+Requirement already satisfied: packaging>=20.0 in ./.venv/lib/python3.11/site-packages (from matplotlib>=3.7.1->mqt.qecc) (26.3)
+Requirement already satisfied: pillow>=9 in ./.venv/lib/python3.11/site-packages (from matplotlib>=3.7.1->mqt.qecc) (12.3.0)
+Requirement already satisfied: pyparsing>=3 in ./.venv/lib/python3.11/site-packages (from matplotlib>=3.7.1->mqt.qecc) (3.3.3)
+Requirement already satisfied: python-dateutil>=2.7 in ./.venv/lib/python3.11/site-packages (from matplotlib>=3.7.1->mqt.qecc) (2.9.0.post0)
+Requirement already satisfied: dill>=0.4.1 in ./.venv/lib/python3.11/site-packages (from multiprocess>=0.70.17->mqt.qecc) (0.4.1)
+Collecting llvmlite<0.50,>=0.49.0dev0 (from numba>=0.57->mqt.qecc)
+  Using cached llvmlite-0.49.0-cp311-cp311-macosx_12_0_arm64.whl (40.5 MB)
+Requirement already satisfied: six>=1.5 in ./.venv/lib/python3.11/site-packages (from python-dateutil>=2.7->matplotlib>=3.7.1->mqt.qecc) (1.17.0)
+Collecting click>=7 (from qecsim>=1.0b9->mqt.qecc)
+  Using cached click-8.5.0-py3-none-any.whl (125 kB)
+Collecting mpmath>=1 (from qecsim>=1.0b9->mqt.qecc)
+  Using cached mpmath-1.4.1-py3-none-any.whl (567 kB)
+Requirement already satisfied: rustworkx>=0.15.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=1.0.0->qiskit[qasm3-import]>=1.0.0->mqt.qecc) (0.18.1)
+Requirement already satisfied: stevedore>=3.0.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=1.0.0->qiskit[qasm3-import]>=1.0.0->mqt.qecc) (5.9.1)
+Requirement already satisfied: typing-extensions in ./.venv/lib/python3.11/site-packages (from qiskit>=1.0.0->qiskit[qasm3-import]>=1.0.0->mqt.qecc) (4.16.0)
+Requirement already satisfied: qiskit-qasm3-import>=0.1.0 in ./.venv/lib/python3.11/site-packages (from qiskit[qasm3-import]>=1.0.0->mqt.qecc) (0.6.0)
+Requirement already satisfied: openqasm3<2.0,>=0.4 in ./.venv/lib/python3.11/site-packages (from openqasm3[parser]<2.0,>=0.4->qiskit-qasm3-import>=0.1.0->qiskit[qasm3-import]>=1.0.0->mqt.qecc) (1.0.1)
+Requirement already satisfied: antlr4_python3_runtime<4.14,>=4.7 in ./.venv/lib/python3.11/site-packages (from openqasm3[parser]<2.0,>=0.4->qiskit-qasm3-import>=0.1.0->qiskit[qasm3-import]>=1.0.0->mqt.qecc) (4.13.2)
+Requirement already satisfied: iniconfig>=1.0.1 in ./.venv/lib/python3.11/site-packages (from pytest->ldpc>=2.3.10->mqt.qecc) (2.3.0)
+Requirement already satisfied: pluggy<2,>=1.5 in ./.venv/lib/python3.11/site-packages (from pytest->ldpc>=2.3.10->mqt.qecc) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in ./.venv/lib/python3.11/site-packages (from pytest->ldpc>=2.3.10->mqt.qecc) (2.21.0)
+Installing collected packages: z3-solver, multiprocess, mpmath, llvmlite, click, qecsim, numba, sinter, pymatching, ldpc, bposd, mqt.qecc
+
+Successfully installed bposd-2.1 click-8.5.0 ldpc-2.4.1 llvmlite-0.49.0 mpmath-1.4.1 mqt.qecc-2.0.0 multiprocess-0.70.19 numba-0.67.0 pymatching-2.4.0 qecsim-1.0b9 sinter-1.16.0 z3-solver-5.1.0.0
+OK   mqt.qecc
+=== mqt.bench  (2026-09-25T21:34:56Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting mqt.bench
+  Downloading mqt_bench-2.3.0-py3-none-any.whl (84 kB)
+Requirement already satisfied: networkx>=2.8.8 in ./.venv/lib/python3.11/site-packages (from mqt.bench) (3.6.1)
+Requirement already satisfied: numpy>=1.24 in ./.venv/lib/python3.11/site-packages (from mqt.bench) (2.4.6)
+Requirement already satisfied: qiskit>=2.1 in ./.venv/lib/python3.11/site-packages (from qiskit[qasm3-import]>=2.1->mqt.bench) (2.5.2)
+Collecting scikit-learn>=1.5.2 (from mqt.bench)
+  Using cached scikit_learn-1.9.1-cp311-cp311-macosx_12_0_arm64.whl (8.3 MB)
+Requirement already satisfied: scipy>=1.14 in ./.venv/lib/python3.11/site-packages (from qiskit>=2.1->qiskit[qasm3-import]>=2.1->mqt.bench) (1.17.1)
+Requirement already satisfied: rustworkx>=0.15.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=2.1->qiskit[qasm3-import]>=2.1->mqt.bench) (0.18.1)
+Requirement already satisfied: dill>=0.3 in ./.venv/lib/python3.11/site-packages (from qiskit>=2.1->qiskit[qasm3-import]>=2.1->mqt.bench) (0.4.1)
+Requirement already satisfied: stevedore>=3.0.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=2.1->qiskit[qasm3-import]>=2.1->mqt.bench) (5.9.1)
+Requirement already satisfied: typing-extensions in ./.venv/lib/python3.11/site-packages (from qiskit>=2.1->qiskit[qasm3-import]>=2.1->mqt.bench) (4.16.0)
+Requirement already satisfied: qiskit-qasm3-import>=0.1.0 in ./.venv/lib/python3.11/site-packages (from qiskit[qasm3-import]>=2.1->mqt.bench) (0.6.0)
+Requirement already satisfied: openqasm3<2.0,>=0.4 in ./.venv/lib/python3.11/site-packages (from openqasm3[parser]<2.0,>=0.4->qiskit-qasm3-import>=0.1.0->qiskit[qasm3-import]>=2.1->mqt.bench) (1.0.1)
+Requirement already satisfied: antlr4_python3_runtime<4.14,>=4.7 in ./.venv/lib/python3.11/site-packages (from openqasm3[parser]<2.0,>=0.4->qiskit-qasm3-import>=0.1.0->qiskit[qasm3-import]>=2.1->mqt.bench) (4.13.2)
+Collecting joblib>=1.4.0 (from scikit-learn>=1.5.2->mqt.bench)
+  Downloading joblib-1.6.0-py3-none-any.whl (306 kB)
+Collecting narwhals>=2.0.1 (from scikit-learn>=1.5.2->mqt.bench)
+  Using cached narwhals-2.26.0-py3-none-any.whl (474 kB)
+Collecting threadpoolctl>=3.5.0 (from scikit-learn>=1.5.2->mqt.bench)
+  Downloading threadpoolctl-3.7.0-py3-none-any.whl (26 kB)
+Collecting cloudpickle>=3.0 (from joblib>=1.4.0->scikit-learn>=1.5.2->mqt.bench)
+  Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Installing collected packages: threadpoolctl, narwhals, cloudpickle, joblib, scikit-learn, mqt.bench
+
+Successfully installed cloudpickle-3.1.2 joblib-1.6.0 mqt.bench-2.3.0 narwhals-2.26.0 scikit-learn-1.9.1 threadpoolctl-3.7.0
+OK   mqt.bench
+=== pytket  (2026-09-25T21:35:03Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pytket
+  Downloading pytket-2.18.4-cp311-cp311-macosx_14_0_arm64.whl (5.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.8/5.8 MB 6.0 MB/s  0:00:00
+Collecting sympy>=1.12.1 (from pytket)
+  Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 14.9 MB/s  0:00:00
+Requirement already satisfied: numpy>=1.26.4 in ./.venv/lib/python3.11/site-packages (from pytket) (2.4.6)
+Collecting lark>=1.1.9 (from pytket)
+  Downloading lark-1.3.1-py3-none-any.whl (113 kB)
+Requirement already satisfied: scipy>=1.13.1 in ./.venv/lib/python3.11/site-packages (from pytket) (1.17.1)
+Requirement already satisfied: networkx>=2.8.8 in ./.venv/lib/python3.11/site-packages (from pytket) (3.6.1)
+Collecting graphviz>=0.20.3 (from pytket)
+  Downloading graphviz-0.21-py3-none-any.whl (47 kB)
+Collecting jinja2>=3.1.4 (from pytket)
+  Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Requirement already satisfied: typing-extensions>=4.12.2 in ./.venv/lib/python3.11/site-packages (from pytket) (4.16.0)
+Collecting qwasm>=1.0.1 (from pytket)
+  Using cached qwasm-1.0.1-py3-none-any.whl (15 kB)
+Collecting MarkupSafe>=2.0 (from jinja2>=3.1.4->pytket)
+  Downloading markupsafe-3.0.3-cp311-cp311-macosx_11_0_arm64.whl (12 kB)
+Requirement already satisfied: setuptools in ./.venv/lib/python3.11/site-packages (from qwasm>=1.0.1->pytket) (84.0.0)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.12.1->pytket)
+  Using cached mpmath-1.3.0-py3-none-any.whl (536 kB)
+Installing collected packages: mpmath, sympy, qwasm, MarkupSafe, lark, graphviz, jinja2, pytket
+  Attempting uninstall: mpmath
+    Found existing installation: mpmath 1.4.1
+    Uninstalling mpmath-1.4.1:
+      Successfully uninstalled mpmath-1.4.1
+
+Successfully installed MarkupSafe-3.0.3 graphviz-0.21 jinja2-3.1.6 lark-1.3.1 mpmath-1.3.0 pytket-2.18.4 qwasm-1.0.1 sympy-1.14.0
+OK   pytket
+=== pytket-qiskit  (2026-09-25T21:35:15Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pytket-qiskit
+  Downloading pytket_qiskit-0.78.0-py3-none-any.whl (91 kB)
+Requirement already satisfied: pytket>=2.11.0 in ./.venv/lib/python3.11/site-packages (from pytket-qiskit) (2.18.4)
+Requirement already satisfied: qiskit>=2.3 in ./.venv/lib/python3.11/site-packages (from pytket-qiskit) (2.5.2)
+Collecting qiskit-ibm-runtime>=0.43.1 (from pytket-qiskit)
+  Downloading qiskit_ibm_runtime-0.50.0-py3-none-any.whl (2.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 2.2 MB/s  0:00:01
+Requirement already satisfied: numpy>=1.26.4 in ./.venv/lib/python3.11/site-packages (from pytket-qiskit) (2.4.6)
+Collecting symengine>=0.11 (from pytket-qiskit)
+  Using cached symengine-0.14.1-cp311-cp311-macosx_11_0_arm64.whl (23.1 MB)
+Requirement already satisfied: sympy>=1.12.1 in ./.venv/lib/python3.11/site-packages (from pytket>=2.11.0->pytket-qiskit) (1.14.0)
+Requirement already satisfied: lark>=1.1.9 in ./.venv/lib/python3.11/site-packages (from pytket>=2.11.0->pytket-qiskit) (1.3.1)
+Requirement already satisfied: scipy>=1.13.1 in ./.venv/lib/python3.11/site-packages (from pytket>=2.11.0->pytket-qiskit) (1.17.1)
+Requirement already satisfied: networkx>=2.8.8 in ./.venv/lib/python3.11/site-packages (from pytket>=2.11.0->pytket-qiskit) (3.6.1)
+Requirement already satisfied: graphviz>=0.20.3 in ./.venv/lib/python3.11/site-packages (from pytket>=2.11.0->pytket-qiskit) (0.21)
+Requirement already satisfied: jinja2>=3.1.4 in ./.venv/lib/python3.11/site-packages (from pytket>=2.11.0->pytket-qiskit) (3.1.6)
+Requirement already satisfied: typing-extensions>=4.12.2 in ./.venv/lib/python3.11/site-packages (from pytket>=2.11.0->pytket-qiskit) (4.16.0)
+Requirement already satisfied: qwasm>=1.0.1 in ./.venv/lib/python3.11/site-packages (from pytket>=2.11.0->pytket-qiskit) (1.0.1)
+Requirement already satisfied: MarkupSafe>=2.0 in ./.venv/lib/python3.11/site-packages (from jinja2>=3.1.4->pytket>=2.11.0->pytket-qiskit) (3.0.3)
+Requirement already satisfied: rustworkx>=0.15.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=2.3->pytket-qiskit) (0.18.1)
+Requirement already satisfied: dill>=0.3 in ./.venv/lib/python3.11/site-packages (from qiskit>=2.3->pytket-qiskit) (0.4.1)
+Requirement already satisfied: stevedore>=3.0.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=2.3->pytket-qiskit) (5.9.1)
+Collecting requests>=2.32.4 (from qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+Collecting requests-ntlm>=1.1.0 (from qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Using cached requests_ntlm-1.3.0-py3-none-any.whl (6.6 kB)
+Collecting urllib3>=2.4.0 (from qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+Requirement already satisfied: python-dateutil>=2.9.0 in ./.venv/lib/python3.11/site-packages (from qiskit-ibm-runtime>=0.43.1->pytket-qiskit) (2.9.0.post0)
+Collecting ibm-platform-services>=0.61.1 (from qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Using cached ibm_platform_services-0.77.1-py3-none-any.whl (412 kB)
+Collecting ibm-quantum-schemas<1,>=0.12.20260921 (from qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading ibm_quantum_schemas-0.12.20260921-py3-none-any.whl (120 kB)
+Collecting pydantic>=2.13.0 (from qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading pydantic-2.13.5-py3-none-any.whl (472 kB)
+Collecting pybase64>=1.4.0 (from qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading pybase64-1.5.0-cp311-cp311-macosx_11_0_arm64.whl (40 kB)
+Collecting samplomatic>=0.21.0 (from qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading samplomatic-0.21.0-py3-none-any.whl (234 kB)
+Collecting qiskit-mitigation>=0.1.1 (from qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading qiskit_mitigation-0.1.1-py3-none-any.whl (113 kB)
+Requirement already satisfied: qiskit_qasm3_import<1.0.0,>=0.6.0 in ./.venv/lib/python3.11/site-packages (from ibm-quantum-schemas<1,>=0.12.20260921->qiskit-ibm-runtime>=0.43.1->pytket-qiskit) (0.6.0)
+Collecting annotated-types>=0.6.0 (from pydantic>=2.13.0->qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Collecting pydantic-core==2.46.5 (from pydantic>=2.13.0->qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading pydantic_core-2.46.5-cp311-cp311-macosx_11_0_arm64.whl (1.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 9.1 MB/s  0:00:00
+Collecting typing-inspection>=0.4.2 (from pydantic>=2.13.0->qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+Requirement already satisfied: openqasm3<2.0,>=0.4 in ./.venv/lib/python3.11/site-packages (from openqasm3[parser]<2.0,>=0.4->qiskit_qasm3_import<1.0.0,>=0.6.0->ibm-quantum-schemas<1,>=0.12.20260921->qiskit-ibm-runtime>=0.43.1->pytket-qiskit) (1.0.1)
+Requirement already satisfied: antlr4_python3_runtime<4.14,>=4.7 in ./.venv/lib/python3.11/site-packages (from openqasm3[parser]<2.0,>=0.4->qiskit_qasm3_import<1.0.0,>=0.6.0->ibm-quantum-schemas<1,>=0.12.20260921->qiskit-ibm-runtime>=0.43.1->pytket-qiskit) (4.13.2)
+Collecting ibm_cloud_sdk_core<4.0.0,>=3.24.4 (from ibm-platform-services>=0.61.1->qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Using cached ibm_cloud_sdk_core-3.26.1-py3-none-any.whl (76 kB)
+Collecting PyJWT<3.0.0,>=2.11.0 (from ibm_cloud_sdk_core<4.0.0,>=3.24.4->ibm-platform-services>=0.61.1->qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading pyjwt-2.15.0-py3-none-any.whl (33 kB)
+Requirement already satisfied: six>=1.5 in ./.venv/lib/python3.11/site-packages (from python-dateutil>=2.9.0->qiskit-ibm-runtime>=0.43.1->pytket-qiskit) (1.17.0)
+Collecting charset_normalizer<4,>=2 (from requests>=2.32.4->qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading charset_normalizer-3.5.1-cp311-cp311-macosx_10_9_universal2.whl (363 kB)
+Collecting idna<4,>=2.5 (from requests>=2.32.4->qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading idna-3.20-py3-none-any.whl (69 kB)
+Collecting certifi>=2023.5.7 (from requests>=2.32.4->qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+Requirement already satisfied: setuptools in ./.venv/lib/python3.11/site-packages (from qwasm>=1.0.1->pytket>=2.11.0->pytket-qiskit) (84.0.0)
+Collecting cryptography>=1.3 (from requests-ntlm>=1.1.0->qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading cryptography-50.0.1-cp311-abi3-macosx_11_0_arm64.whl (4.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.0/4.0 MB 11.2 MB/s  0:00:00
+Collecting pyspnego>=0.4.0 (from requests-ntlm>=1.1.0->qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Using cached pyspnego-0.12.2-py3-none-any.whl (130 kB)
+Collecting cffi>=2.0.0 (from cryptography>=1.3->requests-ntlm>=1.1.0->qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading cffi-2.1.1-cp311-cp311-macosx_11_0_arm64.whl (184 kB)
+Collecting pycparser (from cffi>=2.0.0->cryptography>=1.3->requests-ntlm>=1.1.0->qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading pycparser-3.0-py3-none-any.whl (48 kB)
+Collecting orjson>=3.9.0 (from samplomatic>=0.21.0->qiskit-ibm-runtime>=0.43.1->pytket-qiskit)
+  Downloading orjson-3.12.0-cp311-cp311-macosx_15_0_arm64.whl (124 kB)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in ./.venv/lib/python3.11/site-packages (from sympy>=1.12.1->pytket>=2.11.0->pytket-qiskit) (1.3.0)
+Installing collected packages: urllib3, typing-inspection, symengine, PyJWT, pydantic-core, pycparser, pybase64, orjson, idna, charset_normalizer, certifi, annotated-types, requests, pydantic, cffi, samplomatic, ibm_cloud_sdk_core, cryptography, qiskit-mitigation, pyspnego, ibm-quantum-schemas, ibm-platform-services, requests-ntlm, qiskit-ibm-runtime, pytket-qiskit
+
+Successfully installed PyJWT-2.15.0 annotated-types-0.8.0 certifi-2026.7.22 cffi-2.1.1 charset_normalizer-3.5.1 cryptography-50.0.1 ibm-platform-services-0.77.1 ibm-quantum-schemas-0.12.20260921 ibm_cloud_sdk_core-3.26.1 idna-3.20 orjson-3.12.0 pybase64-1.5.0 pycparser-3.0 pydantic-2.13.5 pydantic-core-2.46.5 pyspnego-0.12.2 pytket-qiskit-0.78.0 qiskit-ibm-runtime-0.50.0 qiskit-mitigation-0.1.1 requests-2.34.2 requests-ntlm-1.3.0 samplomatic-0.21.0 symengine-0.14.1 typing-inspection-0.4.4 urllib3-2.8.0
+OK   pytket-qiskit
+=== rustiq  (2026-09-25T21:35:35Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+ERROR: Could not find a version that satisfies the requirement rustiq (from versions: none)
+ERROR: No matching distribution found for rustiq
+FAIL rustiq
+=== bqskit  (2026-09-25T21:35:36Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting bqskit
+  Downloading bqskit-1.2.1-py3-none-any.whl (439 kB)
+Collecting bqskitrs>=0.4.1 (from bqskit)
+  Using cached bqskitrs-0.4.1-cp38-abi3-macosx_11_0_arm64.whl (1.8 MB)
+Requirement already satisfied: lark in ./.venv/lib/python3.11/site-packages (from bqskit) (1.3.1)
+Requirement already satisfied: numpy>=1.22.0 in ./.venv/lib/python3.11/site-packages (from bqskit) (2.4.6)
+Requirement already satisfied: scipy>=1.8.0 in ./.venv/lib/python3.11/site-packages (from bqskit) (1.17.1)
+Requirement already satisfied: typing-extensions>=4.0.0 in ./.venv/lib/python3.11/site-packages (from bqskit) (4.16.0)
+Requirement already satisfied: dill>=0.3.8 in ./.venv/lib/python3.11/site-packages (from bqskit) (0.4.1)
+Installing collected packages: bqskitrs, bqskit
+
+Successfully installed bqskit-1.2.1 bqskitrs-0.4.1
+OK   bqskit
+=== qclib  (2026-09-25T21:35:40Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting qclib
+  Downloading qclib-0.1.15-py3-none-any.whl (162 kB)
+Requirement already satisfied: scipy>=1.7.1 in ./.venv/lib/python3.11/site-packages (from qclib) (1.17.1)
+Requirement already satisfied: qiskit>=1.0.0 in ./.venv/lib/python3.11/site-packages (from qclib) (2.5.2)
+Collecting deprecation (from qclib)
+  Downloading deprecation-2.1.0-py2.py3-none-any.whl (11 kB)
+Collecting tensorly>=0.8.0 (from qclib)
+  Downloading tensorly-0.9.0-py3-none-any.whl (7.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.4/7.4 MB 5.0 MB/s  0:00:01
+Collecting keras (from qclib)
+  Downloading keras-3.15.1-py3-none-any.whl (2.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.4/2.4 MB 32.3 MB/s  0:00:00
+Requirement already satisfied: graphviz in ./.venv/lib/python3.11/site-packages (from qclib) (0.21)
+Collecting scikit-image (from qclib)
+  Downloading scikit_image-0.26.0-cp311-cp311-macosx_11_0_arm64.whl (12.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.1/12.1 MB 12.6 MB/s  0:00:00
+Requirement already satisfied: sympy in ./.venv/lib/python3.11/site-packages (from qclib) (1.14.0)
+Requirement already satisfied: numpy<3,>=2.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=1.0.0->qclib) (2.4.6)
+Requirement already satisfied: rustworkx>=0.15.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=1.0.0->qclib) (0.18.1)
+Requirement already satisfied: dill>=0.3 in ./.venv/lib/python3.11/site-packages (from qiskit>=1.0.0->qclib) (0.4.1)
+Requirement already satisfied: stevedore>=3.0.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=1.0.0->qclib) (5.9.1)
+Requirement already satisfied: typing-extensions in ./.venv/lib/python3.11/site-packages (from qiskit>=1.0.0->qclib) (4.16.0)
+Requirement already satisfied: packaging in ./.venv/lib/python3.11/site-packages (from deprecation->qclib) (26.3)
+Collecting absl-py (from keras->qclib)
+  Downloading absl_py-2.5.0-py3-none-any.whl (137 kB)
+Collecting rich (from keras->qclib)
+  Using cached rich-15.0.0-py3-none-any.whl (310 kB)
+Collecting namex (from keras->qclib)
+  Downloading namex-0.1.0-py3-none-any.whl (5.9 kB)
+Collecting h5py (from keras->qclib)
+  Downloading h5py-3.16.0-cp311-cp311-macosx_11_0_arm64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 33.4 MB/s  0:00:00
+Collecting optree (from keras->qclib)
+  Downloading optree-0.20.0-cp311-cp311-macosx_11_0_arm64.whl (408 kB)
+Collecting ml-dtypes (from keras->qclib)
+  Downloading ml_dtypes-0.6.0-cp311-cp311-macosx_10_9_universal2.whl (566 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.8/566.8 kB 21.1 MB/s  0:00:00
+Collecting markdown-it-py>=2.2.0 (from rich->keras->qclib)
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in ./.venv/lib/python3.11/site-packages (from rich->keras->qclib) (2.21.0)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->keras->qclib)
+  Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Requirement already satisfied: networkx>=3.0 in ./.venv/lib/python3.11/site-packages (from scikit-image->qclib) (3.6.1)
+Requirement already satisfied: pillow>=10.1 in ./.venv/lib/python3.11/site-packages (from scikit-image->qclib) (12.3.0)
+Collecting imageio!=2.35.0,>=2.33 (from scikit-image->qclib)
+  Downloading imageio-2.37.4-py3-none-any.whl (318 kB)
+Collecting tifffile>=2022.8.12 (from scikit-image->qclib)
+  Downloading tifffile-2026.3.3-py3-none-any.whl (243 kB)
+Collecting lazy-loader>=0.4 (from scikit-image->qclib)
+  Downloading lazy_loader-0.6-py3-none-any.whl (8.8 kB)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in ./.venv/lib/python3.11/site-packages (from sympy->qclib) (1.3.0)
+Installing collected packages: namex, tifffile, optree, ml-dtypes, mdurl, lazy-loader, imageio, h5py, deprecation, absl-py, tensorly, scikit-image, markdown-it-py, rich, keras, qclib
+
+Successfully installed absl-py-2.5.0 deprecation-2.1.0 h5py-3.16.0 imageio-2.37.4 keras-3.15.1 lazy-loader-0.6 markdown-it-py-4.2.0 mdurl-0.1.2 ml-dtypes-0.6.0 namex-0.1.0 optree-0.20.0 qclib-0.1.15 rich-15.0.0 scikit-image-0.26.0 tensorly-0.9.0 tifffile-2026.3.3
+OK   qclib
+=== python-sat  (2026-09-25T21:35:56Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting python-sat
+  Using cached python_sat-1.9.dev15-cp311-cp311-macosx_11_0_arm64.whl (2.4 MB)
+Requirement already satisfied: six in ./.venv/lib/python3.11/site-packages (from python-sat) (1.17.0)
+Installing collected packages: python-sat
+Successfully installed python-sat-1.9.dev15
+OK   python-sat
+=== dd  (2026-09-25T21:35:57Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting dd
+  Downloading dd-0.6.0.tar.gz (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 1.2 MB/s  0:00:01
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting astutils>=0.0.5 (from dd)
+  Downloading astutils-0.0.6.tar.gz (9.3 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: networkx>=2.4 in ./.venv/lib/python3.11/site-packages (from dd) (3.6.1)
+Collecting ply<=3.10,>=3.4 (from dd)
+  Downloading ply-3.10.tar.gz (150 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: setuptools>=65.6.0 in ./.venv/lib/python3.11/site-packages (from dd) (84.0.0)
+Building wheels for collected packages: dd, ply, astutils
+  Building wheel for dd (pyproject.toml): started
+  Building wheel for dd (pyproject.toml): finished with status 'done'
+  Created wheel for dd: filename=dd-0.6.0-py3-none-any.whl size=1022726 sha256=d3e62ccecae0cc1c287405f5925d92ec28d2dc9c6a0e50105497b0e928224240
+  Stored in directory: /Users/hjh/Library/Caches/pip/wheels/e8/e1/1b/f2b48c6096e0be5cef5ce54708c82a1df6ed8cef7ce5c655c2
+  Building wheel for ply (pyproject.toml): started
+  Building wheel for ply (pyproject.toml): finished with status 'done'
+  Created wheel for ply: filename=ply-3.10-py2.py3-none-any.whl size=48469 sha256=2d24226f55b6230350ea42bbc6dda9b70d62177fbe4de592636e8ccce7ba729f
+  Stored in directory: /Users/hjh/Library/Caches/pip/wheels/04/38/e5/511bccebf24f6944f5bc0c2b5a333da3a4406de95aed2e62f0
+  Building wheel for astutils (pyproject.toml): started
+  Building wheel for astutils (pyproject.toml): finished with status 'done'
+  Created wheel for astutils: filename=astutils-0.0.6-py3-none-any.whl size=6620 sha256=c06be434e5ffa40bf56ce84da0f598123b4ca834e293a569f4b17f75fe7c50fd
+  Stored in directory: /Users/hjh/Library/Caches/pip/wheels/f6/c4/44/dd349507715378cacd1cdb39cbd38212531f371c5451c0d247
+Successfully built dd ply astutils
+Installing collected packages: ply, astutils, dd
+
+Successfully installed astutils-0.0.6 dd-0.6.0 ply-3.10
+OK   dd
+=== z3-solver  (2026-09-25T21:36:08Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: z3-solver in ./.venv/lib/python3.11/site-packages (5.1.0.0)
+OK   z3-solver
+=== py-aiger  (2026-09-25T21:36:08Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting py-aiger
+  Downloading py_aiger-8.1.0-py3-none-any.whl (20 kB)
+Requirement already satisfied: attrs>=23 in ./.venv/lib/python3.11/site-packages (from py-aiger) (26.1.0)
+Collecting bidict<1,>=0.22.0 (from py-aiger)
+  Downloading bidict-0.24.1-py3-none-any.whl (36 kB)
+Collecting funcy<3,>=2 (from py-aiger)
+  Downloading funcy-2.1-py3-none-any.whl (29 kB)
+Collecting pyrsistent<1,>=0.19.0 (from py-aiger)
+  Downloading pyrsistent-0.20.0-cp311-cp311-macosx_10_9_universal2.whl (83 kB)
+Collecting sortedcontainers<3,>=2.3.0 (from py-aiger)
+  Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+Requirement already satisfied: typing-extensions>=4.0 in ./.venv/lib/python3.11/site-packages (from bidict<1,>=0.22.0->py-aiger) (4.16.0)
+Installing collected packages: sortedcontainers, funcy, pyrsistent, bidict, py-aiger
+
+Successfully installed bidict-0.24.1 funcy-2.1 py-aiger-8.1.0 pyrsistent-0.20.0 sortedcontainers-2.4.0
+OK   py-aiger
+=== pyzx  (2026-09-25T21:36:13Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pyzx
+  Using cached pyzx-0.10.6-py3-none-any.whl (576 kB)
+Requirement already satisfied: typing_extensions>=4.5.0 in ./.venv/lib/python3.11/site-packages (from pyzx) (4.16.0)
+Requirement already satisfied: numpy>=1.14 in ./.venv/lib/python3.11/site-packages (from pyzx) (2.4.6)
+Collecting pyperclip>=1.8.1 (from pyzx)
+  Using cached pyperclip-1.11.0-py3-none-any.whl (11 kB)
+Requirement already satisfied: tqdm>=4.56.0 in ./.venv/lib/python3.11/site-packages (from pyzx) (4.70.1)
+Collecting ipywidgets>=7.5 (from pyzx)
+  Using cached ipywidgets-8.1.9-py3-none-any.whl (140 kB)
+Requirement already satisfied: lark>=1.2.2 in ./.venv/lib/python3.11/site-packages (from pyzx) (1.3.1)
+Collecting comm>=0.1.3 (from ipywidgets>=7.5->pyzx)
+  Using cached comm-0.2.3-py3-none-any.whl (7.3 kB)
+Collecting ipython>=6.1.0 (from ipywidgets>=7.5->pyzx)
+  Using cached ipython-9.17.1-py3-none-any.whl (639 kB)
+Collecting traitlets>=4.3.1 (from ipywidgets>=7.5->pyzx)
+  Using cached traitlets-5.16.1-py3-none-any.whl (86 kB)
+Collecting widgetsnbextension~=4.0.16 (from ipywidgets>=7.5->pyzx)
+  Using cached widgetsnbextension-4.0.16-py3-none-any.whl (2.2 MB)
+Collecting jupyterlab_widgets~=3.0.17 (from ipywidgets>=7.5->pyzx)
+  Using cached jupyterlab_widgets-3.0.17-py3-none-any.whl (217 kB)
+Collecting ipython-pygments-lexers>=1.0.0 (from ipython>=6.1.0->ipywidgets>=7.5->pyzx)
+  Using cached ipython_pygments_lexers-1.1.1-py3-none-any.whl (8.1 kB)
+Collecting jedi>=0.18.2 (from ipython>=6.1.0->ipywidgets>=7.5->pyzx)
+  Using cached jedi-0.20.0-py2.py3-none-any.whl (4.9 MB)
+Collecting matplotlib-inline>=0.1.6 (from ipython>=6.1.0->ipywidgets>=7.5->pyzx)
+  Using cached matplotlib_inline-0.2.2-py3-none-any.whl (9.5 kB)
+Collecting pexpect>4.6 (from ipython>=6.1.0->ipywidgets>=7.5->pyzx)
+  Using cached pexpect-4.9.0-py2.py3-none-any.whl (63 kB)
+Collecting prompt_toolkit<3.1.0,>=3.0.41 (from ipython>=6.1.0->ipywidgets>=7.5->pyzx)
+  Using cached prompt_toolkit-3.0.53-py3-none-any.whl (392 kB)
+Collecting psutil>=7 (from ipython>=6.1.0->ipywidgets>=7.5->pyzx)
+  Downloading psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl (129 kB)
+Requirement already satisfied: pygments>=2.14.0 in ./.venv/lib/python3.11/site-packages (from ipython>=6.1.0->ipywidgets>=7.5->pyzx) (2.21.0)
+Collecting stack_data>=0.6.0 (from ipython>=6.1.0->ipywidgets>=7.5->pyzx)
+  Using cached stack_data-0.6.3-py3-none-any.whl (24 kB)
+Collecting wcwidth>=0.1.4 (from prompt_toolkit<3.1.0,>=3.0.41->ipython>=6.1.0->ipywidgets>=7.5->pyzx)
+  Using cached wcwidth-0.9.1-cp310-abi3-macosx_11_0_arm64.whl (609 kB)
+Collecting parso<0.9.0,>=0.8.6 (from jedi>=0.18.2->ipython>=6.1.0->ipywidgets>=7.5->pyzx)
+  Using cached parso-0.8.7-py2.py3-none-any.whl (107 kB)
+Collecting ptyprocess>=0.5 (from pexpect>4.6->ipython>=6.1.0->ipywidgets>=7.5->pyzx)
+  Using cached ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Collecting executing>=1.2.0 (from stack_data>=0.6.0->ipython>=6.1.0->ipywidgets>=7.5->pyzx)
+  Using cached executing-2.2.1-py2.py3-none-any.whl (28 kB)
+Collecting asttokens>=2.1.0 (from stack_data>=0.6.0->ipython>=6.1.0->ipywidgets>=7.5->pyzx)
+  Using cached asttokens-3.0.2-py3-none-any.whl (28 kB)
+Collecting pure-eval (from stack_data>=0.6.0->ipython>=6.1.0->ipywidgets>=7.5->pyzx)
+  Using cached pure_eval-0.2.4-py3-none-any.whl (11 kB)
+Installing collected packages: pyperclip, pure-eval, ptyprocess, widgetsnbextension, wcwidth, traitlets, psutil, pexpect, parso, jupyterlab_widgets, ipython-pygments-lexers, executing, comm, asttokens, stack_data, prompt_toolkit, matplotlib-inline, jedi, ipython, ipywidgets, pyzx
+
+Successfully installed asttokens-3.0.2 comm-0.2.3 executing-2.2.1 ipython-9.17.1 ipython-pygments-lexers-1.1.1 ipywidgets-8.1.9 jedi-0.20.0 jupyterlab_widgets-3.0.17 matplotlib-inline-0.2.2 parso-0.8.7 pexpect-4.9.0 prompt_toolkit-3.0.53 psutil-7.2.2 ptyprocess-0.7.0 pure-eval-0.2.4 pyperclip-1.11.0 pyzx-0.10.6 stack_data-0.6.3 traitlets-5.16.1 wcwidth-0.9.1 widgetsnbextension-4.0.16
+OK   pyzx
+=== qiskit-aer  (2026-09-25T21:36:28Z)
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting qiskit-aer
+  Downloading qiskit_aer-0.17.2-cp311-cp311-macosx_11_0_arm64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 2.2 MB/s  0:00:01
+Requirement already satisfied: qiskit>=1.1.0 in ./.venv/lib/python3.11/site-packages (from qiskit-aer) (2.5.2)
+Requirement already satisfied: numpy>=1.16.3 in ./.venv/lib/python3.11/site-packages (from qiskit-aer) (2.4.6)
+Requirement already satisfied: scipy>=1.0 in ./.venv/lib/python3.11/site-packages (from qiskit-aer) (1.17.1)
+Requirement already satisfied: psutil>=5 in ./.venv/lib/python3.11/site-packages (from qiskit-aer) (7.2.2)
+Requirement already satisfied: python-dateutil>=2.8.0 in ./.venv/lib/python3.11/site-packages (from qiskit-aer) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in ./.venv/lib/python3.11/site-packages (from python-dateutil>=2.8.0->qiskit-aer) (1.17.0)
+Requirement already satisfied: rustworkx>=0.15.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=1.1.0->qiskit-aer) (0.18.1)
+Requirement already satisfied: dill>=0.3 in ./.venv/lib/python3.11/site-packages (from qiskit>=1.1.0->qiskit-aer) (0.4.1)
+Requirement already satisfied: stevedore>=3.0.0 in ./.venv/lib/python3.11/site-packages (from qiskit>=1.1.0->qiskit-aer) (5.9.1)
+Requirement already satisfied: typing-extensions in ./.venv/lib/python3.11/site-packages (from qiskit>=1.1.0->qiskit-aer) (4.16.0)
+Installing collected packages: qiskit-aer
+Successfully installed qiskit-aer-0.17.2
+OK   qiskit-aer

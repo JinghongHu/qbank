@@ -1,0 +1,71 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_bitflip_clean"
+ ],
+ "family": "sbox",
+ "hash": "sha256:595d9cbef3df366ff2a104e2471c346eae2f54e7530b9c44cf897b98cc224195",
+ "id": "B.bitflip.sbox.aes",
+ "params": {
+  "sbox": "AES"
+ },
+ "private": {
+  "aig_ands": 703,
+  "b_min": 17,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 702,
+   "cone_bennett(abc resyn2)": 163,
+   "esop+mcx": 17
+  },
+  "m": 8,
+  "n": 8,
+  "n_solutions": null,
+  "n_solutions_method": "multi-output",
+  "redistributable": true,
+  "size_bin": "S",
+  "solution_fraction_log2": null,
+  "solution_sparse": false
+ },
+ "public_hash": "sha256:595d9cbef3df366ff2a104e2471c346eae2f54e7530b9c44cf897b98cc224195",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "definition",
+  "license": "public definition",
+  "name": "AES S-box",
+  "ref": "computed from the definition (GF(2^8) inverse + affine map 0x63)",
+  "version": "FIPS-197"
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": [
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 17
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 26
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

@@ -1,0 +1,1811 @@
+{
+ "category": "B",
+ "counts": {
+  "probe": {
+   "probe_small|probe": 20
+  },
+  "test_in": {
+   "arith|L": 1,
+   "arith|XL": 6,
+   "compare|XL": 12,
+   "rand3sat|L": 2,
+   "rand3sat|M": 2,
+   "rand3sat|S": 2,
+   "rand3sat|XL": 12,
+   "simon3|L": 2,
+   "simon3|M": 2,
+   "simon3|S": 2,
+   "simon3|XL": 12,
+   "sudoku|L": 2,
+   "sudoku|M": 1,
+   "sudoku|XL": 12,
+   "triangle|L": 2,
+   "triangle|M": 2,
+   "triangle|S": 2,
+   "triangle|XL": 12
+  },
+  "test_ood": {
+   "epfl|S": 4,
+   "epfl|XL": 1,
+   "satlib|L": 24,
+   "satlib|XL": 24,
+   "sbox|S": 1
+  },
+  "train": {
+   "arith|M": 6,
+   "arith|S": 11,
+   "compare|L": 10,
+   "compare|M": 16,
+   "compare|S": 18,
+   "rand3sat|L": 12,
+   "rand3sat|M": 12,
+   "rand3sat|S": 12,
+   "simon3|L": 12,
+   "simon3|M": 12,
+   "simon3|S": 12,
+   "sudoku|L": 12,
+   "sudoku|M": 12,
+   "sudoku|S": 12,
+   "triangle|L": 12,
+   "triangle|M": 12,
+   "triangle|S": 12
+  },
+  "val": {
+   "arith|L": 6,
+   "arith|M": 2,
+   "compare|L": 8,
+   "compare|S": 4,
+   "rand3sat|L": 4,
+   "rand3sat|M": 4,
+   "rand3sat|S": 4,
+   "simon3|L": 4,
+   "simon3|M": 4,
+   "simon3|S": 4,
+   "sudoku|L": 3,
+   "sudoku|M": 2,
+   "triangle|L": 4,
+   "triangle|M": 4,
+   "triangle|S": 4
+  }
+ },
+ "qbank_version": "1.1.0",
+ "rules": "B v1: T families (rand3sat, triangle, sudoku, simon3, compare, arith) -> train/val/test_in; random families: 12 train / 4 val seeds per size bin (S 6-12, M 13-18, L 19-24 inputs), test_in = XL (40-64 inputs) + 2 new seeds per train bin; deterministic functions by parameter (small -> train, L -> val, largest -> test_in); external sources (SATLIB, EPFL, S-boxes) -> test_ood; probe = small instances with a model-optimal value. Seed ranges disjoint per split.",
+ "splits": {
+  "probe": [
+   {
+    "hash": "sha256:7b6af4a75c175af349b90fe5b90310f13430052797c23b4163e8a9ed41b0a9fa",
+    "id": "B.bitflip.probe.n3.s40300"
+   },
+   {
+    "hash": "sha256:2cfc357f7be79e626b800015288a77777394aeea55b08b50e9144e40746f7562",
+    "id": "B.bitflip.probe.n3.s40301"
+   },
+   {
+    "hash": "sha256:4f2a64dd9fbad1d34b7a6d155446c55baad08eb5a9850c188841059dfc100422",
+    "id": "B.bitflip.probe.n3.s40302"
+   },
+   {
+    "hash": "sha256:ced343692e3219e7306b3030b50852ab098fd545d8cd1279cee5b5aa18bbd6a7",
+    "id": "B.bitflip.probe.n3.s40303"
+   },
+   {
+    "hash": "sha256:60a81c7de85c76d30cf8e7179c3450dc87fcdd9dde4d9b4d90178f61aee0948e",
+    "id": "B.bitflip.probe.n3.s40304"
+   },
+   {
+    "hash": "sha256:eca61ced6a8a7d5f08b77fbcd1433d49a8a49a8d857d9215ffa82e1f324d3682",
+    "id": "B.bitflip.probe.n4.s40400"
+   },
+   {
+    "hash": "sha256:779342fcc921626cdfe0a4c5ad58a47ee1f90c7eb129a1f03050010cbf8f067b",
+    "id": "B.bitflip.probe.n4.s40401"
+   },
+   {
+    "hash": "sha256:65d7108203a0b8c87f8394d7bec5e6f2f206faa4a9f59da6c18d47bf565f9ae9",
+    "id": "B.bitflip.probe.n4.s40402"
+   },
+   {
+    "hash": "sha256:cdc0d58d434701c003f55b646c044853597b5dadabb5ceaa284731ecc98214f2",
+    "id": "B.bitflip.probe.n4.s40403"
+   },
+   {
+    "hash": "sha256:2c006b13f7823c73f78c52f2bb06952a412710a3ede09a38ea8ba4b2326346f2",
+    "id": "B.bitflip.probe.n4.s40404"
+   },
+   {
+    "hash": "sha256:83d33f224b43e1c0045bc14987c7eb12ae776cdf70a776e126f7ce8b87750241",
+    "id": "B.bitflip.probe.n5.s40500"
+   },
+   {
+    "hash": "sha256:385c65d06e1b1b9a7314cfe348f5e13858e2585675518ba6233f38990987bb46",
+    "id": "B.bitflip.probe.n5.s40501"
+   },
+   {
+    "hash": "sha256:e6adda136562b9f15f191d4ef39c304ba2c4b517527ec4899eac59195dc420e7",
+    "id": "B.bitflip.probe.n5.s40502"
+   },
+   {
+    "hash": "sha256:c53e8a5aabf82b8e3d02870235f9ef4e2072a3b40c91050a0ef22ceb2273cb12",
+    "id": "B.bitflip.probe.n5.s40503"
+   },
+   {
+    "hash": "sha256:bd247ce2e0010a4bdbaadc318b9e40599ef31934d2dcd1f560da71cb3ecb70d4",
+    "id": "B.bitflip.probe.n5.s40504"
+   },
+   {
+    "hash": "sha256:ef0a9425d32f5bc5e4031882bc3e3e0fef2749f1ced168fba659db4b837b2c1f",
+    "id": "B.bitflip.probe.n6.s40600"
+   },
+   {
+    "hash": "sha256:902af7e36f32764e94f83b9bb727d16bf58296e260faa0b9e6a12d5ec38d3d35",
+    "id": "B.bitflip.probe.n6.s40601"
+   },
+   {
+    "hash": "sha256:a5bdf48a57576b7ab3d9a0f621ae2f01430046d375bbe98cbdf1eb8008ce1394",
+    "id": "B.bitflip.probe.n6.s40602"
+   },
+   {
+    "hash": "sha256:1f2d5980f7c3adcc170da7f3a62f7741aa43f6176d3c312d40831fa55b04bec0",
+    "id": "B.bitflip.probe.n6.s40603"
+   },
+   {
+    "hash": "sha256:b0831ebf714bbc3e587e3771ca5df0409bd839c4cbd55ad9b5d855a9c62b256a",
+    "id": "B.bitflip.probe.n6.s40604"
+   }
+  ],
+  "test_in": [
+   {
+    "hash": "sha256:0824ec79c1c06d4711f4f3c2aa8204775860206b7a6725e0f23203e2bb43f19b",
+    "id": "B.bitflip.arith.carry.n40"
+   },
+   {
+    "hash": "sha256:96fb69fa5e6835a6a687fd5a5da5a1fdcda6b6504fac297840a59fed18ab6000",
+    "id": "B.bitflip.arith.carry.n52"
+   },
+   {
+    "hash": "sha256:64e95f86e103cc43e5934ea686389b050fac68db1f099d332b85b81d941a0380",
+    "id": "B.bitflip.arith.carry.n64"
+   },
+   {
+    "hash": "sha256:e965e22bd81d71bd9d020d8a310abe120627dbfced6110e2464dd27eb2597ce2",
+    "id": "B.bitflip.arith.majority.n41"
+   },
+   {
+    "hash": "sha256:f66e8c29bbbb5bb09c4dd831c890b2a3e8954d53a1a7b5a87127cfc488d97192",
+    "id": "B.bitflip.arith.majority.n51"
+   },
+   {
+    "hash": "sha256:0fb482ea0c12cdca566d7534b5e342703b47ec395ca85247828592281b955bd2",
+    "id": "B.bitflip.arith.majority.n63"
+   },
+   {
+    "hash": "sha256:b876f91d5d3cc6a87906af83c249396cd7d23ccf3141933332ed16beef21659e",
+    "id": "B.bitflip.arith.prod_parity.n20"
+   },
+   {
+    "hash": "sha256:6c925c4857db78fad42d0e258d4319fb58e6809b4fabe0468130fac936cb7482",
+    "id": "B.bitflip.compare.eq.n40"
+   },
+   {
+    "hash": "sha256:991041b2904b6e4a015b86aec8eb57950fb86d280f2e31e469d2b410363c73ab",
+    "id": "B.bitflip.compare.eq.n52"
+   },
+   {
+    "hash": "sha256:802987eeffd813eee32160fc63501c60c2dff70dcd329d778264333a3ddb4f49",
+    "id": "B.bitflip.compare.eq.n64"
+   },
+   {
+    "hash": "sha256:2f8a89ec76e1d8fffa653f22fbec592cd4b31a0817a73aca9148a1190c613b22",
+    "id": "B.bitflip.compare.eq_const.n48.s23002"
+   },
+   {
+    "hash": "sha256:09d6489a1e1ae8a577de676334e8df8f32250483299412cd85c74f16b23d9b2b",
+    "id": "B.bitflip.compare.eq_const.n56.s23001"
+   },
+   {
+    "hash": "sha256:0f09155258c78a206438224feca546a3ee7c4b246da8ee2a13a4a6a1a1caea4d",
+    "id": "B.bitflip.compare.eq_const.n64.s23000"
+   },
+   {
+    "hash": "sha256:a4fff20568e498eafd9cecf3630a711494d38aa14663a007dddb57ea8b618d61",
+    "id": "B.bitflip.compare.eq_const.n64.s23003"
+   },
+   {
+    "hash": "sha256:fe1f3a41513ab443f5be4094939194331bb09037c7d9061cb546abd12488a7ca",
+    "id": "B.bitflip.compare.eq_const.n64.s23004"
+   },
+   {
+    "hash": "sha256:9863aceb0f1f73c4d2ba7566e42670e41dde43d29e81cf6358c58d5c9781c41a",
+    "id": "B.bitflip.compare.eq_const.n64.s23005"
+   },
+   {
+    "hash": "sha256:7ca390b206603552d5f04fd080268ab494932e6f10060583ab30f7081ca4fc1c",
+    "id": "B.bitflip.compare.lt.n40"
+   },
+   {
+    "hash": "sha256:78b7f525859e56aa24618a16aa066e0945df4db2cbb77d83243ef90674f3875b",
+    "id": "B.bitflip.compare.lt.n52"
+   },
+   {
+    "hash": "sha256:ba7604a1e9ee45148860a0567bb04723bea1e782ea67a6dfc006cd22217a8185",
+    "id": "B.bitflip.compare.lt.n64"
+   },
+   {
+    "hash": "sha256:27df33ebba9ae70f54df93fd476275b598fb7303d6be62f83b96be34321a0664",
+    "id": "B.bitflip.simon3.t10.s22000"
+   },
+   {
+    "hash": "sha256:510d0fa2a1e00fc49af53cc4d084d0c0a593d745d3aa2ee8aa43cc8af2dde010",
+    "id": "B.bitflip.simon3.t12.s22001"
+   },
+   {
+    "hash": "sha256:1a27c1853f4de126cf60442993ae5e2922dd5b2c8a4e4b95d6cf9058aa0abf6f",
+    "id": "B.bitflip.simon3.t20.s23005"
+   },
+   {
+    "hash": "sha256:72075dab466721537d3ba57b65c0240af7b3e8c535bbc4fd18a124b635afda38",
+    "id": "B.bitflip.simon3.t21.s23008"
+   },
+   {
+    "hash": "sha256:71c3dfe6736860105aa71c6fded637442230208030927b77d8179403226d80c1",
+    "id": "B.bitflip.simon3.t23.s23009"
+   },
+   {
+    "hash": "sha256:fbb583cf97e342f7af5dbdcacbe19dc3f0cc05b4b1aa491c6533f1bef173a64b",
+    "id": "B.bitflip.simon3.t25.s23010"
+   },
+   {
+    "hash": "sha256:781fe1d1f221fccdf0661dedf31df4bd830ab00b423183e73ec8ceaf4b787fbd",
+    "id": "B.bitflip.simon3.t26.s23004"
+   },
+   {
+    "hash": "sha256:32a2a28623b372dad7ccde0d7d4795c8d57e51171ea9726bea7ad03743537331",
+    "id": "B.bitflip.simon3.t27.s23002"
+   },
+   {
+    "hash": "sha256:3f2e51ca52b6a947c045b3fb69f896437225b2a3e4bfb3c4434d6dbc91a4005a",
+    "id": "B.bitflip.simon3.t27.s23007"
+   },
+   {
+    "hash": "sha256:4c391b7afd0805887f0f0d08df4257df1540757caf12464aa98215059f0344bb",
+    "id": "B.bitflip.simon3.t28.s23000"
+   },
+   {
+    "hash": "sha256:aa493b48ab52b48d097f3ce63a228a444184357e93dd81f917cfd3779ff59a8c",
+    "id": "B.bitflip.simon3.t30.s23001"
+   },
+   {
+    "hash": "sha256:0c3bbc2319cec8de1cf29f2c5dd7c9b9029c2db89bb8efaf5dbdd003935c86c5",
+    "id": "B.bitflip.simon3.t30.s23003"
+   },
+   {
+    "hash": "sha256:60c3453d25cf9fd3c41ea8c35a5985ea50e9c91f37fd65351914cca49d223143",
+    "id": "B.bitflip.simon3.t30.s23011"
+   },
+   {
+    "hash": "sha256:d42834f6fcad46df4d20a84116a867b238bb80fbcbe9e32f7baf58941bb562d7",
+    "id": "B.bitflip.simon3.t31.s23006"
+   },
+   {
+    "hash": "sha256:b291af12850d47e8da5ee9f269501e170d0ac606e0af4895bf539a58189edcff",
+    "id": "B.bitflip.simon3.t5.s20000"
+   },
+   {
+    "hash": "sha256:453ee7574a2afbf056ea441b2f188d68bea395bcd68efbf90936df8739de7491",
+    "id": "B.bitflip.simon3.t6.s20001"
+   },
+   {
+    "hash": "sha256:723212109fe7a5fefb9302690f2843e009d4eafc1e8042f7aeaa55fb7fec1634",
+    "id": "B.bitflip.simon3.t7.s21001"
+   },
+   {
+    "hash": "sha256:c33e5e982292b5b89cdf52d55a45af585f5b6ed7b22211e844c5a01d50e7b593",
+    "id": "B.bitflip.simon3.t8.s21000"
+   },
+   {
+    "hash": "sha256:c1a23d7b6a4393b9d0501d52a6986c3a4c06735a2dcd9cfd1912d29935781df0",
+    "id": "B.phase.rand3sat.n12.s20100"
+   },
+   {
+    "hash": "sha256:a5a3bca83407c76b295082d07a5b3ce7e23ada87f1f3aeb8e53b5ef117de9e63",
+    "id": "B.phase.rand3sat.n13.s21101"
+   },
+   {
+    "hash": "sha256:d2267e8d65fada674abd2c6f3d757506b739da36b8564b5811d77b08f7a0dcea",
+    "id": "B.phase.rand3sat.n18.s21000"
+   },
+   {
+    "hash": "sha256:ec9f9502be8c80378a73a4937ddf6482cbfbd3dcf53e554b9e712b248d734f03",
+    "id": "B.phase.rand3sat.n19.s22000"
+   },
+   {
+    "hash": "sha256:e527320667ef439783a862af5a8935eed37e59bbc63719fa9e147a1173b3306c",
+    "id": "B.phase.rand3sat.n21.s22001"
+   },
+   {
+    "hash": "sha256:bb9cbba4ce2f449909983e37a84442cb481db39a6609a54fc7aa0ae25beb3abd",
+    "id": "B.phase.rand3sat.n41.s23009"
+   },
+   {
+    "hash": "sha256:b6ffdbac18373e9858e3712a3e5a3ee0f39bd7489ae45488a9dcfe60f7a96c06",
+    "id": "B.phase.rand3sat.n42.s23000"
+   },
+   {
+    "hash": "sha256:a256bebabf07784ebd9f1f8650a44d1a056b27712bfb27333a83f6c6d5561398",
+    "id": "B.phase.rand3sat.n42.s23011"
+   },
+   {
+    "hash": "sha256:2d5f060e654d5f8c09356730b881190973344d124854f698714878ae90e16ebb",
+    "id": "B.phase.rand3sat.n44.s23006"
+   },
+   {
+    "hash": "sha256:1101c0dbe467e4b66c913aee92a914aa6c6734cd8fed0400d3f9c1d02f16692d",
+    "id": "B.phase.rand3sat.n54.s23010"
+   },
+   {
+    "hash": "sha256:06c3d1a6776a91c6a9866c372f6997e8b781e4f32e5150d8307f7b0aa26cdd98",
+    "id": "B.phase.rand3sat.n57.s23001"
+   },
+   {
+    "hash": "sha256:a73d7a5eae202d8141bcd9c63bb3df430569cfb84dd6f514ca6ee65f4f63cb4c",
+    "id": "B.phase.rand3sat.n57.s23004"
+   },
+   {
+    "hash": "sha256:2545f5fff73aee354bf7214425c73b499177e10bbe805639746269f124ee7d46",
+    "id": "B.phase.rand3sat.n58.s23002"
+   },
+   {
+    "hash": "sha256:b7dc34d748918cd7d4d1617f7682097495a05b1f2c525839925dcbd7c41f94cd",
+    "id": "B.phase.rand3sat.n58.s23005"
+   },
+   {
+    "hash": "sha256:6595fe6f70a6b1e6a3630327e49e6c264f96517b9eb2d4e3793016903feaf0a6",
+    "id": "B.phase.rand3sat.n58.s23007"
+   },
+   {
+    "hash": "sha256:9b9b95e4c33ad57b8cb167a43a2c50d7a9917b54cc63de5b60793258954937a6",
+    "id": "B.phase.rand3sat.n58.s23008"
+   },
+   {
+    "hash": "sha256:55a060dec932fb74290850104a1f436f510ec04275fde23d0b931a8e2e0d1053",
+    "id": "B.phase.rand3sat.n63.s23003"
+   },
+   {
+    "hash": "sha256:a83970f2296c292443812c8d1d07dad213e3d0627c15cd3ddcbb582676b3be49",
+    "id": "B.phase.rand3sat.n7.s20001"
+   },
+   {
+    "hash": "sha256:a32659dea89fa87f5b304ed4209101be91c2d4d87e4b6a3e20010bcc8fa2c7b4",
+    "id": "B.phase.sudoku4.k11.s22000"
+   },
+   {
+    "hash": "sha256:e51b4ec0435922e5093af211d6b93f50502b8cf28b9428eb16ed82b958904782",
+    "id": "B.phase.sudoku4.k7.s21100"
+   },
+   {
+    "hash": "sha256:436c8284384fa537300a19942b8fd18616de3340e59ac6671aed777d761315f1",
+    "id": "B.phase.sudoku6.k14.s23004"
+   },
+   {
+    "hash": "sha256:b85a2452f48e7edcd2e35bb61e2cffe470fcc30416edf2d21c9f894294b88686",
+    "id": "B.phase.sudoku6.k14.s23009"
+   },
+   {
+    "hash": "sha256:213a5dc254e140659f97c56fdce6ec530d2920281b485c96ec2887d45a53c1b3",
+    "id": "B.phase.sudoku6.k15.s23003"
+   },
+   {
+    "hash": "sha256:fb9119a8efd603381b5664c1ea1884b880c05f75bc3818f8fcd79f4820badd56",
+    "id": "B.phase.sudoku6.k16.s23011"
+   },
+   {
+    "hash": "sha256:61d56717493f22a48e5442686f63e0724553f9f6e9bdfb46e3e045b9c1948bcc",
+    "id": "B.phase.sudoku6.k17.s23007"
+   },
+   {
+    "hash": "sha256:711adde15aab3f1ac843f65dffce65ee9b5ac45cac43802c6865e2232104e001",
+    "id": "B.phase.sudoku6.k18.s23010"
+   },
+   {
+    "hash": "sha256:b1e2e743c02e93ff8be59e69f4279c77aac13c7727175c9a8bc780f131873822",
+    "id": "B.phase.sudoku6.k19.s23000"
+   },
+   {
+    "hash": "sha256:7c8d47edd399fe75387f4333eae825d00639fdadb3f8216c5b28145644915e82",
+    "id": "B.phase.sudoku6.k19.s23001"
+   },
+   {
+    "hash": "sha256:543b082b5c0a7079c232e11111b880a650db9f2ae32414bd032f305390cf53bd",
+    "id": "B.phase.sudoku6.k21.s23002"
+   },
+   {
+    "hash": "sha256:23cc8a58e1e94383818bdbcd740cdcf4e1c8b7013f60fd140563a814d7f3b6ce",
+    "id": "B.phase.sudoku6.k21.s23005"
+   },
+   {
+    "hash": "sha256:350bbe1bb9ca7e2dec4af895a66b5a987085f51acd169b867443897ec920deb9",
+    "id": "B.phase.sudoku6.k21.s23006"
+   },
+   {
+    "hash": "sha256:f315c3eef5bc66619f28aae06984ae2174feb0a8e47c115e7372beb994f0ceab",
+    "id": "B.phase.sudoku6.k21.s23008"
+   },
+   {
+    "hash": "sha256:6c3d113a9bb75ab109d0c60fec642b8363aec602029b1432c968e46a4b6fa754",
+    "id": "B.phase.sudoku6.k8.s22001"
+   },
+   {
+    "hash": "sha256:1c8f25afbcc7ffd8e1d416eb2afe22e100d2ecac3f71a6caa51aff81e00e5765",
+    "id": "B.phase.triangle.v10.s20001"
+   },
+   {
+    "hash": "sha256:4c7fb26ce8c69016ef896f4d03b91c5c6f2eb811f2f5877ba1bba205cdbcac0e",
+    "id": "B.phase.triangle.v13.s21000"
+   },
+   {
+    "hash": "sha256:4031ddba002ded5a3e435a50911238fcb0c42acb59ce42b9bb175b0ec1096567",
+    "id": "B.phase.triangle.v15.s21001"
+   },
+   {
+    "hash": "sha256:5bfd2ce9fa92ca8bfdf07faf3976592d719eec232a51f954442502b1be9ae8c5",
+    "id": "B.phase.triangle.v20.s22001"
+   },
+   {
+    "hash": "sha256:c7da8a4ce675d4eeef48598554bf3cf8cb810451f75d80742c9ff18f3655acd4",
+    "id": "B.phase.triangle.v22.s22000"
+   },
+   {
+    "hash": "sha256:7805d2052cb700b8844b54d89ba675412486962cd141ddd09081ca65a2dca2cd",
+    "id": "B.phase.triangle.v40.s23001"
+   },
+   {
+    "hash": "sha256:44b9a2dad7f4eafecaa311141be0627156fcc7c4fd69a6cdd6ff2da1d8e3c218",
+    "id": "B.phase.triangle.v47.s23011"
+   },
+   {
+    "hash": "sha256:a840696d4dfaf7d8d44420095224fa9f9f57296bfc7ed12c57ddb5b3793176d4",
+    "id": "B.phase.triangle.v52.s23009"
+   },
+   {
+    "hash": "sha256:23b4cad617fa74c8860fc95f6c055f8983899ad9c9b0ff579376266c64f83c8d",
+    "id": "B.phase.triangle.v53.s23007"
+   },
+   {
+    "hash": "sha256:010f8f928a5a60ef60a0197dfd6011810c6f3616334c397dba471a6baa20a816",
+    "id": "B.phase.triangle.v54.s23008"
+   },
+   {
+    "hash": "sha256:d1fb7053f3b7a27a80c7a607af33adcca82e58aac88b00e847e309717245e725",
+    "id": "B.phase.triangle.v56.s23000"
+   },
+   {
+    "hash": "sha256:18de60f0789bbf686f2c6423256195ad9e93338815a9f1a2eb1c30497cfcee05",
+    "id": "B.phase.triangle.v56.s23005"
+   },
+   {
+    "hash": "sha256:11caa7f60e6229dc33706e87cd6650ab1a21b414ca74a8b4e84d385261bc53b8",
+    "id": "B.phase.triangle.v56.s23010"
+   },
+   {
+    "hash": "sha256:8db6b70f7fc1c36e75a69d4e314105a2afeeec6737c1fcd5cdbe6c2f5c08055c",
+    "id": "B.phase.triangle.v59.s23003"
+   },
+   {
+    "hash": "sha256:d0879290144277ebbad337d6f460c52f046d4e30709b1b4c3161cc0b299d9c8c",
+    "id": "B.phase.triangle.v63.s23002"
+   },
+   {
+    "hash": "sha256:4140b076323931fb0f3021e9d4efb9512add529f4fcd40dbb8a2e9550dd3e308",
+    "id": "B.phase.triangle.v64.s23004"
+   },
+   {
+    "hash": "sha256:cc28ddfa047684f87fc191996eca3dfa8d23f574196b6ac92560b3007411cfde",
+    "id": "B.phase.triangle.v64.s23006"
+   },
+   {
+    "hash": "sha256:bc572d5741bb9966261209c28efe345645b12eb126b5ddc65af05d79611a7105",
+    "id": "B.phase.triangle.v8.s20000"
+   }
+  ],
+  "test_ood": [
+   {
+    "hash": "sha256:798ffb46a11869f9940cbd9e9c92467784287ec06156dfa7fea5a377287cca9c",
+    "id": "B.bitflip.epfl.cavlc"
+   },
+   {
+    "hash": "sha256:9ba5c34803cebbb921f7cd95d5489cc389c8efd7447b1ffa98a9abace7b62f0d",
+    "id": "B.bitflip.epfl.ctrl"
+   },
+   {
+    "hash": "sha256:8b5c471cb656b2be8aabaf285e2df771b95768a5df75ca081c57ae96de0ef06c",
+    "id": "B.bitflip.epfl.dec"
+   },
+   {
+    "hash": "sha256:908f7d3179baba667b6aff1cb7d928afa82db2a8b35d99c24ea4999d4b523066",
+    "id": "B.bitflip.epfl.int2float"
+   },
+   {
+    "hash": "sha256:ccc10e7391eabb64586a7b83bad439fae3d60559973561f63855f4b1e36adf92",
+    "id": "B.bitflip.epfl.router"
+   },
+   {
+    "hash": "sha256:595d9cbef3df366ff2a104e2471c346eae2f54e7530b9c44cf897b98cc224195",
+    "id": "B.bitflip.sbox.aes"
+   },
+   {
+    "hash": "sha256:f2a087f1b93e37487bb0ca35f5e0045546d2f7050ab77eb68b0419b6c56d959f",
+    "id": "B.phase.satlib.uf20-01"
+   },
+   {
+    "hash": "sha256:bc2e587fc458ba9f277562a5ab2fd1999a0a72c4a8d8b1d0f06f391de9b7857f",
+    "id": "B.phase.satlib.uf20-010"
+   },
+   {
+    "hash": "sha256:b2d09ceab8e9a53736bdac15fe7350e95205f007721c6e7695e1f05f29494143",
+    "id": "B.phase.satlib.uf20-0100"
+   },
+   {
+    "hash": "sha256:6a447c5de940c6c4df56221d648a7fc0d3e656ec16f9429b6fc47b4230d56830",
+    "id": "B.phase.satlib.uf20-0101"
+   },
+   {
+    "hash": "sha256:2ab8e08f414f4793998c2271951876295a41dd46f07bab34d331896c9d3556b5",
+    "id": "B.phase.satlib.uf20-0102"
+   },
+   {
+    "hash": "sha256:937c3014e53e1697f82b193a38be450714a3075be0d8289429434d64b4ea36f0",
+    "id": "B.phase.satlib.uf20-0104"
+   },
+   {
+    "hash": "sha256:3575e0640ea4dbbaa58d9a384ce12e0b7b29ec3508637d5c5b1c971031e30538",
+    "id": "B.phase.satlib.uf20-0108"
+   },
+   {
+    "hash": "sha256:9baace67dfa774eb366ee1aee7a9b9b742e6a3245c3f358ab1d50b9770bbb7ec",
+    "id": "B.phase.satlib.uf20-0109"
+   },
+   {
+    "hash": "sha256:40ee31e157d25260b67cc44e086cce27bc05aa1cdc76dad09437cfc09a0911c4",
+    "id": "B.phase.satlib.uf20-011"
+   },
+   {
+    "hash": "sha256:cc1892b85d9403da0ed9c27b7c1f81f1e40ca9bb2e50baf0837b9e44001f9b53",
+    "id": "B.phase.satlib.uf20-0110"
+   },
+   {
+    "hash": "sha256:19b06283b89dc25f6fd5b80bc5a71a62663e82415467ebb0fc7e3d46993feef7",
+    "id": "B.phase.satlib.uf20-0111"
+   },
+   {
+    "hash": "sha256:e74c92368ab640a65dfb6c0ce2d5d2c15a46e7fc29910795fc089be0d07aea66",
+    "id": "B.phase.satlib.uf20-0112"
+   },
+   {
+    "hash": "sha256:9a32bc3ee7d73e0cfacb22d695d24f81c9ff2852508cdc6e461bd93164dcb7bc",
+    "id": "B.phase.satlib.uf20-0114"
+   },
+   {
+    "hash": "sha256:f993cb3cd3f855b5a6cfa93ff4f10cd150fb29282b811981a87ece25c9f82cff",
+    "id": "B.phase.satlib.uf20-0115"
+   },
+   {
+    "hash": "sha256:95d8fbc6a455fc7f8e89233c68d363040bf0fb2c25cd7b0a581f8c3cd1005cf9",
+    "id": "B.phase.satlib.uf20-0116"
+   },
+   {
+    "hash": "sha256:5f442a64038a4352b834043ab892c7443afd4442f3e79136b4a47dbd4c23f30e",
+    "id": "B.phase.satlib.uf20-0117"
+   },
+   {
+    "hash": "sha256:8b7078ed1bbdf2f5a6e7572dfd77f707934a86f63e1f5411a7e48ed6b2aa474c",
+    "id": "B.phase.satlib.uf20-0118"
+   },
+   {
+    "hash": "sha256:e7ef32ae3af0f8d3d19d99f1033d743f75dbd7a34d73fcde6bbc66698657b89a",
+    "id": "B.phase.satlib.uf20-0119"
+   },
+   {
+    "hash": "sha256:471ceaa75ef6bdb7e7c6901fc0d1e9214f9a65b61ef9ecef669e0cc0b8f0fb38",
+    "id": "B.phase.satlib.uf20-012"
+   },
+   {
+    "hash": "sha256:b68b4d05b3cab86ed1b0cd2526153a82286771970bac82cc7e71f5d05b77122d",
+    "id": "B.phase.satlib.uf20-0120"
+   },
+   {
+    "hash": "sha256:35e0fc5386e1aa0cf5d7000e3f6a2c224d3a069aa2144daecf0737c61186f822",
+    "id": "B.phase.satlib.uf20-0121"
+   },
+   {
+    "hash": "sha256:feab9f0301507eba589360be8a526f48ac8bfd5cabbefaf7888ea0f70133ee51",
+    "id": "B.phase.satlib.uf20-0122"
+   },
+   {
+    "hash": "sha256:1358761453bfec08be25737cf876504adb1880882c7b7fe89c87decaa8ccf01f",
+    "id": "B.phase.satlib.uf20-0123"
+   },
+   {
+    "hash": "sha256:9408d4d188fa8b6109096898c934879f2b25950e194ca7576438acd1d46b0650",
+    "id": "B.phase.satlib.uf20-0124"
+   },
+   {
+    "hash": "sha256:fc20c17409df8d075f5814819cee23d6cce71052b227663210b932e0f2a519c2",
+    "id": "B.phase.satlib.uf50-01"
+   },
+   {
+    "hash": "sha256:73ba0183f5a7c54630ebd69fb1a63b0806768c0bb91cb5968e6891bac06929d2",
+    "id": "B.phase.satlib.uf50-010"
+   },
+   {
+    "hash": "sha256:57eabaf9f3eb20d591786d99d927aca83bda390063aa2dda0ae2738863662fd0",
+    "id": "B.phase.satlib.uf50-0100"
+   },
+   {
+    "hash": "sha256:f1aab87675f55c77098387b5801beff4bde067d662ea3145736c4ae3248d8f9f",
+    "id": "B.phase.satlib.uf50-01000"
+   },
+   {
+    "hash": "sha256:fc90a0e93117a60e2d75c92ff5b6a37342ccb49af2114aaa49a4e50f504d0f2b",
+    "id": "B.phase.satlib.uf50-0101"
+   },
+   {
+    "hash": "sha256:cf1c52b800a6aee81750362143205bc32a6391c1c3815f081ef079d5dd604576",
+    "id": "B.phase.satlib.uf50-0102"
+   },
+   {
+    "hash": "sha256:f5204b91be56f46dfcaf12b75e64f456d5f0730ddbe68492cc2aa524acb7e515",
+    "id": "B.phase.satlib.uf50-0103"
+   },
+   {
+    "hash": "sha256:f1970a2513a309bc96695e3bf9959ab1a3cc3999b109d570851edfe9c9366575",
+    "id": "B.phase.satlib.uf50-0104"
+   },
+   {
+    "hash": "sha256:b4a0f2e4776d80dbf484b0c1c3376066eb245c5f7403c615fbd1387d976d5bb9",
+    "id": "B.phase.satlib.uf50-0105"
+   },
+   {
+    "hash": "sha256:5cfc0c58f970ca63c4d4caab467b1ef7c2714448aae19f30b23161dc42dad122",
+    "id": "B.phase.satlib.uf50-0106"
+   },
+   {
+    "hash": "sha256:3c668d4add6d0c357c640d45e5114c3347566c6d262e4fdcf7f4b2f6ce2d036a",
+    "id": "B.phase.satlib.uf50-0107"
+   },
+   {
+    "hash": "sha256:519ea8b35799f1db026bb5d4a80a8013a028769f41d0abc299c8b9d27e65c32d",
+    "id": "B.phase.satlib.uf50-0108"
+   },
+   {
+    "hash": "sha256:9e5e5a5e66c8fffa28f6260713ff168eb83dc30a8dee5abed3a90de8d3136e1b",
+    "id": "B.phase.satlib.uf50-0109"
+   },
+   {
+    "hash": "sha256:7e454116cc377ceb5980057f21802c6a43d24e27a97cdbc81cad061ccf6b9d7b",
+    "id": "B.phase.satlib.uf50-011"
+   },
+   {
+    "hash": "sha256:1805287a7d9395d257e7aa07676b212b5d68567f319035ecaed7476e4408b5ab",
+    "id": "B.phase.satlib.uf50-0110"
+   },
+   {
+    "hash": "sha256:a9021bb660186f497d20551ff4d0aff6fdce2dba238a413f4c8bc826c12e23f2",
+    "id": "B.phase.satlib.uf50-0111"
+   },
+   {
+    "hash": "sha256:5f71dcae7fe8d0a85c4bc556222c97cec8404e059fc565df50e06ca0d70d351f",
+    "id": "B.phase.satlib.uf50-0112"
+   },
+   {
+    "hash": "sha256:5a76ec04b221a12f50c40aa07c7e639c2f5246bb9a6b8cfaa448a7ed9f1c5391",
+    "id": "B.phase.satlib.uf50-0113"
+   },
+   {
+    "hash": "sha256:fd338f373ddaba1ddfb227af197e90082cab00ba142629d4dc774369f6a216c9",
+    "id": "B.phase.satlib.uf50-0114"
+   },
+   {
+    "hash": "sha256:49e10d71baf15a4fb8b7802e0c7fe10d55f5b85e3a6eebbcca66ab189183e7d4",
+    "id": "B.phase.satlib.uf50-0115"
+   },
+   {
+    "hash": "sha256:80ff4267143fe11033bc00301e9575b3f3e568090c2d5cda01223eb0f1907b51",
+    "id": "B.phase.satlib.uf50-0116"
+   },
+   {
+    "hash": "sha256:6ab9d932dccf48e99f9ec0cb57918269990e6748f692432a2e4d23db7db8e8da",
+    "id": "B.phase.satlib.uf50-0117"
+   },
+   {
+    "hash": "sha256:ef7c6f1e1b23ad47c18fef04e0f3d07e12b52051a6757d503357c61c9c952bb7",
+    "id": "B.phase.satlib.uf50-0118"
+   },
+   {
+    "hash": "sha256:7562d1e52e0bb8b54a197e9ffd12733b5336910f7eaf3cf6cacb00106f59e379",
+    "id": "B.phase.satlib.uf50-0119"
+   }
+  ],
+  "train": [
+   {
+    "hash": "sha256:f9d2bfb0335446b175cf52d1b1b5768f74fe9a26ab42165019e766fb18851a69",
+    "id": "B.bitflip.arith.carry.n10"
+   },
+   {
+    "hash": "sha256:035b7025eba45881b18eab3ede3f4d05bc0c100d403635c2470e506611637892",
+    "id": "B.bitflip.arith.carry.n12"
+   },
+   {
+    "hash": "sha256:aa46c494b19264522e5742683efe44bfecf31c7a5102b840e4ff9f094b1b9e39",
+    "id": "B.bitflip.arith.carry.n14"
+   },
+   {
+    "hash": "sha256:1181a09034c8ba7ef747f7c59e0ed3cfbd9f6b5bfaae8d660e52464f7091ccae",
+    "id": "B.bitflip.arith.carry.n16"
+   },
+   {
+    "hash": "sha256:243d5670843bcf80e8cac4011b83b13527cd7ef6716e11465be623dc88d3e66c",
+    "id": "B.bitflip.arith.carry.n6"
+   },
+   {
+    "hash": "sha256:fb7d6e0581715731bacb7835674e876b1f6d7becf5fbd67d96762be2b46e12af",
+    "id": "B.bitflip.arith.carry.n8"
+   },
+   {
+    "hash": "sha256:54ada3dd4dfa91daaf3f276de62275708a87352059502b267929034603271830",
+    "id": "B.bitflip.arith.majority.n11"
+   },
+   {
+    "hash": "sha256:dd76e8a5b6ea54c1870d394ca8c3181c66fb24b88936c129f925720cb998e2eb",
+    "id": "B.bitflip.arith.majority.n13"
+   },
+   {
+    "hash": "sha256:1eb7949b14958082ea6614bf78e63260280a3e1b758d3c98d9927fe4fef8e883",
+    "id": "B.bitflip.arith.majority.n15"
+   },
+   {
+    "hash": "sha256:b499948609ec8feea39f0810adbbdaf399e8e44c8802e0485df795db10f9e422",
+    "id": "B.bitflip.arith.majority.n17"
+   },
+   {
+    "hash": "sha256:c18f2afbaeb543334299a53b97b0e26ff157dccbfdf31ac40fdd5d559dbaa999",
+    "id": "B.bitflip.arith.majority.n7"
+   },
+   {
+    "hash": "sha256:918f07a39b317da595c2a8320f1b240551b530fb605e6e1a833f6af38d902b6e",
+    "id": "B.bitflip.arith.majority.n9"
+   },
+   {
+    "hash": "sha256:dcebc6f4ff96b31239e18e74be9454bdf1751bb633e2498b13c781bee58484a1",
+    "id": "B.bitflip.arith.prod_parity.n10"
+   },
+   {
+    "hash": "sha256:6f439bb5ff9d8bcc4835bb4ff218644d7b14a2343cbd38fdb7ec0e95f48dfaf1",
+    "id": "B.bitflip.arith.prod_parity.n12"
+   },
+   {
+    "hash": "sha256:e379c19aa70c0cf13fae71b1f61b96ee83628c0fb252ee5916997b455ad87eb4",
+    "id": "B.bitflip.arith.prod_parity.n14"
+   },
+   {
+    "hash": "sha256:caa6af488d7698db7b1c53dc607ebb8ae2502d23ab4b04fce5031c98a520162b",
+    "id": "B.bitflip.arith.prod_parity.n6"
+   },
+   {
+    "hash": "sha256:7e3b7077c0ec27b000209c5572cbf5420e6c0f5ff03c6709b53f4ce79efff2ce",
+    "id": "B.bitflip.arith.prod_parity.n8"
+   },
+   {
+    "hash": "sha256:34b286aa46a9675a904314ee947765e72ff4d59f87eee5d5a282d60869159d72",
+    "id": "B.bitflip.compare.eq.n10"
+   },
+   {
+    "hash": "sha256:bdcf85e229b39f0a7cfbe82317fb2185c88bf2652c251d5a817df497bb6f058d",
+    "id": "B.bitflip.compare.eq.n12"
+   },
+   {
+    "hash": "sha256:4997cf32bf999b55e18a6204c9e8769caa390ace222cd3b664c4ca4c9e0d8630",
+    "id": "B.bitflip.compare.eq.n14"
+   },
+   {
+    "hash": "sha256:3fa3bdba43250fe553fa11fac4034afb20a6df619abc49fb83b01e91584e3b01",
+    "id": "B.bitflip.compare.eq.n16"
+   },
+   {
+    "hash": "sha256:d1218fc148f15ddde2821a4100f7749095b153be1a0237eed0ef0801c751f378",
+    "id": "B.bitflip.compare.eq.n18"
+   },
+   {
+    "hash": "sha256:1bee56fe3cd8664686fae59eb0ea414c3493d5329e0c67ee66f8e891423b9d86",
+    "id": "B.bitflip.compare.eq.n6"
+   },
+   {
+    "hash": "sha256:64c4e7f994a2ee19c9fa76b7d5a9d9716462844cee6c91644bb093425a803b3f",
+    "id": "B.bitflip.compare.eq.n8"
+   },
+   {
+    "hash": "sha256:e763fb8b2b20270d401025103bbad29ac5c1f7df1804b1687679ddd0bf02177d",
+    "id": "B.bitflip.compare.eq_const.n12.s0"
+   },
+   {
+    "hash": "sha256:d1d75f2cccd751cc12e009c598d8b7f588b3b4807c9d0aaf73d598c15f1a50e9",
+    "id": "B.bitflip.compare.eq_const.n12.s3"
+   },
+   {
+    "hash": "sha256:2e41e5c78101111520424321a0be9d4397e7bcce75edc235286f1626f3e321b8",
+    "id": "B.bitflip.compare.eq_const.n12.s5"
+   },
+   {
+    "hash": "sha256:f359c400a6de8b6de66bd80240882ae0cc911b115e27287cd196c23185b51410",
+    "id": "B.bitflip.compare.eq_const.n14.s1003"
+   },
+   {
+    "hash": "sha256:853fcbebca08e2c631ce17faa5c5995a01ccbc8ea7787ee4cd9c3dd364263246",
+    "id": "B.bitflip.compare.eq_const.n14.s1004"
+   },
+   {
+    "hash": "sha256:f24bfa453d4acae358238cc51375facf399f163487793b79450592b1181f12ed",
+    "id": "B.bitflip.compare.eq_const.n14.s1008"
+   },
+   {
+    "hash": "sha256:f544f75b0f2c0894a758115d8291861051abd315408944c2dd1d190992381b14",
+    "id": "B.bitflip.compare.eq_const.n16.s1000"
+   },
+   {
+    "hash": "sha256:34bbcf41870ef930efcb2738561bcc70b04151c6e3868139170236b706216523",
+    "id": "B.bitflip.compare.eq_const.n16.s1006"
+   },
+   {
+    "hash": "sha256:071eca5aef32f4dd45f17897eb6c7b97831599853c65dd6a55227e8100fc67d0",
+    "id": "B.bitflip.compare.eq_const.n16.s1007"
+   },
+   {
+    "hash": "sha256:e8211a40f05a4b9b9a349995cf65db7d1857642ad7e0f4ee3df8791ca6ae4dc6",
+    "id": "B.bitflip.compare.eq_const.n18.s1001"
+   },
+   {
+    "hash": "sha256:9afba5cb80a4bfa8a8bc4342bbbe0cbb8e6626fde2179a34c2a90d40d3707cc0",
+    "id": "B.bitflip.compare.eq_const.n18.s1002"
+   },
+   {
+    "hash": "sha256:5d3b3b9fd4ec220bf489dece9fd6293cf83f05e9d45cd96bf4860f998cc64982",
+    "id": "B.bitflip.compare.eq_const.n18.s1005"
+   },
+   {
+    "hash": "sha256:8e9cd007359ad7d2fa35176abdf45351975a94ce5f5f054149dd6a0a78634734",
+    "id": "B.bitflip.compare.eq_const.n18.s1009"
+   },
+   {
+    "hash": "sha256:b84f0f62c073c0194c782d60bc5f7b524dad86ce026b7168e54e7aee98aefb13",
+    "id": "B.bitflip.compare.eq_const.n20.s2003"
+   },
+   {
+    "hash": "sha256:96c7aa8fbb6e991da193a3ce34b1d5c5df02e67e708ebacd5110ddd0ddbab9d8",
+    "id": "B.bitflip.compare.eq_const.n20.s2004"
+   },
+   {
+    "hash": "sha256:21128e79ed5507505f5b1f8b50d881dfad2927319b05a0394d9cc175ae8fa60d",
+    "id": "B.bitflip.compare.eq_const.n20.s2009"
+   },
+   {
+    "hash": "sha256:1a61914954b8c4a6d5875411025a075501052679a95445c94378f33522219e8a",
+    "id": "B.bitflip.compare.eq_const.n22.s2000"
+   },
+   {
+    "hash": "sha256:2c1cece488595495e879cdbc6053186af4ffaf0debce8537ebe6a6ccdefce192",
+    "id": "B.bitflip.compare.eq_const.n22.s2002"
+   },
+   {
+    "hash": "sha256:cefda4d21c474e2d33d7e4c3f716ffe807d2a3a0ec0d897ba7a98f55ae7335be",
+    "id": "B.bitflip.compare.eq_const.n22.s2005"
+   },
+   {
+    "hash": "sha256:5565dcb9187e60b32627b56662d2fde4fc49e16ab90cac0ed67c2f01d9065ba5",
+    "id": "B.bitflip.compare.eq_const.n24.s2001"
+   },
+   {
+    "hash": "sha256:56c84d18337a7dd780ff71f9f8bc9d68999b497d1406505126ebdc06e5a7e35c",
+    "id": "B.bitflip.compare.eq_const.n24.s2006"
+   },
+   {
+    "hash": "sha256:b6579f43361de0fadc69b1c9db36167037411d9e2d24321fcc54abd074d7482f",
+    "id": "B.bitflip.compare.eq_const.n24.s2007"
+   },
+   {
+    "hash": "sha256:3616a7c28817fffb829d9e1019ebe0a227ee4330157adc69d22641416a1f3f15",
+    "id": "B.bitflip.compare.eq_const.n24.s2008"
+   },
+   {
+    "hash": "sha256:5499b52d5668aa7a422e4277d072ab4746f6b8760a0dec3dc57be3fd58ea5923",
+    "id": "B.bitflip.compare.eq_const.n6.s1"
+   },
+   {
+    "hash": "sha256:4df7aac8c9c7211687571a674dd77599fec75fa925c11130412dbc46c09c2781",
+    "id": "B.bitflip.compare.eq_const.n6.s2"
+   },
+   {
+    "hash": "sha256:28e6ed22de39be414555d3b184aeb282d78f5082da480f708247c054120db567",
+    "id": "B.bitflip.compare.eq_const.n6.s4"
+   },
+   {
+    "hash": "sha256:c6ecd4b1daa3246350bffbe7421ef042f168ed0dcdb314caea0eedf9e2ea5618",
+    "id": "B.bitflip.compare.eq_const.n6.s6"
+   },
+   {
+    "hash": "sha256:21374cdd277cb852f738d934e724fc108d76791626faefddf991453875b60400",
+    "id": "B.bitflip.compare.eq_const.n6.s7"
+   },
+   {
+    "hash": "sha256:e14adcbf1282e1b5b38aff064808d116b70ec8a41a8796aaf83c757321a2b508",
+    "id": "B.bitflip.compare.eq_const.n6.s9"
+   },
+   {
+    "hash": "sha256:9a8a1a372a49d11677dc81ad3267d5604a3e8276867bd8591ddc6520290431e4",
+    "id": "B.bitflip.compare.eq_const.n8.s8"
+   },
+   {
+    "hash": "sha256:6879011b0b540074712b8bd3041fe4574f4e890f28a99ad6987e43a385e11fad",
+    "id": "B.bitflip.compare.lt.n10"
+   },
+   {
+    "hash": "sha256:8070748062c8aedec25b36e01801013461a1f3e41ba70f99aaa3039dc62ad399",
+    "id": "B.bitflip.compare.lt.n12"
+   },
+   {
+    "hash": "sha256:72ce1adea3bbef2675bdbef4c4417324c559b152422267f8831a9ee1cbb865bf",
+    "id": "B.bitflip.compare.lt.n14"
+   },
+   {
+    "hash": "sha256:cd7e2f75e806cb47d20c8b904585f9cb285e84858b87b198da431a2ceebfabec",
+    "id": "B.bitflip.compare.lt.n16"
+   },
+   {
+    "hash": "sha256:170c65eab9a2c792634f0902d1772f279025b8d0b3f6aedbb3ee7ca8eb9722e6",
+    "id": "B.bitflip.compare.lt.n18"
+   },
+   {
+    "hash": "sha256:45cc54d3cf4176d35273fc0c4603f9d052f5c5b136b74cba7e9df28e5a02e6a1",
+    "id": "B.bitflip.compare.lt.n6"
+   },
+   {
+    "hash": "sha256:0e61a94c8a80729e7e43d62c1b8204c071d9794b0c6b7ac9786fbdcb93686eda",
+    "id": "B.bitflip.compare.lt.n8"
+   },
+   {
+    "hash": "sha256:844d092515f8aabee00de868143be672c1f6edbbce67dc9017aef4e1d9a435ec",
+    "id": "B.bitflip.simon3.t10.s2000"
+   },
+   {
+    "hash": "sha256:cdcee3ed5613d0c7c49305e54368b5a80d10496b2962eaa41bf7a17bc45995c5",
+    "id": "B.bitflip.simon3.t10.s2001"
+   },
+   {
+    "hash": "sha256:8b3a1bbdb5904fa2c5279d4499e46abee296c5ba1fda77598e5251d9864a598f",
+    "id": "B.bitflip.simon3.t10.s2002"
+   },
+   {
+    "hash": "sha256:323d137daed8145060779e8042fb7538f8179458f9782044ceeb9d4c7ea6ed33",
+    "id": "B.bitflip.simon3.t11.s2003"
+   },
+   {
+    "hash": "sha256:1039c067339053b7d7627fb606d48a89920dd1645c3a0552df0335c7e880868b",
+    "id": "B.bitflip.simon3.t11.s2008"
+   },
+   {
+    "hash": "sha256:da89bacb4370fdb46d78a8435ec008245dd5c201ef55df0bf7ae0149b31ed8ac",
+    "id": "B.bitflip.simon3.t11.s2009"
+   },
+   {
+    "hash": "sha256:3b7744d313b861278d4815c0b5ce64d310e091c35de7596dfed2df6cba1fe803",
+    "id": "B.bitflip.simon3.t11.s2011"
+   },
+   {
+    "hash": "sha256:1666c12ca33b316dacf3669708a9bfc5c0c425c67bdec78e53ea4b39ea3fefc4",
+    "id": "B.bitflip.simon3.t12.s2004"
+   },
+   {
+    "hash": "sha256:ae6bb260adf5378e042bd2c46d04d7a83b65ffb7dfa7dad7f228a0f7c82687fc",
+    "id": "B.bitflip.simon3.t12.s2005"
+   },
+   {
+    "hash": "sha256:400782da82766ee2dc61db1f9f2b48e86010bb03c8c26f98b765e269d051c1a7",
+    "id": "B.bitflip.simon3.t12.s2006"
+   },
+   {
+    "hash": "sha256:ad48da7db673d85468890f3726e02f3f6aaaa7ad840579e723049a464dc7e639",
+    "id": "B.bitflip.simon3.t12.s2007"
+   },
+   {
+    "hash": "sha256:514bfc5973d0bdc208d8fffd949d00352cd4631fa300eb49da58fcc0847fadcb",
+    "id": "B.bitflip.simon3.t12.s2010"
+   },
+   {
+    "hash": "sha256:a3bb2c8b8bb6a82743ac2bb1141981e1c43afd2e3ee3470d70a308159a44359a",
+    "id": "B.bitflip.simon3.t3.s11"
+   },
+   {
+    "hash": "sha256:7988c786e714dcd8163393275c4024cf354ffcd48f8b17874a4f0413a0b55714",
+    "id": "B.bitflip.simon3.t3.s3"
+   },
+   {
+    "hash": "sha256:821b4b41946d71e15c4bbf6e8850aec31100482828667f1cb0ff621f9ef9c013",
+    "id": "B.bitflip.simon3.t3.s4"
+   },
+   {
+    "hash": "sha256:d06afb4215d1a8b15d96af5f0fd2c1a36f5808a919fa691ec8ccdcdcc732b9f3",
+    "id": "B.bitflip.simon3.t3.s6"
+   },
+   {
+    "hash": "sha256:6c7618054be843e442e695a0219b821dea7e672c357ee7771ac8203c69e44308",
+    "id": "B.bitflip.simon3.t3.s8"
+   },
+   {
+    "hash": "sha256:f36bba81fd6693d947f778158ce907bc9057780b014a29d73fb6070a5d7cca47",
+    "id": "B.bitflip.simon3.t4.s1"
+   },
+   {
+    "hash": "sha256:24097cb3618273d3b849783aee26d8b1491f9bd339cd8b3f39269a46c3915a1a",
+    "id": "B.bitflip.simon3.t4.s5"
+   },
+   {
+    "hash": "sha256:1dfc7bcd3414ca8b412cc6ea66ccacc9f2c7a1406130a4e94e9f6dac54e5583e",
+    "id": "B.bitflip.simon3.t5.s9"
+   },
+   {
+    "hash": "sha256:51fc829cd6e2304824e18e31e5f4db0e936e4d803a799110f2a9829f41f7d783",
+    "id": "B.bitflip.simon3.t6.s0"
+   },
+   {
+    "hash": "sha256:ae55fe12679664413d67c589f26d700a209de8804ea05b4c0bd82c28ae080a10",
+    "id": "B.bitflip.simon3.t6.s10"
+   },
+   {
+    "hash": "sha256:5f0b4c4b92b1a67c2b6d399f997cdf822d943e57c0b7322e3ce08ee1b1834dce",
+    "id": "B.bitflip.simon3.t6.s2"
+   },
+   {
+    "hash": "sha256:ee7e06f2be1672883419cf57f8eb6f26fd68641029a0c752ea830e3d88dae987",
+    "id": "B.bitflip.simon3.t6.s7"
+   },
+   {
+    "hash": "sha256:35f0764b38f481ddd348c15eb442d722ae3de3ceda49eed5f9346eb2dce7f58b",
+    "id": "B.bitflip.simon3.t7.s1001"
+   },
+   {
+    "hash": "sha256:c8e320be9d69fa3802407ba246f361fc13290fccce13db7d22d890f479db739e",
+    "id": "B.bitflip.simon3.t7.s1002"
+   },
+   {
+    "hash": "sha256:2ade5daa3749c1b8b0e0d6eab38636079d8e1582f6f41bfb4015793311f5e045",
+    "id": "B.bitflip.simon3.t7.s1003"
+   },
+   {
+    "hash": "sha256:2e6a892b590fa572f9c55a3a6d73091fdc6bb99bd793bc7de743fcbd46c96ca0",
+    "id": "B.bitflip.simon3.t7.s1011"
+   },
+   {
+    "hash": "sha256:5a5a08b52ff519296d9ef22d34c4375bb8bf281cb67e3502add0e9276ab1f30f",
+    "id": "B.bitflip.simon3.t8.s1000"
+   },
+   {
+    "hash": "sha256:82efac9f349ccde4ccf5def1e09dc688cba4b9a6d01746ecd1468ce31cef2c61",
+    "id": "B.bitflip.simon3.t8.s1004"
+   },
+   {
+    "hash": "sha256:5fd4ffb77f396e674847f7604d0add5e47eb476675b63cb925843606427a7c43",
+    "id": "B.bitflip.simon3.t8.s1005"
+   },
+   {
+    "hash": "sha256:094e97665875b8852d08dc195a8d9a648037372e33e72b8670f9ea90824a6b4c",
+    "id": "B.bitflip.simon3.t8.s1007"
+   },
+   {
+    "hash": "sha256:40ff4c90edb1a9b5ad5d2f00ab79f024ac2aad3c529f565bde0ccec06dd9ca60",
+    "id": "B.bitflip.simon3.t8.s1008"
+   },
+   {
+    "hash": "sha256:5e2f5f4ca80e5e372c4aa235bbaee5770780b9b9f6affc2a432ba5f9250dd8db",
+    "id": "B.bitflip.simon3.t9.s1006"
+   },
+   {
+    "hash": "sha256:09112d26e55b2d84c1b265fb1acf023a08772683cb091aa2cb4ca23e92bb16a1",
+    "id": "B.bitflip.simon3.t9.s1009"
+   },
+   {
+    "hash": "sha256:a09806cb53cec4da234b21de047deb6acfd250f9a1bd7ce3a58531d6c30c9249",
+    "id": "B.bitflip.simon3.t9.s1010"
+   },
+   {
+    "hash": "sha256:f204365b5a5d2604492f26f96c3a9d4677db8afa4d362266a4960ea54cd62594",
+    "id": "B.phase.rand3sat.n10.s0"
+   },
+   {
+    "hash": "sha256:b480fe44ab292b10043859bdf24c3cfc6ea0fa585a8037915977896ece4bc0e2",
+    "id": "B.phase.rand3sat.n11.s10"
+   },
+   {
+    "hash": "sha256:84ed6a6be3e6c549a2bbf1ae09a04270546cf516254d7e2ed7657dc07da6e4da",
+    "id": "B.phase.rand3sat.n12.s11"
+   },
+   {
+    "hash": "sha256:21c1702ae6b41afbfda823c5b86bc05e8c1de6782a1d53ddb1ea2553efaa44d3",
+    "id": "B.phase.rand3sat.n12.s4"
+   },
+   {
+    "hash": "sha256:8c9e1e5d4808e8593c00b882eb14576afa413c94fbfc8442c314074c0ac7e612",
+    "id": "B.phase.rand3sat.n12.s5"
+   },
+   {
+    "hash": "sha256:b409ebbce5570af8339c46e20cf83bc89cfed76c9533e4c4ffecf4652c49779d",
+    "id": "B.phase.rand3sat.n13.s1003"
+   },
+   {
+    "hash": "sha256:60ec832b0e9262600a5ec16b6ec0b7a72d5602f72d6a9e620c16d3fc47056cff",
+    "id": "B.phase.rand3sat.n13.s1004"
+   },
+   {
+    "hash": "sha256:7a28dca7cdf36a6965ab6014b2dded3c5d02077416ecc64e82075b04897d0d16",
+    "id": "B.phase.rand3sat.n13.s1006"
+   },
+   {
+    "hash": "sha256:4c2757abebb9d500776cb213fbb326a3c26b047917d02719183ba25ed0e49ad2",
+    "id": "B.phase.rand3sat.n13.s1007"
+   },
+   {
+    "hash": "sha256:b283d25dbe8fa4fdc7ee4e793d492ff48e6da039607255d7e9b4f3993cbd8858",
+    "id": "B.phase.rand3sat.n14.s1010"
+   },
+   {
+    "hash": "sha256:a31e7a9286220f6d0d7ea37fc1757faec6bca771f7280eb6b28dcc9b5a80b526",
+    "id": "B.phase.rand3sat.n16.s1009"
+   },
+   {
+    "hash": "sha256:67694bf9a8d8c090c9020ba2d5e4c18807e21c35e3f98ea390b460d67b6c9ddf",
+    "id": "B.phase.rand3sat.n17.s1001"
+   },
+   {
+    "hash": "sha256:fbf38d5995c16268c4754953a1398fb0d07aba63fcc5bcfc2e8359f2c753c499",
+    "id": "B.phase.rand3sat.n17.s1002"
+   },
+   {
+    "hash": "sha256:47c8fde6f72eaf798d195a4b18d0ad1ee0ee69bb360726a57d8e5e6a7fad4a57",
+    "id": "B.phase.rand3sat.n18.s1000"
+   },
+   {
+    "hash": "sha256:5596ffea25079cc9ab6722546c331fb3cb519768aaab576d620e0ba9f74eed31",
+    "id": "B.phase.rand3sat.n18.s1005"
+   },
+   {
+    "hash": "sha256:c860fc054599d54d2d17b88b9c69afc6c368a2ed9f96dd16827d4995604cc17c",
+    "id": "B.phase.rand3sat.n18.s1008"
+   },
+   {
+    "hash": "sha256:0dbc824d9395b4b0a5a87f234d909052ff55f2f70d7f96cc165d312a1d5cd947",
+    "id": "B.phase.rand3sat.n18.s1011"
+   },
+   {
+    "hash": "sha256:a8dd685571ebe27dfe43876d55f0b60a92e6d80be72ac2566ef81ebebcd717d3",
+    "id": "B.phase.rand3sat.n19.s2003"
+   },
+   {
+    "hash": "sha256:f48530129b05d46861ea670a2fa7624dfd3dd79dc84aa13cc86ad18c95e1f891",
+    "id": "B.phase.rand3sat.n19.s2007"
+   },
+   {
+    "hash": "sha256:91bcbacb666b50c380abfef6d7a14dcf29aab633f1cb42b292d7361aca4ec3bd",
+    "id": "B.phase.rand3sat.n19.s2008"
+   },
+   {
+    "hash": "sha256:c9f659c36d57ca1bc3cf894a348a5ba2a5bd6de79d69266c8a8f18c8bb050ca7",
+    "id": "B.phase.rand3sat.n20.s2006"
+   },
+   {
+    "hash": "sha256:68830f971ee6c9d9af8d7d72b81501372ec3ceb6d18688fd5f40ffcf796bb0d4",
+    "id": "B.phase.rand3sat.n20.s2010"
+   },
+   {
+    "hash": "sha256:0bba845f9834a7bd63a91d8a23d1eddd615958fe212bba9abbfba1e15e32dc31",
+    "id": "B.phase.rand3sat.n21.s2000"
+   },
+   {
+    "hash": "sha256:d4c1923353a754fa1e2d1c9bd2e179ac4347d6523432c69efd4afd5149f4a47c",
+    "id": "B.phase.rand3sat.n21.s2002"
+   },
+   {
+    "hash": "sha256:86bff85494bdc5e098fde1e098c0b094be1b085b3d1c74d2de6b98cb27c73738",
+    "id": "B.phase.rand3sat.n22.s2001"
+   },
+   {
+    "hash": "sha256:299ded1b33540f7bb5dfb90d67084750589d248249a7301486231fd40cf666a3",
+    "id": "B.phase.rand3sat.n22.s2004"
+   },
+   {
+    "hash": "sha256:be89a9b1aaef2f02500bd700b706dea88208528799094f882ea859666a33a951",
+    "id": "B.phase.rand3sat.n24.s2005"
+   },
+   {
+    "hash": "sha256:138ef3abdf8bd475a7cebaad87639111d0e754e93a32763a4bceca8793094e9b",
+    "id": "B.phase.rand3sat.n24.s2009"
+   },
+   {
+    "hash": "sha256:282c9bc68895451c66b3293d184f4e284296bf81566ef000f7bdc994db83cae0",
+    "id": "B.phase.rand3sat.n24.s2011"
+   },
+   {
+    "hash": "sha256:03c8151752927a060901e4d9ea0a3bdd43fd284e5fb155be4a87d85dd22ca5f9",
+    "id": "B.phase.rand3sat.n6.s1"
+   },
+   {
+    "hash": "sha256:062c521da118f03f210a8e6be1996d4d791cc8b8df8d37ef5ddd276f08c57a9c",
+    "id": "B.phase.rand3sat.n6.s3"
+   },
+   {
+    "hash": "sha256:344b9d90a8d60d00fcc35a7cc171dd4959141b8bc5d3fc50bacc67f883a6326a",
+    "id": "B.phase.rand3sat.n6.s7"
+   },
+   {
+    "hash": "sha256:a5020faac512d236de38e7a008faffee516f21e4a3f88caae35075b0c2479cf2",
+    "id": "B.phase.rand3sat.n7.s6"
+   },
+   {
+    "hash": "sha256:8a5c003fd6358fad8314c0478f4837206da650d4c6495a2d9f4d71a6ae8ca8cb",
+    "id": "B.phase.rand3sat.n7.s8"
+   },
+   {
+    "hash": "sha256:db139e0cdc26e38bda5a85693513db7869d32959205d176b99799904ead7db41",
+    "id": "B.phase.rand3sat.n8.s9"
+   },
+   {
+    "hash": "sha256:b498c8ba2ef060e53da247a94ea0f6ac418e449eebe5e8829aeb9c4860673138",
+    "id": "B.phase.rand3sat.n9.s2"
+   },
+   {
+    "hash": "sha256:89bd727cd3b96adda188f097bbd23e8661e8e46b1905930139087e3dd7676241",
+    "id": "B.phase.sudoku4.k11.s2000"
+   },
+   {
+    "hash": "sha256:27c4404d8f862f299e10ff241b5189e88232334a49bfab6b57e6f9872a939418",
+    "id": "B.phase.sudoku4.k11.s2002"
+   },
+   {
+    "hash": "sha256:6e20c62c35b645c4b02a5b2f1f4d4de7adfcdda965023ab49a707716bca4b82b",
+    "id": "B.phase.sudoku4.k11.s2004"
+   },
+   {
+    "hash": "sha256:93bb7a6442b5b624675d99b8093fb3201bdf0ded4125cba2b46046c8a36fbc8c",
+    "id": "B.phase.sudoku4.k11.s2006"
+   },
+   {
+    "hash": "sha256:1a1a0c1838c20a7fad0a1859c936c65ef9918871b8ce2bc040d07df6d438fed7",
+    "id": "B.phase.sudoku4.k11.s2008"
+   },
+   {
+    "hash": "sha256:e8481a97b5cf05f0c9bbb334e0b0f51befbfc6a3c7b8f5649f5fce6dc4532346",
+    "id": "B.phase.sudoku4.k11.s2010"
+   },
+   {
+    "hash": "sha256:5bbaafe762056572fd5daa59f525c7e0a7cc71696ddf85f0c255b22e3728c9a7",
+    "id": "B.phase.sudoku4.k3.s4"
+   },
+   {
+    "hash": "sha256:bc521fdaabbca5ba3d0076d2196474566c7a7a8a0d0119d9fea3bc81bd46b1b9",
+    "id": "B.phase.sudoku4.k4.s10"
+   },
+   {
+    "hash": "sha256:b0688d792c188732ae06afe3988d4ab307abf89036ee44bf15ca74c80986e15e",
+    "id": "B.phase.sudoku4.k4.s2"
+   },
+   {
+    "hash": "sha256:aa63ea726550aa9571842bb1b1e3517d4649152c7ab8e8066cf9d5a364a94e23",
+    "id": "B.phase.sudoku4.k5.s0"
+   },
+   {
+    "hash": "sha256:346cd126f3d0c4693f5e063ff68ab7c6fd960fa8c57ff00452efcf26f696fb22",
+    "id": "B.phase.sudoku4.k5.s6"
+   },
+   {
+    "hash": "sha256:ea0d9bdd80f414f9fd304676ccb564291359089236c02a02ef71bb03ba868a09",
+    "id": "B.phase.sudoku4.k6.s8"
+   },
+   {
+    "hash": "sha256:33795bece52352da09a17fd40bbcbd45953cb4c74f22e7be2ff30e490131e0c7",
+    "id": "B.phase.sudoku4.k8.s1002"
+   },
+   {
+    "hash": "sha256:3392e6d0d9f6ffc846ee90d9689e5ba5068aee8dc3948c679c989dacee6bd566",
+    "id": "B.phase.sudoku4.k8.s1008"
+   },
+   {
+    "hash": "sha256:c105bf78485650b91a69d99ce35c0e2fd9eca26e4ceb8c0dba5f1c9a8bed556a",
+    "id": "B.phase.sudoku4.k8.s1010"
+   },
+   {
+    "hash": "sha256:6399a61ab4f82b5f970d2321e8dd79847f1ab80b1809229ceace419886220b41",
+    "id": "B.phase.sudoku4.k9.s1000"
+   },
+   {
+    "hash": "sha256:799114814c1fa4e88629db3527ecb00f91ea274ebabee1a9273ff9d46de32e52",
+    "id": "B.phase.sudoku4.k9.s1004"
+   },
+   {
+    "hash": "sha256:a18a52c4fa97f93b206e29b5f78712a345268e0df23730d8b8fe54cb5f01cef7",
+    "id": "B.phase.sudoku4.k9.s1006"
+   },
+   {
+    "hash": "sha256:e4640920458ea36cb2cd8ee156b1248299a023c5333e54778f21a9a6a4c0eae3",
+    "id": "B.phase.sudoku6.k2.s11"
+   },
+   {
+    "hash": "sha256:927ac0531e2ceb8218054fd89715efaf52d1af0b0ae0e962440168f1877ca54c",
+    "id": "B.phase.sudoku6.k2.s207"
+   },
+   {
+    "hash": "sha256:d77d3a5e0ef9fbc8b7467b34ab09b29d8456b01701a57502d8648ac1aadf32c7",
+    "id": "B.phase.sudoku6.k2.s3"
+   },
+   {
+    "hash": "sha256:8e03ebcac7d9df6ce3746e86a53c591f73848e6099dae3868f01e9bda9447f31",
+    "id": "B.phase.sudoku6.k2.s5"
+   },
+   {
+    "hash": "sha256:cf76c237b28ece5b7668688121265262ff5a1048ea41a183ac93611ac9ada0e5",
+    "id": "B.phase.sudoku6.k3.s1"
+   },
+   {
+    "hash": "sha256:a78b690ce35948e3df1fac703a4b563bd8abeffb0999dee0f369fe9a79940a9a",
+    "id": "B.phase.sudoku6.k4.s9"
+   },
+   {
+    "hash": "sha256:23b329f69bd1444cd4028e3d551195fc2e31d7c1e5242f657a3c34ffd8e43c7f",
+    "id": "B.phase.sudoku6.k5.s1007"
+   },
+   {
+    "hash": "sha256:92efce0daf5f7d9cd9478f98cf72b69fc93622b020835d3b54e6cd197703f042",
+    "id": "B.phase.sudoku6.k5.s1009"
+   },
+   {
+    "hash": "sha256:84097512c0cc406507f3068557fdfa2ab955d0b691ead238e2c4dc78ffa5cac8",
+    "id": "B.phase.sudoku6.k5.s1011"
+   },
+   {
+    "hash": "sha256:324c5a1667dd8230741970a3f4b85aeb3e14519e34041cdffab8e4ec85cda3fe",
+    "id": "B.phase.sudoku6.k6.s1001"
+   },
+   {
+    "hash": "sha256:14ea36fa803f1fd7a91ddfd1197a334a8d28cdd3e78f256ffc37d887fde88d7d",
+    "id": "B.phase.sudoku6.k6.s1003"
+   },
+   {
+    "hash": "sha256:3b376059d45424e737ae904308a64eb6d1f50c666a8704f1c8dd1fc94be502a8",
+    "id": "B.phase.sudoku6.k6.s1005"
+   },
+   {
+    "hash": "sha256:99eb706332683032e373751deb559a8a8043b4b1f26d3c55ab7098d8c53c38de",
+    "id": "B.phase.sudoku6.k7.s2001"
+   },
+   {
+    "hash": "sha256:bd6dd221a0ad6ed53c97f8583c7d2802c829d05876dcbd5b79d3f39d2965b127",
+    "id": "B.phase.sudoku6.k7.s2003"
+   },
+   {
+    "hash": "sha256:aa5be1147f08df33c42fa6d63681290715b43a62cedec47889284b2603b3af25",
+    "id": "B.phase.sudoku6.k7.s2007"
+   },
+   {
+    "hash": "sha256:abaed517f4d0b0d13e66a8cf3f63c87f4f976f4bf17a5b42627d8537219347ed",
+    "id": "B.phase.sudoku6.k7.s2009"
+   },
+   {
+    "hash": "sha256:381d962e20d0efe46467e7d0074b1b61dfc6fa87daaf2540c8386170d3cd744a",
+    "id": "B.phase.sudoku6.k7.s2011"
+   },
+   {
+    "hash": "sha256:12fb88e53e67e9694db6bcf0b91dad12a683c05b9386dd05ad79317fd26a4328",
+    "id": "B.phase.sudoku6.k8.s2005"
+   },
+   {
+    "hash": "sha256:9d6be05441a76fba09d549086fdee27156d06200cc6fa73089c87fea9e884e77",
+    "id": "B.phase.triangle.v10.s8"
+   },
+   {
+    "hash": "sha256:b17f10409a858dd9e7f6c9e7e471510a1ac487aa33abbc3df6c8c2c315627406",
+    "id": "B.phase.triangle.v13.s1000"
+   },
+   {
+    "hash": "sha256:acdcfa21969a3d376b0d114db085f419f4e7ee0a260c03854a7e8c79ccea3a22",
+    "id": "B.phase.triangle.v13.s1008"
+   },
+   {
+    "hash": "sha256:31718c4efb6267b887461a7ab8af762d392c61b48631e8368dba7ba88b19e2af",
+    "id": "B.phase.triangle.v14.s1009"
+   },
+   {
+    "hash": "sha256:334070e1890d24e10e4f4fbb5b701627a69e5f05d33e2f6e16d2bf15f91470ff",
+    "id": "B.phase.triangle.v14.s1011"
+   },
+   {
+    "hash": "sha256:8de5923d7d1b095570cf5c5703e7519b856d3cc7abc86b3e9545cac0c4cf60e7",
+    "id": "B.phase.triangle.v15.s1001"
+   },
+   {
+    "hash": "sha256:b9f1cf0ae6bfd3f772f90c9e0baf993e28b091c3578ac228934784b0ae2f8d8f",
+    "id": "B.phase.triangle.v15.s1003"
+   },
+   {
+    "hash": "sha256:3f010a2bad7c509c76b09ee92851945f8306075d182a14328a16cef33da6b807",
+    "id": "B.phase.triangle.v15.s1010"
+   },
+   {
+    "hash": "sha256:ce97d4672c0ee5182a010d206cf8cd9afefaec291c03120ec4c71abff31fceee",
+    "id": "B.phase.triangle.v16.s1004"
+   },
+   {
+    "hash": "sha256:03244d4781668ef232787ab6d12acd65f4cc783d5d39fe233574684304d6117e",
+    "id": "B.phase.triangle.v16.s1006"
+   },
+   {
+    "hash": "sha256:7dbeddeef4a283b8319de2bc085bc0187c3dc26d00a5c82c5250f58c6c1759ac",
+    "id": "B.phase.triangle.v16.s1007"
+   },
+   {
+    "hash": "sha256:e0f8a6a58bbd5f0ef5cd862e7568a557829bbb26cda914c89cd800f55a5aa94a",
+    "id": "B.phase.triangle.v17.s1002"
+   },
+   {
+    "hash": "sha256:066c67eb7f9df2798bf0dda75ed2345a3d5f64f2915c019871c0563eed92466b",
+    "id": "B.phase.triangle.v17.s1005"
+   },
+   {
+    "hash": "sha256:adc8f5691c833b341c4344a6d85f12964d5da3857a107fb9fb080e2549f35619",
+    "id": "B.phase.triangle.v19.s2011"
+   },
+   {
+    "hash": "sha256:ca480f4a102c56ab3c2834383b35e1b4749f63bbcfbb600a0d1414e3729c7ced",
+    "id": "B.phase.triangle.v20.s2001"
+   },
+   {
+    "hash": "sha256:bb3892fbe25717d663e393ab56e76e592582e0c903253229e900d2c5678e6e25",
+    "id": "B.phase.triangle.v20.s2010"
+   },
+   {
+    "hash": "sha256:8073b0494b699186784b9ccb8686920000089fd4acf6d24125a80e932e451a38",
+    "id": "B.phase.triangle.v22.s2002"
+   },
+   {
+    "hash": "sha256:736cdaaa50ee2daf9cf7147fda7fcb7e1ca4531e3995132ac3001df9a9cb6b98",
+    "id": "B.phase.triangle.v22.s2008"
+   },
+   {
+    "hash": "sha256:dff7d6f24883f45499a5a1ed65fde5795fce506f96e7913e0d696557ced53ada",
+    "id": "B.phase.triangle.v23.s2003"
+   },
+   {
+    "hash": "sha256:e76eb1ac3b9686852cfbcdc879944a539a9e5c16e7a9ddcba12d599b6aff102a",
+    "id": "B.phase.triangle.v23.s2004"
+   },
+   {
+    "hash": "sha256:cbd5e67d2c650beed3b16d8d0bef5a3fb5db9473b921c8a8150f94a6fe19dc6a",
+    "id": "B.phase.triangle.v23.s2006"
+   },
+   {
+    "hash": "sha256:fb1662f6cd776ecbf0812626a28f7340778d9184b2d1b7b523b3806594550b1f",
+    "id": "B.phase.triangle.v23.s2007"
+   },
+   {
+    "hash": "sha256:04d1ea0b3397f87e55471e8aa89efbad38fa45cd24ed8f0f6f207d569ea88155",
+    "id": "B.phase.triangle.v24.s2000"
+   },
+   {
+    "hash": "sha256:31411ff96254936966c0dc594336c080f015139d3a813e1f9896e2fae51e8c54",
+    "id": "B.phase.triangle.v24.s2005"
+   },
+   {
+    "hash": "sha256:604460d7d510b56c82f421459df135d24554f31858a9fd43ed80814bd705a5a0",
+    "id": "B.phase.triangle.v24.s2009"
+   },
+   {
+    "hash": "sha256:f8fd58034a32edd6728bde26beab9a66796ddd0606558b87a47b551b395e519c",
+    "id": "B.phase.triangle.v6.s0"
+   },
+   {
+    "hash": "sha256:74427e749567dcdb15397157c30540048807872ae0e6fac6f169023dbba3283f",
+    "id": "B.phase.triangle.v6.s1"
+   },
+   {
+    "hash": "sha256:51735bc417684f7fbb89c3b927c377146344195c051ec5af4b88bec09db3039a",
+    "id": "B.phase.triangle.v6.s10"
+   },
+   {
+    "hash": "sha256:0d19e447f94a3efa2ef52a2ad1b9395910e954fa13fa5b86b88acef14c014cda",
+    "id": "B.phase.triangle.v6.s11"
+   },
+   {
+    "hash": "sha256:b145b07e4741a22d8b513a63a951bb8926548509f0020d8084fc17d36a45a787",
+    "id": "B.phase.triangle.v6.s3"
+   },
+   {
+    "hash": "sha256:489f0a5fbde07084d4f5c457398b7cb6872737bdf16be187a959712fa5682de9",
+    "id": "B.phase.triangle.v7.s2"
+   },
+   {
+    "hash": "sha256:cda082a42a26629b9a93df6c063166eb87659816c7f0a1d5f32d27ba93a3a643",
+    "id": "B.phase.triangle.v7.s7"
+   },
+   {
+    "hash": "sha256:250612eae32d53afe5538cccdb0de88a7f8cd7a9a31a76f6a45eb155000e6f71",
+    "id": "B.phase.triangle.v8.s5"
+   },
+   {
+    "hash": "sha256:bdf029d973f318ae78689914f3a81d1d399fc02bab042c6fa6b99aa44530d62a",
+    "id": "B.phase.triangle.v9.s4"
+   },
+   {
+    "hash": "sha256:2ff16340fefec63295ef86dd93422e23b6e80f52dc96440e7ea9f288a025aa89",
+    "id": "B.phase.triangle.v9.s6"
+   },
+   {
+    "hash": "sha256:68166ad7c487e001f452e3d4bfaa1de7165f4844bb15d4eafde47c495d0f2f83",
+    "id": "B.phase.triangle.v9.s9"
+   }
+  ],
+  "val": [
+   {
+    "hash": "sha256:9a81c47e384e6aab7e8762031e5bf57e52b39d0610d47582a71b0b498f2d4b60",
+    "id": "B.bitflip.arith.carry.n20"
+   },
+   {
+    "hash": "sha256:e96551278fe590614702a7a926ec688a136cd15673c7f50bf33e7a9f4675ba2b",
+    "id": "B.bitflip.arith.carry.n22"
+   },
+   {
+    "hash": "sha256:b9bd6526a9c739ae307ad13cce1ea321e18d4c2ba1992d99e1bbc8d8451853b5",
+    "id": "B.bitflip.arith.carry.n24"
+   },
+   {
+    "hash": "sha256:970f9162281d4d29f2101740c667342b0dd845a97094d19f5ce0c92831142ea4",
+    "id": "B.bitflip.arith.majority.n19"
+   },
+   {
+    "hash": "sha256:fd1eebb0a74521d930fd2d1601c578d278385379d192081076f6c6506e79b13f",
+    "id": "B.bitflip.arith.majority.n21"
+   },
+   {
+    "hash": "sha256:da8dfe6019bd5b3bec7c1350ffdb542a21effdc013fe0da6a6808d2ff7b398e1",
+    "id": "B.bitflip.arith.majority.n23"
+   },
+   {
+    "hash": "sha256:72f09037eaf444f01b69f9034a67f91449dba0f6aff8e086e885c40ecddab32a",
+    "id": "B.bitflip.arith.prod_parity.n16"
+   },
+   {
+    "hash": "sha256:6d58aefbc1b8843dae4a301c100fa7ccb8920a7e347acd85aa4a7feb986b7d01",
+    "id": "B.bitflip.arith.prod_parity.n18"
+   },
+   {
+    "hash": "sha256:ad5716b612d053abc8c2c06461061d8894a52e3093927d12bf5a216deb7b1cfc",
+    "id": "B.bitflip.compare.eq.n20"
+   },
+   {
+    "hash": "sha256:6862ffc5d21926ff2e92805d6c37ef766f9bf5dbc9bba3ff3e26475541b2914a",
+    "id": "B.bitflip.compare.eq.n22"
+   },
+   {
+    "hash": "sha256:8d7f0390c69ebc6770857b7253e34cd5f91b1ae89025542a7bd7ca1a0ea0cae1",
+    "id": "B.bitflip.compare.eq.n24"
+   },
+   {
+    "hash": "sha256:db731abd0219e7d8520155642eae0f4f786c553bcee9dd9cb9cd55af64c4c9f6",
+    "id": "B.bitflip.compare.eq_const.n10.s10000"
+   },
+   {
+    "hash": "sha256:8de903fe08be8e8209fd1ba4a18fb1dc05e06e5ea6419933d3e7f1e91d91f644",
+    "id": "B.bitflip.compare.eq_const.n10.s10001"
+   },
+   {
+    "hash": "sha256:c1616fcd57d0421b43d11ba2545498e2967dfb50d5bb4fa08dcc86f056a96ef7",
+    "id": "B.bitflip.compare.eq_const.n10.s10003"
+   },
+   {
+    "hash": "sha256:9004d91d443bc6bf2a7a9bcbe25df00873aee9c98f87af79783d58d5380dd89d",
+    "id": "B.bitflip.compare.eq_const.n10.s10202"
+   },
+   {
+    "hash": "sha256:045679de79596097fa39d6a9ab8e1e82e626a78084025c55ddafd4dd48ac5310",
+    "id": "B.bitflip.compare.eq_const.n24.s12000"
+   },
+   {
+    "hash": "sha256:d5f321aa5bda88516f9686ed3101e63899946cc4a39d324d683c629f092e0f42",
+    "id": "B.bitflip.compare.eq_const.n24.s12003"
+   },
+   {
+    "hash": "sha256:6e46b7625ce139119cdb5b3984cf197a1f5b7f999fcf2ec97e50ef3b4a24b580",
+    "id": "B.bitflip.compare.lt.n20"
+   },
+   {
+    "hash": "sha256:a0d7dbc1823bb4f3453e0dce10b07ca137550abc645a5fc6f5a6d7895049e228",
+    "id": "B.bitflip.compare.lt.n22"
+   },
+   {
+    "hash": "sha256:7a95b6436cf4c8331f3facddc0927247fdab8c3d0ab4bf07044c293bc1d9c32f",
+    "id": "B.bitflip.compare.lt.n24"
+   },
+   {
+    "hash": "sha256:d45da6085e8eac3c887f2ef81cf34be6b866a9584a2dfc825ff9be97bbd13430",
+    "id": "B.bitflip.simon3.t10.s12000"
+   },
+   {
+    "hash": "sha256:b5b4a1647a9339dcf2f7d21e641c5e395b0a1c435998e635e42b3189956ad683",
+    "id": "B.bitflip.simon3.t11.s12001"
+   },
+   {
+    "hash": "sha256:bce34d2ffa52eabac839ef24bd81967d9ba8520fdbfe1ea31944d9c21702c63b",
+    "id": "B.bitflip.simon3.t11.s12002"
+   },
+   {
+    "hash": "sha256:e361831a3d117528b9cd878d797415acd904b41874c62f1607333f58319cd53c",
+    "id": "B.bitflip.simon3.t12.s12003"
+   },
+   {
+    "hash": "sha256:d2ab69801cc9a97f3153fb8cb925b382850cd9034947c46060c37ba1608b627d",
+    "id": "B.bitflip.simon3.t4.s10001"
+   },
+   {
+    "hash": "sha256:7dd910ff17582deaa2d260dd2e1eea00c209bab370d0a3fee99c42f8886eaeac",
+    "id": "B.bitflip.simon3.t5.s10003"
+   },
+   {
+    "hash": "sha256:7414fb19e61aa70bcc05d359479052b424d69e4dd001e3d45fef5b679e9c820a",
+    "id": "B.bitflip.simon3.t6.s10000"
+   },
+   {
+    "hash": "sha256:c40db54afcc4fb7012fbfba31a6da15b09b447e5ef275bd02b8dfcad9e25ae4f",
+    "id": "B.bitflip.simon3.t6.s10002"
+   },
+   {
+    "hash": "sha256:d76998360280e99788c13c8a5b4c189c367f1724045a6fddfa2453dad575f9a2",
+    "id": "B.bitflip.simon3.t7.s11001"
+   },
+   {
+    "hash": "sha256:ddbb8658fdc188acb85dda01750571b24ca34c882e56bcc6423cd7ff21d39e1c",
+    "id": "B.bitflip.simon3.t7.s11003"
+   },
+   {
+    "hash": "sha256:65d85acabb98f40514e5babd1c340d08f21e5b74dc455070eb0906af82532e52",
+    "id": "B.bitflip.simon3.t8.s11000"
+   },
+   {
+    "hash": "sha256:af9abf40630b4c1ae1f123e55344095ad1d3547c59ee9d7b9338290c5a09ca54",
+    "id": "B.bitflip.simon3.t8.s11002"
+   },
+   {
+    "hash": "sha256:bda845077d5e8a11f6574e0571dff99c591ab26c2f22e2d2e1a4078e3e6f111c",
+    "id": "B.phase.rand3sat.n10.s10000"
+   },
+   {
+    "hash": "sha256:be4d8b9046095a9a194c13b854fbbb1acbc6480d008c35764d647952f2e23703",
+    "id": "B.phase.rand3sat.n10.s10003"
+   },
+   {
+    "hash": "sha256:1b8fe0b20f341f3aa9f6fbca379375c658157ecb459bd853ad00ec8ec315e674",
+    "id": "B.phase.rand3sat.n12.s10002"
+   },
+   {
+    "hash": "sha256:91e48afcf3a8af4dfbbdef66d0d61d3fd5b80ea0ca2f5db62549dd859adae132",
+    "id": "B.phase.rand3sat.n12.s10101"
+   },
+   {
+    "hash": "sha256:f3914beb19c652e7e71a7abfaf9f55e268df5847050008738f3b064a5380172b",
+    "id": "B.phase.rand3sat.n16.s11101"
+   },
+   {
+    "hash": "sha256:a6949c1e1d4909b2cfdc29aec42fa990a90bc48a7434738569e1eee6d908ea1b",
+    "id": "B.phase.rand3sat.n17.s11003"
+   },
+   {
+    "hash": "sha256:cb4e459db61f6a6df14df459b271aed30faa2bc786bc97d7e5052e9e7001bd84",
+    "id": "B.phase.rand3sat.n18.s11100"
+   },
+   {
+    "hash": "sha256:3305acb025f309e9540123f17ebeed669b321fb85bd7d26cf312840a235a2d87",
+    "id": "B.phase.rand3sat.n18.s11202"
+   },
+   {
+    "hash": "sha256:8ce60732ae3960a0f435d8ef0a60b671de0ad56b96ee660ee17d10dae88a1c71",
+    "id": "B.phase.rand3sat.n20.s12000"
+   },
+   {
+    "hash": "sha256:434b4297ae5fe3b5c57c7c3c3585d2d247aca14a7dae4618bdc1d42ea95fb794",
+    "id": "B.phase.rand3sat.n21.s12001"
+   },
+   {
+    "hash": "sha256:86b13f427cd248c2e900f1e529e7174ac1201df8941347ba8c91fb9f9f8633ad",
+    "id": "B.phase.rand3sat.n21.s12003"
+   },
+   {
+    "hash": "sha256:29d11c7593ad7fe327e9d92e016a7424a191eed585bd0ec632a48957c55f04cb",
+    "id": "B.phase.rand3sat.n22.s12002"
+   },
+   {
+    "hash": "sha256:8228f1c2603efcba671619a9290207b15419c6150870639c8f1cc1cfa95b9f44",
+    "id": "B.phase.sudoku4.k11.s12002"
+   },
+   {
+    "hash": "sha256:4094f3cdea13afca025dc3ba146fc55659ebef626b0fd23be5da11b813dc1341",
+    "id": "B.phase.sudoku4.k11.s12700"
+   },
+   {
+    "hash": "sha256:ba285d5be8626e903a1a29aab3ba681a3a7ae80d851768cec553b6a67557bf21",
+    "id": "B.phase.sudoku4.k7.s11000"
+   },
+   {
+    "hash": "sha256:8bc9194a9af0afb6e1e00542050729624c223f12a58df314a6ebd294233a2fda",
+    "id": "B.phase.sudoku4.k7.s11102"
+   },
+   {
+    "hash": "sha256:f7c1c649ca8ed1ca090b2e35c94c8acea872f8b9b82e9356d9d20231e5ef13e7",
+    "id": "B.phase.sudoku6.k8.s12003"
+   },
+   {
+    "hash": "sha256:74edf5df12962e2a3a3330af6b4ac25e2ac0ef5af162686ce0d213c84164e971",
+    "id": "B.phase.triangle.v11.s10001"
+   },
+   {
+    "hash": "sha256:704580322a7ad51c59ac3970c17b0ac2eb7f5fa50d0a683db639a8174a8b2ad2",
+    "id": "B.phase.triangle.v13.s11000"
+   },
+   {
+    "hash": "sha256:e44ab86bc67813ef21d2e8ecaef05697de3f82b70f5350b078b0ceb5ecc421ec",
+    "id": "B.phase.triangle.v16.s11002"
+   },
+   {
+    "hash": "sha256:b31de7c7e065f11f7b47c457ed5dcbe352faa476d2115ee577bfaa988dd427e7",
+    "id": "B.phase.triangle.v16.s11003"
+   },
+   {
+    "hash": "sha256:a8d8fa497d784eb82bd041ab7f7f906806d480943c2298ab661176a617101d08",
+    "id": "B.phase.triangle.v18.s11001"
+   },
+   {
+    "hash": "sha256:c60776374d67c23d61b38bc1949956123170a00dd5b58689047512309fdb0ef2",
+    "id": "B.phase.triangle.v19.s12000"
+   },
+   {
+    "hash": "sha256:24791a3fa6d89559406dae905ed28f42c2ce0f5aeabeb7e1f056f63946136bcb",
+    "id": "B.phase.triangle.v19.s12002"
+   },
+   {
+    "hash": "sha256:30ac3fdd36b65d98164fcbdcf8f1c3c0d176fc147fda48da11c7a7ed6f1afe82",
+    "id": "B.phase.triangle.v20.s12003"
+   },
+   {
+    "hash": "sha256:bf115b374344287975e2d81a5c106369ea3a8a2df2218cd7b492b8169f53a03b",
+    "id": "B.phase.triangle.v24.s12001"
+   },
+   {
+    "hash": "sha256:4d7c3fc6cbb7fef865c42a4d95276f258362a304a9dea0eeb545d50f045cd88a",
+    "id": "B.phase.triangle.v7.s10002"
+   },
+   {
+    "hash": "sha256:09b63c009945df806bd1011eb185b6fccfe80d4633ebc2149290610a3ab6ffbc",
+    "id": "B.phase.triangle.v9.s10000"
+   },
+   {
+    "hash": "sha256:3bc61cf9b184a2f1963884cff7b5169c317189cb94b2bf7850a7d4163c8509bf",
+    "id": "B.phase.triangle.v9.s10003"
+   }
+  ]
+ },
+ "supersedes": [
+  {
+   "archived": "splits/archive/B.v1.0.0.json",
+   "sha256": "269ee05b560dab631f5718791ad3dceef176073b76edf65e3885e5e5c2f3bf71",
+   "version": "1.0.0"
+  }
+ ],
+ "totals": {
+  "probe": 20,
+  "test_in": 88,
+  "test_ood": 54,
+  "train": 205,
+  "val": 61
+ }
+}

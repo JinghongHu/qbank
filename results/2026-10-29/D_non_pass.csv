@@ -1,0 +1,23 @@
+tool,track,status,count,example_instance,reason
+"W constructions (cascade, log-depth tree)",cx,unsupported,491,D.dense.n10.s21000,target is not a W state
+"W constructions (cascade, log-depth tree)",depth2q@line,unsupported,491,D.dense.n10.s21000,target is not a W state
+Dicke construction (Bärtschi-Eidenbenz),cx,unsupported,414,D.dense.n10.s21000,target is not a Dicke state
+Dicke construction (Bärtschi-Eidenbenz),cx@F0.99,unsupported,414,D.dense.n10.s21000,target is not a Dicke state
+Dicke construction (Bärtschi-Eidenbenz),depth2q@line,unsupported,414,D.dense.n10.s21000,target is not a Dicke state
+"W constructions (cascade, log-depth tree)",cx@F0.99,unsupported,414,D.dense.n10.s21000,target is not a W state
+qclib MergeInitialize,depth2q@line,fail,19,D.dense.n10.s21000,fail: fidelity 0.999999977744 < 0.999999999
+qclib MergeInitialize,depth2q@line,unverified,10,D.dicke.n17.k4,verification exceeded 600 s
+qclib MergeInitialize,depth2q@line,timeout,7,D.dicke.n13.k6,routing finished after the budget
+bqskit compile(StateVector),depth2q@line,tool_error,3,D.dense.n3.s40308,RuntimeError: BQSKit failed (exit 1)
+qiskit StatePreparation,cx,fail,3,D.sparse.n13.m59.s20003,fail: fidelity 0.570450619557 < 0.999999999
+qiskit StatePreparation,cx@F0.99,fail,3,D.sparse.n13.m59.s20003,fail: fidelity 0.570450619557 < 0.99
+qiskit StatePreparation,depth2q@line,fail,3,D.sparse.n13.m59.s20003,fail: fidelity 0.570450619557 < 0.999999999
+bqskit compile(StateVector),cx,timeout,2,D.dense.n3.s305,BQSKit did not finish within the budget
+bqskit compile(StateVector),cx@F0.99,timeout,1,D.dense.n2.s40200,BQSKit did not finish within the budget
+bqskit compile(StateVector),depth2q@line,timeout,1,D.dense.n4.s407,BQSKit did not finish within the budget
+qclib LowRankInitialize,cx,fail,1,D.sparse.n14.m55.s30,fail: fidelity 0.999999997545 < 0.999999999
+qclib LowRankInitialize,depth2q@line,fail,1,D.sparse.n14.m55.s30,fail: fidelity 0.999999997545 < 0.999999999
+qclib MergeInitialize,cx,timeout,1,D.dicke.n14.k7,result delivered after the budget (65.2 s)
+qiskit StatePreparation,cx,tool_error,1,D.sparse.n14.m7.s15,"TranspilerError: 'HighLevelSynthesis is unable to synthesize ""state_preparation""'"
+qiskit StatePreparation,cx@F0.99,tool_error,1,D.sparse.n14.m7.s15,"TranspilerError: 'HighLevelSynthesis is unable to synthesize ""state_preparation""'"
+qiskit StatePreparation,depth2q@line,tool_error,1,D.sparse.n14.m7.s15,"TranspilerError: 'HighLevelSynthesis is unable to synthesize ""state_preparation""'"

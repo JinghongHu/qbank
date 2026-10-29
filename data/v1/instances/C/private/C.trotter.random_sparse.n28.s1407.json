@@ -1,0 +1,225 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "trotter",
+ "hash": "sha256:a2819f8af8424f8c3abf6f5fbd64da78175c3a124e551457d4c7840aff9fccbd",
+ "id": "C.trotter.random_sparse.n28.s1407",
+ "params": {
+  "device_kind": "random_sparse",
+  "model": "heisenberg",
+  "n": 28,
+  "seed": 1407
+ },
+ "private": {
+  "device": "random_sparse_29",
+  "interaction_edges": [
+   [
+    0,
+    8
+   ],
+   [
+    0,
+    11
+   ],
+   [
+    0,
+    20
+   ],
+   [
+    1,
+    8
+   ],
+   [
+    1,
+    11
+   ],
+   [
+    1,
+    13
+   ],
+   [
+    1,
+    27
+   ],
+   [
+    2,
+    9
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    2,
+    27
+   ],
+   [
+    4,
+    11
+   ],
+   [
+    4,
+    12
+   ],
+   [
+    4,
+    24
+   ],
+   [
+    5,
+    8
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    6,
+    14
+   ],
+   [
+    6,
+    25
+   ],
+   [
+    6,
+    26
+   ],
+   [
+    7,
+    16
+   ],
+   [
+    9,
+    19
+   ],
+   [
+    9,
+    22
+   ],
+   [
+    9,
+    24
+   ],
+   [
+    9,
+    26
+   ],
+   [
+    12,
+    14
+   ],
+   [
+    12,
+    17
+   ],
+   [
+    12,
+    18
+   ],
+   [
+    12,
+    21
+   ],
+   [
+    12,
+    23
+   ],
+   [
+    12,
+    25
+   ],
+   [
+    14,
+    15
+   ],
+   [
+    14,
+    18
+   ],
+   [
+    14,
+    27
+   ],
+   [
+    15,
+    18
+   ],
+   [
+    16,
+    21
+   ],
+   [
+    17,
+    21
+   ],
+   [
+    17,
+    26
+   ],
+   [
+    18,
+    19
+   ],
+   [
+    18,
+    20
+   ],
+   [
+    18,
+    26
+   ],
+   [
+    19,
+    27
+   ],
+   [
+    20,
+    21
+   ],
+   [
+    20,
+    27
+   ],
+   [
+    21,
+    23
+   ],
+   [
+    23,
+    27
+   ]
+  ],
+  "size_bin": "M"
+ },
+ "public_hash": "sha256:a2819f8af8424f8c3abf6f5fbd64da78175c3a124e551457d4c7840aff9fccbd",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "trotter_on_random_sparse",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

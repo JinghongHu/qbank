@@ -1,0 +1,9 @@
+ [heur=True ['+XX','+ZZ']] exit=139
+ [heur=True ['+XXXXIII','+XXIIXXI','+XIXIXIX','+ZZZZIII','+ZZIIZZI','+ZIZIZIZ','+ZZZZZZZ']] exit=139
+ [heur=True ['+XXI','+ZZI','+IZZ']] exit=139
+ok 1 
+ [heur=False ['+XX','+ZZ']] exit=0
+ [heur=False ['+XXXXIII','+XXIIXXI','+XIXIXIX','+ZZZZIII','+ZZIIZZI','+ZIZIZIZ','+ZZZZZZZ']] exit=143
+
+[exited with code 144]
+ [heur=False ['+XXI','+ZZI','+IZZ']] killed manually after ~57 CPU-min: INVALID input (XXI and IZZ anticommute); QMAP does not reject non-commuting input and does not terminate

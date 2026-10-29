@@ -1,0 +1,17 @@
+Processing ./external/src/rustiq
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: numpy in ./.venv/lib/python3.11/site-packages (from rustiq==1.0.0) (2.4.6)
+Requirement already satisfied: networkx in ./.venv/lib/python3.11/site-packages (from rustiq==1.0.0) (3.6.1)
+Building wheels for collected packages: rustiq
+  Building wheel for rustiq (pyproject.toml): started
+  Building wheel for rustiq (pyproject.toml): finished with status 'done'
+  Created wheel for rustiq: filename=rustiq-1.0.0-cp311-cp311-macosx_11_0_universal2.whl size=409586 sha256=74c08d28842df027e596c3be2d3715865d1edbb367e66e6e42eb6eea8495b6ea
+  Stored in directory: /private/var/folders/hq/zrvs8zlj06n0j8rlz5kpprhr0000gp/T/pip-ephem-wheel-cache-l7ieeise/wheels/d7/91/6e/2ff5e216ae0385b30c60d483817753a16ee7044defe1d92115
+Successfully built rustiq
+Installing collected packages: rustiq
+Successfully installed rustiq-1.0.0

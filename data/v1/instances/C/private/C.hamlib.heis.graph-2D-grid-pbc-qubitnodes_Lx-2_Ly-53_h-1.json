@@ -1,0 +1,61 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "hamlib",
+ "hash": "sha256:eddc4cd5ed00e6916283b49856d234f633a46dbc6166ac26fa69387f64f355e5",
+ "id": "C.hamlib.heis.graph-2D-grid-pbc-qubitnodes_Lx-2_Ly-53_h-1",
+ "params": {
+  "lattice": "graph-2D-grid-pbc-qubitnodes_Lx-2_Ly-53_h-1",
+  "model": "heis",
+  "n": 106
+ },
+ "private": {
+  "coefficients": [
+   [
+    "1q",
+    1.0
+   ],
+   [
+    "2q",
+    1.0
+   ]
+  ],
+  "device": "heavy_hex_d7",
+  "redistributable": false,
+  "size_bin": "XL"
+ },
+ "public_hash": "sha256:eddc4cd5ed00e6916283b49856d234f633a46dbc6166ac26fa69387f64f355e5",
+ "qbank_version": "1.1.0",
+ "source": {
+  "dataset": "graph-2D-grid-pbc-qubitnodes_Lx-2_Ly-53_h-1",
+  "file": "condensedmatter/heisenberg/heis.zip",
+  "kind": "external",
+  "license": "none (portal states no licence)",
+  "name": "HamLib",
+  "redistributable": false,
+  "ref": "arXiv:2306.13126; portal.nersc.gov/cfs/m888/dcamps/hamlib/",
+  "version": "v1.1",
+  "zip_sha256": "d6df869372b09c3d9d38d0671bcdd919cd8992861d4f6777054eb94a3380e00e"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

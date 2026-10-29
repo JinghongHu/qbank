@@ -1,0 +1,50 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_equiv"
+ ],
+ "family": "qubikos",
+ "hash": "sha256:5995d8c5767316e7e23b0726abef5a669d733ef3dbf10e06308e6485dec12229",
+ "id": "C.qubikos.Sycamore_20_1500_7",
+ "params": {
+  "device": "Sycamore",
+  "n": 54,
+  "serial": 7,
+  "two_qubit_gates": 1500
+ },
+ "private": {
+  "device": "Sycamore (QUBIKOS coupling file)",
+  "known_optimal": {
+   "source": "QUBIKOS construction (arXiv:2502.08839); no witness shipped",
+   "swaps": 20,
+   "verified_by_qbank": false
+  },
+  "redistributable": false,
+  "size_bin": "L"
+ },
+ "public_hash": "sha256:5995d8c5767316e7e23b0726abef5a669d733ef3dbf10e06308e6485dec12229",
+ "qbank_version": "1.1.0",
+ "source": {
+  "file": "examples/Sycamore/Sycamore_20_1500_7.qasm",
+  "kind": "external",
+  "license": "none (all rights reserved)",
+  "name": "QUBIKOS",
+  "redistributable": false,
+  "ref": "arXiv:2502.08839; github.com/ping-shuo-hao/qubikos",
+  "sha256": "d6d63a527c6ae01909c8c1756bce2abe4dd5ffa87246b52ddfbdf23ecf18426b",
+  "version": "442a994884a6a5fd37725f59b8b42c90fd1be387"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  }
+ ]
+}

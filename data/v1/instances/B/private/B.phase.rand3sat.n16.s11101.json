@@ -1,0 +1,382 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_phase_clean"
+ ],
+ "family": "rand3sat",
+ "hash": "sha256:f3914beb19c652e7e71a7abfaf9f55e268df5847050008738f3b064a5380172b",
+ "id": "B.phase.rand3sat.n16.s11101",
+ "params": {
+  "alpha": 3.8,
+  "draws_until_satisfiable": 1,
+  "n_clauses": 61,
+  "n_vars": 16,
+  "seed": 11101
+ },
+ "private": {
+  "aig_ands": 178,
+  "b_min": 79,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 150,
+   "cone_bennett(abc resyn2)": 150,
+   "per-clause mcx": 79
+  },
+  "clauses": [
+   [
+    12,
+    -3,
+    -7
+   ],
+   [
+    14,
+    -10,
+    12
+   ],
+   [
+    -6,
+    13,
+    -12
+   ],
+   [
+    11,
+    14,
+    8
+   ],
+   [
+    1,
+    -15,
+    -8
+   ],
+   [
+    8,
+    -1,
+    10
+   ],
+   [
+    -1,
+    -10,
+    16
+   ],
+   [
+    1,
+    8,
+    11
+   ],
+   [
+    -2,
+    13,
+    -5
+   ],
+   [
+    5,
+    -8,
+    -4
+   ],
+   [
+    12,
+    13,
+    9
+   ],
+   [
+    4,
+    14,
+    -7
+   ],
+   [
+    4,
+    -13,
+    14
+   ],
+   [
+    -10,
+    -3,
+    -4
+   ],
+   [
+    -2,
+    7,
+    3
+   ],
+   [
+    -3,
+    15,
+    -1
+   ],
+   [
+    16,
+    -14,
+    5
+   ],
+   [
+    1,
+    -2,
+    -10
+   ],
+   [
+    -5,
+    9,
+    12
+   ],
+   [
+    -10,
+    -1,
+    -4
+   ],
+   [
+    1,
+    -8,
+    -12
+   ],
+   [
+    -7,
+    -14,
+    -10
+   ],
+   [
+    -14,
+    -11,
+    -1
+   ],
+   [
+    -11,
+    -14,
+    -10
+   ],
+   [
+    14,
+    -9,
+    2
+   ],
+   [
+    -14,
+    5,
+    12
+   ],
+   [
+    -16,
+    -14,
+    -3
+   ],
+   [
+    -1,
+    10,
+    -11
+   ],
+   [
+    8,
+    -11,
+    14
+   ],
+   [
+    16,
+    -8,
+    -5
+   ],
+   [
+    -16,
+    7,
+    9
+   ],
+   [
+    3,
+    -16,
+    14
+   ],
+   [
+    5,
+    -11,
+    -8
+   ],
+   [
+    -16,
+    1,
+    -5
+   ],
+   [
+    -6,
+    15,
+    4
+   ],
+   [
+    13,
+    -12,
+    -3
+   ],
+   [
+    4,
+    5,
+    9
+   ],
+   [
+    16,
+    8,
+    11
+   ],
+   [
+    -9,
+    -1,
+    4
+   ],
+   [
+    12,
+    16,
+    7
+   ],
+   [
+    11,
+    6,
+    4
+   ],
+   [
+    9,
+    8,
+    12
+   ],
+   [
+    3,
+    -9,
+    14
+   ],
+   [
+    6,
+    -10,
+    -14
+   ],
+   [
+    14,
+    13,
+    4
+   ],
+   [
+    1,
+    12,
+    -11
+   ],
+   [
+    8,
+    -5,
+    3
+   ],
+   [
+    -13,
+    -10,
+    15
+   ],
+   [
+    -7,
+    -11,
+    5
+   ],
+   [
+    -3,
+    12,
+    9
+   ],
+   [
+    5,
+    -11,
+    4
+   ],
+   [
+    5,
+    14,
+    6
+   ],
+   [
+    16,
+    9,
+    3
+   ],
+   [
+    -4,
+    -14,
+    5
+   ],
+   [
+    14,
+    -2,
+    8
+   ],
+   [
+    -3,
+    -4,
+    -10
+   ],
+   [
+    -4,
+    -1,
+    -10
+   ],
+   [
+    10,
+    15,
+    3
+   ],
+   [
+    -12,
+    16,
+    -15
+   ],
+   [
+    16,
+    10,
+    -15
+   ],
+   [
+    -2,
+    6,
+    15
+   ]
+  ],
+  "m": 1,
+  "n": 16,
+  "n_solutions": 51,
+  "n_solutions_method": "exhaustive",
+  "satisfiable": true,
+  "size_bin": "M",
+  "solution_fraction_log2": -10.3276,
+  "solution_sparse": true
+ },
+ "public_hash": "sha256:f3914beb19c652e7e71a7abfaf9f55e268df5847050008738f3b064a5380172b",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "random_3sat",
+  "ref": "uniform random 3-SAT near/around the threshold alpha=4.26",
+  "version": "1"
+ },
+ "task": "oracle_phase_clean",
+ "tracks": [
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 79
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 119
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

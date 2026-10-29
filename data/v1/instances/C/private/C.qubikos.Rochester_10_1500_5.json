@@ -1,0 +1,50 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_equiv"
+ ],
+ "family": "qubikos",
+ "hash": "sha256:30d7435da980ce23c0a5706afe563c5465b44a24a761f34cd3171cf82811a8d0",
+ "id": "C.qubikos.Rochester_10_1500_5",
+ "params": {
+  "device": "Rochester",
+  "n": 53,
+  "serial": 5,
+  "two_qubit_gates": 1500
+ },
+ "private": {
+  "device": "Rochester (QUBIKOS coupling file)",
+  "known_optimal": {
+   "source": "QUBIKOS construction (arXiv:2502.08839); no witness shipped",
+   "swaps": 10,
+   "verified_by_qbank": false
+  },
+  "redistributable": false,
+  "size_bin": "L"
+ },
+ "public_hash": "sha256:30d7435da980ce23c0a5706afe563c5465b44a24a761f34cd3171cf82811a8d0",
+ "qbank_version": "1.1.0",
+ "source": {
+  "file": "examples/Rochester/Rochester_10_1500_5.qasm",
+  "kind": "external",
+  "license": "none (all rights reserved)",
+  "name": "QUBIKOS",
+  "redistributable": false,
+  "ref": "arXiv:2502.08839; github.com/ping-shuo-hao/qubikos",
+  "sha256": "96e4d43316a7ad8a04c8ba90788e42137af20cc5e0e4d4175b48f10253b654f1",
+  "version": "442a994884a6a5fd37725f59b8b42c90fd1be387"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  }
+ ]
+}

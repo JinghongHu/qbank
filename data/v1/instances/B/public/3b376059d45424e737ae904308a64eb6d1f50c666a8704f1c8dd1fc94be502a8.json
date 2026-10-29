@@ -1,0 +1,102 @@
+{
+ "aiger_b64": "YWlnIDIxNiAxOCAwIDEgMTk4CjQzMgogAhwCGAIUAhACDAItAgIsBCs0AQIxNwMCNTwCAjk5AwI3NwMCNTUDAjNGAQJDRQdIBQECSQdMBQECTQdQBQECCAYCAl8CAl5ZDVwLAQJdDWALAQJhDWQLAQIIBgICdAECcXIBAm97AgJ6ewd+BQECfweCAQUBAoMBB4YBBQECCAYCAo8BAgKOAY4BAQKLAZEBAgKQAZUBAwKTAQiPAQaUAZcBAwKWAQSVAZ0BAgKbAaIBAQKfAQicAWBdiAE4rQEfsAEdAQKxAR+0AR0BArUBH7gBHQECCAYCAtQBAgLRAVx51AECAtEBogE05wEH6gEFAQLrAQfuAQUBAu8BB/IBBQECCAYCAt0BAtsBAtkBAskBBKUBFo0BFoMBBGsEYQRfAlMEYwxRerMBJuMBBO0BAmM8mQFEQQI9ZIUBWivKAUVegwEELgIu1QHvAQQuvwEuiQEsAioCKFEmAiRBgQEKHgLhATaFAYwBIukBzQE0ywFAcZgBKB6ZAQYmAqUCBCguJgIklQGpAQJQUSiNASaBASYkSAImmQIkAiICIAJIf7UBAiSdASICIAIcAhxWRCQcAhooGAIYYhACMCYOAg4aDqEBDAIiAgwCDBIKAggCBgIEAgICAi5pMCBjZWxsMDJfYjAKaTEgY2VsbDAyX2IxCmkyIGNlbGwwMl9iMgppMyBjZWxsMTFfYjAKaTQgY2VsbDExX2IxCmk1IGNlbGwxMV9iMgppNiBjZWxsMTNfYjAKaTcgY2VsbDEzX2IxCmk4IGNlbGwxM19iMgppOSBjZWxsMTVfYjAKaTEwIGNlbGwxNV9iMQppMTEgY2VsbDE1X2IyCmkxMiBjZWxsMzBfYjAKaTEzIGNlbGwzMF9iMQppMTQgY2VsbDMwX2IyCmkxNSBjZWxsNTJfYjAKaTE2IGNlbGw1Ml9iMQppMTcgY2VsbDUyX2IyCm8wIHZhbGlkCg==",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:3b376059d45424e737ae904308a64eb6d1f50c666a8704f1c8dd1fc94be502a8",
+ "input_names": [
+  "cell02_b0",
+  "cell02_b1",
+  "cell02_b2",
+  "cell11_b0",
+  "cell11_b1",
+  "cell11_b2",
+  "cell13_b0",
+  "cell13_b1",
+  "cell13_b2",
+  "cell15_b0",
+  "cell15_b1",
+  "cell15_b2",
+  "cell30_b0",
+  "cell30_b1",
+  "cell30_b2",
+  "cell52_b0",
+  "cell52_b1",
+  "cell52_b2"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 18,
+ "n_outputs": 1,
+ "output_names": [
+  "valid"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17
+  ],
+  "outputs": []
+ },
+ "task": "oracle_phase_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 189
+  },
+  "tof@bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 126
+  },
+  "tof@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

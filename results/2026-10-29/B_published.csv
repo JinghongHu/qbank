@@ -1,0 +1,22 @@
+instance,track,value,width,reference,eligible
+B.bitflip.sbox.aria_sb2,tof@bmin,34,100,IACR ePrint 2024/1986,False
+B.bitflip.sbox.aria_sb2,tof@1.5bmin,34,100,IACR ePrint 2024/1986,False
+B.bitflip.sbox.aria_sb2,tof@inf,34,100,IACR ePrint 2024/1986,False
+B.bitflip.sbox.camellia_s1,tof@bmin,54,20,"Sci. Sin. Phys. Mech. Astron. 53, 240313 (2023), DOI 10.1360/SSPMA-2022-0485",False
+B.bitflip.sbox.camellia_s1,tof@1.5bmin,54,20,"Sci. Sin. Phys. Mech. Astron. 53, 240313 (2023), DOI 10.1360/SSPMA-2022-0485",False
+B.bitflip.sbox.camellia_s1,tof@inf,54,20,"Sci. Sin. Phys. Mech. Astron. 53, 240313 (2023), DOI 10.1360/SSPMA-2022-0485",False
+B.bitflip.sbox.aes,tof@bmin,52,22,IACR ePrint 2022/620 (ASIACRYPT 2022),False
+B.bitflip.sbox.aes,tof@1.5bmin,52,22,IACR ePrint 2022/620 (ASIACRYPT 2022),True
+B.bitflip.sbox.aes,tof@inf,52,22,IACR ePrint 2022/620 (ASIACRYPT 2022),True
+B.bitflip.sbox.aes,tof@bmin,68,23,ASIACRYPT 2020 (IACR archive PDF; no ePrint id found),False
+B.bitflip.sbox.aes,tof@1.5bmin,68,23,ASIACRYPT 2020 (IACR archive PDF; no ePrint id found),True
+B.bitflip.sbox.aes,tof@inf,68,23,ASIACRYPT 2020 (IACR archive PDF; no ePrint id found),True
+B.bitflip.sbox.aes,tof@bmin,60,66,IACR ePrint 2025/212 (EUROCRYPT 2025),False
+B.bitflip.sbox.aes,tof@1.5bmin,60,66,IACR ePrint 2025/212 (EUROCRYPT 2025),False
+B.bitflip.sbox.aes,tof@inf,60,66,IACR ePrint 2025/212 (EUROCRYPT 2025),True
+B.bitflip.sbox.aes,t_mbu@inf,136,92,IACR ePrint 2025/212 (EUROCRYPT 2025),True
+B.bitflip.sbox.aes,cx@inf,600,66,IACR ePrint 2025/212 (EUROCRYPT 2025),True
+B.bitflip.sbox.aes,cx@inf,648,22,IACR ePrint 2022/620,True
+B.bitflip.sbox.aes,tof@bmin,34,90,IACR ePrint 2023/1417 (ASIACRYPT 2023),False
+B.bitflip.sbox.aes,tof@1.5bmin,34,90,IACR ePrint 2023/1417 (ASIACRYPT 2023),False
+B.bitflip.sbox.aes,tof@inf,34,90,IACR ePrint 2023/1417 (ASIACRYPT 2023),False

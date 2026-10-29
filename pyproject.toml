@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qbank"
+version = "1.0.0"
+description = "qbank: a benchmark for quantum circuit optimisation"
+requires-python = ">=3.11"
+
+[project.scripts]
+qbank = "qbank.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: long-running tests (baseline reruns, full rebuild)"]

@@ -1,0 +1,110 @@
+{
+ "aiger_b64": "YWlnIDI4NSAyMiAwIDEgMjYzCjU3MAopAycDLgEtBTADAQIxBTQDAQICBjoBOAE2ATQBOwU+AwECPwVCAwECAgZFCUgHAQJJCUwHAQICBlMFVgMBAlcFWgMBAgIGWQVcAwECXQVgAwECAgZjCWYHAQJnCWoHAQICBncDcwV2AwECdwV6AwECAgaDAQOBAQN/An0CewKDAQWGAQMBAocBBYoBAwECAgaNAQmQAQcBApEBCZQBBwECAgabAQWeAQMBAp8BBaIBAwECAga8AQG9AQLNAQnQAQcBAtEBCdQBBwECAgbLARnOARcBAs8BGdIBFwECAgbRASHUAR8BAtUBIdgBHwECAgbnARHqAQ8BAusBEe4BDwECAgbtARnwARcBAvEBGfQBFwECAgb7AQn+AQcBAv8BCYICBwECAgaMAgGGAgGRAhGUAg8BApUCEZgCDwECAgaXAhmaAhcBApsCGZ4CFwECAgalAgmoAgcBAqkCCawCBwECAgbHAg3KAgsBAssCDc4CCwECAga9AiXAAiMBAsECJcQCIwECAgbhAgPNAhnQAhcBAtECGdQCFwECAgbZAgP7AgP7Agn+AgcBAv8CCYIDBwECAgb1Ag34AgsBAvkCDfwCCwECAgaJAwL9Ag2AAwsBAoEDDYQDCwECAgaNAwOFAwL3AgL1AgLnAg7NAg6zAg6lAg6jAgKhAgKTAg75AQ7bAQ7BAQ6nAQ6nAeYBmQEOfw5ztgJlAlcCV9YC/QGgAZ0DBE/OAoEB9AGTAlZFAsMBhgGXAbYBOwJttAE+iQM8AjoCOAI2AjQCrQJENvcBNAIyAjACLgIusQMsAioCKAImAiQCIgIgAh4CHAIaAhgCFgIUAhICEAIOAgwCCgIGAgQCAgICDmkwIGNlbGwwMV9iMAppMSBjZWxsMDFfYjEKaTIgY2VsbDAzX2IwCmkzIGNlbGwwM19iMQppNCBjZWxsMTFfYjAKaTUgY2VsbDExX2IxCmk2IGNlbGwxMl9iMAppNyBjZWxsMTJfYjEKaTggY2VsbDEzX2IwCmk5IGNlbGwxM19iMQppMTAgY2VsbDIwX2IwCmkxMSBjZWxsMjBfYjEKaTEyIGNlbGwyMV9iMAppMTMgY2VsbDIxX2IxCmkxNCBjZWxsMjJfYjAKaTE1IGNlbGwyMl9iMQppMTYgY2VsbDMxX2IwCmkxNyBjZWxsMzFfYjEKaTE4IGNlbGwzMl9iMAppMTkgY2VsbDMyX2IxCmkyMCBjZWxsMzNfYjAKaTIxIGNlbGwzM19iMQpvMCB2YWxpZAo=",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:a32659dea89fa87f5b304ed4209101be91c2d4d87e4b6a3e20010bcc8fa2c7b4",
+ "input_names": [
+  "cell01_b0",
+  "cell01_b1",
+  "cell03_b0",
+  "cell03_b1",
+  "cell11_b0",
+  "cell11_b1",
+  "cell12_b0",
+  "cell12_b1",
+  "cell13_b0",
+  "cell13_b1",
+  "cell20_b0",
+  "cell20_b1",
+  "cell21_b0",
+  "cell21_b1",
+  "cell22_b0",
+  "cell22_b1",
+  "cell31_b0",
+  "cell31_b1",
+  "cell32_b0",
+  "cell32_b1",
+  "cell33_b0",
+  "cell33_b1"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 22,
+ "n_outputs": 1,
+ "output_names": [
+  "valid"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21
+  ],
+  "outputs": []
+ },
+ "task": "oracle_phase_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 369
+  },
+  "tof@bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 246
+  },
+  "tof@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

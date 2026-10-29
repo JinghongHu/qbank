@@ -1,0 +1,68 @@
+{
+ "category": "A",
+ "contracts": [
+  "stabilizer_state",
+  "codespace_state"
+ ],
+ "family": "sporadic",
+ "hash": "sha256:68a1627fe58c1caf367bddb3f414735359bcbf2e1c0ba53ce9bc4448d925a861",
+ "id": "A.stab.sporadic.mqt_15_3_5",
+ "params": {
+  "file": "15_3_5.txt"
+ },
+ "private": {
+  "aliases": [],
+  "code": {
+   "k": 3,
+   "n": 15,
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": 5,
+     "k": 3,
+     "method": "exact_normalizer_enumeration"
+    },
+    "k": 3,
+    "logical_z_ok": true,
+    "n": 15
+   }
+  },
+  "composite": false,
+  "logical_z": [
+   "+YIIIXXXIIXXXIII",
+   "+IYIXXXXXIIXIIII",
+   "+IIYXIXXXXIIIXII"
+  ],
+  "no_room": false,
+  "notes": [],
+  "size_bin": "XS",
+  "size_features": {
+   "k": 3,
+   "n": 15
+  }
+ },
+ "public_hash": "sha256:68a1627fe58c1caf367bddb3f414735359bcbf2e1c0ba53ce9bc4448d925a861",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "external",
+  "license": "MIT",
+  "name": "mqt.qecc instances/misc/15_3_5.txt",
+  "ref": "github.com/munich-quantum-toolkit/qecc",
+  "version": "mqt.qecc 2.0.0"
+ },
+ "task": "stabilizer_state",
+ "tracks": [
+  {
+   "connectivity": "all",
+   "contract": "stabilizer_state",
+   "metric": "two_qubit_gates",
+   "name": "a2a_2q"
+  },
+  {
+   "connectivity": "all",
+   "contract": "codespace_state",
+   "metric": "two_qubit_gates",
+   "name": "codespace_a2a_2q"
+  }
+ ]
+}

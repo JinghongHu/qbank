@@ -1,0 +1,5601 @@
+{
+ "cross_split_duplicates": [],
+ "dropped_as_duplicates": [
+  "A.css_zero.bb_rand.n108.s11002",
+  "A.css_zero.bb_rand.n108.s21000",
+  "A.css_zero.bb_rand.n108.s21001",
+  "A.css_zero.bb_rand.n150.s22000",
+  "A.css_zero.bb_rand.n180.s22001",
+  "A.css_zero.bb_rand.n196.s12000",
+  "A.css_zero.bb_rand.n196.s12001",
+  "A.css_zero.bb_rand.n196.s12003",
+  "A.css_zero.bb_rand.n36.s10001",
+  "A.css_zero.bb_rand.n36.s20000",
+  "A.css_zero.bb_rand.n72.s11001",
+  "A.css_zero.bb_rand.n98.s11000",
+  "A.css_zero.gb_rand.n116.s11001",
+  "A.css_zero.gb_rand.n120.s11003",
+  "A.css_zero.gb_rand.n180.s12000",
+  "A.css_zero.gb_rand.n192.s12001",
+  "A.css_zero.gb_rand.n68.s21000"
+ ],
+ "excluded": [],
+ "n_instances": 498,
+ "refills": [
+  {
+   "attempts": 1,
+   "dropped": "A.css_zero.bb_rand.n36.s10001",
+   "replacement": "A.css_zero.bb_rand.n36.s10101"
+  },
+  {
+   "attempts": 2,
+   "dropped": "A.css_zero.bb_rand.n36.s20000",
+   "replacement": "A.css_zero.bb_rand.n54.s20200"
+  },
+  {
+   "attempts": 9,
+   "dropped": "A.css_zero.bb_rand.n98.s11000",
+   "replacement": null
+  },
+  {
+   "attempts": 9,
+   "dropped": "A.css_zero.bb_rand.n72.s11001",
+   "replacement": null
+  },
+  {
+   "attempts": 9,
+   "dropped": "A.css_zero.bb_rand.n108.s11002",
+   "replacement": null
+  },
+  {
+   "attempts": 7,
+   "dropped": "A.css_zero.bb_rand.n108.s21000",
+   "replacement": "A.css_zero.bb_rand.n98.s21700"
+  },
+  {
+   "attempts": 9,
+   "dropped": "A.css_zero.bb_rand.n108.s21001",
+   "replacement": "A.css_zero.bb_rand.n108.s21901"
+  },
+  {
+   "attempts": 1,
+   "dropped": "A.css_zero.bb_rand.n196.s12000",
+   "replacement": "A.css_zero.bb_rand.n150.s12100"
+  },
+  {
+   "attempts": 1,
+   "dropped": "A.css_zero.bb_rand.n196.s12001",
+   "replacement": "A.css_zero.bb_rand.n196.s12101"
+  },
+  {
+   "attempts": 5,
+   "dropped": "A.css_zero.bb_rand.n196.s12003",
+   "replacement": "A.css_zero.bb_rand.n162.s12503"
+  },
+  {
+   "attempts": 8,
+   "dropped": "A.css_zero.bb_rand.n150.s22000",
+   "replacement": "A.css_zero.bb_rand.n162.s22800"
+  },
+  {
+   "attempts": 5,
+   "dropped": "A.css_zero.bb_rand.n180.s22001",
+   "replacement": "A.css_zero.bb_rand.n180.s22501"
+  },
+  {
+   "attempts": 1,
+   "dropped": "A.css_zero.gb_rand.n116.s11001",
+   "replacement": "A.css_zero.gb_rand.n112.s11101"
+  },
+  {
+   "attempts": 2,
+   "dropped": "A.css_zero.gb_rand.n120.s11003",
+   "replacement": "A.css_zero.gb_rand.n108.s11203"
+  },
+  {
+   "attempts": 1,
+   "dropped": "A.css_zero.gb_rand.n68.s21000",
+   "replacement": "A.css_zero.gb_rand.n104.s21100"
+  },
+  {
+   "attempts": 1,
+   "dropped": "A.css_zero.gb_rand.n180.s12000",
+   "replacement": "A.css_zero.gb_rand.n196.s12100"
+  },
+  {
+   "attempts": 1,
+   "dropped": "A.css_zero.gb_rand.n192.s12001",
+   "replacement": "A.css_zero.gb_rand.n172.s12101"
+  }
+ ],
+ "suspected_duplicates": [
+  {
+   "a": "A.stab.rand_stab.n4.s401",
+   "b": "A.stab.rand_stab.n4.s10400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n4.s405",
+   "b": "A.stab.rand_stab.n4.s10403",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n4.s406",
+   "b": "A.stab.rand_stab.n4.s10402",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n4.s407",
+   "b": "A.stab.rand_stab.n4.s10401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s600",
+   "b": "A.stab.rand_stab.n6.s10600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s600",
+   "b": "A.stab.rand_stab.n6.s10601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s600",
+   "b": "A.stab.rand_stab.n6.s10602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s600",
+   "b": "A.stab.rand_stab.n6.s10603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s600",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s600",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s601",
+   "b": "A.stab.rand_stab.n6.s10600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s601",
+   "b": "A.stab.rand_stab.n6.s10601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s601",
+   "b": "A.stab.rand_stab.n6.s10602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s601",
+   "b": "A.stab.rand_stab.n6.s10603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s601",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s601",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s602",
+   "b": "A.stab.rand_stab.n6.s10600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s602",
+   "b": "A.stab.rand_stab.n6.s10601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s602",
+   "b": "A.stab.rand_stab.n6.s10602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s602",
+   "b": "A.stab.rand_stab.n6.s10603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s602",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s602",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s603",
+   "b": "A.stab.rand_stab.n6.s10600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s603",
+   "b": "A.stab.rand_stab.n6.s10601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s603",
+   "b": "A.stab.rand_stab.n6.s10602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s603",
+   "b": "A.stab.rand_stab.n6.s10603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s603",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s603",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s604",
+   "b": "A.stab.rand_stab.n6.s10600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s604",
+   "b": "A.stab.rand_stab.n6.s10601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s604",
+   "b": "A.stab.rand_stab.n6.s10602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s604",
+   "b": "A.stab.rand_stab.n6.s10603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s604",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s604",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s605",
+   "b": "A.stab.rand_stab.n6.s10600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s605",
+   "b": "A.stab.rand_stab.n6.s10601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s605",
+   "b": "A.stab.rand_stab.n6.s10602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s605",
+   "b": "A.stab.rand_stab.n6.s10603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s605",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s605",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s606",
+   "b": "A.stab.rand_stab.n6.s10600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s606",
+   "b": "A.stab.rand_stab.n6.s10601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s606",
+   "b": "A.stab.rand_stab.n6.s10602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s606",
+   "b": "A.stab.rand_stab.n6.s10603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s606",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s606",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s607",
+   "b": "A.stab.rand_stab.n6.s10600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s607",
+   "b": "A.stab.rand_stab.n6.s10601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s607",
+   "b": "A.stab.rand_stab.n6.s10602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s607",
+   "b": "A.stab.rand_stab.n6.s10603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s607",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s607",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s608",
+   "b": "A.stab.rand_stab.n6.s10600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s608",
+   "b": "A.stab.rand_stab.n6.s10601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s608",
+   "b": "A.stab.rand_stab.n6.s10602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s608",
+   "b": "A.stab.rand_stab.n6.s10603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s608",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s608",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s609",
+   "b": "A.stab.rand_stab.n6.s10600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s609",
+   "b": "A.stab.rand_stab.n6.s10601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s609",
+   "b": "A.stab.rand_stab.n6.s10602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s609",
+   "b": "A.stab.rand_stab.n6.s10603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s609",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s609",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s610",
+   "b": "A.stab.rand_stab.n6.s10600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s610",
+   "b": "A.stab.rand_stab.n6.s10601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s610",
+   "b": "A.stab.rand_stab.n6.s10602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s610",
+   "b": "A.stab.rand_stab.n6.s10603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s610",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s610",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s611",
+   "b": "A.stab.rand_stab.n6.s10600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s611",
+   "b": "A.stab.rand_stab.n6.s10601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s611",
+   "b": "A.stab.rand_stab.n6.s10602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s611",
+   "b": "A.stab.rand_stab.n6.s10603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s611",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s611",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s10600",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s10600",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s10601",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s10601",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s10602",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s10602",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s10603",
+   "b": "A.stab.rand_stab.n6.s20600",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n6.s10603",
+   "b": "A.stab.rand_stab.n6.s20601",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s800",
+   "b": "A.stab.rand_stab.n8.s10800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s800",
+   "b": "A.stab.rand_stab.n8.s10801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s800",
+   "b": "A.stab.rand_stab.n8.s10802",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s800",
+   "b": "A.stab.rand_stab.n8.s10803",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s800",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s800",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s801",
+   "b": "A.stab.rand_stab.n8.s10800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s801",
+   "b": "A.stab.rand_stab.n8.s10801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s801",
+   "b": "A.stab.rand_stab.n8.s10802",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s801",
+   "b": "A.stab.rand_stab.n8.s10803",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s801",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s801",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s802",
+   "b": "A.stab.rand_stab.n8.s10800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s802",
+   "b": "A.stab.rand_stab.n8.s10801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s802",
+   "b": "A.stab.rand_stab.n8.s10802",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s802",
+   "b": "A.stab.rand_stab.n8.s10803",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s802",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s802",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s803",
+   "b": "A.stab.rand_stab.n8.s10800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s803",
+   "b": "A.stab.rand_stab.n8.s10801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s803",
+   "b": "A.stab.rand_stab.n8.s10802",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s803",
+   "b": "A.stab.rand_stab.n8.s10803",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s803",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s803",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s804",
+   "b": "A.stab.rand_stab.n8.s10800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s804",
+   "b": "A.stab.rand_stab.n8.s10801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s804",
+   "b": "A.stab.rand_stab.n8.s10802",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s804",
+   "b": "A.stab.rand_stab.n8.s10803",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s804",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s804",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s805",
+   "b": "A.stab.rand_stab.n8.s10800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s805",
+   "b": "A.stab.rand_stab.n8.s10801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s805",
+   "b": "A.stab.rand_stab.n8.s10802",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s805",
+   "b": "A.stab.rand_stab.n8.s10803",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s805",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s805",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s806",
+   "b": "A.stab.rand_stab.n8.s10800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s806",
+   "b": "A.stab.rand_stab.n8.s10801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s806",
+   "b": "A.stab.rand_stab.n8.s10802",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s806",
+   "b": "A.stab.rand_stab.n8.s10803",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s806",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s806",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s807",
+   "b": "A.stab.rand_stab.n8.s10800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s807",
+   "b": "A.stab.rand_stab.n8.s10801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s807",
+   "b": "A.stab.rand_stab.n8.s10802",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s807",
+   "b": "A.stab.rand_stab.n8.s10803",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s807",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s807",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s808",
+   "b": "A.stab.rand_stab.n8.s10800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s808",
+   "b": "A.stab.rand_stab.n8.s10801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s808",
+   "b": "A.stab.rand_stab.n8.s10802",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s808",
+   "b": "A.stab.rand_stab.n8.s10803",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s808",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s808",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s809",
+   "b": "A.stab.rand_stab.n8.s10800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s809",
+   "b": "A.stab.rand_stab.n8.s10801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s809",
+   "b": "A.stab.rand_stab.n8.s10802",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s809",
+   "b": "A.stab.rand_stab.n8.s10803",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s809",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s809",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s810",
+   "b": "A.stab.rand_stab.n8.s10800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s810",
+   "b": "A.stab.rand_stab.n8.s10801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s810",
+   "b": "A.stab.rand_stab.n8.s10802",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s810",
+   "b": "A.stab.rand_stab.n8.s10803",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s810",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s810",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s811",
+   "b": "A.stab.rand_stab.n8.s10800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s811",
+   "b": "A.stab.rand_stab.n8.s10801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s811",
+   "b": "A.stab.rand_stab.n8.s10802",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s811",
+   "b": "A.stab.rand_stab.n8.s10803",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s811",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s811",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s10800",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s10800",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s10801",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s10801",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s10802",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s10802",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s10803",
+   "b": "A.stab.rand_stab.n8.s20800",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n8.s10803",
+   "b": "A.stab.rand_stab.n8.s20801",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1200",
+   "b": "A.stab.rand_stab.n12.s11200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1200",
+   "b": "A.stab.rand_stab.n12.s11201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1200",
+   "b": "A.stab.rand_stab.n12.s11202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1200",
+   "b": "A.stab.rand_stab.n12.s11203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1200",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1200",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1201",
+   "b": "A.stab.rand_stab.n12.s11200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1201",
+   "b": "A.stab.rand_stab.n12.s11201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1201",
+   "b": "A.stab.rand_stab.n12.s11202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1201",
+   "b": "A.stab.rand_stab.n12.s11203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1201",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1201",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1202",
+   "b": "A.stab.rand_stab.n12.s11200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1202",
+   "b": "A.stab.rand_stab.n12.s11201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1202",
+   "b": "A.stab.rand_stab.n12.s11202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1202",
+   "b": "A.stab.rand_stab.n12.s11203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1202",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1202",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1203",
+   "b": "A.stab.rand_stab.n12.s11200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1203",
+   "b": "A.stab.rand_stab.n12.s11201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1203",
+   "b": "A.stab.rand_stab.n12.s11202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1203",
+   "b": "A.stab.rand_stab.n12.s11203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1203",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1203",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1204",
+   "b": "A.stab.rand_stab.n12.s11200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1204",
+   "b": "A.stab.rand_stab.n12.s11201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1204",
+   "b": "A.stab.rand_stab.n12.s11202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1204",
+   "b": "A.stab.rand_stab.n12.s11203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1204",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1204",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1205",
+   "b": "A.stab.rand_stab.n12.s11200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1205",
+   "b": "A.stab.rand_stab.n12.s11201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1205",
+   "b": "A.stab.rand_stab.n12.s11202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1205",
+   "b": "A.stab.rand_stab.n12.s11203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1205",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1205",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1206",
+   "b": "A.stab.rand_stab.n12.s11200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1206",
+   "b": "A.stab.rand_stab.n12.s11201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1206",
+   "b": "A.stab.rand_stab.n12.s11202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1206",
+   "b": "A.stab.rand_stab.n12.s11203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1206",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1206",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1207",
+   "b": "A.stab.rand_stab.n12.s11200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1207",
+   "b": "A.stab.rand_stab.n12.s11201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1207",
+   "b": "A.stab.rand_stab.n12.s11202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1207",
+   "b": "A.stab.rand_stab.n12.s11203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1207",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1207",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1208",
+   "b": "A.stab.rand_stab.n12.s11200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1208",
+   "b": "A.stab.rand_stab.n12.s11201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1208",
+   "b": "A.stab.rand_stab.n12.s11202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1208",
+   "b": "A.stab.rand_stab.n12.s11203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1208",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1208",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1209",
+   "b": "A.stab.rand_stab.n12.s11200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1209",
+   "b": "A.stab.rand_stab.n12.s11201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1209",
+   "b": "A.stab.rand_stab.n12.s11202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1209",
+   "b": "A.stab.rand_stab.n12.s11203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1209",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1209",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1210",
+   "b": "A.stab.rand_stab.n12.s11200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1210",
+   "b": "A.stab.rand_stab.n12.s11201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1210",
+   "b": "A.stab.rand_stab.n12.s11202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1210",
+   "b": "A.stab.rand_stab.n12.s11203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1210",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1210",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1211",
+   "b": "A.stab.rand_stab.n12.s11200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1211",
+   "b": "A.stab.rand_stab.n12.s11201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1211",
+   "b": "A.stab.rand_stab.n12.s11202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1211",
+   "b": "A.stab.rand_stab.n12.s11203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1211",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s1211",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s11200",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s11200",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s11201",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s11201",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s11202",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s11202",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s11203",
+   "b": "A.stab.rand_stab.n12.s21200",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n12.s11203",
+   "b": "A.stab.rand_stab.n12.s21201",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1600",
+   "b": "A.stab.rand_stab.n16.s11600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1600",
+   "b": "A.stab.rand_stab.n16.s11601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1600",
+   "b": "A.stab.rand_stab.n16.s11602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1600",
+   "b": "A.stab.rand_stab.n16.s11603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1600",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1600",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1601",
+   "b": "A.stab.rand_stab.n16.s11600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1601",
+   "b": "A.stab.rand_stab.n16.s11601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1601",
+   "b": "A.stab.rand_stab.n16.s11602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1601",
+   "b": "A.stab.rand_stab.n16.s11603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1601",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1601",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1602",
+   "b": "A.stab.rand_stab.n16.s11600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1602",
+   "b": "A.stab.rand_stab.n16.s11601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1602",
+   "b": "A.stab.rand_stab.n16.s11602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1602",
+   "b": "A.stab.rand_stab.n16.s11603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1602",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1602",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1603",
+   "b": "A.stab.rand_stab.n16.s11600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1603",
+   "b": "A.stab.rand_stab.n16.s11601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1603",
+   "b": "A.stab.rand_stab.n16.s11602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1603",
+   "b": "A.stab.rand_stab.n16.s11603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1603",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1603",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1604",
+   "b": "A.stab.rand_stab.n16.s11600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1604",
+   "b": "A.stab.rand_stab.n16.s11601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1604",
+   "b": "A.stab.rand_stab.n16.s11602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1604",
+   "b": "A.stab.rand_stab.n16.s11603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1604",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1604",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1605",
+   "b": "A.stab.rand_stab.n16.s11600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1605",
+   "b": "A.stab.rand_stab.n16.s11601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1605",
+   "b": "A.stab.rand_stab.n16.s11602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1605",
+   "b": "A.stab.rand_stab.n16.s11603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1605",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1605",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1606",
+   "b": "A.stab.rand_stab.n16.s11600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1606",
+   "b": "A.stab.rand_stab.n16.s11601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1606",
+   "b": "A.stab.rand_stab.n16.s11602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1606",
+   "b": "A.stab.rand_stab.n16.s11603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1606",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1606",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1607",
+   "b": "A.stab.rand_stab.n16.s11600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1607",
+   "b": "A.stab.rand_stab.n16.s11601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1607",
+   "b": "A.stab.rand_stab.n16.s11602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1607",
+   "b": "A.stab.rand_stab.n16.s11603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1607",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1607",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1608",
+   "b": "A.stab.rand_stab.n16.s11600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1608",
+   "b": "A.stab.rand_stab.n16.s11601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1608",
+   "b": "A.stab.rand_stab.n16.s11602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1608",
+   "b": "A.stab.rand_stab.n16.s11603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1608",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1608",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1609",
+   "b": "A.stab.rand_stab.n16.s11600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1609",
+   "b": "A.stab.rand_stab.n16.s11601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1609",
+   "b": "A.stab.rand_stab.n16.s11602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1609",
+   "b": "A.stab.rand_stab.n16.s11603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1609",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1609",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1610",
+   "b": "A.stab.rand_stab.n16.s11600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1610",
+   "b": "A.stab.rand_stab.n16.s11601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1610",
+   "b": "A.stab.rand_stab.n16.s11602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1610",
+   "b": "A.stab.rand_stab.n16.s11603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1610",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1610",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1611",
+   "b": "A.stab.rand_stab.n16.s11600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1611",
+   "b": "A.stab.rand_stab.n16.s11601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1611",
+   "b": "A.stab.rand_stab.n16.s11602",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1611",
+   "b": "A.stab.rand_stab.n16.s11603",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1611",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s1611",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s11600",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s11600",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s11601",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s11601",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s11602",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s11602",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s11603",
+   "b": "A.stab.rand_stab.n16.s21600",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n16.s11603",
+   "b": "A.stab.rand_stab.n16.s21601",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2400",
+   "b": "A.stab.rand_stab.n24.s12400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2400",
+   "b": "A.stab.rand_stab.n24.s12401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2400",
+   "b": "A.stab.rand_stab.n24.s12402",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2400",
+   "b": "A.stab.rand_stab.n24.s12403",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2400",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2400",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2401",
+   "b": "A.stab.rand_stab.n24.s12400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2401",
+   "b": "A.stab.rand_stab.n24.s12401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2401",
+   "b": "A.stab.rand_stab.n24.s12402",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2401",
+   "b": "A.stab.rand_stab.n24.s12403",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2401",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2401",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2402",
+   "b": "A.stab.rand_stab.n24.s12400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2402",
+   "b": "A.stab.rand_stab.n24.s12401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2402",
+   "b": "A.stab.rand_stab.n24.s12402",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2402",
+   "b": "A.stab.rand_stab.n24.s12403",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2402",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2402",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2403",
+   "b": "A.stab.rand_stab.n24.s12400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2403",
+   "b": "A.stab.rand_stab.n24.s12401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2403",
+   "b": "A.stab.rand_stab.n24.s12402",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2403",
+   "b": "A.stab.rand_stab.n24.s12403",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2403",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2403",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2404",
+   "b": "A.stab.rand_stab.n24.s12400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2404",
+   "b": "A.stab.rand_stab.n24.s12401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2404",
+   "b": "A.stab.rand_stab.n24.s12402",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2404",
+   "b": "A.stab.rand_stab.n24.s12403",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2404",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2404",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2405",
+   "b": "A.stab.rand_stab.n24.s12400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2405",
+   "b": "A.stab.rand_stab.n24.s12401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2405",
+   "b": "A.stab.rand_stab.n24.s12402",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2405",
+   "b": "A.stab.rand_stab.n24.s12403",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2405",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2405",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2406",
+   "b": "A.stab.rand_stab.n24.s12400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2406",
+   "b": "A.stab.rand_stab.n24.s12401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2406",
+   "b": "A.stab.rand_stab.n24.s12402",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2406",
+   "b": "A.stab.rand_stab.n24.s12403",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2406",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2406",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2407",
+   "b": "A.stab.rand_stab.n24.s12400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2407",
+   "b": "A.stab.rand_stab.n24.s12401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2407",
+   "b": "A.stab.rand_stab.n24.s12402",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2407",
+   "b": "A.stab.rand_stab.n24.s12403",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2407",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2407",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2408",
+   "b": "A.stab.rand_stab.n24.s12400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2408",
+   "b": "A.stab.rand_stab.n24.s12401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2408",
+   "b": "A.stab.rand_stab.n24.s12402",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2408",
+   "b": "A.stab.rand_stab.n24.s12403",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2408",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2408",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2409",
+   "b": "A.stab.rand_stab.n24.s12400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2409",
+   "b": "A.stab.rand_stab.n24.s12401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2409",
+   "b": "A.stab.rand_stab.n24.s12402",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2409",
+   "b": "A.stab.rand_stab.n24.s12403",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2409",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2409",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2410",
+   "b": "A.stab.rand_stab.n24.s12400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2410",
+   "b": "A.stab.rand_stab.n24.s12401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2410",
+   "b": "A.stab.rand_stab.n24.s12402",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2410",
+   "b": "A.stab.rand_stab.n24.s12403",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2410",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2410",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2411",
+   "b": "A.stab.rand_stab.n24.s12400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2411",
+   "b": "A.stab.rand_stab.n24.s12401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2411",
+   "b": "A.stab.rand_stab.n24.s12402",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2411",
+   "b": "A.stab.rand_stab.n24.s12403",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2411",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s2411",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s12400",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s12400",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s12401",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s12401",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s12402",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s12402",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s12403",
+   "b": "A.stab.rand_stab.n24.s22400",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n24.s12403",
+   "b": "A.stab.rand_stab.n24.s22401",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3200",
+   "b": "A.stab.rand_stab.n32.s13200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3200",
+   "b": "A.stab.rand_stab.n32.s13201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3200",
+   "b": "A.stab.rand_stab.n32.s13202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3200",
+   "b": "A.stab.rand_stab.n32.s13203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3200",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3200",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3201",
+   "b": "A.stab.rand_stab.n32.s13200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3201",
+   "b": "A.stab.rand_stab.n32.s13201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3201",
+   "b": "A.stab.rand_stab.n32.s13202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3201",
+   "b": "A.stab.rand_stab.n32.s13203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3201",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3201",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3202",
+   "b": "A.stab.rand_stab.n32.s13200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3202",
+   "b": "A.stab.rand_stab.n32.s13201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3202",
+   "b": "A.stab.rand_stab.n32.s13202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3202",
+   "b": "A.stab.rand_stab.n32.s13203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3202",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3202",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3203",
+   "b": "A.stab.rand_stab.n32.s13200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3203",
+   "b": "A.stab.rand_stab.n32.s13201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3203",
+   "b": "A.stab.rand_stab.n32.s13202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3203",
+   "b": "A.stab.rand_stab.n32.s13203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3203",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3203",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3204",
+   "b": "A.stab.rand_stab.n32.s13200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3204",
+   "b": "A.stab.rand_stab.n32.s13201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3204",
+   "b": "A.stab.rand_stab.n32.s13202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3204",
+   "b": "A.stab.rand_stab.n32.s13203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3204",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3204",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3205",
+   "b": "A.stab.rand_stab.n32.s13200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3205",
+   "b": "A.stab.rand_stab.n32.s13201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3205",
+   "b": "A.stab.rand_stab.n32.s13202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3205",
+   "b": "A.stab.rand_stab.n32.s13203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3205",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3205",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3206",
+   "b": "A.stab.rand_stab.n32.s13200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3206",
+   "b": "A.stab.rand_stab.n32.s13201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3206",
+   "b": "A.stab.rand_stab.n32.s13202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3206",
+   "b": "A.stab.rand_stab.n32.s13203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3206",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3206",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3207",
+   "b": "A.stab.rand_stab.n32.s13200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3207",
+   "b": "A.stab.rand_stab.n32.s13201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3207",
+   "b": "A.stab.rand_stab.n32.s13202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3207",
+   "b": "A.stab.rand_stab.n32.s13203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3207",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3207",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3208",
+   "b": "A.stab.rand_stab.n32.s13200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3208",
+   "b": "A.stab.rand_stab.n32.s13201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3208",
+   "b": "A.stab.rand_stab.n32.s13202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3208",
+   "b": "A.stab.rand_stab.n32.s13203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3208",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3208",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3209",
+   "b": "A.stab.rand_stab.n32.s13200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3209",
+   "b": "A.stab.rand_stab.n32.s13201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3209",
+   "b": "A.stab.rand_stab.n32.s13202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3209",
+   "b": "A.stab.rand_stab.n32.s13203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3209",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3209",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3210",
+   "b": "A.stab.rand_stab.n32.s13200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3210",
+   "b": "A.stab.rand_stab.n32.s13201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3210",
+   "b": "A.stab.rand_stab.n32.s13202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3210",
+   "b": "A.stab.rand_stab.n32.s13203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3210",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3210",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3211",
+   "b": "A.stab.rand_stab.n32.s13200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3211",
+   "b": "A.stab.rand_stab.n32.s13201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3211",
+   "b": "A.stab.rand_stab.n32.s13202",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3211",
+   "b": "A.stab.rand_stab.n32.s13203",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3211",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s3211",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s13200",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s13200",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s13201",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s13201",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s13202",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s13202",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s13203",
+   "b": "A.stab.rand_stab.n32.s23200",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.stab.rand_stab.n32.s13203",
+   "b": "A.stab.rand_stab.n32.s23201",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "stabilizer states with equal invariants but different hashes (distinct states)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n54.s0",
+   "b": "A.css_zero.bb_rand.n54.s10002",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n54.s3",
+   "b": "A.css_zero.bb_rand.n54.s10002",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n54.s6",
+   "b": "A.css_zero.bb_rand.n54.s10002",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n54.s9",
+   "b": "A.css_zero.bb_rand.n54.s10002",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n54.s10",
+   "b": "A.css_zero.bb_rand.n54.s10002",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n54.s10002",
+   "b": "A.css_zero.gb_rand.n54.s7",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "train"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n36.s1",
+   "b": "A.css_zero.bb_rand.n36.s10001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equivalent (Tanner graphs isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n36.s1",
+   "b": "A.css_zero.bb_rand.n36.s10003",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n36.s1",
+   "b": "A.css_zero.bb_rand.n36.s20000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equivalent (Tanner graphs isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n36.s4",
+   "b": "A.css_zero.bb_rand.n36.s10001",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n36.s4",
+   "b": "A.css_zero.bb_rand.n36.s10003",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n36.s4",
+   "b": "A.css_zero.bb_rand.n36.s20000",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n36.s7",
+   "b": "A.css_zero.bb_rand.n36.s10001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equivalent (Tanner graphs isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n36.s7",
+   "b": "A.css_zero.bb_rand.n36.s10003",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n36.s7",
+   "b": "A.css_zero.bb_rand.n36.s20000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equivalent (Tanner graphs isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n36.s8",
+   "b": "A.css_zero.bb_rand.n36.s10001",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n36.s8",
+   "b": "A.css_zero.bb_rand.n36.s10003",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n36.s8",
+   "b": "A.css_zero.bb_rand.n36.s20000",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n36.s10001",
+   "b": "A.css_zero.bb_rand.n36.s20000",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "equivalent (Tanner graphs isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n36.s10003",
+   "b": "A.css_zero.bb_rand.n36.s20000",
+   "duplicate": false,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n98.s1000",
+   "b": "A.css_zero.bb_rand.n98.s11000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n98.s1004",
+   "b": "A.css_zero.bb_rand.n98.s11000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n98.s1006",
+   "b": "A.css_zero.bb_rand.n98.s11000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n108.s1002",
+   "b": "A.css_zero.bb_rand.n108.s11002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n108.s1002",
+   "b": "A.css_zero.bb_rand.n108.s21000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n108.s1002",
+   "b": "A.css_zero.bb_rand.n108.s21001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n108.s1003",
+   "b": "A.css_zero.bb_rand.n108.s11002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n108.s1003",
+   "b": "A.css_zero.bb_rand.n108.s21000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n108.s1003",
+   "b": "A.css_zero.bb_rand.n108.s21001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n108.s1005",
+   "b": "A.css_zero.bb_rand.n108.s11002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n108.s1005",
+   "b": "A.css_zero.bb_rand.n108.s21000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n108.s1005",
+   "b": "A.css_zero.bb_rand.n108.s21001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n108.s1011",
+   "b": "A.css_zero.bb_rand.n108.s11002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n108.s1011",
+   "b": "A.css_zero.bb_rand.n108.s21000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n108.s1011",
+   "b": "A.css_zero.bb_rand.n108.s21001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n108.s11002",
+   "b": "A.css_zero.bb_rand.n108.s21000",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n108.s11002",
+   "b": "A.css_zero.bb_rand.n108.s21001",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n72.s1008",
+   "b": "A.css_zero.bb_rand.n72.s11001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n72.s1010",
+   "b": "A.css_zero.bb_rand.n72.s11001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n196.s2001",
+   "b": "A.css_zero.bb_rand.n196.s12000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n196.s2001",
+   "b": "A.css_zero.bb_rand.n196.s12001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n196.s2001",
+   "b": "A.css_zero.bb_rand.n196.s12003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n196.s2002",
+   "b": "A.css_zero.bb_rand.n196.s12000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n196.s2002",
+   "b": "A.css_zero.bb_rand.n196.s12001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n196.s2002",
+   "b": "A.css_zero.bb_rand.n196.s12003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n196.s2006",
+   "b": "A.css_zero.bb_rand.n196.s12000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n196.s2006",
+   "b": "A.css_zero.bb_rand.n196.s12001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n196.s2006",
+   "b": "A.css_zero.bb_rand.n196.s12003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n196.s2007",
+   "b": "A.css_zero.bb_rand.n196.s12000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n196.s2007",
+   "b": "A.css_zero.bb_rand.n196.s12001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n196.s2007",
+   "b": "A.css_zero.bb_rand.n196.s12003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n180.s2004",
+   "b": "A.css_zero.bb_rand.n180.s22001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n180.s2004",
+   "b": "A.css_zero.gb_rand.n180.s12000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n180.s2008",
+   "b": "A.css_zero.bb_rand.n180.s22001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n180.s2008",
+   "b": "A.css_zero.gb_rand.n180.s12000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n180.s2010",
+   "b": "A.css_zero.bb_rand.n180.s22001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n180.s2010",
+   "b": "A.css_zero.gb_rand.n180.s12000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n180.s22001",
+   "b": "A.css_zero.gb_rand.n180.s12000",
+   "duplicate": true,
+   "splits": [
+    "test_in",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.bb_rand.n150.s12002",
+   "b": "A.css_zero.bb_rand.n150.s22000",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.gb_rand.n52.s8",
+   "b": "A.css_zero.gb_rand.n52.s10000",
+   "duplicate": false,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "not equivalent (Tanner graphs not isomorphic)"
+  },
+  {
+   "a": "A.css_zero.gb_rand.n68.s1001",
+   "b": "A.css_zero.gb_rand.n68.s21000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.gb_rand.n116.s1002",
+   "b": "A.css_zero.gb_rand.n116.s11001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.gb_rand.n120.s11003",
+   "b": "A.css_zero.gb_rand.n120.s2006",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "train"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  },
+  {
+   "a": "A.css_zero.gb_rand.n192.s2009",
+   "b": "A.css_zero.gb_rand.n192.s12001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "invariants equal, n > 60 (treated as duplicate)"
+  }
+ ],
+ "totals": {
+  "probe": 34,
+  "test_in": 105,
+  "test_ood": 90,
+  "train": 203,
+  "val": 66
+ },
+ "variants": 585
+}

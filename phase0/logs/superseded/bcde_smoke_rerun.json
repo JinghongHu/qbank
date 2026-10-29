@@ -1,0 +1,11 @@
+{
+ "B.abc(strash,dc2)": {
+  "status": "ok",
+  "time_s": 0.08777812495827675,
+  "verified": true,
+  "stats": [
+   "\u001b[0m i/o =    7/   26  lat =    0  and =    174  lev = 10",
+   "\u001b[0m i/o =    7/   26  lat =    0  and =     96  lev =  7"
+  ]
+ }
+}

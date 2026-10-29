@@ -1,0 +1,69 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "trotter",
+ "hash": "sha256:0362d81025d134b5d7975676303f0baa0030704bb724a3581ef3ce3de2e7fb04",
+ "id": "C.trotter.ring.n10.s108",
+ "params": {
+  "device_kind": "ring",
+  "model": "heisenberg",
+  "n": 10,
+  "seed": 108
+ },
+ "private": {
+  "device": "ring_10",
+  "interaction_edges": [
+   [
+    0,
+    2
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:0362d81025d134b5d7975676303f0baa0030704bb724a3581ef3ce3de2e7fb04",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "trotter_on_ring",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

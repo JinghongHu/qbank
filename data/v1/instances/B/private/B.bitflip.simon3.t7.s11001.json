@@ -1,0 +1,136 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_bitflip_clean"
+ ],
+ "family": "simon3",
+ "hash": "sha256:d76998360280e99788c13c8a5b4c189c367f1724045a6fddfa2453dad575f9a2",
+ "id": "B.bitflip.simon3.t7.s11001",
+ "params": {
+  "n_trits": 7,
+  "r": 6,
+  "seed": 11001
+ },
+ "private": {
+  "M": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    0,
+    0,
+    1,
+    1,
+    2,
+    2
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    2,
+    2,
+    1,
+    1
+   ],
+   [
+    2,
+    0,
+    0,
+    1,
+    1,
+    2,
+    2
+   ],
+   [
+    1,
+    0,
+    0,
+    2,
+    2,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    2,
+    2,
+    1,
+    1
+   ]
+  ],
+  "aig_ands": 58,
+  "b_min": 78,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 82,
+   "cone_bennett(abc resyn2)": 78
+  },
+  "m": 14,
+  "n": 14,
+  "n_solutions": null,
+  "n_solutions_method": "multi-output",
+  "size_bin": "M",
+  "solution_fraction_log2": null,
+  "solution_sparse": false
+ },
+ "public_hash": "sha256:d76998360280e99788c13c8a5b4c189c367f1724045a6fddfa2453dad575f9a2",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "simon3",
+  "ref": "ternary generalized Simon oracle (QCircuitBench, parametrised)",
+  "version": "1"
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": [
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 78
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 117
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+B.qiskit.PhaseOracleGate                 {"status": "ok", "time_s": 0.6636074159760028, "verified": true, "cx": 21}
+B.qiskit.BitFlipOracleGate               {"status": "ok", "time_s": 0.657893291907385, "verified": true, "cx": 34}
+B/E.qiskit.synth_mcx_* (k=4)             {"status": "ok", "time_s": 0.7437150829937309, "verified": true}
+    synth_mcx_1_clean_b95              {"verified": true, "qubits": 5, "ancillas": 0, "cx": 36}
+    synth_mcx_1_clean_kg24             {"verified": true, "qubits": 6, "ancillas": 1, "cx": 18}
+    synth_mcx_1_dirty_kg24             {"verified": true, "qubits": 6, "ancillas": 1, "cx": 30}
+    synth_mcx_2_clean_kg24             {"verified": true, "qubits": 7, "ancillas": 2, "cx": 18}
+    synth_mcx_2_dirty_kg24             {"verified": true, "qubits": 7, "ancillas": 2, "cx": 30}
+    synth_mcx_gray_code                {"verified": true, "qubits": 5, "ancillas": 0, "cx": 44}
+    synth_mcx_n_clean_m15              {"verified": true, "qubits": 7, "ancillas": 2, "cx": 18}
+    synth_mcx_n_dirty_i15              {"verified": true, "qubits": 7, "ancillas": 2, "cx": 26}
+    synth_mcx_noaux_hp24               {"verified": true, "qubits": 5, "ancillas": 0, "cx": 52}
+    synth_mcx_noaux_v24                {"verified": true, "qubits": 5, "ancillas": 0, "cx": 36}
+B.abc(strash,dc2)                        {"status": "ok", "time_s": 0.10171424993313849, "verified": true, "stats": ["\u001b[0m i/o =    7/   26  lat =    0  and =    174  lev = 10", "\u001b[0m i/o =    7/   26  lat =    0  and =     96  lev =  7"]}
+B.pysat+dd                               {"status": "ok", "time_s": 0.12774925003759563, "verified": true, "bdd_nodes": 4}
+C.qiskit.SabreLayout(LightSABRE)+QCEC    {"status": "ok", "time_s": 0.2141837920062244, "verified": true, "swaps": 10, "qcec": "EquivalenceCriterion.equivalent"}
+C.pytket.LexiRoute                       {"status": "ok", "time_s": 1.5393244579900056, "verified": true, "swaps": 14, "note": "valid-edges/equivalence check deferred to qbank checker"}
+C.mqt.qmap.compile_(heuristic)           {"status": "ok", "time_s": 0.2077057498972863, "verified": true, "swaps": 13, "note": "ran without crash"}
+C.qiskit.Commuting2qGateRouter           {"status": "ok", "time_s": 0.18475383310578763, "verified": true, "swaps": 10, "ops": {"swap": 10, "PauliEvolution": 9}}
+C.mqt.qcec.verify(neg. control)          {"status": "ok", "time_s": 0.15758929098956287, "verified": true, "note": "a vs b: EquivalenceCriterion.not_equivalent (unitaries differ on non-zero inputs); a vs c: EquivalenceCriterion.not_equivalent"}
+D.qiskit.StatePreparation                {"status": "ok", "time_s": 0.6672876249067485, "verified": true, "fidelity_err": -8.881784197001252e-16, "cx": 26}
+D.qclib                                  {"status": "ok", "time_s": 0.965330959064886, "verified": true}
+    CvoqramInitialize                  {"note": "uses 12 qubits (ancillas); not checked here"}
+    PivotInitialize                    {"error": "TranspilerError: 'HighLevelSynthesis: number of input qubits (5) does not match the circuit size (4)'"}
+    MergeInitialize                    {"verified": true, "endianness": "big", "fidelity_err": 4.440892098500626e-16, "cx": 16}
+    DcspInitialize                     {"note": "uses 63 qubits (ancillas); not checked here"}
+    BdspInitialize                     {"note": "uses 31 qubits (ancillas); not checked here"}
+    TopDownInitialize                  {"verified": true, "endianness": "little", "fidelity_err": -8.881784197001252e-16, "cx": 114}
+    LowRankInitialize                  {"verified": true, "endianness": "little", "fidelity_err": 2.220446049250313e-16, "cx": 30}
+    UCGInitialize                      {"verified": true, "endianness": "little", "fidelity_err": 2.220446049250313e-16, "cx": 57}
+    SVDInitialize                      {"verified": true, "endianness": "little", "fidelity_err": 8.881784197001252e-16, "cx": 45}
+D.bqskit.compile(StateVector)            {"status": "ok", "time_s": 2.626021040836349, "verified": true, "endianness": "big", "fidelity_err": 1.9984014443252818e-15, "cx": 3, "note": "numerical synthesis; exactness is up to its tolerance"}
+E.qiskit_aer dynamic circuit             {"status": "ok", "time_s": 0.7084425000939518, "verified": true, "counts": {"11": 110, "00": 90}}

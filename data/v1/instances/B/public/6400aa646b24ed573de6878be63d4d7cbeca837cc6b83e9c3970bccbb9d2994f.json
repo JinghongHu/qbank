@@ -1,0 +1,129 @@
+{
+ "aiger_b64": "YWlnIDgwMSAyMCAwIDEgNzgxCjE2MDIKJQMoAQECLAIDKAYoAQIJKQEJBAcBAggICy4OLgECES8BCgQKAQIICQERBA8BAggQEzwWPAECGT0BEgQSAQIIEQESBBIBAggRARkEFwECCBgbUh5SAQIhUwEaBBoBAggZARoEGgECCBkBGgQaAQIIGQEhBB8BAgggI3AmcAECKXEBIgQiAQIIIQEiBCIBAgghASIEIgECCCEBIgQiAQIIIQEpBCcBAggoK5YBLpYBAQIxlwEBKgQqAQIIKQEqBCoBAggpASoEKgECCCkBKgQqAQIIKQEqBCoBAggpATEELwECCDAzxAE2xAEBAjnFAQEyBDIBAggxATIEMgECCDEBMgQyAQIIMQEyBDIBAggxATIEMgECCDEBMgQyAQIIMQE5BDcBAgg4O/oBPvoBAQJB+wEBOgQ6AQIIOQE6BDoBAgg5AToEOgECCDkBOgQ6AQIIOQE6BDoBAgg5AToEOgECCDkBOgQ6AQIIOQFBBD8BAghAQ7gCRrgCAQJJuQIBQgRCAQIIQQFCBEIBAghBAUIEQgECCEEBQgRCAQIIQQFCBEIBAghBAUIEQgECCEEBQgRCAQIIQQFCBEIBAghBAUkERwECCEhL/gJO/gIBAlH/AgFKBEoBAghJAUoESgECCEkBSgRKAQIISQFKBEoBAghJAUoESgECCEkBSgRKAQIISQFKBEoBAghJAUoESgECCEkBSgRKAQIISQFRBE8BAghQU8wDVswDAQJZzQMBUgRSAQIIUQFSBFIBAghRAVIEUgECCFEBUgRSAQIIUQFSBFIBAghRAVIEUgECCFEBUgRSAQIIUQFSBFIBAghRAVIEUgECCFEBUgRSAQIIUQFZBFcBAghYW6IEXqIEAQJhowQBWgRaAQIIWQFaBFoBAghZAVoEWgECCFkBWgRaAQIIWQFaBFoBAghZAVoEWgECCFkBWgRaAQIIWQFaBFoBAghZAVoEWgECCFkBWgRaAQIIWQFaBFoBAghZAWEEXwECCGBjgAVmgAUBAmmBBQFiBGIBAghhAWIEYgECCGEBYgRiAQIIYQFiBGIBAghhAWIEYgECCGEBYgRiAQIIYQFiBGIBAghhAWIEYgECCGEBYgRiAQIIYQFiBGIBAghhAWIEYgECCGEBYgRiAQIIYQFpBGcBAghoa+YFbuYFAQJx5wUBagRqAQIIaQFqBGoBAghpAWoEagECCGkBagRqAQIIaQFqBGoBAghpAWoEagECCGkBagRqAQIIaQFqBGoBAghpAWoEagECCGkBagRqAQIIaQFqBGoBAghpAWoEagECCGkBagRqAQIIaQFxBG8BAghwc9QGdtQGAQJ51QYBcgRyAQIIcQFyBHIBAghxAXIEcgECCHEBcgRyAQIIcQFyBHIBAghxAXIEcgECCHEBcgRyAQIIcQFyBHIBAghxAXIEcgECCHEBcgRyAQIIcQFyBHIBAghxAXIEcgECCHEBcgRyAQIIcQFyBHIBAghxAXkEdwECCHh7ygd+ygcBAoEBywcBegR6AQIIeQF6BHoBAgh5AXoEegECCHkBegR6AQIIeQF6BHoBAgh5AXoEegECCHkBegR6AQIIeQF6BHoBAgh5AXoEegECCHkBegR6AQIIeQF6BHoBAgh5AXoEegECCHkBegR6AQIIeQF6BHoBAgh5AXoEegECCHkBgQEEfwECCIABgwHICIYByAgBAokByQgBggEEggEBAgiBAQGCAQSCAQECCIEBAYIBBIIBAQIIgQEBggEEggEBAgiBAQGCAQSCAQECCIEBAYIBBIIBAQIIgQEBggEEggEBAgiBAQGCAQSCAQECCIEBAYIBBIIBAQIIgQEBggEEggEBAgiBAQGCAQSCAQECCIEBAYIBBIIBAQIIgQEBggEEggEBAgiBAQGCAQSCAQECCIEBAYIBBIIBAQIIgQEBggEEggEBAgiBAQGJAQSHAQECCIgBiwHOCY4BzgkBApEBzwkBigEEigEBAgiJAQGKAQSKAQECCIkBAYoBBIoBAQIIiQEBigEEigEBAgiJAQGKAQSKAQECCIkBAYoBBIoBAQIIiQEBigEEigEBAgiJAQGKAQSKAQECCIkBAYoBBIoBAQIIiQEBigEEigEBAgiJAQGKAQSKAQECCIkBAYoBBIoBAQIIiQEBigEEigEBAgiJAQGKAQSKAQECCIkBAYoBBIoBAQIIiQEBigEEigEBAgiJAQGKAQSKAQECCIkBAZEBBI8BAQIIkAEBAwIMAhYCIAIqAjQCPgJIAlICXAJmAnACegKEAQKOAQKYAQKiAQShAQKuAQK4AQEGaTAgeDAKaTEgeDEKaTIgeDIKaTMgeDMKaTQgeDQKaTUgeDUKaTYgeDYKaTcgeDcKaTggeDgKaTkgeDkKaTEwIHgxMAppMTEgeDExCmkxMiB4MTIKaTEzIHgxMwppMTQgeDE0CmkxNSB4MTUKaTE2IHgxNgppMTcgeDE3CmkxOCB4MTgKaTE5IHgxOQpvMCBwb3Bjb3VudF9nZV9rCg==",
+ "contract_version": 2,
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:6400aa646b24ed573de6878be63d4d7cbeca837cc6b83e9c3970bccbb9d2994f",
+ "input_names": [
+  "x0",
+  "x1",
+  "x2",
+  "x3",
+  "x4",
+  "x5",
+  "x6",
+  "x7",
+  "x8",
+  "x9",
+  "x10",
+  "x11",
+  "x12",
+  "x13",
+  "x14",
+  "x15",
+  "x16",
+  "x17",
+  "x18",
+  "x19"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 20,
+ "n_outputs": 1,
+ "output_names": [
+  "popcount_ge_k"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "outputs": [
+   20
+  ]
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 320
+  },
+  "tof@bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 213
+  },
+  "tof@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  },
+  "tof_clifford@inf": {
+   "contract": "oracle_bitflip_clean",
+   "contract_version": 2,
+   "gate_set": [
+    "x",
+    "cx",
+    "ccx",
+    "ccz",
+    "rccx",
+    "rc3x",
+    "swap",
+    "z",
+    "s",
+    "sdg",
+    "cz"
+   ],
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

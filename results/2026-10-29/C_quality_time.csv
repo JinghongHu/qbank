@@ -1,0 +1,97 @@
+instance_id,family,size_bin,track,tool,status_6,value_6,status_60,value_60,status_600,value_600
+C.hamlib.heis.graph-2D-grid-pbc-qubitnodes_Lx-3_Ly-3_h-1,hamlib,S,swaps,"OLSQ2 (TB, swap objective)",timeout,,timeout,,timeout,
+C.hamlib.heis.graph-2D-grid-pbc-qubitnodes_Lx-3_Ly-3_h-1,hamlib,S,swaps,mqt.qmap heuristic,pass,74,pass,74,pass,74
+C.hamlib.heis.graph-2D-grid-pbc-qubitnodes_Lx-3_Ly-3_h-1,hamlib,S,swaps,pytket LexiRoute,pass,69,pass,69,pass,69
+C.hamlib.heis.graph-2D-grid-pbc-qubitnodes_Lx-3_Ly-3_h-1,hamlib,S,swaps,qiskit LightSABRE (anytime),pass,47,pass,46,pass,46
+C.hamlib.heis.graph-2D-triag-nonpbc-qubitnodes_Lx-13_Ly-13_h-1,hamlib,XL,swaps,"OLSQ2 (TB, swap objective)",unsupported,,unsupported,,unsupported,
+C.hamlib.heis.graph-2D-triag-nonpbc-qubitnodes_Lx-13_Ly-13_h-1,hamlib,XL,swaps,mqt.qmap heuristic,pass,1537,pass,1537,pass,1537
+C.hamlib.heis.graph-2D-triag-nonpbc-qubitnodes_Lx-13_Ly-13_h-1,hamlib,XL,swaps,pytket LexiRoute,timeout,,timeout,,timeout,
+C.hamlib.heis.graph-2D-triag-nonpbc-qubitnodes_Lx-13_Ly-13_h-1,hamlib,XL,swaps,qiskit LightSABRE (anytime),pass,1590,pass,1520,pass,1464
+C.hamlib.tfim.graph-2D-triag-nonpbc-qubitnodes_Lx-3_Ly-5_h-1,hamlib,S,swaps,"OLSQ2 (TB, swap objective)",timeout,,timeout,,pass,4
+C.hamlib.tfim.graph-2D-triag-nonpbc-qubitnodes_Lx-3_Ly-5_h-1,hamlib,S,swaps,mqt.qmap heuristic,pass,7,pass,7,pass,7
+C.hamlib.tfim.graph-2D-triag-nonpbc-qubitnodes_Lx-3_Ly-5_h-1,hamlib,S,swaps,pytket LexiRoute,pass,11,pass,11,pass,11
+C.hamlib.tfim.graph-2D-triag-nonpbc-qubitnodes_Lx-3_Ly-5_h-1,hamlib,S,swaps,qiskit LightSABRE (anytime),pass,5,pass,5,pass,5
+C.hamlib.tfim.graph-2D-triag-pbc-qubitnodes_Lx-3_Ly-5_h-1,hamlib,S,swaps,"OLSQ2 (TB, swap objective)",timeout,,timeout,,timeout,
+C.hamlib.tfim.graph-2D-triag-pbc-qubitnodes_Lx-3_Ly-5_h-1,hamlib,S,swaps,mqt.qmap heuristic,pass,29,pass,29,pass,29
+C.hamlib.tfim.graph-2D-triag-pbc-qubitnodes_Lx-3_Ly-5_h-1,hamlib,S,swaps,pytket LexiRoute,pass,35,pass,35,pass,35
+C.hamlib.tfim.graph-2D-triag-pbc-qubitnodes_Lx-3_Ly-5_h-1,hamlib,S,swaps,qiskit LightSABRE (anytime),pass,19,pass,19,pass,19
+C.mqtbench.graphstate.n24,mqtbench,M,swaps,"OLSQ2 (TB, swap objective)",unsupported,,unsupported,,unsupported,
+C.mqtbench.graphstate.n24,mqtbench,M,swaps,mqt.qmap heuristic,timeout,,timeout,,timeout,
+C.mqtbench.graphstate.n24,mqtbench,M,swaps,pytket LexiRoute,pass,15,pass,15,pass,15
+C.mqtbench.graphstate.n24,mqtbench,M,swaps,qiskit LightSABRE (anytime),pass,14,pass,9,pass,8
+C.mqtbench.qftentangled.n20,mqtbench,M,swaps,"OLSQ2 (TB, swap objective)",unsupported,,unsupported,,unsupported,
+C.mqtbench.qftentangled.n20,mqtbench,M,swaps,mqt.qmap heuristic,timeout,,timeout,,timeout,
+C.mqtbench.qftentangled.n20,mqtbench,M,swaps,pytket LexiRoute,pass,271,pass,271,pass,271
+C.mqtbench.qftentangled.n20,mqtbench,M,swaps,qiskit LightSABRE (anytime),pass,171,pass,171,pass,166
+C.mqtbench.qnn.n20,mqtbench,M,swaps,"OLSQ2 (TB, swap objective)",unsupported,,unsupported,,unsupported,
+C.mqtbench.qnn.n20,mqtbench,M,swaps,mqt.qmap heuristic,timeout,,timeout,,timeout,
+C.mqtbench.qnn.n20,mqtbench,M,swaps,pytket LexiRoute,pass,0,pass,0,pass,0
+C.mqtbench.qnn.n20,mqtbench,M,swaps,qiskit LightSABRE (anytime),pass,7,pass,4,pass,2
+C.mqtbench.vqe_su2.n20,mqtbench,M,swaps,"OLSQ2 (TB, swap objective)",unsupported,,unsupported,,unsupported,
+C.mqtbench.vqe_su2.n20,mqtbench,M,swaps,mqt.qmap heuristic,timeout,,timeout,,timeout,
+C.mqtbench.vqe_su2.n20,mqtbench,M,swaps,pytket LexiRoute,pass,0,pass,0,pass,0
+C.mqtbench.vqe_su2.n20,mqtbench,M,swaps,qiskit LightSABRE (anytime),pass,3,pass,0,pass,0
+C.qaoa.grid.n11.s207,qaoa,S,swaps,"OLSQ2 (TB, swap objective)",timeout,,timeout,,timeout,
+C.qaoa.grid.n11.s207,qaoa,S,swaps,mqt.qmap heuristic,pass,31,pass,31,pass,31
+C.qaoa.grid.n11.s207,qaoa,S,swaps,pytket LexiRoute,pass,28,pass,28,pass,28
+C.qaoa.grid.n11.s207,qaoa,S,swaps,qiskit LightSABRE (anytime),pass,16,pass,14,pass,14
+C.qaoa.grid.n14.s206,qaoa,S,swaps,"OLSQ2 (TB, swap objective)",timeout,,timeout,,pass,5
+C.qaoa.grid.n14.s206,qaoa,S,swaps,mqt.qmap heuristic,pass,13,pass,13,pass,13
+C.qaoa.grid.n14.s206,qaoa,S,swaps,pytket LexiRoute,pass,12,pass,12,pass,12
+C.qaoa.grid.n14.s206,qaoa,S,swaps,qiskit LightSABRE (anytime),pass,6,pass,5,pass,5
+C.qaoa.grid.n15.s201,qaoa,S,swaps,"OLSQ2 (TB, swap objective)",timeout,,timeout,,timeout,
+C.qaoa.grid.n15.s201,qaoa,S,swaps,mqt.qmap heuristic,pass,16,pass,16,pass,16
+C.qaoa.grid.n15.s201,qaoa,S,swaps,pytket LexiRoute,pass,23,pass,23,pass,23
+C.qaoa.grid.n15.s201,qaoa,S,swaps,qiskit LightSABRE (anytime),pass,10,pass,9,pass,9
+C.qaoa.heavy_hex.n101.s23305,qaoa,XL,swaps,"OLSQ2 (TB, swap objective)",unsupported,,unsupported,,unsupported,
+C.qaoa.heavy_hex.n101.s23305,qaoa,XL,swaps,mqt.qmap heuristic,pass,3317,pass,3317,pass,3317
+C.qaoa.heavy_hex.n101.s23305,qaoa,XL,swaps,pytket LexiRoute,timeout,,timeout,,timeout,
+C.qaoa.heavy_hex.n101.s23305,qaoa,XL,swaps,qiskit LightSABRE (anytime),pass,2505,pass,2492,pass,2431
+C.hamlib.tfim.graph-3D-grid-pbc-qubitnodes_Lx-4_Ly-4_Lz-4_h-1,hamlib,L,swaps,"OLSQ2 (TB, swap objective)",unsupported,,unsupported,,unsupported,
+C.hamlib.tfim.graph-3D-grid-pbc-qubitnodes_Lx-4_Ly-4_Lz-4_h-1,hamlib,L,swaps,mqt.qmap heuristic,pass,608,pass,608,pass,608
+C.hamlib.tfim.graph-3D-grid-pbc-qubitnodes_Lx-4_Ly-4_Lz-4_h-1,hamlib,L,swaps,pytket LexiRoute,pass,717,pass,717,pass,717
+C.hamlib.tfim.graph-3D-grid-pbc-qubitnodes_Lx-4_Ly-4_Lz-4_h-1,hamlib,L,swaps,qiskit LightSABRE (anytime),pass,552,pass,544,pass,528
+C.qaoa.heavy_hex.n8.s300,qaoa,S,swaps,"OLSQ2 (TB, swap objective)",timeout,,timeout,,timeout,
+C.qaoa.heavy_hex.n8.s300,qaoa,S,swaps,mqt.qmap heuristic,pass,26,pass,26,pass,26
+C.qaoa.heavy_hex.n8.s300,qaoa,S,swaps,pytket LexiRoute,pass,22,pass,22,pass,22
+C.qaoa.heavy_hex.n8.s300,qaoa,S,swaps,qiskit LightSABRE (anytime),pass,20,pass,20,pass,20
+C.queko.16QBT_10CYC_TFL_9,queko,S,swaps,"OLSQ2 (TB, swap objective)",pass,1,pass,1,pass,1
+C.queko.16QBT_10CYC_TFL_9,queko,S,swaps,mqt.qmap heuristic,pass,8,pass,8,pass,8
+C.queko.16QBT_10CYC_TFL_9,queko,S,swaps,pytket LexiRoute,pass,0,pass,0,pass,0
+C.queko.16QBT_10CYC_TFL_9,queko,S,swaps,qiskit LightSABRE (anytime),pass,0,pass,0,pass,0
+C.struct_random.random_sparse.n14.s20401,struct_random,S,swaps,"OLSQ2 (TB, swap objective)",timeout,,pass,4,pass,4
+C.struct_random.random_sparse.n14.s20401,struct_random,S,swaps,mqt.qmap heuristic,pass,16,pass,16,pass,16
+C.struct_random.random_sparse.n14.s20401,struct_random,S,swaps,pytket LexiRoute,pass,9,pass,9,pass,9
+C.struct_random.random_sparse.n14.s20401,struct_random,S,swaps,qiskit LightSABRE (anytime),pass,5,pass,4,pass,4
+C.trotter.ring.n77.s23111,trotter,XL,swaps,"OLSQ2 (TB, swap objective)",unsupported,,unsupported,,unsupported,
+C.trotter.ring.n77.s23111,trotter,XL,swaps,mqt.qmap heuristic,pass,1124,pass,1124,pass,1124
+C.trotter.ring.n77.s23111,trotter,XL,swaps,pytket LexiRoute,pass,1365,pass,1365,pass,1365
+C.trotter.ring.n77.s23111,trotter,XL,swaps,qiskit LightSABRE (anytime),pass,741,pass,679,pass,679
+C.hamlib.tfim.graph-2D-grid-pbc-qubitnodes_Lx-2_Ly-53_h-1,hamlib,XL,swaps,"OLSQ2 (TB, swap objective)",unsupported,,unsupported,,unsupported,
+C.hamlib.tfim.graph-2D-grid-pbc-qubitnodes_Lx-2_Ly-53_h-1,hamlib,XL,swaps,mqt.qmap heuristic,pass,103,pass,103,pass,103
+C.hamlib.tfim.graph-2D-grid-pbc-qubitnodes_Lx-2_Ly-53_h-1,hamlib,XL,swaps,pytket LexiRoute,pass,141,pass,141,pass,141
+C.hamlib.tfim.graph-2D-grid-pbc-qubitnodes_Lx-2_Ly-53_h-1,hamlib,XL,swaps,qiskit LightSABRE (anytime),pass,236,pass,231,pass,217
+C.qubikos.Aspen-4_10_300_0,qubikos,S,swaps,"OLSQ2 (TB, swap objective)",unsupported,,unsupported,,unsupported,
+C.qubikos.Aspen-4_10_300_0,qubikos,S,swaps,mqt.qmap heuristic,pass,163,pass,163,pass,163
+C.qubikos.Aspen-4_10_300_0,qubikos,S,swaps,pytket LexiRoute,pass,13,pass,13,pass,13
+C.qubikos.Aspen-4_10_300_0,qubikos,S,swaps,qiskit LightSABRE (anytime),pass,10,pass,10,pass,10
+C.struct_random.ring.n26.s1109,struct_random,M,swaps,"OLSQ2 (TB, swap objective)",unsupported,,unsupported,,unsupported,
+C.struct_random.ring.n26.s1109,struct_random,M,swaps,mqt.qmap heuristic,pass,83,pass,83,pass,83
+C.struct_random.ring.n26.s1109,struct_random,M,swaps,pytket LexiRoute,pass,13,pass,13,pass,13
+C.struct_random.ring.n26.s1109,struct_random,M,swaps,qiskit LightSABRE (anytime),pass,4,pass,4,pass,4
+C.trotter.grid.n62.s2207,trotter,L,swaps,"OLSQ2 (TB, swap objective)",unsupported,,unsupported,,unsupported,
+C.trotter.grid.n62.s2207,trotter,L,swaps,mqt.qmap heuristic,pass,630,pass,630,pass,630
+C.trotter.grid.n62.s2207,trotter,L,swaps,pytket LexiRoute,timeout,,pass,586,pass,586
+C.trotter.grid.n62.s2207,trotter,L,swaps,qiskit LightSABRE (anytime),pass,369,pass,352,pass,348
+C.qaoa.ring.n17.s21101,qaoa,M,swaps,"OLSQ2 (TB, swap objective)",unsupported,,unsupported,,unsupported,
+C.qaoa.ring.n17.s21101,qaoa,M,swaps,mqt.qmap heuristic,pass,115,pass,115,pass,115
+C.qaoa.ring.n17.s21101,qaoa,M,swaps,pytket LexiRoute,pass,103,pass,103,pass,103
+C.qaoa.ring.n17.s21101,qaoa,M,swaps,qiskit LightSABRE (anytime),pass,72,pass,71,pass,70
+C.trotter.heavy_hex.n21.s1304,trotter,M,swaps,"OLSQ2 (TB, swap objective)",unsupported,,unsupported,,unsupported,
+C.trotter.heavy_hex.n21.s1304,trotter,M,swaps,mqt.qmap heuristic,timeout,,timeout,,timeout,
+C.trotter.heavy_hex.n21.s1304,trotter,M,swaps,pytket LexiRoute,pass,44,pass,44,pass,44
+C.trotter.heavy_hex.n21.s1304,trotter,M,swaps,qiskit LightSABRE (anytime),pass,25,pass,24,pass,23
+C.qubikos.Eagle_10_4000_3,qubikos,XL,swaps,"OLSQ2 (TB, swap objective)",unsupported,,unsupported,,unsupported,
+C.qubikos.Eagle_10_4000_3,qubikos,XL,swaps,mqt.qmap heuristic,timeout,,pass,10484,pass,10484
+C.qubikos.Eagle_10_4000_3,qubikos,XL,swaps,pytket LexiRoute,timeout,,pass,8493,pass,8493
+C.qubikos.Eagle_10_4000_3,qubikos,XL,swaps,qiskit LightSABRE (anytime),pass,4041,pass,3822,pass,3460

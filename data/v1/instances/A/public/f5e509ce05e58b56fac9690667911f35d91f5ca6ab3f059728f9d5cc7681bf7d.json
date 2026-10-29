@@ -1,0 +1,74 @@
+{
+ "code_stabilizers": [
+  "+XZIIZZIIZXZIIZXZIIZX",
+  "+IYIZZIZZIYIZZIYIZZIY",
+  "+IZXZIZIIZXZIIZXZIIZX",
+  "+IIZXZZIIZXZIIZXZIIZX",
+  "+IZZIYIZZIYIZZIYIZZIY",
+  "+IIIIIYZIZYIIIIIIIIII",
+  "+IIIIIIXZZXIIIIIIIIII",
+  "+IIIIIZZXIXIIIIIIIIII",
+  "+IIIIIZIZYYIIIIIIIIII",
+  "+IIIIIIIIIIYZIZYIIIII",
+  "+IIIIIIIIIIIXZZXIIIII",
+  "+IIIIIIIIIIZZXIXIIIII",
+  "+IIIIIIIIIIZIZYYIIIII",
+  "+IIIIIIIIIIIIIIIYZIZY",
+  "+IIIIIIIIIIIIIIIIXZZX",
+  "+IIIIIIIIIIIIIIIZZXIX",
+  "+IIIIIIIIIIIIIIIZIZYY",
+  "+ZZZZZZZZZZZZZZZZZZZZ"
+ ],
+ "format": "qbank.public/1",
+ "gate_set": [
+  "h",
+  "s",
+  "sdg",
+  "x",
+  "y",
+  "z",
+  "sx",
+  "sxdg",
+  "cx",
+  "cz",
+  "cy",
+  "swap"
+ ],
+ "hash": "sha256:f5e509ce05e58b56fac9690667911f35d91f5ca6ab3f059728f9d5cc7681bf7d",
+ "n": 20,
+ "stabilizers": [
+  "-XZIIZIZZIYIZZIYZIIZX",
+  "+IYIZZIZZIYIZZIYIZZIY",
+  "-IZXZIIZZIYIZZIYZIIZX",
+  "-IIZXZIZZIYIZZIYZIIZX",
+  "+IZZIYIZZIYIZZIYIZZIY",
+  "-IIIIIXIZIXIIIIIZZZZZ",
+  "+IIIIIIXZZXIIIIIIIIII",
+  "-IIIIIIIYZYIIIIIZZZZZ",
+  "-IIIIIIZIXXIIIIIZZZZZ",
+  "-IIIIIIIIIIXIZIXZZZZZ",
+  "+IIIIIIIIIIIXZZXIIIII",
+  "-IIIIIIIIIIIIYZYZZZZZ",
+  "-IIIIIIIIIIIZIXXZZZZZ",
+  "+IIIIIIIIIIIIIIIYZIZY",
+  "+IIIIIIIIIIIIIIIIXZZX",
+  "+IIIIIIIIIIIIIIIZZXIX",
+  "+IIIIIIIIIIIIIIIZIZYY",
+  "+ZZZZZIIIIIIIIIIZZZZZ",
+  "+IIIIIZZZZZIIIIIZZZZZ",
+  "+IIIIIIIIIIZZZZZZZZZZ"
+ ],
+ "task": "stabilizer_state",
+ "tracks": {
+  "a2a_2q": {
+   "connectivity": "all",
+   "contract": "stabilizer_state",
+   "metric": "two_qubit_gates"
+  },
+  "codespace_a2a_2q": {
+   "connectivity": "all",
+   "contract": "codespace_state",
+   "metric": "two_qubit_gates"
+  }
+ }
+}

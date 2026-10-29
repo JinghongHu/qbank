@@ -1,0 +1,194 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "qaoa",
+ "hash": "sha256:8d8d49bfb188fa524228bc354b05d36501ca1bbdac11473896558b7b8868f95f",
+ "id": "C.qaoa.ring.n18.s11100",
+ "params": {
+  "device_kind": "ring",
+  "graph": "reg4",
+  "n": 18,
+  "p": 1,
+  "seed": 11100
+ },
+ "private": {
+  "device": "ring_18",
+  "interaction_edges": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    2
+   ],
+   [
+    0,
+    15
+   ],
+   [
+    0,
+    17
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    1,
+    8
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    2,
+    15
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    3,
+    11
+   ],
+   [
+    3,
+    14
+   ],
+   [
+    3,
+    16
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    4,
+    10
+   ],
+   [
+    4,
+    13
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    5,
+    8
+   ],
+   [
+    5,
+    11
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    6,
+    16
+   ],
+   [
+    6,
+    17
+   ],
+   [
+    7,
+    12
+   ],
+   [
+    7,
+    13
+   ],
+   [
+    7,
+    14
+   ],
+   [
+    8,
+    12
+   ],
+   [
+    8,
+    15
+   ],
+   [
+    9,
+    14
+   ],
+   [
+    9,
+    16
+   ],
+   [
+    9,
+    17
+   ],
+   [
+    10,
+    12
+   ],
+   [
+    10,
+    13
+   ],
+   [
+    10,
+    16
+   ],
+   [
+    11,
+    15
+   ],
+   [
+    12,
+    13
+   ],
+   [
+    14,
+    17
+   ]
+  ],
+  "size_bin": "M"
+ },
+ "public_hash": "sha256:8d8d49bfb188fa524228bc354b05d36501ca1bbdac11473896558b7b8868f95f",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "qaoa_on_ring",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

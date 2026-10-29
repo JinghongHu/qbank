@@ -1,0 +1,177 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "trotter",
+ "hash": "sha256:27534cd53030457ce92d0e3534525bbeca645c09849eb4cb916d3a94acae9d9a",
+ "id": "C.trotter.heavy_hex.n16.s301",
+ "params": {
+  "device_kind": "heavy_hex",
+  "model": "ising",
+  "n": 16,
+  "seed": 301
+ },
+ "private": {
+  "device": "heavy_hex_d3",
+  "interaction_edges": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    12
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    9
+   ],
+   [
+    2,
+    13
+   ],
+   [
+    2,
+    14
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    3,
+    12
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    4,
+    12
+   ],
+   [
+    4,
+    14
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    12
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    6,
+    14
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    8,
+    11
+   ],
+   [
+    9,
+    12
+   ],
+   [
+    9,
+    15
+   ],
+   [
+    10,
+    12
+   ],
+   [
+    10,
+    13
+   ],
+   [
+    10,
+    14
+   ],
+   [
+    11,
+    15
+   ],
+   [
+    13,
+    15
+   ],
+   [
+    14,
+    15
+   ]
+  ],
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:27534cd53030457ce92d0e3534525bbeca645c09849eb4cb916d3a94acae9d9a",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "trotter_on_heavy_hex",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

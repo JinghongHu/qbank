@@ -1,0 +1,72 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_bitflip_clean"
+ ],
+ "family": "mcnc",
+ "hash": "sha256:baaa3160808c396a75fd66c8d94280536d1d54191338c510540b1ff6b5ac1e74",
+ "id": "B.bitflip.mcnc.count",
+ "params": {
+  "file": "count.blif"
+ },
+ "private": {
+  "aig_ands": 127,
+  "b_min": 73,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 163,
+   "cone_bennett(abc resyn2)": 73
+  },
+  "m": 16,
+  "n": 35,
+  "n_solutions": null,
+  "n_solutions_method": "multi-output",
+  "redistributable": false,
+  "size_bin": "between",
+  "solution_fraction_log2": null,
+  "solution_sparse": false
+ },
+ "public_hash": "sha256:baaa3160808c396a75fd66c8d94280536d1d54191338c510540b1ff6b5ac1e74",
+ "qbank_version": "1.2.0",
+ "source": {
+  "archive_sha256": "949e95bd0285eb203a5d97a6ace79cef35d3da35ac89fd63bbece31fd6b0580a",
+  "file": "count.blif",
+  "kind": "external",
+  "license": "none stated",
+  "name": "MCNC LGSynth'91",
+  "ref": "https://ddd.fit.cvut.cz/www/prj/Benchmarks/",
+  "version": "CTU benchmark collection LGSynth91.7z"
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": [
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 73
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 110
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

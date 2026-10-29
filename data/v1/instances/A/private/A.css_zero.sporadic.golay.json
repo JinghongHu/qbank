@@ -1,0 +1,80 @@
+{
+ "category": "A",
+ "contracts": [
+  "css_logical_zero",
+  "codespace_state"
+ ],
+ "family": "sporadic",
+ "hash": "sha256:76f8414e6c6dd2f790a91cfac4640fbee49505b9bb7acd5237d52f3e3140aefc",
+ "id": "A.css_zero.sporadic.golay",
+ "params": {
+  "code": "golay"
+ },
+ "private": {
+  "aliases": [],
+  "code": {
+   "k": 1,
+   "n": 23,
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": 7,
+     "dX": 7,
+     "dZ": 7,
+     "k": 1,
+     "method": "exact_kernel_enumeration"
+    },
+    "k": 1,
+    "max_x_weight": 8,
+    "max_z_weight": 8,
+    "n": 23,
+    "rank_hx": 11,
+    "rank_hz": 11
+   }
+  },
+  "composite": false,
+  "no_room": false,
+  "notes": [],
+  "size_bin": "S",
+  "size_features": {
+   "k": 1,
+   "n": 23
+  }
+ },
+ "public_hash": "sha256:76f8414e6c6dd2f790a91cfac4640fbee49505b9bb7acd5237d52f3e3140aefc",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "external",
+  "license": "MIT",
+  "name": "mqt.qecc CSSCode.from_code_name('golay')",
+  "ref": "github.com/munich-quantum-toolkit/qecc src/mqt/qecc/codes/instances",
+  "version": "mqt.qecc 2.0.0"
+ },
+ "task": "css_logical_zero",
+ "tracks": [
+  {
+   "connectivity": "all",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "a2a_2q"
+  },
+  {
+   "connectivity": "line",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "line_2q"
+  },
+  {
+   "connectivity": "grid",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "grid_2q"
+  },
+  {
+   "connectivity": "all",
+   "contract": "codespace_state",
+   "metric": "two_qubit_gates",
+   "name": "codespace_a2a_2q"
+  }
+ ]
+}

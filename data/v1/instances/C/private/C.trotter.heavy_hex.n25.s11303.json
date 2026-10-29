@@ -1,0 +1,177 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "trotter",
+ "hash": "sha256:e29abbf53ef968e5c6ba0778104c873f99ed50e593148a0892263e65d6446c7b",
+ "id": "C.trotter.heavy_hex.n25.s11303",
+ "params": {
+  "device_kind": "heavy_hex",
+  "model": "ising",
+  "n": 25,
+  "seed": 11303
+ },
+ "private": {
+  "device": "ibm_falcon_27 (FakeCairoV2)",
+  "interaction_edges": [
+   [
+    0,
+    4
+   ],
+   [
+    0,
+    13
+   ],
+   [
+    0,
+    17
+   ],
+   [
+    0,
+    22
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    2,
+    9
+   ],
+   [
+    2,
+    15
+   ],
+   [
+    2,
+    17
+   ],
+   [
+    2,
+    21
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    3,
+    11
+   ],
+   [
+    3,
+    16
+   ],
+   [
+    3,
+    23
+   ],
+   [
+    4,
+    11
+   ],
+   [
+    4,
+    13
+   ],
+   [
+    4,
+    24
+   ],
+   [
+    5,
+    13
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    6,
+    19
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    8,
+    10
+   ],
+   [
+    10,
+    21
+   ],
+   [
+    11,
+    14
+   ],
+   [
+    13,
+    14
+   ],
+   [
+    13,
+    22
+   ],
+   [
+    14,
+    17
+   ],
+   [
+    14,
+    22
+   ],
+   [
+    14,
+    23
+   ],
+   [
+    16,
+    20
+   ],
+   [
+    17,
+    21
+   ],
+   [
+    22,
+    24
+   ]
+  ],
+  "size_bin": "M"
+ },
+ "public_hash": "sha256:e29abbf53ef968e5c6ba0778104c873f99ed50e593148a0892263e65d6446c7b",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "trotter_on_heavy_hex",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

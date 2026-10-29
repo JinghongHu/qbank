@@ -1,0 +1,133 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_phase_clean"
+ ],
+ "family": "sudoku",
+ "hash": "sha256:8e03ebcac7d9df6ce3746e86a53c591f73848e6099dae3868f01e9bda9447f31",
+ "id": "B.phase.sudoku6.k2.s5",
+ "params": {
+  "k": 2,
+  "seed": 5,
+  "size": 6
+ },
+ "private": {
+  "aig_ands": 49,
+  "b_min": 8,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 11,
+   "cone_bennett(abc resyn2)": 11,
+   "esop+mcx": 8,
+   "per-clause mcx": 40
+  },
+  "blanks": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    3
+   ]
+  ],
+  "m": 1,
+  "n": 6,
+  "n_solutions": 1,
+  "n_solutions_method": "exhaustive",
+  "size_bin": "S",
+  "solution": [
+   [
+    1,
+    4,
+    3,
+    0,
+    2,
+    5
+   ],
+   [
+    5,
+    2,
+    0,
+    3,
+    4,
+    1
+   ],
+   [
+    2,
+    0,
+    1,
+    5,
+    3,
+    4
+   ],
+   [
+    4,
+    3,
+    5,
+    1,
+    0,
+    2
+   ],
+   [
+    3,
+    5,
+    2,
+    4,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    4,
+    2,
+    5,
+    3
+   ]
+  ],
+  "solution_fraction_log2": -6.0,
+  "solution_sparse": true
+ },
+ "public_hash": "sha256:8e03ebcac7d9df6ce3746e86a53c591f73848e6099dae3868f01e9bda9447f31",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "sudoku",
+  "ref": "parametrised QCircuitBench grover_sudoku (4x4 and 6x6)",
+  "version": "1"
+ },
+ "task": "oracle_phase_clean",
+ "tracks": [
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 8
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 12
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

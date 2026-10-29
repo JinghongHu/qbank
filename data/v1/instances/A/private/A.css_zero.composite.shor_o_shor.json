@@ -1,0 +1,86 @@
+{
+ "category": "A",
+ "contracts": [
+  "css_logical_zero",
+  "codespace_state"
+ ],
+ "family": "composite",
+ "hash": "sha256:7ee6371cd37205c9e460c44d0c326156c98cef900d9aa5b10524016d5fd70971",
+ "id": "A.css_zero.composite.shor_o_shor",
+ "params": {
+  "inner": "shor_concat_3x3",
+  "outer": "shor_concat_3x3"
+ },
+ "private": {
+  "aliases": [],
+  "code": {
+   "k": 1,
+   "n": 81,
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": 9,
+     "dX": 9,
+     "dZ": null,
+     "d_lower": null,
+     "k": 1,
+     "method": "low_weight_search(w<=4)"
+    },
+    "k": 1,
+    "max_x_weight": 18,
+    "max_z_weight": 6,
+    "n": 81,
+    "rank_hx": 20,
+    "rank_hz": 60
+   }
+  },
+  "components": [
+   "shor",
+   "shor"
+  ],
+  "composite": true,
+  "no_room": false,
+  "notes": [],
+  "size_bin": "M",
+  "size_features": {
+   "k": 1,
+   "n": 81
+  }
+ },
+ "public_hash": "sha256:7ee6371cd37205c9e460c44d0c326156c98cef900d9aa5b10524016d5fd70971",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "concatenate",
+  "ref": "construction rule of StabilizerBench (arXiv:2604.21287, data/generate_code.py) re-implemented",
+  "version": "1"
+ },
+ "task": "css_logical_zero",
+ "tracks": [
+  {
+   "connectivity": "all",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "a2a_2q"
+  },
+  {
+   "connectivity": "line",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "line_2q"
+  },
+  {
+   "connectivity": "grid",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "grid_2q"
+  },
+  {
+   "connectivity": "all",
+   "contract": "codespace_state",
+   "metric": "two_qubit_gates",
+   "name": "codespace_a2a_2q"
+  }
+ ]
+}

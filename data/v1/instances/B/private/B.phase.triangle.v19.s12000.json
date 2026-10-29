@@ -1,0 +1,442 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_phase_clean"
+ ],
+ "family": "triangle",
+ "hash": "sha256:c60776374d67c23d61b38bc1949956123170a00dd5b58689047512309fdb0ef2",
+ "id": "B.phase.triangle.v19.s12000",
+ "params": {
+  "p": 0.5,
+  "seed": 12000,
+  "v": 19
+ },
+ "private": {
+  "aig_ands": 870,
+  "b_min": 413,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 413,
+   "cone_bennett(abc resyn2)": 413
+  },
+  "edges": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    3
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    0,
+    5
+   ],
+   [
+    0,
+    6
+   ],
+   [
+    0,
+    7
+   ],
+   [
+    0,
+    8
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    0,
+    14
+   ],
+   [
+    0,
+    15
+   ],
+   [
+    0,
+    16
+   ],
+   [
+    0,
+    18
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    1,
+    6
+   ],
+   [
+    1,
+    10
+   ],
+   [
+    1,
+    11
+   ],
+   [
+    1,
+    12
+   ],
+   [
+    1,
+    14
+   ],
+   [
+    1,
+    15
+   ],
+   [
+    1,
+    16
+   ],
+   [
+    1,
+    18
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    2,
+    9
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    2,
+    13
+   ],
+   [
+    2,
+    14
+   ],
+   [
+    2,
+    18
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    3,
+    11
+   ],
+   [
+    3,
+    12
+   ],
+   [
+    3,
+    14
+   ],
+   [
+    3,
+    17
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    4,
+    8
+   ],
+   [
+    4,
+    9
+   ],
+   [
+    4,
+    10
+   ],
+   [
+    4,
+    11
+   ],
+   [
+    4,
+    12
+   ],
+   [
+    4,
+    15
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    5,
+    11
+   ],
+   [
+    5,
+    12
+   ],
+   [
+    5,
+    13
+   ],
+   [
+    5,
+    14
+   ],
+   [
+    5,
+    15
+   ],
+   [
+    5,
+    18
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    13
+   ],
+   [
+    6,
+    14
+   ],
+   [
+    6,
+    15
+   ],
+   [
+    6,
+    18
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    12
+   ],
+   [
+    7,
+    13
+   ],
+   [
+    7,
+    15
+   ],
+   [
+    7,
+    17
+   ],
+   [
+    8,
+    10
+   ],
+   [
+    8,
+    11
+   ],
+   [
+    8,
+    12
+   ],
+   [
+    8,
+    13
+   ],
+   [
+    8,
+    15
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    9,
+    10
+   ],
+   [
+    9,
+    16
+   ],
+   [
+    9,
+    18
+   ],
+   [
+    10,
+    12
+   ],
+   [
+    10,
+    14
+   ],
+   [
+    11,
+    12
+   ],
+   [
+    11,
+    14
+   ],
+   [
+    11,
+    16
+   ],
+   [
+    11,
+    17
+   ],
+   [
+    12,
+    13
+   ],
+   [
+    12,
+    14
+   ],
+   [
+    12,
+    16
+   ],
+   [
+    12,
+    17
+   ],
+   [
+    13,
+    14
+   ],
+   [
+    13,
+    15
+   ],
+   [
+    13,
+    16
+   ],
+   [
+    13,
+    17
+   ],
+   [
+    14,
+    16
+   ],
+   [
+    14,
+    17
+   ],
+   [
+    14,
+    18
+   ]
+  ],
+  "m": 1,
+  "n": 19,
+  "n_solutions": 152,
+  "n_solutions_method": "exhaustive",
+  "n_triangles": 152,
+  "size_bin": "L",
+  "solution_fraction_log2": -11.7521,
+  "solution_sparse": true
+ },
+ "public_hash": "sha256:c60776374d67c23d61b38bc1949956123170a00dd5b58689047512309fdb0ef2",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "triangle",
+  "ref": "parametrised QCircuitBench grover_triangle",
+  "version": "1"
+ },
+ "task": "oracle_phase_clean",
+ "tracks": [
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 413
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 620
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

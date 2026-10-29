@@ -1,0 +1,113 @@
+{
+ "category": "D",
+ "contracts": [
+  "state_approx",
+  "state_exact"
+ ],
+ "family": "sparse_struct",
+ "hash": "sha256:0a5f3db4790606b95ca55dd6613bbc1afb1df6d849299a7df8b469f1c73fcc72",
+ "id": "D.sparse_struct.rm1_m4.amp.s30301",
+ "params": {
+  "amplitudes": "complex Gaussian amplitudes",
+  "n": 16,
+  "nonzeros": 32,
+  "seed": 30301,
+  "support": "rm1_m4"
+ },
+ "private": {
+  "size_bin": "M"
+ },
+ "public_hash": "sha256:0a5f3db4790606b95ca55dd6613bbc1afb1df6d849299a7df8b469f1c73fcc72",
+ "qbank_version": "1.0.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "structured support (rm1_m4), complex Gaussian amplitudes",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "state_prep",
+ "tracks": [
+  {
+   "contract": "state_exact",
+   "metric": "cx_count",
+   "name": "cx",
+   "tolerance": 1e-09
+  },
+  {
+   "contract": "state_exact",
+   "coupling_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "metric": "two_qubit_depth",
+   "name": "depth2q@line",
+   "output_map_allowed": true,
+   "tolerance": 1e-09
+  },
+  {
+   "contract": "state_approx",
+   "metric": "cx_count",
+   "min_fidelity": 0.99,
+   "name": "cx@F0.99"
+  }
+ ]
+}

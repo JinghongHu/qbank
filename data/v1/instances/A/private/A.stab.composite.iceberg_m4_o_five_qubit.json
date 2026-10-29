@@ -1,0 +1,76 @@
+{
+ "category": "A",
+ "contracts": [
+  "stabilizer_state",
+  "codespace_state"
+ ],
+ "family": "composite",
+ "hash": "sha256:f194b8bb0ab172eeee8ca3d2c9a1c81db1208be519f4afb20ae63bc5b70de301",
+ "id": "A.stab.composite.iceberg_m4_o_five_qubit",
+ "params": {
+  "inner": "five_qubit",
+  "outer": "iceberg_m4"
+ },
+ "private": {
+  "aliases": [],
+  "code": {
+   "k": 6,
+   "n": 40,
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": null,
+     "k": 6,
+     "method": "not computed (normalizer dim 46 > 26)"
+    },
+    "k": 6,
+    "logical_z_ok": true,
+    "n": 40
+   }
+  },
+  "components": [
+   "iceberg_m4",
+   "five_qubit"
+  ],
+  "composite": true,
+  "logical_z": [
+   "+ZIXXIIIIIIZIXXIZIXXIZIXXIZIXXIZIXXIIIIII",
+   "+ZIXXIZIXXIIIIIIZIXXIZIXXIZIXXIZIXXIIIIII",
+   "+ZIXXIZIXXIZIXXIIIIIIZIXXIZIXXIZIXXIIIIII",
+   "+ZIXXIZIXXIZIXXIZIXXIIIIIIZIXXIZIXXIIIIII",
+   "+ZIXXIZIXXIZIXXIZIXXIZIXXIIIIIIZIXXIIIIII",
+   "+ZIXXIZIXXIZIXXIZIXXIZIXXIZIXXIIIIIIIIIII"
+  ],
+  "no_room": false,
+  "notes": [],
+  "size_bin": "S",
+  "size_features": {
+   "k": 6,
+   "n": 40
+  }
+ },
+ "public_hash": "sha256:f194b8bb0ab172eeee8ca3d2c9a1c81db1208be519f4afb20ae63bc5b70de301",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "concatenate",
+  "ref": "construction rule of StabilizerBench (arXiv:2604.21287, data/generate_code.py) re-implemented",
+  "version": "1"
+ },
+ "task": "stabilizer_state",
+ "tracks": [
+  {
+   "connectivity": "all",
+   "contract": "stabilizer_state",
+   "metric": "two_qubit_gates",
+   "name": "a2a_2q"
+  },
+  {
+   "connectivity": "all",
+   "contract": "codespace_state",
+   "metric": "two_qubit_gates",
+   "name": "codespace_a2a_2q"
+  }
+ ]
+}

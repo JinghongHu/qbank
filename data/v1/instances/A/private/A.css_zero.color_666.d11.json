@@ -1,0 +1,83 @@
+{
+ "category": "A",
+ "contracts": [
+  "css_logical_zero",
+  "codespace_state"
+ ],
+ "family": "color_666",
+ "hash": "sha256:0e091ac815108be033d8b3fbbeaae5c29d9d14bac1586240b546f8b6b9d92750",
+ "id": "A.css_zero.color_666.d11",
+ "params": {
+  "d": 11
+ },
+ "private": {
+  "added_in": "1.2.0",
+  "aliases": [],
+  "code": {
+   "k": 1,
+   "n": 91,
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": null,
+     "dX": null,
+     "dZ": null,
+     "d_lower": 5,
+     "k": 1,
+     "method": "low_weight_search(w<=4): no logical of weight <= 4 found"
+    },
+    "k": 1,
+    "max_x_weight": 6,
+    "max_z_weight": 6,
+    "n": 91,
+    "rank_hx": 45,
+    "rank_hz": 45
+   }
+  },
+  "composite": false,
+  "no_room": false,
+  "notes": [],
+  "pack_v2_split": "test",
+  "size_bin": "M",
+  "size_features": {
+   "k": 1,
+   "n": 91
+  }
+ },
+ "public_hash": "sha256:0e091ac815108be033d8b3fbbeaae5c29d9d14bac1586240b546f8b6b9d92750",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "library",
+  "license": "MIT",
+  "name": "mqt.qecc.codes.HexagonalColorCode",
+  "ref": "Bombin & Martin-Delgado 2006 (topological color codes)",
+  "version": "mqt.qecc 2.0.0"
+ },
+ "task": "css_logical_zero",
+ "tracks": [
+  {
+   "connectivity": "all",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "a2a_2q"
+  },
+  {
+   "connectivity": "line",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "line_2q"
+  },
+  {
+   "connectivity": "grid",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "grid_2q"
+  },
+  {
+   "connectivity": "all",
+   "contract": "codespace_state",
+   "metric": "two_qubit_gates",
+   "name": "codespace_a2a_2q"
+  }
+ ]
+}

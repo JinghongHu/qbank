@@ -1,0 +1,21 @@
+instance,track,tool,seed,trial_seed,reproduced,note
+D.sparse.n23.m16.s2024,cx,qclib MergeInitialize,1532836623,,True,"cost differs from stored (stored, rerun): {'two_qubit_gates': [202, 221], 'depth': [260, 311], 'two_qubit_depth': [197, 211], 'gate_count': [327, 399], 'cx_count': [202, 221]}"
+D.dense.n9.s20911,depth2q@line,qclib UCGEInitialize,627574927,,True,same costs
+D.dense.n7.s712,cx,qiskit StatePreparation,467882571,,True,
+D.dense.n3.s303,cx@F0.99,qiskit StatePreparation,1560890044,,True,
+D.dense.n3.s40305,cx@F0.99,qiskit StatePreparation,703849371,,True,
+D.dense.n5.s514,depth2q@line,qclib SVDInitialize,1557861124,,True,same costs
+D.dense.n3.s310,cx@F0.99,bqskit compile(StateVector),1837881123,,True,
+D.sparse_struct.hamming_r3.ph.s30500,cx@F0.99,qclib SVDInitialize,847196274,,True,"cost differs from stored (stored, rerun): {'two_qubit_gates': [119, 126], 'depth': [190, 228], 'two_qubit_depth': [95, 103], 'gate_count': [317, 377], 'cx_count': [119, 126]}"
+D.sparse_struct.hamming_r3.ph.s30502,cx@F0.99,qclib SVDInitialize,1586529203,,True,"cost differs from stored (stored, rerun): {'two_qubit_gates': [116, 125], 'depth': [190, 228], 'two_qubit_depth': [95, 103], 'gate_count': [307, 371], 'cx_count': [116, 125]}"
+D.sparse_struct.rm1_m3.amp.s30200,depth2q@line,qclib UCGEInitialize,1063933543,,True,same costs
+D.sparse.n12.m5.s3,cx,qiskit StatePreparation,671501780,,True,
+D.sparse.n9.m60.s17,cx@F0.99,qclib LowRankInitialize,842779240,,True,"cost differs from stored (stored, rerun): {'depth': [657, 769], 'gate_count': [1148, 1351]}"
+D.dense.n4.s413,depth2q@line,qclib MergeInitialize,1596396825,,True,"cost differs from stored (stored, rerun): {'two_qubit_gates': [278, 282], 'depth': [390, 405], 'two_qubit_depth': [246, 250], 'gate_count': [556, 575], 'cx_count': [278, 282]}"
+D.sparse_struct.rm1_m3.ph.s30202,depth2q@line,qclib SVDInitialize,1436896107,,True,"cost differs from stored (stored, rerun): {'two_qubit_gates': [341, 370], 'depth': [287, 315], 'two_qubit_depth': [175, 192], 'gate_count': [803, 872], 'cx_count': [341, 370]}"
+D.dense.n2.s40201,cx@F0.99,qclib MergeInitialize,328629383,,True,"cost differs from stored (stored, rerun): {'two_qubit_gates': [3, 5], 'depth': [7, 15], 'two_qubit_depth': [3, 5], 'gate_count': [11, 17], 'cx_count': [3, 5]}"
+D.dense.n7.s10700,cx,qclib SVDInitialize,1390919129,,True,"cost differs from stored (stored, rerun): {'depth': [205, 233], 'gate_count': [336, 386]}"
+D.dense.n9.s20913,cx@F0.99,qclib BaaLowRankInitialize (approx),1905468415,,True,"cost differs from stored (stored, rerun): {'depth': [657, 769], 'gate_count': [1149, 1351]}"
+D.dense.n3.s40313,cx@F0.99,qclib SVDInitialize,352228611,,True,same costs
+D.sparse.n8.m8.s6,cx,qclib MergeInitialize,490860361,,True,"cost differs from stored (stored, rerun): {'two_qubit_gates': [28, 32], 'depth': [45, 57], 'two_qubit_depth': [28, 32], 'gate_count': [61, 69], 'cx_count': [28, 32]}"
+D.dense.n8.s810,depth2q@line,qclib UCGEInitialize,1987486850,,True,same costs

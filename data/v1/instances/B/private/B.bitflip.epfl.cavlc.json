@@ -1,0 +1,73 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_bitflip_clean"
+ ],
+ "family": "epfl",
+ "hash": "sha256:798ffb46a11869f9940cbd9e9c92467784287ec06156dfa7fea5a377287cca9c",
+ "id": "B.bitflip.epfl.cavlc",
+ "params": {
+  "file": "random_control/cavlc.aig"
+ },
+ "private": {
+  "aig_ands": 693,
+  "b_min": 22,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 652,
+   "cone_bennett(abc resyn2)": 148,
+   "esop+mcx": 22
+  },
+  "m": 11,
+  "n": 10,
+  "n_solutions": null,
+  "n_solutions_method": "multi-output",
+  "redistributable": true,
+  "size_bin": "S",
+  "solution_fraction_log2": null,
+  "solution_sparse": false
+ },
+ "public_hash": "sha256:798ffb46a11869f9940cbd9e9c92467784287ec06156dfa7fea5a377287cca9c",
+ "qbank_version": "1.2.0",
+ "source": {
+  "file": "random_control/cavlc.aig",
+  "kind": "external",
+  "license": "MIT",
+  "name": "EPFL combinational benchmark suite",
+  "ref": "https://github.com/lsils/benchmarks",
+  "sha256": "125e0fdeb41ccadac5e6ada71f3c416fd026cfcbc8e75ad1c6b57ddc2b100f31",
+  "version": "82d8cc6910419298e713a46644ed59fd3df53038"
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": [
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 22
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 33
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

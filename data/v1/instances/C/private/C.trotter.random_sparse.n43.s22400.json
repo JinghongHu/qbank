@@ -1,0 +1,281 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "trotter",
+ "hash": "sha256:e3e8a1fab4c1896c84553a977f6a1417b1685842072e35935a66e98aad2ca90a",
+ "id": "C.trotter.random_sparse.n43.s22400",
+ "params": {
+  "device_kind": "random_sparse",
+  "model": "heisenberg",
+  "n": 43,
+  "seed": 22400
+ },
+ "private": {
+  "device": "random_sparse_45",
+  "interaction_edges": [
+   [
+    0,
+    9
+   ],
+   [
+    0,
+    17
+   ],
+   [
+    0,
+    31
+   ],
+   [
+    1,
+    8
+   ],
+   [
+    1,
+    38
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    2,
+    32
+   ],
+   [
+    2,
+    33
+   ],
+   [
+    2,
+    37
+   ],
+   [
+    2,
+    39
+   ],
+   [
+    2,
+    42
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    3,
+    10
+   ],
+   [
+    3,
+    29
+   ],
+   [
+    3,
+    40
+   ],
+   [
+    3,
+    42
+   ],
+   [
+    5,
+    14
+   ],
+   [
+    5,
+    19
+   ],
+   [
+    6,
+    37
+   ],
+   [
+    7,
+    18
+   ],
+   [
+    8,
+    29
+   ],
+   [
+    8,
+    39
+   ],
+   [
+    9,
+    12
+   ],
+   [
+    9,
+    13
+   ],
+   [
+    9,
+    16
+   ],
+   [
+    9,
+    23
+   ],
+   [
+    9,
+    31
+   ],
+   [
+    9,
+    41
+   ],
+   [
+    10,
+    20
+   ],
+   [
+    10,
+    31
+   ],
+   [
+    11,
+    20
+   ],
+   [
+    11,
+    35
+   ],
+   [
+    12,
+    33
+   ],
+   [
+    13,
+    27
+   ],
+   [
+    13,
+    36
+   ],
+   [
+    16,
+    18
+   ],
+   [
+    16,
+    31
+   ],
+   [
+    17,
+    21
+   ],
+   [
+    17,
+    30
+   ],
+   [
+    18,
+    25
+   ],
+   [
+    18,
+    36
+   ],
+   [
+    20,
+    32
+   ],
+   [
+    21,
+    35
+   ],
+   [
+    22,
+    28
+   ],
+   [
+    22,
+    33
+   ],
+   [
+    23,
+    31
+   ],
+   [
+    23,
+    42
+   ],
+   [
+    25,
+    36
+   ],
+   [
+    26,
+    28
+   ],
+   [
+    27,
+    41
+   ],
+   [
+    28,
+    33
+   ],
+   [
+    29,
+    33
+   ],
+   [
+    29,
+    39
+   ],
+   [
+    32,
+    39
+   ],
+   [
+    33,
+    39
+   ],
+   [
+    33,
+    41
+   ],
+   [
+    34,
+    36
+   ],
+   [
+    35,
+    39
+   ]
+  ],
+  "size_bin": "L"
+ },
+ "public_hash": "sha256:e3e8a1fab4c1896c84553a977f6a1417b1685842072e35935a66e98aad2ca90a",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "trotter_on_random_sparse",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

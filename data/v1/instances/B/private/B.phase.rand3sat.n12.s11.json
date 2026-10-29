@@ -1,0 +1,358 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_phase_clean"
+ ],
+ "family": "rand3sat",
+ "hash": "sha256:84ed6a6be3e6c549a2bbf1ae09a04270546cf516254d7e2ed7657dc07da6e4da",
+ "id": "B.phase.rand3sat.n12.s11",
+ "params": {
+  "alpha": 4.7,
+  "draws_until_satisfiable": 1,
+  "n_clauses": 56,
+  "n_vars": 12,
+  "seed": 11
+ },
+ "private": {
+  "aig_ands": 160,
+  "b_min": 14,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 22,
+   "cone_bennett(abc resyn2)": 22,
+   "esop+mcx": 14,
+   "per-clause mcx": 70
+  },
+  "clauses": [
+   [
+    12,
+    1,
+    8
+   ],
+   [
+    -5,
+    9,
+    -12
+   ],
+   [
+    2,
+    -3,
+    9
+   ],
+   [
+    12,
+    3,
+    -1
+   ],
+   [
+    2,
+    -1,
+    9
+   ],
+   [
+    9,
+    -5,
+    -12
+   ],
+   [
+    -5,
+    2,
+    12
+   ],
+   [
+    8,
+    -5,
+    -4
+   ],
+   [
+    1,
+    3,
+    -2
+   ],
+   [
+    11,
+    7,
+    1
+   ],
+   [
+    -9,
+    -5,
+    8
+   ],
+   [
+    -6,
+    -9,
+    -2
+   ],
+   [
+    1,
+    -8,
+    5
+   ],
+   [
+    12,
+    -7,
+    10
+   ],
+   [
+    12,
+    8,
+    -6
+   ],
+   [
+    -8,
+    5,
+    -7
+   ],
+   [
+    -2,
+    -3,
+    6
+   ],
+   [
+    -3,
+    -4,
+    -2
+   ],
+   [
+    4,
+    12,
+    -8
+   ],
+   [
+    5,
+    -11,
+    2
+   ],
+   [
+    -11,
+    -7,
+    -6
+   ],
+   [
+    -5,
+    1,
+    9
+   ],
+   [
+    -11,
+    9,
+    6
+   ],
+   [
+    -12,
+    2,
+    5
+   ],
+   [
+    8,
+    -9,
+    2
+   ],
+   [
+    -2,
+    -5,
+    11
+   ],
+   [
+    3,
+    -7,
+    -5
+   ],
+   [
+    11,
+    -4,
+    -10
+   ],
+   [
+    -11,
+    -2,
+    -4
+   ],
+   [
+    10,
+    -6,
+    5
+   ],
+   [
+    6,
+    10,
+    2
+   ],
+   [
+    -11,
+    4,
+    12
+   ],
+   [
+    4,
+    3,
+    5
+   ],
+   [
+    11,
+    4,
+    -3
+   ],
+   [
+    11,
+    -5,
+    -4
+   ],
+   [
+    -4,
+    12,
+    -1
+   ],
+   [
+    -11,
+    12,
+    -4
+   ],
+   [
+    5,
+    -1,
+    -12
+   ],
+   [
+    2,
+    10,
+    -4
+   ],
+   [
+    -8,
+    5,
+    -11
+   ],
+   [
+    -4,
+    1,
+    -7
+   ],
+   [
+    -11,
+    4,
+    9
+   ],
+   [
+    5,
+    -1,
+    9
+   ],
+   [
+    -12,
+    11,
+    4
+   ],
+   [
+    -2,
+    6,
+    1
+   ],
+   [
+    12,
+    11,
+    -10
+   ],
+   [
+    -8,
+    1,
+    -9
+   ],
+   [
+    6,
+    -3,
+    11
+   ],
+   [
+    2,
+    -9,
+    1
+   ],
+   [
+    -5,
+    2,
+    7
+   ],
+   [
+    3,
+    -4,
+    8
+   ],
+   [
+    8,
+    10,
+    -2
+   ],
+   [
+    -1,
+    -9,
+    10
+   ],
+   [
+    7,
+    -4,
+    5
+   ],
+   [
+    -2,
+    3,
+    5
+   ],
+   [
+    3,
+    -1,
+    -12
+   ]
+  ],
+  "m": 1,
+  "n": 12,
+  "n_solutions": 2,
+  "n_solutions_method": "exhaustive",
+  "satisfiable": true,
+  "size_bin": "S",
+  "solution_fraction_log2": -11.0,
+  "solution_sparse": true
+ },
+ "public_hash": "sha256:84ed6a6be3e6c549a2bbf1ae09a04270546cf516254d7e2ed7657dc07da6e4da",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "random_3sat",
+  "ref": "uniform random 3-SAT near/around the threshold alpha=4.26",
+  "version": "1"
+ },
+ "task": "oracle_phase_clean",
+ "tracks": [
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 14
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 21
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

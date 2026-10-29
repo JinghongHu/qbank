@@ -1,0 +1,126 @@
+{
+ "format": "qbank.public/1",
+ "gate_set": [
+  "h",
+  "s",
+  "sdg",
+  "x",
+  "y",
+  "z",
+  "sx",
+  "sxdg",
+  "cx",
+  "cz",
+  "cy",
+  "swap"
+ ],
+ "hash": "sha256:d44f2c03e1591c68858b63a2b5f9f16bd405e236fc54d61d83911b8a6a6de632",
+ "n": 8,
+ "stabilizers": [
+  "-YIYZIIXZ",
+  "+XIYYXXXI",
+  "-ZZIYZZYY",
+  "-YZYZXIXI",
+  "-YYYZZYXZ",
+  "+ZZZYXYYI",
+  "+IXZIZZZI",
+  "+IXZXZZII"
+ ],
+ "task": "stabilizer_state",
+ "tracks": {
+  "a2a_2q": {
+   "connectivity": "all",
+   "contract": "stabilizer_state",
+   "metric": "two_qubit_gates"
+  },
+  "grid_2q": {
+   "connectivity": {
+    "cols": 3,
+    "edges": [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      4,
+      7
+     ],
+     [
+      6,
+      7
+     ]
+    ],
+    "kind": "grid"
+   },
+   "contract": "stabilizer_state",
+   "metric": "two_qubit_gates",
+   "output_map": "free"
+  },
+  "line_2q": {
+   "connectivity": {
+    "edges": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      6,
+      7
+     ]
+    ],
+    "kind": "line"
+   },
+   "contract": "stabilizer_state",
+   "metric": "two_qubit_gates",
+   "output_map": "free"
+  }
+ }
+}

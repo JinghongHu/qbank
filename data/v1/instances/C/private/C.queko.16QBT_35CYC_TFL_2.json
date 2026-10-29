@@ -1,0 +1,68 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_equiv"
+ ],
+ "family": "queko",
+ "hash": "sha256:0b72f7649fb42593f93ede25a5f283d1b31743a122d23d3c7290ab7117d359a0",
+ "id": "C.queko.16QBT_35CYC_TFL_2",
+ "params": {
+  "density": "TFL",
+  "n": 16,
+  "optimal_depth_cycles": 35,
+  "serial": 2,
+  "set": "BNTF"
+ },
+ "private": {
+  "device": "Aspen-4 (QUEKO CONNECTION.py)",
+  "known_optimal": {
+   "depth_cycles": 35,
+   "source": "QUEKO construction (zero-SWAP mapping, meta/*_solution.csv)",
+   "swaps": 0,
+   "witness_initial_layout": [
+    1,
+    8,
+    6,
+    2,
+    13,
+    0,
+    12,
+    9,
+    15,
+    14,
+    5,
+    7,
+    10,
+    3,
+    4,
+    11
+   ]
+  },
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:0b72f7649fb42593f93ede25a5f283d1b31743a122d23d3c7290ab7117d359a0",
+ "qbank_version": "1.1.0",
+ "source": {
+  "file": "BNTF/16QBT_35CYC_TFL_2.qasm",
+  "kind": "external",
+  "license": "BSD-3-Clause",
+  "name": "QUEKO",
+  "redistributable": true,
+  "ref": "arXiv:2002.09783; github.com/UCLA-VAST/QUEKO-benchmark",
+  "sha256": "454392cbdff593b69310c0574ddcbc4517a1ba5b27bab7a627d6a17cddcb2e3c",
+  "version": "2ee23a12aff894f1861d3d49eb14d09d9f9956bd"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  }
+ ]
+}

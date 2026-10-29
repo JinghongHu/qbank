@@ -1,0 +1,1442 @@
+{
+ "cross_split_pairs": [
+  {
+   "a": "B.phase.rand3sat.n6.s1",
+   "b": "B.phase.rand3sat.n6.s20000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n9.s2",
+   "b": "B.phase.sudoku6.k3.s10001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n9.s2",
+   "b": "B.phase.sudoku6.k3.s20001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.triangle.v9.s9",
+   "b": "B.phase.sudoku6.k3.s10001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.triangle.v9.s9",
+   "b": "B.phase.sudoku6.k3.s20001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k3.s1",
+   "b": "B.phase.sudoku6.k3.s10001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k3.s1",
+   "b": "B.phase.sudoku6.k3.s20001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k3.s10001",
+   "b": "B.phase.sudoku6.k3.s20001",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n6.s3",
+   "b": "B.phase.rand3sat.n6.s10001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n13.s1004",
+   "b": "B.phase.rand3sat.n13.s11002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n15.s11000",
+   "b": "B.phase.sudoku6.k5.s1007",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "train"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n15.s11000",
+   "b": "B.phase.sudoku6.k5.s1009",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "train"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n15.s11000",
+   "b": "B.phase.sudoku6.k5.s1011",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "train"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k5.s1007",
+   "b": "B.phase.sudoku6.k5.s11001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k5.s1009",
+   "b": "B.phase.sudoku6.k5.s11001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k5.s1011",
+   "b": "B.phase.sudoku6.k5.s11001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n18.s11001",
+   "b": "B.phase.sudoku4.k9.s1000",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "train"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n18.s11001",
+   "b": "B.phase.sudoku6.k6.s1001",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "train"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n18.s11001",
+   "b": "B.phase.sudoku6.k6.s1003",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "train"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n18.s11001",
+   "b": "B.phase.sudoku4.k9.s1004",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "train"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n18.s11001",
+   "b": "B.phase.sudoku6.k6.s1005",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "train"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n18.s11001",
+   "b": "B.phase.sudoku4.k9.s1006",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "train"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n18.s11001",
+   "b": "B.phase.sudoku6.k6.s21001",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k9.s1000",
+   "b": "B.phase.sudoku6.k6.s11003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k9.s1000",
+   "b": "B.phase.sudoku6.k6.s21001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k6.s1001",
+   "b": "B.phase.sudoku6.k6.s11003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k6.s1001",
+   "b": "B.phase.sudoku6.k6.s21001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k6.s1003",
+   "b": "B.phase.sudoku6.k6.s11003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k6.s1003",
+   "b": "B.phase.sudoku6.k6.s21001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k9.s1004",
+   "b": "B.phase.sudoku6.k6.s11003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k9.s1004",
+   "b": "B.phase.sudoku6.k6.s21001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k6.s1005",
+   "b": "B.phase.sudoku6.k6.s11003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k6.s1005",
+   "b": "B.phase.sudoku6.k6.s21001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k9.s1006",
+   "b": "B.phase.sudoku6.k6.s11003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k9.s1006",
+   "b": "B.phase.sudoku6.k6.s21001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k6.s11003",
+   "b": "B.phase.sudoku6.k6.s21001",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n16.s21001",
+   "b": "B.phase.sudoku4.k8.s1002",
+   "duplicate": true,
+   "splits": [
+    "test_in",
+    "train"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n16.s21001",
+   "b": "B.phase.sudoku4.k8.s1010",
+   "duplicate": true,
+   "splits": [
+    "test_in",
+    "train"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n16.s21001",
+   "b": "B.phase.sudoku4.k8.s11002",
+   "duplicate": true,
+   "splits": [
+    "test_in",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k8.s1002",
+   "b": "B.phase.sudoku4.k8.s11002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k8.s1010",
+   "b": "B.phase.sudoku4.k8.s11002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n20.s2006",
+   "b": "B.phase.sudoku4.k10.s12000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n20.s2006",
+   "b": "B.phase.satlib.uf20-01000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_ood"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n20.s2006",
+   "b": "B.phase.satlib.uf20-0103",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_ood"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n20.s2006",
+   "b": "B.phase.satlib.uf20-0105",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_ood"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n20.s2006",
+   "b": "B.phase.satlib.uf20-0106",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_ood"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n20.s2006",
+   "b": "B.phase.satlib.uf20-0107",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_ood"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.rand3sat.n20.s2006",
+   "b": "B.phase.satlib.uf20-0113",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_ood"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k10.s12000",
+   "b": "B.phase.satlib.uf20-01000",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_ood"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k10.s12000",
+   "b": "B.phase.satlib.uf20-0103",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_ood"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k10.s12000",
+   "b": "B.phase.satlib.uf20-0105",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_ood"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k10.s12000",
+   "b": "B.phase.satlib.uf20-0106",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_ood"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k10.s12000",
+   "b": "B.phase.satlib.uf20-0107",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_ood"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k10.s12000",
+   "b": "B.phase.satlib.uf20-0113",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_ood"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k5.s0",
+   "b": "B.phase.sudoku4.k5.s10002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k5.s6",
+   "b": "B.phase.sudoku4.k5.s10002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k4.s2",
+   "b": "B.phase.sudoku4.k4.s10000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k4.s2",
+   "b": "B.phase.sudoku4.k4.s20000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k4.s10",
+   "b": "B.phase.sudoku4.k4.s10000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k4.s10",
+   "b": "B.phase.sudoku4.k4.s20000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k4.s10000",
+   "b": "B.phase.sudoku4.k4.s20000",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k6.s8",
+   "b": "B.phase.sudoku6.k4.s10003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k4.s9",
+   "b": "B.phase.sudoku6.k4.s10003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku4.k7.s11000",
+   "b": "B.phase.sudoku4.k7.s21000",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k7.s2001",
+   "b": "B.phase.sudoku6.k7.s12001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k7.s2003",
+   "b": "B.phase.sudoku6.k7.s12001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k7.s2007",
+   "b": "B.phase.sudoku6.k7.s12001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k7.s2009",
+   "b": "B.phase.sudoku6.k7.s12001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.phase.sudoku6.k7.s2011",
+   "b": "B.phase.sudoku6.k7.s12001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.lt.n18",
+   "b": "B.bitflip.arith.carry.n18",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n12.s0",
+   "b": "B.bitflip.compare.eq_const.n12.s20000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n12.s3",
+   "b": "B.bitflip.compare.eq_const.n12.s20000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n12.s5",
+   "b": "B.bitflip.compare.eq_const.n12.s20000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n6.s1",
+   "b": "B.bitflip.compare.eq_const.n6.s10002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n6.s2",
+   "b": "B.bitflip.compare.eq_const.n6.s10002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n6.s4",
+   "b": "B.bitflip.compare.eq_const.n6.s10002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n6.s6",
+   "b": "B.bitflip.compare.eq_const.n6.s10002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n6.s7",
+   "b": "B.bitflip.compare.eq_const.n6.s10002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n6.s9",
+   "b": "B.bitflip.compare.eq_const.n6.s10002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n8.s8",
+   "b": "B.bitflip.compare.eq_const.n8.s20001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n16.s1000",
+   "b": "B.bitflip.compare.eq_const.n16.s21001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n16.s1006",
+   "b": "B.bitflip.compare.eq_const.n16.s21001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n16.s1007",
+   "b": "B.bitflip.compare.eq_const.n16.s21001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1001",
+   "b": "B.bitflip.compare.eq_const.n18.s11000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1001",
+   "b": "B.bitflip.compare.eq_const.n18.s11002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1001",
+   "b": "B.bitflip.compare.eq_const.n18.s11003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1001",
+   "b": "B.bitflip.compare.eq_const.n18.s21000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1002",
+   "b": "B.bitflip.compare.eq_const.n18.s11000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1002",
+   "b": "B.bitflip.compare.eq_const.n18.s11002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1002",
+   "b": "B.bitflip.compare.eq_const.n18.s11003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1002",
+   "b": "B.bitflip.compare.eq_const.n18.s21000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1005",
+   "b": "B.bitflip.compare.eq_const.n18.s11000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1005",
+   "b": "B.bitflip.compare.eq_const.n18.s11002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1005",
+   "b": "B.bitflip.compare.eq_const.n18.s11003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1005",
+   "b": "B.bitflip.compare.eq_const.n18.s21000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1009",
+   "b": "B.bitflip.compare.eq_const.n18.s11000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1009",
+   "b": "B.bitflip.compare.eq_const.n18.s11002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1009",
+   "b": "B.bitflip.compare.eq_const.n18.s11003",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s1009",
+   "b": "B.bitflip.compare.eq_const.n18.s21000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s11000",
+   "b": "B.bitflip.compare.eq_const.n18.s21000",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s11002",
+   "b": "B.bitflip.compare.eq_const.n18.s21000",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n18.s11003",
+   "b": "B.bitflip.compare.eq_const.n18.s21000",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n14.s1003",
+   "b": "B.bitflip.compare.eq_const.n14.s11001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n14.s1004",
+   "b": "B.bitflip.compare.eq_const.n14.s11001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n14.s1008",
+   "b": "B.bitflip.compare.eq_const.n14.s11001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s2003",
+   "b": "B.bitflip.compare.eq_const.n20.s12001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s2003",
+   "b": "B.bitflip.compare.eq_const.n20.s12002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s2003",
+   "b": "B.bitflip.compare.eq_const.n20.s22000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s2003",
+   "b": "B.bitflip.compare.eq_const.n20.s22001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s2004",
+   "b": "B.bitflip.compare.eq_const.n20.s12001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s2004",
+   "b": "B.bitflip.compare.eq_const.n20.s12002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s2004",
+   "b": "B.bitflip.compare.eq_const.n20.s22000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s2004",
+   "b": "B.bitflip.compare.eq_const.n20.s22001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s2009",
+   "b": "B.bitflip.compare.eq_const.n20.s12001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s2009",
+   "b": "B.bitflip.compare.eq_const.n20.s12002",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "val"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s2009",
+   "b": "B.bitflip.compare.eq_const.n20.s22000",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s2009",
+   "b": "B.bitflip.compare.eq_const.n20.s22001",
+   "duplicate": true,
+   "splits": [
+    "train",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s12001",
+   "b": "B.bitflip.compare.eq_const.n20.s22000",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s12001",
+   "b": "B.bitflip.compare.eq_const.n20.s22001",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s12002",
+   "b": "B.bitflip.compare.eq_const.n20.s22000",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  },
+  {
+   "a": "B.bitflip.compare.eq_const.n20.s12002",
+   "b": "B.bitflip.compare.eq_const.n20.s22001",
+   "duplicate": true,
+   "splits": [
+    "val",
+    "test_in"
+   ],
+   "verdict": "equal NP-invariants (treated as duplicate)"
+  }
+ ],
+ "dropped": [
+  "B.bitflip.arith.carry.n18",
+  "B.bitflip.compare.eq_const.n12.s20000",
+  "B.bitflip.compare.eq_const.n14.s11001",
+  "B.bitflip.compare.eq_const.n16.s21001",
+  "B.bitflip.compare.eq_const.n18.s11000",
+  "B.bitflip.compare.eq_const.n18.s11002",
+  "B.bitflip.compare.eq_const.n18.s11003",
+  "B.bitflip.compare.eq_const.n18.s21000",
+  "B.bitflip.compare.eq_const.n20.s12001",
+  "B.bitflip.compare.eq_const.n20.s12002",
+  "B.bitflip.compare.eq_const.n20.s22000",
+  "B.bitflip.compare.eq_const.n20.s22001",
+  "B.bitflip.compare.eq_const.n6.s10002",
+  "B.bitflip.compare.eq_const.n8.s20001",
+  "B.phase.rand3sat.n13.s11002",
+  "B.phase.rand3sat.n15.s11000",
+  "B.phase.rand3sat.n16.s21001",
+  "B.phase.rand3sat.n18.s11001",
+  "B.phase.rand3sat.n6.s10001",
+  "B.phase.rand3sat.n6.s20000",
+  "B.phase.satlib.uf20-01000",
+  "B.phase.satlib.uf20-0103",
+  "B.phase.satlib.uf20-0105",
+  "B.phase.satlib.uf20-0106",
+  "B.phase.satlib.uf20-0107",
+  "B.phase.satlib.uf20-0113",
+  "B.phase.sudoku4.k10.s12000",
+  "B.phase.sudoku4.k4.s10000",
+  "B.phase.sudoku4.k4.s20000",
+  "B.phase.sudoku4.k5.s10002",
+  "B.phase.sudoku4.k7.s21000",
+  "B.phase.sudoku4.k8.s11002",
+  "B.phase.sudoku6.k3.s10001",
+  "B.phase.sudoku6.k3.s20001",
+  "B.phase.sudoku6.k4.s10003",
+  "B.phase.sudoku6.k5.s11001",
+  "B.phase.sudoku6.k6.s11003",
+  "B.phase.sudoku6.k6.s21001",
+  "B.phase.sudoku6.k7.s12001"
+ ],
+ "excluded_unverifiable": [],
+ "n_instances": 466,
+ "refills": [
+  {
+   "attempts": 1,
+   "dropped": "B.phase.rand3sat.n6.s10001",
+   "replacement": "B.phase.rand3sat.n12.s10101"
+  },
+  {
+   "attempts": 1,
+   "dropped": "B.phase.rand3sat.n6.s20000",
+   "replacement": "B.phase.rand3sat.n12.s20100"
+  },
+  {
+   "attempts": 1,
+   "dropped": "B.phase.rand3sat.n15.s11000",
+   "replacement": "B.phase.rand3sat.n18.s11100"
+  },
+  {
+   "attempts": 1,
+   "dropped": "B.phase.rand3sat.n18.s11001",
+   "replacement": "B.phase.rand3sat.n16.s11101"
+  },
+  {
+   "attempts": 2,
+   "dropped": "B.phase.rand3sat.n13.s11002",
+   "replacement": "B.phase.rand3sat.n18.s11202"
+  },
+  {
+   "attempts": 1,
+   "dropped": "B.phase.rand3sat.n16.s21001",
+   "replacement": "B.phase.rand3sat.n13.s21101"
+  },
+  {
+   "dropped": "B.phase.sudoku4.k4.s10000",
+   "replacement": null
+  },
+  {
+   "dropped": "B.phase.sudoku6.k3.s10001",
+   "replacement": null
+  },
+  {
+   "dropped": "B.phase.sudoku4.k5.s10002",
+   "replacement": null
+  },
+  {
+   "dropped": "B.phase.sudoku6.k4.s10003",
+   "replacement": null
+  },
+  {
+   "dropped": "B.phase.sudoku4.k4.s20000",
+   "replacement": null
+  },
+  {
+   "dropped": "B.phase.sudoku6.k3.s20001",
+   "replacement": null
+  },
+  {
+   "dropped": "B.phase.sudoku6.k5.s11001",
+   "replacement": null
+  },
+  {
+   "attempts": 1,
+   "dropped": "B.phase.sudoku4.k8.s11002",
+   "replacement": "B.phase.sudoku4.k7.s11102"
+  },
+  {
+   "dropped": "B.phase.sudoku6.k6.s11003",
+   "replacement": null
+  },
+  {
+   "attempts": 1,
+   "dropped": "B.phase.sudoku4.k7.s21000",
+   "replacement": "B.phase.sudoku4.k7.s21100"
+  },
+  {
+   "dropped": "B.phase.sudoku6.k6.s21001",
+   "replacement": null
+  },
+  {
+   "attempts": 7,
+   "dropped": "B.phase.sudoku4.k10.s12000",
+   "replacement": "B.phase.sudoku4.k11.s12700"
+  },
+  {
+   "dropped": "B.phase.sudoku6.k7.s12001",
+   "replacement": null
+  },
+  {
+   "attempts": 2,
+   "dropped": "B.bitflip.compare.eq_const.n6.s10002",
+   "replacement": "B.bitflip.compare.eq_const.n10.s10202"
+  },
+  {
+   "dropped": "B.bitflip.compare.eq_const.n12.s20000",
+   "replacement": null
+  },
+  {
+   "dropped": "B.bitflip.compare.eq_const.n8.s20001",
+   "replacement": null
+  },
+  {
+   "dropped": "B.bitflip.compare.eq_const.n18.s11000",
+   "replacement": null
+  },
+  {
+   "dropped": "B.bitflip.compare.eq_const.n14.s11001",
+   "replacement": null
+  },
+  {
+   "dropped": "B.bitflip.compare.eq_const.n18.s11002",
+   "replacement": null
+  },
+  {
+   "dropped": "B.bitflip.compare.eq_const.n18.s11003",
+   "replacement": null
+  },
+  {
+   "dropped": "B.bitflip.compare.eq_const.n18.s21000",
+   "replacement": null
+  },
+  {
+   "dropped": "B.bitflip.compare.eq_const.n16.s21001",
+   "replacement": null
+  },
+  {
+   "dropped": "B.bitflip.compare.eq_const.n20.s12001",
+   "replacement": null
+  },
+  {
+   "dropped": "B.bitflip.compare.eq_const.n20.s12002",
+   "replacement": null
+  },
+  {
+   "dropped": "B.bitflip.compare.eq_const.n20.s22000",
+   "replacement": null
+  },
+  {
+   "dropped": "B.bitflip.compare.eq_const.n20.s22001",
+   "replacement": null
+  },
+  {
+   "dropped": "B.bitflip.arith.carry.n18",
+   "replacement": null
+  },
+  {
+   "dropped": "B.phase.satlib.uf20-01000",
+   "replacement": null
+  },
+  {
+   "dropped": "B.phase.satlib.uf20-0103",
+   "replacement": null
+  },
+  {
+   "dropped": "B.phase.satlib.uf20-0105",
+   "replacement": null
+  },
+  {
+   "dropped": "B.phase.satlib.uf20-0106",
+   "replacement": null
+  },
+  {
+   "dropped": "B.phase.satlib.uf20-0107",
+   "replacement": null
+  },
+  {
+   "dropped": "B.phase.satlib.uf20-0113",
+   "replacement": null
+  }
+ ],
+ "solution_count_unknown": [],
+ "solution_sparse_rule": "single output and n_solutions < 2^(n/2)  (fraction n_solutions / 2^n < 2^(-n/2))",
+ "totals": {
+  "probe": 20,
+  "test_in": 88,
+  "test_ood": 92,
+  "train": 205,
+  "val": 61
+ },
+ "trivial_or_same_split_dropped": [
+  {
+   "dropped": "B.phase.sudoku6.k2.s7",
+   "reason": "same-split duplicate of B.phase.sudoku6.k2.s3",
+   "replacement": "B.phase.sudoku6.k2.s207"
+  }
+ ],
+ "variants": 540
+}

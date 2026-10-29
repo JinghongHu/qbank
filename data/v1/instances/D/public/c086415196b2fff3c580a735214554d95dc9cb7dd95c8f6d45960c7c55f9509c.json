@@ -1,0 +1,97 @@
+{
+ "amplitudes": [
+  [
+   "0",
+   0.34075053552233586,
+   0.0
+  ],
+  [
+   "1",
+   -0.19217863344410266,
+   0.11993551008589072
+  ],
+  [
+   "2",
+   0.22313918312369072,
+   -0.19231470711196152
+  ],
+  [
+   "3",
+   0.1630883549357875,
+   0.2678261305547869
+  ],
+  [
+   "4",
+   -0.0806834494364426,
+   -0.2105737990411773
+  ],
+  [
+   "5",
+   0.15917506518400973,
+   -0.46980377858039574
+  ],
+  [
+   "6",
+   0.5008331990270977,
+   0.16934182989793023
+  ],
+  [
+   "7",
+   0.07568720186128125,
+   -0.2555869573004892
+  ]
+ ],
+ "format": "qbank.public/1",
+ "gate_set": [
+  "h",
+  "x",
+  "y",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "sx",
+  "sxdg",
+  "rx",
+  "ry",
+  "rz",
+  "p",
+  "u",
+  "cx",
+  "cz"
+ ],
+ "hash": "sha256:c086415196b2fff3c580a735214554d95dc9cb7dd95c8f6d45960c7c55f9509c",
+ "n": 3,
+ "n_nonzero": 8,
+ "output": "circuit on exactly n qubits starting from |0...0>; qubit q is bit q of the basis index (little-endian); global phase is irrelevant",
+ "task": "state_prep",
+ "tracks": {
+  "cx": {
+   "contract": "state_exact",
+   "metric": "cx_count",
+   "tolerance": 1e-09
+  },
+  "cx@F0.99": {
+   "contract": "state_approx",
+   "metric": "cx_count",
+   "min_fidelity": 0.99
+  },
+  "depth2q@line": {
+   "contract": "state_exact",
+   "coupling_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "metric": "two_qubit_depth",
+   "output_map_allowed": true,
+   "tolerance": 1e-09
+  }
+ }
+}

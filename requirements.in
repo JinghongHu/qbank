@@ -1,0 +1,28 @@
+# qbank v1 top-level dependencies (Phase 0). Exact versions are pinned in requirements.lock.txt (with sha256 hashes, official PyPI).
+# rustiq is NOT on PyPI: built from source, see env/build_external.sh (qiskit-community/rustiq @ 425000222e21a7a28d70a08c75be968f16fd6903).
+numpy
+scipy
+networkx
+pyyaml
+jsonschema
+pandas
+tqdm
+pytest
+certifi
+qiskit
+qiskit-qasm3-import
+qiskit-aer
+stim
+mqt.qmap
+mqt.qcec
+mqt.qecc
+mqt.bench
+pytket
+pytket-qiskit
+bqskit
+qclib
+python-sat
+dd
+z3-solver
+py-aiger
+pyzx

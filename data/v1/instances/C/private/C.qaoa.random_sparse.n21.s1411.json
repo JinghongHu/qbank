@@ -1,0 +1,178 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "qaoa",
+ "hash": "sha256:2a9917ab73261373c84a4a9a54a88cc12d272d73c73c4ed2e0e2a8efc1d06a89",
+ "id": "C.qaoa.random_sparse.n21.s1411",
+ "params": {
+  "device_kind": "random_sparse",
+  "graph": "gnp",
+  "n": 21,
+  "p": 3,
+  "seed": 1411
+ },
+ "private": {
+  "device": "random_sparse_22",
+  "interaction_edges": [
+   [
+    0,
+    2
+   ],
+   [
+    0,
+    3
+   ],
+   [
+    0,
+    7
+   ],
+   [
+    0,
+    17
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    1,
+    8
+   ],
+   [
+    1,
+    16
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    3,
+    10
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    4,
+    12
+   ],
+   [
+    4,
+    15
+   ],
+   [
+    4,
+    17
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    12
+   ],
+   [
+    5,
+    15
+   ],
+   [
+    5,
+    18
+   ],
+   [
+    5,
+    19
+   ],
+   [
+    6,
+    14
+   ],
+   [
+    6,
+    18
+   ],
+   [
+    6,
+    20
+   ],
+   [
+    8,
+    14
+   ],
+   [
+    9,
+    14
+   ],
+   [
+    10,
+    18
+   ],
+   [
+    11,
+    12
+   ],
+   [
+    12,
+    14
+   ],
+   [
+    12,
+    15
+   ],
+   [
+    15,
+    17
+   ],
+   [
+    15,
+    19
+   ],
+   [
+    16,
+    20
+   ],
+   [
+    17,
+    18
+   ]
+  ],
+  "size_bin": "M"
+ },
+ "public_hash": "sha256:2a9917ab73261373c84a4a9a54a88cc12d272d73c73c4ed2e0e2a8efc1d06a89",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "qaoa_on_random_sparse",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

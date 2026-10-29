@@ -1,0 +1,150 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "qaoa",
+ "hash": "sha256:90f57d140a26324bf5e2fcd0aa70630a1dfb57747b45bc42165e3ebc6ceae4d5",
+ "id": "C.qaoa.ring.n16.s105",
+ "params": {
+  "device_kind": "ring",
+  "graph": "gnp",
+  "n": 16,
+  "p": 1,
+  "seed": 105
+ },
+ "private": {
+  "device": "ring_16",
+  "interaction_edges": [
+   [
+    0,
+    2
+   ],
+   [
+    0,
+    11
+   ],
+   [
+    1,
+    6
+   ],
+   [
+    1,
+    9
+   ],
+   [
+    1,
+    14
+   ],
+   [
+    1,
+    15
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    2,
+    9
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    4,
+    12
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    5,
+    11
+   ],
+   [
+    6,
+    14
+   ],
+   [
+    6,
+    15
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    8,
+    10
+   ],
+   [
+    8,
+    12
+   ],
+   [
+    8,
+    14
+   ],
+   [
+    10,
+    12
+   ],
+   [
+    10,
+    15
+   ],
+   [
+    11,
+    14
+   ],
+   [
+    11,
+    15
+   ],
+   [
+    12,
+    15
+   ]
+  ],
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:90f57d140a26324bf5e2fcd0aa70630a1dfb57747b45bc42165e3ebc6ceae4d5",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "qaoa_on_ring",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

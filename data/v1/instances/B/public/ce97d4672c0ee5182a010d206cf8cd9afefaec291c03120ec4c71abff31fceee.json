@@ -1,0 +1,98 @@
+{
+ "aiger_b64": "YWlnIDUyNyAxNiAwIDEgNTExCjEwNTUKHAQCFB0EGwIXAhUCEwIRAgoCCAIGAgQCBBUCAgIYHhIvBAIWAhICDAIIKg49AjkEAgICIAIaAgo4CkcCQwQEDgQuBC4EQQICAg5KBlUCUQQCAgJRAhACCmwMAmp3AnUCbwYEAgRWAgICTgIOFGB/BAI0Jj4EDgRzAgICDCReCiICApQBDgKQAZkBAgJYAiYCcgIIDoQBlwECDkwERgQyBJkBAgICDK4BEgKqAR5+AkICYgIGDKgBCDACArwBFgK6AagBBAK3AQISAgYMuAFyRALBAQIcAgYWtAE4iAECzQECJgIG7gECAuYB7wEGAtABAsYBAsIBAggO4AEKqAECygECBBbeARKaAQLSAQIEHtwBCKYBAgIk2AEOmAECApYCBAKIApsCBAL6AQLEAQLsAQIIDoYCCMABAgIUgAJ8lwECDgIErAIKAqQCHKIBAqwBAoYCAgYMoAIIqAECAhKeAg7MAQICGJwCFAwCAsQCEALAAh54AvYBAgQKvgIIxAECAtICEgLQAtECBgK8AgLNAgIUAggOzgLfAgQCyAIC2QICIAII6gIUAugCKoIBAgII5gIweAIC9AIYAvIC5gICAvMCAjoCBo4DCAKMA5sDAgKgAgKcAgLqAgIIDooDnAJkAgoC9AICBhiGAxSQAgL8AgIEIIADCMICAgKyAwoCrgMk+AECjAMCBLoDDAK4A7kDBgKoAgIwApoDAggOtgPHAwQCtAICPAKmAwIIGrQDCPoCAgIgsAMO7AICAt4DDgLaA1TcAQKQAwIE5gMQAuQDCoYBAgLsAxIC6AMSkgICAoIEAgL8A4MEBgJwAs4DAtoDAggO9gMKsgMC4gMCBBbuAwjoAQICnAQEApgEoQQEAowBAuoDAvYDAggOkgQKzgMC/gMCBBaQBAjSAwICrgQOAqwEGugCAtgBAgS+BAYCugTJBAICsgECqgMCnAQCCMoECALIBAyCAQKmBAIECsYEFHYCrgQCBNoECgLUBB6OAwLaAwIE4gQMAt4ECvYBAgLyBAIC8ATxBAgC2AQCMgLOBAIIDu4E/wQGAuQEAj4C2gQCCBrqBAy0BAJIAuQEAgYk5gQIhgQCApoFBAKWBZ8FBALeBAJcAvgEAggOigUM0gQCZgKABAIGsAUGAq4FGN4BAnICjgUCBgysBSLSAQJ8ApgFAgYWqgUI7AQCAsoFCALGBTSEBQKOAQL+BAIGDMQFCMwEAgLaBQoC2AUQ9AICAgjWBRboAgICDtAFiAPEAQLhBQIeAgbwBQwC7gUoigQCAgjoBS72AwIChAYEAoAGvgK0AwLGAQLiBQIGDPoFCKgFAgKSBggCjgaCBgIC2AECsgMCBpgGDgKWBgqYAwICqAYCAqQG8gUmAuwBAtwFAgayBgQCsAYK0gMCArgGBgK0BhLeBAICwAYEAr4GjAYgArsGAhwCBswGAgLKBowGLALHBgIoAgYMxAa+BVgC0wYCMgIGrwYMkQYS8QUU3QUGwQUQsQUGnQUKhwUO+QQI7wQG3QQGywQMwQQGswQKoQQOjwQI/wMM6QMK3QMGxwMOtwMGqQMKmwMIhwMI9QIO6QIG0wIOwwIIswIImwIMjQIG9wEK4wEK0wEMxwEIuQEKrQEGnQEGiwEIeQhnDFMKUgJQAk4CTAJKAkgCRgJEAkICQAI+AjwCOgI4AjYCNAIyAjACLgIsAioCKAImAiQCIgIgAh4CHAIaAhgCFgISAhACDgIMAgoCCAIGAgYeBAICAmkwIHMwCmkxIHMxCmkyIHMyCmkzIHMzCmk0IHM0Cmk1IHM1Cmk2IHM2Cmk3IHM3Cmk4IHM4Cmk5IHM5CmkxMCBzMTAKaTExIHMxMQppMTIgczEyCmkxMyBzMTMKaTE0IHMxNAppMTUgczE1Cm8wIGlzX3RyaWFuZ2xlCg==",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:ce97d4672c0ee5182a010d206cf8cd9afefaec291c03120ec4c71abff31fceee",
+ "input_names": [
+  "s0",
+  "s1",
+  "s2",
+  "s3",
+  "s4",
+  "s5",
+  "s6",
+  "s7",
+  "s8",
+  "s9",
+  "s10",
+  "s11",
+  "s12",
+  "s13",
+  "s14",
+  "s15"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 16,
+ "n_outputs": 1,
+ "output_names": [
+  "is_triangle"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "outputs": []
+ },
+ "task": "oracle_phase_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 452
+  },
+  "tof@bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 301
+  },
+  "tof@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

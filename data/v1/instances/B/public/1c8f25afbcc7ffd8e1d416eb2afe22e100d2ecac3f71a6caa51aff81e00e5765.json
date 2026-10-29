@@ -1,0 +1,86 @@
+{
+ "aiger_b64": "YWlnIDk2IDEwIDAgMSA4NgoxOTMKEgICDBECDQILAgQCBAkCAgIMEgYdAhkEBBAEFwICAgosCAImMwIvBAICAg4CCA4kNQICMQIKAgY+DgI8RwICGDoHAgICCFQEAlJZBAJEAkACBl4GAlgMJAI8AgRgDAJecQICJF4LAgICCHYCAm53BgIOAj4CBnoKAniFAQQCGgIYAgaIAQYChgEmXAJGAgSQAQICjgF8GwIKAgR3DmEKSQwzDh0MCwoKAggCBgIEAgICaTAgczAKaTEgczEKaTIgczIKaTMgczMKaTQgczQKaTUgczUKaTYgczYKaTcgczcKaTggczgKaTkgczkKbzAgaXNfdHJpYW5nbGUK",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:1c8f25afbcc7ffd8e1d416eb2afe22e100d2ecac3f71a6caa51aff81e00e5765",
+ "input_names": [
+  "s0",
+  "s1",
+  "s2",
+  "s3",
+  "s4",
+  "s5",
+  "s6",
+  "s7",
+  "s8",
+  "s9"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 10,
+ "n_outputs": 1,
+ "output_names": [
+  "is_triangle"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "outputs": []
+ },
+ "task": "oracle_phase_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 18
+  },
+  "tof@bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 12
+  },
+  "tof@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

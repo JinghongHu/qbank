@@ -1,0 +1,5 @@
+B.abc(strash,dc2)                        {"status": "error", "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)>"}
+C.qiskit.SabreLayout(LightSABRE)+QCEC    {"status": "ok", "time_s": 0.33887524995952845, "verified": true, "swaps": 10, "qcec": "EquivalenceCriterion.equivalent"}
+C.qiskit.Commuting2qGateRouter           {"status": "ok", "time_s": 0.1931082080118358, "verified": true, "swaps": 10, "ops": {"swap": 10, "PauliEvolution": 9}}
+C.mqt.qcec.verify(neg. control)          {"status": "ok", "time_s": 0.16498770914040506, "verified": true, "note": "a vs b: EquivalenceCriterion.not_equivalent (unitaries differ on non-zero inputs); a vs c: EquivalenceCriterion.not_equivalent"}
+B.abc(strash,dc2)                        {"status": "ok", "time_s": 0.08777812495827675, "verified": true, "stats": ["\u001b[0m i/o =    7/   26  lat =    0  and =    174  lev = 10", "\u001b[0m i/o =    7/   26  lat =    0  and =     96  lev =  7"]}

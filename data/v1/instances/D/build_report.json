@@ -1,0 +1,15 @@
+{
+ "cross_split_pairs": [],
+ "dropped": [],
+ "n_instances": 530,
+ "refills": [],
+ "seconds": 4,
+ "totals": {
+  "probe": 30,
+  "test_in": 92,
+  "test_ood": 88,
+  "train": 245,
+  "val": 75
+ },
+ "variants": 540
+}

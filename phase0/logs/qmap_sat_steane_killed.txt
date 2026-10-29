@@ -1,0 +1,2 @@
+87731   29:12  29:06.64
+QMAP SAT (two_qubit_gates, heuristic=False) on Steane [[7,1,3]] |0_L>: no result after 29:12 wall; killed manually at 30-min cap

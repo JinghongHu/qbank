@@ -1,0 +1,233 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "trotter",
+ "hash": "sha256:63177025a881d031f35c2f16bd91604b6cd00406891e787cb9e216c91d391130",
+ "id": "C.trotter.grid.n34.s2208",
+ "params": {
+  "device_kind": "grid",
+  "model": "heisenberg",
+  "n": 34,
+  "seed": 2208
+ },
+ "private": {
+  "device": "grid_6x6",
+  "interaction_edges": [
+   [
+    0,
+    11
+   ],
+   [
+    1,
+    32
+   ],
+   [
+    2,
+    10
+   ],
+   [
+    3,
+    12
+   ],
+   [
+    3,
+    17
+   ],
+   [
+    3,
+    27
+   ],
+   [
+    4,
+    16
+   ],
+   [
+    5,
+    12
+   ],
+   [
+    5,
+    13
+   ],
+   [
+    5,
+    22
+   ],
+   [
+    6,
+    25
+   ],
+   [
+    6,
+    27
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    12
+   ],
+   [
+    7,
+    13
+   ],
+   [
+    7,
+    17
+   ],
+   [
+    8,
+    10
+   ],
+   [
+    8,
+    29
+   ],
+   [
+    9,
+    12
+   ],
+   [
+    9,
+    18
+   ],
+   [
+    9,
+    30
+   ],
+   [
+    10,
+    22
+   ],
+   [
+    11,
+    23
+   ],
+   [
+    11,
+    32
+   ],
+   [
+    12,
+    14
+   ],
+   [
+    12,
+    15
+   ],
+   [
+    12,
+    16
+   ],
+   [
+    12,
+    20
+   ],
+   [
+    12,
+    22
+   ],
+   [
+    13,
+    23
+   ],
+   [
+    13,
+    27
+   ],
+   [
+    14,
+    21
+   ],
+   [
+    14,
+    32
+   ],
+   [
+    15,
+    30
+   ],
+   [
+    17,
+    28
+   ],
+   [
+    18,
+    20
+   ],
+   [
+    18,
+    21
+   ],
+   [
+    18,
+    24
+   ],
+   [
+    18,
+    30
+   ],
+   [
+    20,
+    23
+   ],
+   [
+    22,
+    31
+   ],
+   [
+    25,
+    30
+   ],
+   [
+    27,
+    30
+   ],
+   [
+    27,
+    32
+   ],
+   [
+    28,
+    31
+   ]
+  ],
+  "size_bin": "L"
+ },
+ "public_hash": "sha256:63177025a881d031f35c2f16bd91604b6cd00406891e787cb9e216c91d391130",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "trotter_on_grid",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

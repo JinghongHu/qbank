@@ -1,0 +1,2501 @@
+[
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.220875000115484,
+  "raw_check_gf2": [
+   [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   []
+  ],
+  "raw_check_stim": [
+   [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   []
+  ],
+  "verified_gf2": false,
+  "verified_stim": false,
+  "checkers_agree": true,
+  "two_qubit_gates": 17,
+  "depth": 30,
+  "two_qubit_depth": 12
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.12503391690552235,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 9,
+  "depth": 7,
+  "two_qubit_depth": 5
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.1286208329256624,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 48,
+  "depth": 22,
+  "two_qubit_depth": 16
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.12445162516087294,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 14,
+  "depth": 8,
+  "two_qubit_depth": 7
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.12259583291597664,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 19,
+  "depth": 14,
+  "two_qubit_depth": 11
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.133303957991302,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 29,
+  "depth": 17,
+  "two_qubit_depth": 15
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.0004741670563817024,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 20,
+  "depth": 18,
+  "two_qubit_depth": 17
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0006256659980863333,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 9,
+  "depth": 7,
+  "two_qubit_depth": 5
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.007187333889305592,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 8,
+  "depth": 8,
+  "two_qubit_depth": 6
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.8393097091466188,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 8,
+  "depth": 6,
+  "two_qubit_depth": 5
+ },
+ {
+  "code": "steane_7",
+  "n": 7,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "error",
+  "error": "TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"cy\", \"while_loop\", \"measure\", \"box\", \"swap\", \"switch_case\", \"sx\", \"reset\", \"delay\", \"s\", \"cz\", \"x\", \"sdg\", \"h\", \"cx\", \"for_loop\", \"if_else\", \"sxdg\", \"z\", \"y\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'",
+  "tb": "nk/.venv/lib/python3.11/site-packages/qiskit/transpiler/passes/basis/basis_translator.py\", line 120, in run\n    out = base_run(\n          ^^^^^^^^^\nqiskit.transpiler.exceptions.TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"cy\", \"while_loop\", \"measure\", \"box\", \"swap\", \"switch_case\", \"sx\", \"reset\", \"delay\", \"s\", \"cz\", \"x\", \"sdg\", \"h\", \"cx\", \"for_loop\", \"if_else\", \"sxdg\", \"z\", \"y\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'\n"
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.13042308297008276,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 24,
+  "depth": 29,
+  "two_qubit_depth": 12
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.124818708980456,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 10,
+  "depth": 8,
+  "two_qubit_depth": 6
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.13698812504298985,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 80,
+  "depth": 27,
+  "two_qubit_depth": 20
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.12432933296076953,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 29,
+  "depth": 13,
+  "two_qubit_depth": 11
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.13046083296649158,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 33,
+  "depth": 19,
+  "two_qubit_depth": 16
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.12715704087167978,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 33,
+  "depth": 18,
+  "two_qubit_depth": 16
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.0006312918849289417,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 30,
+  "depth": 26,
+  "two_qubit_depth": 25
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0005449580494314432,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 10,
+  "depth": 8,
+  "two_qubit_depth": 6
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.0065832920372486115,
+  "raw_check_gf2": [
+   [],
+   [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  ],
+  "raw_check_stim": [
+   [],
+   [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  ],
+  "pauli_correction": true,
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 9,
+  "depth": 9,
+  "two_qubit_depth": 5
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.7592905419878662,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 8,
+  "depth": 7,
+  "two_qubit_depth": 6
+ },
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "error",
+  "error": "TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"for_loop\", \"box\", \"z\", \"swap\", \"sxdg\", \"cx\", \"x\", \"cz\", \"s\", \"delay\", \"while_loop\", \"y\", \"reset\", \"if_else\", \"sx\", \"measure\", \"h\", \"switch_case\", \"sdg\", \"cy\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'",
+  "tb": "nk/.venv/lib/python3.11/site-packages/qiskit/transpiler/passes/basis/basis_translator.py\", line 120, in run\n    out = base_run(\n          ^^^^^^^^^\nqiskit.transpiler.exceptions.TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"for_loop\", \"box\", \"z\", \"swap\", \"sxdg\", \"cx\", \"x\", \"cz\", \"s\", \"delay\", \"while_loop\", \"y\", \"reset\", \"if_else\", \"sx\", \"measure\", \"h\", \"switch_case\", \"sdg\", \"cy\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'\n"
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.13451945781707764,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 50,
+  "depth": 62,
+  "two_qubit_depth": 29
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.13412570813670754,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 21,
+  "depth": 11,
+  "two_qubit_depth": 9
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.13059762492775917,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 143,
+  "depth": 35,
+  "two_qubit_depth": 26
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.1307417917996645,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 32,
+  "depth": 16,
+  "two_qubit_depth": 15
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.12283233390189707,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 50,
+  "depth": 24,
+  "two_qubit_depth": 21
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.1345522499177605,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 57,
+  "depth": 26,
+  "two_qubit_depth": 24
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.0006248331628739834,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 34,
+  "depth": 23,
+  "two_qubit_depth": 23
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0005709580145776272,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 21,
+  "depth": 11,
+  "two_qubit_depth": 9
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.00538133317604661,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 17,
+  "depth": 13,
+  "two_qubit_depth": 11
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.5333088329061866,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 19,
+  "depth": 10,
+  "two_qubit_depth": 9
+ },
+ {
+  "code": "carbon_12",
+  "n": 12,
+  "k": 2,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "error",
+  "error": "TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"for_loop\", \"s\", \"z\", \"cz\", \"if_else\", \"x\", \"cy\", \"sx\", \"while_loop\", \"switch_case\", \"measure\", \"y\", \"cx\", \"h\", \"sdg\", \"delay\", \"sxdg\", \"reset\", \"swap\", \"box\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'",
+  "tb": "nk/.venv/lib/python3.11/site-packages/qiskit/transpiler/passes/basis/basis_translator.py\", line 120, in run\n    out = base_run(\n          ^^^^^^^^^\nqiskit.transpiler.exceptions.TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"for_loop\", \"s\", \"z\", \"cz\", \"if_else\", \"x\", \"cy\", \"sx\", \"while_loop\", \"switch_case\", \"measure\", \"y\", \"cx\", \"h\", \"sdg\", \"delay\", \"sxdg\", \"reset\", \"swap\", \"box\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'\n"
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.13509062491357327,
+  "raw_check_gf2": [
+   [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    14
+   ],
+   []
+  ],
+  "raw_check_stim": [
+   [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    14
+   ],
+   []
+  ],
+  "verified_gf2": false,
+  "verified_stim": false,
+  "checkers_agree": true,
+  "two_qubit_gates": 49,
+  "depth": 90,
+  "two_qubit_depth": 33
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.15820341696962714,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 28,
+  "depth": 12,
+  "two_qubit_depth": 10
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.1368347080424428,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 224,
+  "depth": 42,
+  "two_qubit_depth": 32
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.1355835418216884,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 58,
+  "depth": 24,
+  "two_qubit_depth": 23
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.1359218331053853,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 96,
+  "depth": 46,
+  "two_qubit_depth": 43
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.1399221250321716,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 76,
+  "depth": 35,
+  "two_qubit_depth": 33
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.000780290924012661,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 57,
+  "depth": 32,
+  "two_qubit_depth": 30
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0007055001333355904,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 28,
+  "depth": 13,
+  "two_qubit_depth": 11
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.007430542027577758,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 22,
+  "depth": 12,
+  "two_qubit_depth": 10
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.5358053338713944,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 22,
+  "depth": 9,
+  "two_qubit_depth": 8
+ },
+ {
+  "code": "hamming_r4_15",
+  "n": 15,
+  "k": 7,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "error",
+  "error": "TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"sxdg\", \"swap\", \"cy\", \"delay\", \"x\", \"while_loop\", \"switch_case\", \"h\", \"cz\", \"reset\", \"sdg\", \"sx\", \"box\", \"if_else\", \"y\", \"z\", \"measure\", \"for_loop\", \"s\", \"cx\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'",
+  "tb": "nk/.venv/lib/python3.11/site-packages/qiskit/transpiler/passes/basis/basis_translator.py\", line 120, in run\n    out = base_run(\n          ^^^^^^^^^\nqiskit.transpiler.exceptions.TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"sxdg\", \"swap\", \"cy\", \"delay\", \"x\", \"while_loop\", \"switch_case\", \"h\", \"cz\", \"reset\", \"sdg\", \"sx\", \"box\", \"if_else\", \"y\", \"z\", \"measure\", \"for_loop\", \"s\", \"cx\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'\n"
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.14293124992400408,
+  "raw_check_gf2": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ],
+   []
+  ],
+  "raw_check_stim": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ],
+   []
+  ],
+  "verified_gf2": false,
+  "verified_stim": false,
+  "checkers_agree": true,
+  "two_qubit_gates": 108,
+  "depth": 150,
+  "two_qubit_depth": 67
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.159779833862558,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 43,
+  "depth": 17,
+  "two_qubit_depth": 15
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.15713129215873778,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 360,
+  "depth": 52,
+  "two_qubit_depth": 40
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.14757270808331668,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 52,
+  "depth": 27,
+  "two_qubit_depth": 26
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.1487295408733189,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 116,
+  "depth": 47,
+  "two_qubit_depth": 45
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.14981845882721245,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 154,
+  "depth": 63,
+  "two_qubit_depth": 61
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.0008212090469896793,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 70,
+  "depth": 43,
+  "two_qubit_depth": 43
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0010051669087260962,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 57,
+  "depth": 19,
+  "two_qubit_depth": 17
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.01240412495099008,
+  "raw_check_gf2": [
+   [],
+   [
+    2,
+    3,
+    4,
+    5,
+    9,
+    10,
+    15
+   ]
+  ],
+  "raw_check_stim": [
+   [],
+   [
+    2,
+    3,
+    4,
+    5,
+    9,
+    10,
+    15
+   ]
+  ],
+  "pauli_correction": true,
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 31,
+  "depth": 22,
+  "two_qubit_depth": 18
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.5316666669677943,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 27,
+  "depth": 11,
+  "two_qubit_depth": 10
+ },
+ {
+  "code": "color666_d5",
+  "n": 19,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "error",
+  "error": "TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"x\", \"measure\", \"z\", \"cy\", \"delay\", \"while_loop\", \"h\", \"for_loop\", \"sdg\", \"reset\", \"s\", \"cz\", \"box\", \"sxdg\", \"if_else\", \"swap\", \"y\", \"switch_case\", \"cx\", \"sx\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'",
+  "tb": "nk/.venv/lib/python3.11/site-packages/qiskit/transpiler/passes/basis/basis_translator.py\", line 120, in run\n    out = base_run(\n          ^^^^^^^^^\nqiskit.transpiler.exceptions.TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"x\", \"measure\", \"z\", \"cy\", \"delay\", \"while_loop\", \"h\", \"for_loop\", \"sdg\", \"reset\", \"s\", \"cz\", \"box\", \"sxdg\", \"if_else\", \"swap\", \"y\", \"switch_case\", \"cx\", \"sx\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'\n"
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.16378366691060364,
+  "raw_check_gf2": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   []
+  ],
+  "raw_check_stim": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   []
+  ],
+  "verified_gf2": false,
+  "verified_stim": false,
+  "checkers_agree": true,
+  "two_qubit_gates": 133,
+  "depth": 197,
+  "two_qubit_depth": 82
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.18143150000832975,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 77,
+  "depth": 23,
+  "two_qubit_depth": 21
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.18288645800203085,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 528,
+  "depth": 62,
+  "two_qubit_depth": 48
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.16464754100888968,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 73,
+  "depth": 38,
+  "two_qubit_depth": 37
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.16414825012907386,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 142,
+  "depth": 62,
+  "two_qubit_depth": 60
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.1732569169253111,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 279,
+  "depth": 98,
+  "two_qubit_depth": 96
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.0011660000309348106,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 99,
+  "depth": 70,
+  "two_qubit_depth": 69
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0011054170317947865,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 77,
+  "depth": 23,
+  "two_qubit_depth": 21
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.02283120807260275,
+  "raw_check_gf2": [
+   [],
+   [
+    0,
+    1,
+    4,
+    5,
+    7,
+    10,
+    12,
+    13,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ]
+  ],
+  "raw_check_stim": [
+   [],
+   [
+    0,
+    1,
+    4,
+    5,
+    7,
+    10,
+    12,
+    13,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ]
+  ],
+  "pauli_correction": true,
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 53,
+  "depth": 31,
+  "two_qubit_depth": 21
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.5462357089854777,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 51,
+  "depth": 23,
+  "two_qubit_depth": 22
+ },
+ {
+  "code": "golay_23",
+  "n": 23,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "error",
+  "error": "TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"s\", \"box\", \"sx\", \"sxdg\", \"while_loop\", \"h\", \"y\", \"x\", \"reset\", \"z\", \"switch_case\", \"cz\", \"cy\", \"cx\", \"for_loop\", \"delay\", \"sdg\", \"if_else\", \"swap\", \"measure\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'",
+  "tb": "nk/.venv/lib/python3.11/site-packages/qiskit/transpiler/passes/basis/basis_translator.py\", line 120, in run\n    out = base_run(\n          ^^^^^^^^^\nqiskit.transpiler.exceptions.TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"s\", \"box\", \"sx\", \"sxdg\", \"while_loop\", \"h\", \"y\", \"x\", \"reset\", \"z\", \"switch_case\", \"cz\", \"cy\", \"cx\", \"for_loop\", \"delay\", \"sdg\", \"if_else\", \"swap\", \"measure\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'\n"
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.16273304098285735,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 126,
+  "depth": 93,
+  "two_qubit_depth": 49
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.169932333054021,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 48,
+  "depth": 16,
+  "two_qubit_depth": 14
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.16811687499284744,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 624,
+  "depth": 67,
+  "two_qubit_depth": 52
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.16013808292336762,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 99,
+  "depth": 26,
+  "two_qubit_depth": 25
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.15627475013025105,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 139,
+  "depth": 45,
+  "two_qubit_depth": 41
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.16812687506899238,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 132,
+  "depth": 41,
+  "two_qubit_depth": 39
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.0011879999656230211,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 98,
+  "depth": 48,
+  "two_qubit_depth": 47
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0010861249174922705,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 48,
+  "depth": 16,
+  "two_qubit_depth": 14
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.019908291986212134,
+  "raw_check_gf2": [
+   [],
+   [
+    4,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ]
+  ],
+  "raw_check_stim": [
+   [],
+   [
+    4,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ]
+  ],
+  "pauli_correction": true,
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 32,
+  "depth": 12,
+  "two_qubit_depth": 9
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.5269526669289917,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 28,
+  "depth": 13,
+  "two_qubit_depth": 12
+ },
+ {
+  "code": "surface_rot_d5",
+  "n": 25,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "error",
+  "error": "TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"sx\", \"swap\", \"switch_case\", \"s\", \"sxdg\", \"h\", \"reset\", \"x\", \"delay\", \"for_loop\", \"cx\", \"if_else\", \"sdg\", \"while_loop\", \"cy\", \"y\", \"cz\", \"box\", \"measure\", \"z\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'",
+  "tb": "nk/.venv/lib/python3.11/site-packages/qiskit/transpiler/passes/basis/basis_translator.py\", line 120, in run\n    out = base_run(\n          ^^^^^^^^^\nqiskit.transpiler.exceptions.TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"sx\", \"swap\", \"switch_case\", \"s\", \"sxdg\", \"h\", \"reset\", \"x\", \"delay\", \"for_loop\", \"cx\", \"if_else\", \"sdg\", \"while_loop\", \"cy\", \"y\", \"cz\", \"box\", \"measure\", \"z\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'\n"
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.14501791703514755,
+  "raw_check_gf2": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   []
+  ],
+  "raw_check_stim": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   []
+  ],
+  "verified_gf2": false,
+  "verified_stim": false,
+  "checkers_agree": true,
+  "two_qubit_gates": 86,
+  "depth": 121,
+  "two_qubit_depth": 55
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 0.14201570814475417,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 32,
+  "depth": 12,
+  "two_qubit_depth": 10
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "ok",
+  "time_s": 0.13532850006595254,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 288,
+  "depth": 47,
+  "two_qubit_depth": 36
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 0.1329550831578672,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 46,
+  "depth": 21,
+  "two_qubit_depth": 20
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 0.13770474982447922,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 78,
+  "depth": 32,
+  "two_qubit_depth": 30
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 0.15256120916455984,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 109,
+  "depth": 43,
+  "two_qubit_depth": 41
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.0007743751630187035,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 52,
+  "depth": 30,
+  "two_qubit_depth": 30
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.0007022910285741091,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 32,
+  "depth": 14,
+  "two_qubit_depth": 12
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 0.00886087492108345,
+  "raw_check_gf2": [
+   [],
+   [
+    0,
+    2,
+    10
+   ]
+  ],
+  "raw_check_stim": [
+   [],
+   [
+    0,
+    2,
+    10
+   ]
+  ],
+  "pauli_correction": true,
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 25,
+  "depth": 16,
+  "two_qubit_depth": 9
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.5161690418608487,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 23,
+  "depth": 8,
+  "two_qubit_depth": 7
+ },
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "error",
+  "error": "TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"cz\", \"reset\", \"h\", \"swap\", \"z\", \"s\", \"switch_case\", \"sdg\", \"measure\", \"if_else\", \"for_loop\", \"y\", \"cx\", \"delay\", \"cy\", \"while_loop\", \"sxdg\", \"x\", \"box\", \"sx\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'",
+  "tb": "nk/.venv/lib/python3.11/site-packages/qiskit/transpiler/passes/basis/basis_translator.py\", line 120, in run\n    out = base_run(\n          ^^^^^^^^^\nqiskit.transpiler.exceptions.TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"cz\", \"reset\", \"h\", \"swap\", \"z\", \"s\", \"switch_case\", \"sdg\", \"measure\", \"if_else\", \"for_loop\", \"y\", \"cx\", \"delay\", \"cy\", \"while_loop\", \"sxdg\", \"x\", \"box\", \"sx\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'\n"
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "qiskit.synth_circuit_from_stabilizers",
+  "status": "ok",
+  "time_s": 0.9265970420092344,
+  "raw_check_gf2": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+   ],
+   []
+  ],
+  "raw_check_stim": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+   ],
+   []
+  ],
+  "verified_gf2": false,
+  "verified_stim": false,
+  "checkers_agree": true,
+  "two_qubit_gates": 913,
+  "depth": 1086,
+  "two_qubit_depth": 430
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "qiskit.synth_stabilizer_layers",
+  "status": "ok",
+  "time_s": 1.01791858416982,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 412,
+  "depth": 50,
+  "two_qubit_depth": 48
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "qiskit.synth_stabilizer_depth_lnn",
+  "status": "timeout",
+  "time_s": 120.00795504194684
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "qiskit.synth_clifford_greedy",
+  "status": "ok",
+  "time_s": 1.033004333032295,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 482,
+  "depth": 232,
+  "two_qubit_depth": 231
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "qiskit.synth_clifford_ag",
+  "status": "ok",
+  "time_s": 1.0472622502129525,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 1190,
+  "depth": 395,
+  "two_qubit_depth": 393
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "qiskit.synth_clifford_layers",
+  "status": "ok",
+  "time_s": 1.0498192908708006,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 2169,
+  "depth": 462,
+  "two_qubit_depth": 460
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "stim.to_circuit(elimination)",
+  "status": "ok",
+  "time_s": 0.010453042108565569,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 558,
+  "depth": 275,
+  "two_qubit_depth": 275
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "stim.to_circuit(graph_state)",
+  "status": "ok",
+  "time_s": 0.010595874860882759,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 502,
+  "depth": 59,
+  "two_qubit_depth": 57
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "rustiq.stabilizer_state_synthesis",
+  "status": "ok",
+  "time_s": 1.0810691670048982,
+  "raw_check_gf2": [
+   [],
+   [
+    4,
+    10,
+    13,
+    23,
+    27,
+    30,
+    31,
+    32,
+    35,
+    37,
+    38,
+    39,
+    40,
+    41,
+    43,
+    46,
+    48,
+    50,
+    54,
+    55,
+    56,
+    58,
+    59,
+    62,
+    66,
+    69,
+    70
+   ]
+  ],
+  "raw_check_stim": [
+   [],
+   [
+    4,
+    10,
+    13,
+    23,
+    27,
+    30,
+    31,
+    32,
+    35,
+    37,
+    38,
+    39,
+    40,
+    41,
+    43,
+    46,
+    48,
+    50,
+    54,
+    55,
+    56,
+    58,
+    59,
+    62,
+    66,
+    69,
+    70
+   ]
+  ],
+  "pauli_correction": true,
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 205,
+  "depth": 65,
+  "two_qubit_depth": 58
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "mqt.qecc.heuristic_prep_circuit",
+  "status": "ok",
+  "time_s": 0.6418582920450717,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 150,
+  "depth": 42,
+  "two_qubit_depth": 41
+ },
+ {
+  "code": "bb_72",
+  "n": 72,
+  "k": 12,
+  "tool": "pytket.CliffordResynthesis+FPO",
+  "status": "error",
+  "error": "TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"cx\", \"while_loop\", \"x\", \"switch_case\", \"cy\", \"cz\", \"if_else\", \"h\", \"swap\", \"sx\", \"measure\", \"s\", \"sxdg\", \"delay\", \"for_loop\", \"reset\", \"sdg\", \"y\", \"z\", \"box\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'",
+  "tb": "nk/.venv/lib/python3.11/site-packages/qiskit/transpiler/passes/basis/basis_translator.py\", line 120, in run\n    out = base_run(\n          ^^^^^^^^^\nqiskit.transpiler.exceptions.TranspilerError: 'Unable to translate the operations in the circuit: {(\"u\", 1), (\"cx\", 2)} to the backend\\'s (or manually specified) target basis: {\"cx\", \"while_loop\", \"x\", \"switch_case\", \"cy\", \"cz\", \"if_else\", \"h\", \"swap\", \"sx\", \"measure\", \"s\", \"sxdg\", \"delay\", \"for_loop\", \"reset\", \"sdg\", \"y\", \"z\", \"box\", \"barrier\", \"snapshot\", \"store\"}. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors'\n"
+ }
+]

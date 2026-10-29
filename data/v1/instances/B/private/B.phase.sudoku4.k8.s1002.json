@@ -1,0 +1,131 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_phase_clean"
+ ],
+ "family": "sudoku",
+ "hash": "sha256:33795bece52352da09a17fd40bbcbd45953cb4c74f22e7be2ff30e490131e0c7",
+ "id": "B.phase.sudoku4.k8.s1002",
+ "params": {
+  "k": 8,
+  "seed": 1002,
+  "size": 4
+ },
+ "private": {
+  "aig_ands": 165,
+  "b_min": 88,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 88,
+   "cone_bennett(abc resyn2)": 88
+  },
+  "blanks": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    2
+   ],
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    0
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    3,
+    3
+   ]
+  ],
+  "m": 1,
+  "n": 16,
+  "n_solutions": 1,
+  "n_solutions_method": "exhaustive",
+  "size_bin": "M",
+  "solution": [
+   [
+    0,
+    3,
+    1,
+    2
+   ],
+   [
+    1,
+    2,
+    0,
+    3
+   ],
+   [
+    3,
+    1,
+    2,
+    0
+   ],
+   [
+    2,
+    0,
+    3,
+    1
+   ]
+  ],
+  "solution_fraction_log2": -16.0,
+  "solution_sparse": true
+ },
+ "public_hash": "sha256:33795bece52352da09a17fd40bbcbd45953cb4c74f22e7be2ff30e490131e0c7",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "sudoku",
+  "ref": "parametrised QCircuitBench grover_sudoku (4x4 and 6x6)",
+  "version": "1"
+ },
+ "task": "oracle_phase_clean",
+ "tracks": [
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 88
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 132
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

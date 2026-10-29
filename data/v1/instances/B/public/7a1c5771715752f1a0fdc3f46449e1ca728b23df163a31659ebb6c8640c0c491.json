@@ -1,0 +1,98 @@
+{
+ "aiger_b64": "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",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:7a1c5771715752f1a0fdc3f46449e1ca728b23df163a31659ebb6c8640c0c491",
+ "input_names": [
+  "x0",
+  "x1",
+  "x2",
+  "x3",
+  "x4",
+  "x5",
+  "x6",
+  "x7"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 8,
+ "n_outputs": 8,
+ "output_names": [
+  "s0",
+  "s1",
+  "s2",
+  "s3",
+  "s4",
+  "s5",
+  "s6",
+  "s7"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "outputs": [
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ]
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 26
+  },
+  "tof@bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 17
+  },
+  "tof@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

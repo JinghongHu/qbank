@@ -1,0 +1,54 @@
+{
+ "category": "D",
+ "contracts": [
+  "state_approx",
+  "state_exact"
+ ],
+ "family": "dense",
+ "hash": "sha256:393941cdbb06cef32d70bcb6822f5fd70d14e1fb8bd423addb0ba9da3b5edbbc",
+ "id": "D.dense.n2.s40201",
+ "params": {
+  "n": 2,
+  "seed": 40201
+ },
+ "private": {
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:393941cdbb06cef32d70bcb6822f5fd70d14e1fb8bd423addb0ba9da3b5edbbc",
+ "qbank_version": "1.0.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "dense (Haar via complex Gaussian)",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "state_prep",
+ "tracks": [
+  {
+   "contract": "state_exact",
+   "metric": "cx_count",
+   "name": "cx",
+   "tolerance": 1e-09
+  },
+  {
+   "contract": "state_exact",
+   "coupling_edges": [
+    [
+     0,
+     1
+    ]
+   ],
+   "metric": "two_qubit_depth",
+   "name": "depth2q@line",
+   "output_map_allowed": true,
+   "tolerance": 1e-09
+  },
+  {
+   "contract": "state_approx",
+   "metric": "cx_count",
+   "min_fidelity": 0.99,
+   "name": "cx@F0.99"
+  }
+ ]
+}

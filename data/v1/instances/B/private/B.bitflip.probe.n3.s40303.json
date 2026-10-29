@@ -1,0 +1,75 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_bitflip_clean"
+ ],
+ "family": "probe_small",
+ "hash": "sha256:ced343692e3219e7306b3030b50852ab098fd545d8cd1279cee5b5aa18bbd6a7",
+ "id": "B.bitflip.probe.n3.s40303",
+ "params": {
+  "n": 3,
+  "seed": 40303
+ },
+ "private": {
+  "aig_ands": 2,
+  "anf_degree": 3,
+  "b_min": 5,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 6,
+   "cone_bennett(abc resyn2)": 6,
+   "esop+mcx": 5,
+   "per-clause mcx": 6
+  },
+  "lower_bound_reason": "Toffoli/AND count >= multiplicative complexity >= deg(f) - 1",
+  "m": 1,
+  "n": 3,
+  "n_solutions": 7,
+  "n_solutions_method": "exhaustive",
+  "size_bin": "probe",
+  "solution_fraction_log2": -0.1926,
+  "solution_sparse": false,
+  "toffoli_lower_bound": 2
+ },
+ "public_hash": "sha256:ced343692e3219e7306b3030b50852ab098fd545d8cd1279cee5b5aa18bbd6a7",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "random_small_function",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": [
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 5
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 8
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

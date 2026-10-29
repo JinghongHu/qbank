@@ -1,0 +1,10 @@
+[
+ {
+  "code": "color488_d5",
+  "n": 17,
+  "k": 1,
+  "tool": "mqt.qecc.gate_optimal_prep_circuit(SAT)",
+  "status": "timeout",
+  "time_s": 900.0385628750082
+ }
+]

@@ -1,0 +1,122 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "qaoa",
+ "hash": "sha256:15a1583320c22072dc79012d3c03151ce81b249f4dcc735c4eedfdcf04946955",
+ "id": "C.qaoa.heavy_hex.n12.s10301",
+ "params": {
+  "device_kind": "heavy_hex",
+  "graph": "reg3",
+  "n": 12,
+  "p": 1,
+  "seed": 10301
+ },
+ "private": {
+  "device": "heavy_hex_d3",
+  "interaction_edges": [
+   [
+    0,
+    3
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    0,
+    11
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    6
+   ],
+   [
+    1,
+    10
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    10
+   ],
+   [
+    5,
+    8
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    8,
+    9
+   ],
+   [
+    9,
+    11
+   ]
+  ],
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:15a1583320c22072dc79012d3c03151ce81b249f4dcc735c4eedfdcf04946955",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "qaoa_on_heavy_hex",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

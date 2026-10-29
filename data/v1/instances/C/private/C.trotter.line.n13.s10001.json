@@ -1,0 +1,101 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "trotter",
+ "hash": "sha256:6b76245ffb0b4fd396fe42ba1e93e54392425e5a52a03a4ad636238106fa0e2d",
+ "id": "C.trotter.line.n13.s10001",
+ "params": {
+  "device_kind": "line",
+  "model": "ising",
+  "n": 13,
+  "seed": 10001
+ },
+ "private": {
+  "device": "line_13",
+  "interaction_edges": [
+   [
+    0,
+    2
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    0,
+    7
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    4,
+    10
+   ],
+   [
+    4,
+    12
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    9,
+    12
+   ],
+   [
+    11,
+    12
+   ]
+  ],
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:6b76245ffb0b4fd396fe42ba1e93e54392425e5a52a03a4ad636238106fa0e2d",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "trotter_on_line",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_equiv"
+ ],
+ "family": "qubikos",
+ "hash": "sha256:f3d1f622effadbf2e6e921955266a6e3fc807cfeab8c06f63c6eecba89f4206b",
+ "id": "C.qubikos.Aspen-4_10_300_6",
+ "params": {
+  "device": "Aspen-4",
+  "n": 16,
+  "serial": 6,
+  "two_qubit_gates": 300
+ },
+ "private": {
+  "device": "Aspen-4 (QUBIKOS coupling file)",
+  "known_optimal": {
+   "source": "QUBIKOS construction (arXiv:2502.08839); no witness shipped",
+   "swaps": 10,
+   "verified_by_qbank": false
+  },
+  "redistributable": false,
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:f3d1f622effadbf2e6e921955266a6e3fc807cfeab8c06f63c6eecba89f4206b",
+ "qbank_version": "1.1.0",
+ "source": {
+  "file": "examples/aspen/Aspen-4_10_300_6.qasm",
+  "kind": "external",
+  "license": "none (all rights reserved)",
+  "name": "QUBIKOS",
+  "redistributable": false,
+  "ref": "arXiv:2502.08839; github.com/ping-shuo-hao/qubikos",
+  "sha256": "caae935d75ab127790463758b131dea349fefe22ab740baf34d556da1b0699d9",
+  "version": "442a994884a6a5fd37725f59b8b42c90fd1be387"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  }
+ ]
+}

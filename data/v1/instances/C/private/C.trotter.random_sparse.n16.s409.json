@@ -1,0 +1,133 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "trotter",
+ "hash": "sha256:0aa86a529a04c4655eaa3599a35f48fb228c5931c8dc31f5ba806a46a5c7ae27",
+ "id": "C.trotter.random_sparse.n16.s409",
+ "params": {
+  "device_kind": "random_sparse",
+  "model": "heisenberg",
+  "n": 16,
+  "seed": 409
+ },
+ "private": {
+  "device": "random_sparse_16",
+  "interaction_edges": [
+   [
+    0,
+    13
+   ],
+   [
+    0,
+    14
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    1,
+    11
+   ],
+   [
+    1,
+    13
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    2,
+    12
+   ],
+   [
+    2,
+    15
+   ],
+   [
+    3,
+    10
+   ],
+   [
+    4,
+    11
+   ],
+   [
+    4,
+    12
+   ],
+   [
+    5,
+    8
+   ],
+   [
+    5,
+    12
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    6,
+    15
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    10,
+    11
+   ],
+   [
+    11,
+    15
+   ],
+   [
+    14,
+    15
+   ]
+  ],
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:0aa86a529a04c4655eaa3599a35f48fb228c5931c8dc31f5ba806a46a5c7ae27",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "trotter_on_random_sparse",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

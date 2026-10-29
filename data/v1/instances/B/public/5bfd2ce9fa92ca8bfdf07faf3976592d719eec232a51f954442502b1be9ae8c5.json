@@ -1,0 +1,106 @@
+{
+ "aiger_b64": "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",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:5bfd2ce9fa92ca8bfdf07faf3976592d719eec232a51f954442502b1be9ae8c5",
+ "input_names": [
+  "s0",
+  "s1",
+  "s2",
+  "s3",
+  "s4",
+  "s5",
+  "s6",
+  "s7",
+  "s8",
+  "s9",
+  "s10",
+  "s11",
+  "s12",
+  "s13",
+  "s14",
+  "s15",
+  "s16",
+  "s17",
+  "s18",
+  "s19"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 20,
+ "n_outputs": 1,
+ "output_names": [
+  "is_triangle"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "outputs": []
+ },
+ "task": "oracle_phase_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 704
+  },
+  "tof@bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 469
+  },
+  "tof@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

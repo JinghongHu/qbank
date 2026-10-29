@@ -1,0 +1,2166 @@
+{
+ "date": "2026-10-29",
+ "category": "B",
+ "totals": {
+  "probe": 20,
+  "test_in": 88,
+  "test_ood": 92,
+  "train": 254,
+  "val": 75
+ },
+ "counts": [
+  [
+   "train",
+   "arith",
+   "L",
+   4
+  ],
+  [
+   "train",
+   "arith",
+   "M",
+   16
+  ],
+  [
+   "train",
+   "arith",
+   "S",
+   21
+  ],
+  [
+   "train",
+   "compare",
+   "L",
+   16
+  ],
+  [
+   "train",
+   "compare",
+   "M",
+   24
+  ],
+  [
+   "train",
+   "compare",
+   "S",
+   29
+  ],
+  [
+   "train",
+   "rand3sat",
+   "L",
+   12
+  ],
+  [
+   "train",
+   "rand3sat",
+   "M",
+   12
+  ],
+  [
+   "train",
+   "rand3sat",
+   "S",
+   12
+  ],
+  [
+   "train",
+   "simon3",
+   "L",
+   12
+  ],
+  [
+   "train",
+   "simon3",
+   "M",
+   12
+  ],
+  [
+   "train",
+   "simon3",
+   "S",
+   12
+  ],
+  [
+   "train",
+   "sudoku",
+   "L",
+   12
+  ],
+  [
+   "train",
+   "sudoku",
+   "M",
+   12
+  ],
+  [
+   "train",
+   "sudoku",
+   "S",
+   12
+  ],
+  [
+   "train",
+   "triangle",
+   "L",
+   12
+  ],
+  [
+   "train",
+   "triangle",
+   "M",
+   12
+  ],
+  [
+   "train",
+   "triangle",
+   "S",
+   12
+  ],
+  [
+   "val",
+   "arith",
+   "L",
+   6
+  ],
+  [
+   "val",
+   "arith",
+   "M",
+   7
+  ],
+  [
+   "val",
+   "arith",
+   "S",
+   2
+  ],
+  [
+   "val",
+   "compare",
+   "L",
+   8
+  ],
+  [
+   "val",
+   "compare",
+   "M",
+   5
+  ],
+  [
+   "val",
+   "compare",
+   "S",
+   6
+  ],
+  [
+   "val",
+   "rand3sat",
+   "L",
+   4
+  ],
+  [
+   "val",
+   "rand3sat",
+   "M",
+   4
+  ],
+  [
+   "val",
+   "rand3sat",
+   "S",
+   4
+  ],
+  [
+   "val",
+   "simon3",
+   "L",
+   4
+  ],
+  [
+   "val",
+   "simon3",
+   "M",
+   4
+  ],
+  [
+   "val",
+   "simon3",
+   "S",
+   4
+  ],
+  [
+   "val",
+   "sudoku",
+   "L",
+   3
+  ],
+  [
+   "val",
+   "sudoku",
+   "M",
+   2
+  ],
+  [
+   "val",
+   "triangle",
+   "L",
+   4
+  ],
+  [
+   "val",
+   "triangle",
+   "M",
+   4
+  ],
+  [
+   "val",
+   "triangle",
+   "S",
+   4
+  ],
+  [
+   "test_in",
+   "arith",
+   "L",
+   1
+  ],
+  [
+   "test_in",
+   "arith",
+   "XL",
+   6
+  ],
+  [
+   "test_in",
+   "compare",
+   "XL",
+   12
+  ],
+  [
+   "test_in",
+   "rand3sat",
+   "L",
+   2
+  ],
+  [
+   "test_in",
+   "rand3sat",
+   "M",
+   2
+  ],
+  [
+   "test_in",
+   "rand3sat",
+   "S",
+   2
+  ],
+  [
+   "test_in",
+   "rand3sat",
+   "XL",
+   12
+  ],
+  [
+   "test_in",
+   "simon3",
+   "L",
+   2
+  ],
+  [
+   "test_in",
+   "simon3",
+   "M",
+   2
+  ],
+  [
+   "test_in",
+   "simon3",
+   "S",
+   2
+  ],
+  [
+   "test_in",
+   "simon3",
+   "XL",
+   12
+  ],
+  [
+   "test_in",
+   "sudoku",
+   "L",
+   2
+  ],
+  [
+   "test_in",
+   "sudoku",
+   "M",
+   1
+  ],
+  [
+   "test_in",
+   "sudoku",
+   "XL",
+   12
+  ],
+  [
+   "test_in",
+   "triangle",
+   "L",
+   2
+  ],
+  [
+   "test_in",
+   "triangle",
+   "M",
+   2
+  ],
+  [
+   "test_in",
+   "triangle",
+   "S",
+   2
+  ],
+  [
+   "test_in",
+   "triangle",
+   "XL",
+   12
+  ],
+  [
+   "test_ood",
+   "epfl",
+   "S",
+   4
+  ],
+  [
+   "test_ood",
+   "epfl",
+   "XL",
+   1
+  ],
+  [
+   "test_ood",
+   "iscas85",
+   "XL",
+   3
+  ],
+  [
+   "test_ood",
+   "iscas85",
+   "between",
+   2
+  ],
+  [
+   "test_ood",
+   "mcnc",
+   "L",
+   4
+  ],
+  [
+   "test_ood",
+   "mcnc",
+   "M",
+   4
+  ],
+  [
+   "test_ood",
+   "mcnc",
+   "S",
+   5
+  ],
+  [
+   "test_ood",
+   "mcnc",
+   "XS",
+   1
+  ],
+  [
+   "test_ood",
+   "mcnc",
+   "between",
+   6
+  ],
+  [
+   "test_ood",
+   "satlib",
+   "L",
+   24
+  ],
+  [
+   "test_ood",
+   "satlib",
+   "XL",
+   24
+  ],
+  [
+   "test_ood",
+   "sbox",
+   "S",
+   6
+  ],
+  [
+   "test_ood",
+   "sbox",
+   "XS",
+   8
+  ],
+  [
+   "probe",
+   "probe_small",
+   "probe",
+   20
+  ]
+ ],
+ "best_tool_share": [
+  [
+   "cx@inf",
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   218,
+   529,
+   41.21
+  ],
+  [
+   "cx@inf",
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   174,
+   529,
+   32.89
+  ],
+  [
+   "cx@inf",
+   "solution enumeration + prefix-trie MCX",
+   126,
+   529,
+   23.82
+  ],
+  [
+   "cx@inf",
+   "bennett(abc resyn2)",
+   74,
+   529,
+   13.99
+  ],
+  [
+   "cx@inf",
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   30,
+   529,
+   5.67
+  ],
+  [
+   "cx@inf",
+   "cone_bennett(abc resyn2)",
+   21,
+   529,
+   3.97
+  ],
+  [
+   "cx@inf",
+   "per-clause MCX (qiskit MCX)",
+   7,
+   529,
+   1.32
+  ],
+  [
+   "t_mbu@inf",
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   395,
+   529,
+   74.67
+  ],
+  [
+   "t_mbu@inf",
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   83,
+   529,
+   15.69
+  ],
+  [
+   "t_mbu@inf",
+   "solution enumeration + prefix-trie MCX",
+   72,
+   529,
+   13.61
+  ],
+  [
+   "t_mbu@inf",
+   "bennett(abc resyn2)",
+   57,
+   529,
+   10.78
+  ],
+  [
+   "t_mbu@inf",
+   "cone_bennett(abc resyn2)",
+   55,
+   529,
+   10.4
+  ],
+  [
+   "t_mbu@inf",
+   "bennett(aig)",
+   31,
+   529,
+   5.86
+  ],
+  [
+   "tof@1.5bmin",
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   286,
+   529,
+   54.06
+  ],
+  [
+   "tof@1.5bmin",
+   "solution enumeration + prefix-trie MCX",
+   179,
+   529,
+   33.84
+  ],
+  [
+   "tof@1.5bmin",
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   107,
+   529,
+   20.23
+  ],
+  [
+   "tof@1.5bmin",
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   62,
+   529,
+   11.72
+  ],
+  [
+   "tof@1.5bmin",
+   "cone_bennett(abc resyn2)",
+   35,
+   529,
+   6.62
+  ],
+  [
+   "tof@1.5bmin",
+   "per-clause MCX (qiskit MCX)",
+   24,
+   529,
+   4.54
+  ],
+  [
+   "tof@1.5bmin",
+   "pebbling SAT (Meuli et al. 2019, re-impl.)",
+   12,
+   529,
+   2.27
+  ],
+  [
+   "tof@1.5bmin",
+   "bennett(abc resyn2)",
+   3,
+   529,
+   0.57
+  ],
+  [
+   "tof@bmin",
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   201,
+   529,
+   38.0
+  ],
+  [
+   "tof@bmin",
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   162,
+   529,
+   30.62
+  ],
+  [
+   "tof@bmin",
+   "solution enumeration + prefix-trie MCX",
+   133,
+   529,
+   25.14
+  ],
+  [
+   "tof@bmin",
+   "cone_bennett(abc resyn2)",
+   56,
+   529,
+   10.59
+  ],
+  [
+   "tof@bmin",
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   55,
+   529,
+   10.4
+  ],
+  [
+   "tof@bmin",
+   "per-clause MCX (qiskit MCX)",
+   9,
+   529,
+   1.7
+  ],
+  [
+   "tof@bmin",
+   "bennett(abc resyn2)",
+   2,
+   529,
+   0.38
+  ],
+  [
+   "tof@inf",
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   409,
+   529,
+   77.32
+  ],
+  [
+   "tof@inf",
+   "solution enumeration + prefix-trie MCX",
+   156,
+   529,
+   29.49
+  ],
+  [
+   "tof@inf",
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   136,
+   529,
+   25.71
+  ],
+  [
+   "tof@inf",
+   "per-clause MCX (qiskit MCX)",
+   29,
+   529,
+   5.48
+  ],
+  [
+   "tof@inf",
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   23,
+   529,
+   4.35
+  ],
+  [
+   "tof@inf",
+   "bennett(abc resyn2)",
+   3,
+   529,
+   0.57
+  ],
+  [
+   "tof@inf",
+   "cone_bennett(abc resyn2)",
+   1,
+   529,
+   0.19
+  ],
+  [
+   "tof_clifford@inf",
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis) [circuit reused, re-verified on tof_clifford@inf]",
+   40,
+   63,
+   63.49
+  ],
+  [
+   "tof_clifford@inf",
+   "XAG + MC (Meuli et al. 2019, re-impl.) [circuit reused, re-verified on tof_clifford@inf]",
+   23,
+   63,
+   36.51
+  ]
+ ],
+ "optimum_gap": [
+  [
+   "B.bitflip.probe.n3.s40300",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   1,
+   1,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "Toffoli count >= multiplicative complexity; MC(f) = 1 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 1)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40300",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   1,
+   1,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "Toffoli count >= multiplicative complexity; MC(f) = 1 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 1)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40300",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   1,
+   1,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "Toffoli count >= multiplicative complexity; MC(f) = 1 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 1)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40300",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   1,
+   1,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "verified circuit compiled from an XAG with 1 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40301",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   2,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   1,
+   "Toffoli count >= multiplicative complexity; MC(f) = 2 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 2)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40301",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   2,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   1,
+   "Toffoli count >= multiplicative complexity; MC(f) = 2 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 2)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40301",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   2,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   1,
+   "Toffoli count >= multiplicative complexity; MC(f) = 2 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 2)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40301",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   3,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "verified circuit compiled from an XAG with 2 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40302",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   1,
+   1,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "Toffoli count >= multiplicative complexity; MC(f) = 1 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 1)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40302",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   1,
+   1,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "Toffoli count >= multiplicative complexity; MC(f) = 1 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 1)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40302",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   1,
+   1,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "Toffoli count >= multiplicative complexity; MC(f) = 1 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 1)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40302",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   1,
+   1,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "verified circuit compiled from an XAG with 1 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40303",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   2,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   1,
+   "Toffoli count >= multiplicative complexity; MC(f) = 2 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 2)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40303",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   2,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   1,
+   "Toffoli count >= multiplicative complexity; MC(f) = 2 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 2)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40303",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   2,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   1,
+   "Toffoli count >= multiplicative complexity; MC(f) = 2 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 2)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40303",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   3,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "verified circuit compiled from an XAG with 2 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40304",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   1,
+   1,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "Toffoli count >= multiplicative complexity; MC(f) = 1 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 1)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40304",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   1,
+   1,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "Toffoli count >= multiplicative complexity; MC(f) = 1 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 1)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40304",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   1,
+   1,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "Toffoli count >= multiplicative complexity; MC(f) = 1 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 1)"
+  ],
+  [
+   "B.bitflip.probe.n3.s40304",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   1,
+   1,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "verified circuit compiled from an XAG with 1 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40400",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   2,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   1,
+   "Toffoli count >= multiplicative complexity; MC(f) = 2 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 2)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40400",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   2,
+   19,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   17,
+   "Toffoli count >= multiplicative complexity; MC(f) = 2 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 2)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40400",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   2,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   1,
+   "Toffoli count >= multiplicative complexity; MC(f) = 2 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 2)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40400",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   3,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "verified circuit compiled from an XAG with 2 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40401",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   2,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   1,
+   "Toffoli count >= multiplicative complexity; MC(f) = 2 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 2)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40401",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   2,
+   14,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   12,
+   "Toffoli count >= multiplicative complexity; MC(f) = 2 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 2)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40401",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   2,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   1,
+   "Toffoli count >= multiplicative complexity; MC(f) = 2 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 2)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40401",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   3,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "verified circuit compiled from an XAG with 2 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40402",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   2,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   1,
+   "Toffoli count >= multiplicative complexity; MC(f) = 2 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 2)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40402",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   2,
+   14,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   12,
+   "Toffoli count >= multiplicative complexity; MC(f) = 2 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 2)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40402",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   2,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   1,
+   "Toffoli count >= multiplicative complexity; MC(f) = 2 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 2)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40402",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   3,
+   3,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "verified circuit compiled from an XAG with 2 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40403",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   3,
+   5,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   2,
+   "Toffoli count >= multiplicative complexity; MC(f) = 3 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 3)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40403",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   3,
+   12,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   9,
+   "Toffoli count >= multiplicative complexity; MC(f) = 3 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 3)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40403",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   3,
+   5,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   2,
+   "Toffoli count >= multiplicative complexity; MC(f) = 3 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 3)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40403",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   5,
+   5,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   0,
+   "verified circuit compiled from an XAG with 3 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40404",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   3,
+   5,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   2,
+   "Toffoli count >= multiplicative complexity; MC(f) = 3 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 3)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40404",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   3,
+   10,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   7,
+   "Toffoli count >= multiplicative complexity; MC(f) = 3 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 3)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40404",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   3,
+   5,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   2,
+   "Toffoli count >= multiplicative complexity; MC(f) = 3 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 3)"
+  ],
+  [
+   "B.bitflip.probe.n4.s40404",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   5,
+   5,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   0,
+   "verified circuit compiled from an XAG with 3 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40500",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   4,
+   7,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   3,
+   "Toffoli count >= multiplicative complexity; MC(f) = 4 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 4)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40500",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   4,
+   53,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   49,
+   "Toffoli count >= multiplicative complexity; MC(f) = 4 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 4)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40500",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   4,
+   7,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   3,
+   "Toffoli count >= multiplicative complexity; MC(f) = 4 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 4)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40500",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   7,
+   7,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "verified circuit compiled from an XAG with 4 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40501",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   4,
+   7,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   3,
+   "Toffoli count >= multiplicative complexity; MC(f) = 4 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 3)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40501",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   4,
+   51,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   47,
+   "Toffoli count >= multiplicative complexity; MC(f) = 4 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 3)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40501",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   4,
+   7,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   3,
+   "Toffoli count >= multiplicative complexity; MC(f) = 4 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 3)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40501",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   7,
+   7,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   0,
+   "verified circuit compiled from an XAG with 4 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40502",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   3,
+   5,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   2,
+   "Toffoli count >= multiplicative complexity; MC(f) = 3 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 3)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40502",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   3,
+   35,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   32,
+   "Toffoli count >= multiplicative complexity; MC(f) = 3 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 3)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40502",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   3,
+   5,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   2,
+   "Toffoli count >= multiplicative complexity; MC(f) = 3 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 3)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40502",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   5,
+   5,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "verified circuit compiled from an XAG with 3 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40503",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   4,
+   6,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   2,
+   "Toffoli count >= multiplicative complexity; MC(f) = 4 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 3)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40503",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   4,
+   44,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   40,
+   "Toffoli count >= multiplicative complexity; MC(f) = 4 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 3)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40503",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   4,
+   6,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   2,
+   "Toffoli count >= multiplicative complexity; MC(f) = 4 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 3)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40503",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   7,
+   6,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   -1,
+   "verified circuit compiled from an XAG with 4 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40504",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   4,
+   7,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   3,
+   "Toffoli count >= multiplicative complexity; MC(f) = 4 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 4)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40504",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   4,
+   46,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   42,
+   "Toffoli count >= multiplicative complexity; MC(f) = 4 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 4)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40504",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   4,
+   7,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   3,
+   "Toffoli count >= multiplicative complexity; MC(f) = 4 by SAT (every smaller AND count UNSAT or below deg(f) - 1 = 4)"
+  ],
+  [
+   "B.bitflip.probe.n5.s40504",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   7,
+   7,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   0,
+   "verified circuit compiled from an XAG with 4 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n6.s40600",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   5,
+   115,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   110,
+   "Toffoli count >= multiplicative complexity; MC(f) >= 5: every AND count below 5 is UNSAT or below deg(f) - 1 = 5"
+  ],
+  [
+   "B.bitflip.probe.n6.s40600",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   5,
+   115,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   110,
+   "Toffoli count >= multiplicative complexity; MC(f) >= 5: every AND count below 5 is UNSAT or below deg(f) - 1 = 5"
+  ],
+  [
+   "B.bitflip.probe.n6.s40600",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   5,
+   9,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   4,
+   "Toffoli count >= multiplicative complexity; MC(f) >= 5: every AND count below 5 is UNSAT or below deg(f) - 1 = 5"
+  ],
+  [
+   "B.bitflip.probe.n6.s40600",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   11,
+   9,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   -2,
+   "verified circuit compiled from an XAG with 6 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n6.s40601",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   4,
+   100,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   96,
+   "Toffoli count >= multiplicative complexity; MC(f) >= 4: every AND count below 4 is UNSAT or below deg(f) - 1 = 4"
+  ],
+  [
+   "B.bitflip.probe.n6.s40601",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   4,
+   100,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   96,
+   "Toffoli count >= multiplicative complexity; MC(f) >= 4: every AND count below 4 is UNSAT or below deg(f) - 1 = 4"
+  ],
+  [
+   "B.bitflip.probe.n6.s40601",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   4,
+   9,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   5,
+   "Toffoli count >= multiplicative complexity; MC(f) >= 4: every AND count below 4 is UNSAT or below deg(f) - 1 = 4"
+  ],
+  [
+   "B.bitflip.probe.n6.s40601",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   11,
+   9,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   -2,
+   "verified circuit compiled from an XAG with 6 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n6.s40602",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   4,
+   132,
+   "solution enumeration + prefix-trie MCX",
+   128,
+   "Toffoli count >= multiplicative complexity; MC(f) >= 4: every AND count below 4 is UNSAT or below deg(f) - 1 = 4"
+  ],
+  [
+   "B.bitflip.probe.n6.s40602",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   4,
+   153,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   149,
+   "Toffoli count >= multiplicative complexity; MC(f) >= 4: every AND count below 4 is UNSAT or below deg(f) - 1 = 4"
+  ],
+  [
+   "B.bitflip.probe.n6.s40602",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   4,
+   12,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   8,
+   "Toffoli count >= multiplicative complexity; MC(f) >= 4: every AND count below 4 is UNSAT or below deg(f) - 1 = 4"
+  ],
+  [
+   "B.bitflip.probe.n6.s40602",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   11,
+   12,
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   1,
+   "verified circuit compiled from an XAG with 6 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n6.s40603",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   5,
+   113,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   108,
+   "Toffoli count >= multiplicative complexity; MC(f) >= 5: every AND count below 5 is UNSAT or below deg(f) - 1 = 5"
+  ],
+  [
+   "B.bitflip.probe.n6.s40603",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   5,
+   113,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   108,
+   "Toffoli count >= multiplicative complexity; MC(f) >= 5: every AND count below 5 is UNSAT or below deg(f) - 1 = 5"
+  ],
+  [
+   "B.bitflip.probe.n6.s40603",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   5,
+   9,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   4,
+   "Toffoli count >= multiplicative complexity; MC(f) >= 5: every AND count below 5 is UNSAT or below deg(f) - 1 = 5"
+  ],
+  [
+   "B.bitflip.probe.n6.s40603",
+   "probe",
+   "tof@inf",
+   "upper_bound",
+   11,
+   9,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   -2,
+   "verified circuit compiled from an XAG with 6 ANDs (<= 2 x ANDs - 1 Toffoli)"
+  ],
+  [
+   "B.bitflip.probe.n6.s40604",
+   "probe",
+   "tof@1.5bmin",
+   "lower_bound",
+   4,
+   120,
+   "solution enumeration + prefix-trie MCX",
+   116,
+   "Toffoli count >= multiplicative complexity; MC(f) >= 4: every AND count below 4 is UNSAT or below deg(f) - 1 = 4"
+  ],
+  [
+   "B.bitflip.probe.n6.s40604",
+   "probe",
+   "tof@bmin",
+   "lower_bound",
+   4,
+   126,
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   122,
+   "Toffoli count >= multiplicative complexity; MC(f) >= 4: every AND count below 4 is UNSAT or below deg(f) - 1 = 4"
+  ],
+  [
+   "B.bitflip.probe.n6.s40604",
+   "probe",
+   "tof@inf",
+   "lower_bound",
+   4,
+   9,
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   5,
+   "Toffoli count >= multiplicative complexity; MC(f) >= 4: every AND count below 4 is UNSAT or below deg(f) - 1 = 4"
+  ]
+ ],
+ "baseline_at_optimum": 0,
+ "non_pass": [
+  [
+   "bennett(aig)",
+   "tof@bmin",
+   "unsupported",
+   488,
+   "B.bitflip.arith.carry.n10",
+   "does not fit the qubit budget: needs more than 12 qubits"
+  ],
+  [
+   "per-clause MCX (qiskit MCX)",
+   "tof@bmin",
+   "unsupported",
+   423,
+   "B.bitflip.arith.carry.n10",
+   "function is not given as a CNF (AND of ORs)"
+  ],
+  [
+   "per-clause MCX (qiskit MCX)",
+   "tof@1.5bmin",
+   "unsupported",
+   393,
+   "B.bitflip.arith.carry.n10",
+   "function is not given as a CNF (AND of ORs)"
+  ],
+  [
+   "bennett(aig)",
+   "tof@1.5bmin",
+   "unsupported",
+   356,
+   "B.bitflip.arith.carry.n10",
+   "does not fit the qubit budget: needs more than 18 qubits"
+  ],
+  [
+   "per-clause MCX (qiskit MCX)",
+   "cx@inf",
+   "unsupported",
+   350,
+   "B.bitflip.arith.carry.n10",
+   "function is not given as a CNF (AND of ORs)"
+  ],
+  [
+   "per-clause MCX (qiskit MCX)",
+   "tof@inf",
+   "unsupported",
+   350,
+   "B.bitflip.arith.carry.n10",
+   "function is not given as a CNF (AND of ORs)"
+  ],
+  [
+   "solution enumeration + prefix-trie MCX",
+   "tof@bmin",
+   "unsupported",
+   304,
+   "B.bitflip.arith.carry.n10",
+   "does not fit the qubit budget: needs more than 12 qubits"
+  ],
+  [
+   "bennett(abc resyn2)",
+   "tof@bmin",
+   "unsupported",
+   294,
+   "B.bitflip.arith.carry.n10",
+   "does not fit the qubit budget: needs more than 12 qubits"
+  ],
+  [
+   "pebbling SAT (Meuli et al. 2019, re-impl.)",
+   "tof@bmin",
+   "unsupported",
+   278,
+   "B.bitflip.arith.carry.n10",
+   "no pebbling schedule with 1 pebbles exists up to the step bound (UNSAT)"
+  ],
+  [
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   "cx@inf",
+   "unsupported",
+   275,
+   "B.bitflip.arith.carry.n20",
+   "ESOP from the full truth table only for <= 16 inputs (Qiskit warns above 16)"
+  ],
+  [
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   "tof@1.5bmin",
+   "unsupported",
+   275,
+   "B.bitflip.arith.carry.n20",
+   "ESOP from the full truth table only for <= 16 inputs (Qiskit warns above 16)"
+  ],
+  [
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   "tof@bmin",
+   "unsupported",
+   275,
+   "B.bitflip.arith.carry.n20",
+   "ESOP from the full truth table only for <= 16 inputs (Qiskit warns above 16)"
+  ],
+  [
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   "tof@inf",
+   "unsupported",
+   275,
+   "B.bitflip.arith.carry.n20",
+   "ESOP from the full truth table only for <= 16 inputs (Qiskit warns above 16)"
+  ],
+  [
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   "tof@bmin",
+   "unsupported",
+   271,
+   "B.bitflip.arith.carry.n10",
+   "does not fit the qubit budget: needs more than 12 qubits"
+  ],
+  [
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   "tof@bmin",
+   "unsupported",
+   264,
+   "B.bitflip.arith.carry.n10",
+   "does not fit the qubit budget: needs more than 12 qubits"
+  ],
+  [
+   "bennett(abc resyn2)",
+   "tof@1.5bmin",
+   "unsupported",
+   246,
+   "B.bitflip.arith.carry.n10",
+   "does not fit the qubit budget: needs more than 18 qubits"
+  ],
+  [
+   "cone_bennett(abc resyn2)",
+   "tof@bmin",
+   "unsupported",
+   220,
+   "B.bitflip.arith.carry.n10",
+   "does not fit the qubit budget: needs more than 12 qubits"
+  ],
+  [
+   "solution enumeration + prefix-trie MCX",
+   "tof@1.5bmin",
+   "unsupported",
+   220,
+   "B.bitflip.arith.carry.n10",
+   "does not fit the qubit budget: needs more than 18 qubits"
+  ],
+  [
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   "tof@1.5bmin",
+   "unsupported",
+   204,
+   "B.bitflip.arith.carry.n10",
+   "does not fit the qubit budget: needs more than 18 qubits"
+  ],
+  [
+   "cone_bennett(abc resyn2)",
+   "tof@1.5bmin",
+   "unsupported",
+   190,
+   "B.bitflip.arith.carry.n10",
+   "does not fit the qubit budget: needs more than 18 qubits"
+  ],
+  [
+   "solution enumeration + prefix-trie MCX",
+   "cx@inf",
+   "unsupported",
+   181,
+   "B.bitflip.arith.carry.n14",
+   "more than 4096 solutions (or enumeration out of time)"
+  ],
+  [
+   "solution enumeration + prefix-trie MCX",
+   "t_mbu@inf",
+   "unsupported",
+   181,
+   "B.bitflip.arith.carry.n14",
+   "more than 4096 solutions (or enumeration out of time)"
+  ],
+  [
+   "solution enumeration + prefix-trie MCX",
+   "tof@inf",
+   "unsupported",
+   181,
+   "B.bitflip.arith.carry.n14",
+   "more than 4096 solutions (or enumeration out of time)"
+  ],
+  [
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   "tof@1.5bmin",
+   "unsupported",
+   178,
+   "B.bitflip.arith.majority.n11",
+   "does not fit the qubit budget: needs more than 20 qubits"
+  ],
+  [
+   "pebbling SAT (Meuli et al. 2019, re-impl.)",
+   "tof@1.5bmin",
+   "timeout",
+   173,
+   "B.bitflip.arith.carry.n12",
+   "no pebbling schedule with 8 pebbles within the SAT conflict budget (1000000 conflicts per call)"
+  ],
+  [
+   "pebbling SAT (Meuli et al. 2019, re-impl.)",
+   "tof@1.5bmin",
+   "unsupported",
+   149,
+   "B.bitflip.arith.majority.n41",
+   "SAT pebbling limited to <= 400 AND nodes"
+  ],
+  [
+   "pebbling SAT (Meuli et al. 2019, re-impl.)",
+   "tof@bmin",
+   "timeout",
+   132,
+   "B.bitflip.arith.majority.n21",
+   "killed after 80.4 s (budget 60.0 s + grace 20.0 s)"
+  ],
+  [
+   "pebbling SAT (Meuli et al. 2019, re-impl.)",
+   "cx@inf",
+   "unsupported",
+   122,
+   "B.bitflip.arith.majority.n41",
+   "SAT pebbling limited to <= 400 AND nodes"
+  ],
+  [
+   "pebbling SAT (Meuli et al. 2019, re-impl.)",
+   "tof@inf",
+   "unsupported",
+   122,
+   "B.bitflip.arith.majority.n41",
+   "SAT pebbling limited to <= 400 AND nodes"
+  ],
+  [
+   "pebbling SAT (Meuli et al. 2019, re-impl.)",
+   "cx@inf",
+   "timeout",
+   112,
+   "B.bitflip.arith.majority.n21",
+   "killed after 80.5 s (budget 60.0 s + grace 20.0 s)"
+  ],
+  [
+   "pebbling SAT (Meuli et al. 2019, re-impl.)",
+   "tof@inf",
+   "timeout",
+   112,
+   "B.bitflip.arith.majority.n21",
+   "killed after 80.4 s (budget 60.0 s + grace 20.0 s)"
+  ],
+  [
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis) [circuit reused, re-verified on tof_clifford@inf]",
+   "tof_clifford@inf",
+   "fail",
+   63,
+   "B.bitflip.arith.mul_bit.n10.j4",
+   "gates outside the allowed set: ['mbu']"
+  ],
+  [
+   "per-clause MCX (qiskit MCX)",
+   "cx@inf",
+   "unverified",
+   59,
+   "B.bitflip.compare.eq.n22",
+   "unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check"
+  ],
+  [
+   "per-clause MCX (qiskit MCX)",
+   "tof@1.5bmin",
+   "unverified",
+   59,
+   "B.bitflip.compare.eq.n22",
+   "unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check"
+  ],
+  [
+   "per-clause MCX (qiskit MCX)",
+   "tof@inf",
+   "unverified",
+   59,
+   "B.bitflip.compare.eq.n22",
+   "unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check"
+  ],
+  [
+   "XAG + MC (Meuli et al. 2019, re-impl.) [circuit reused, re-verified on tof_clifford@inf]",
+   "tof_clifford@inf",
+   "fail",
+   47,
+   "B.bitflip.arith.threshold.n10.k5",
+   "gates outside the allowed set: ['mbu']"
+  ],
+  [
+   "per-clause MCX (qiskit MCX)",
+   "tof@bmin",
+   "unverified",
+   44,
+   "B.bitflip.compare.eq.n22",
+   "unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check"
+  ],
+  [
+   "bennett(abc resyn2) [circuit reused, re-verified on tof_clifford@inf]",
+   "tof_clifford@inf",
+   "fail",
+   33,
+   "B.bitflip.arith.threshold.n14.k4",
+   "gates outside the allowed set: ['mbu']"
+  ],
+  [
+   "cone_bennett(abc resyn2) [circuit reused, re-verified on tof_clifford@inf]",
+   "tof_clifford@inf",
+   "fail",
+   33,
+   "B.bitflip.arith.threshold.n14.k4",
+   "gates outside the allowed set: ['mbu']"
+  ],
+  [
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   "cx@inf",
+   "unverified",
+   18,
+   "B.bitflip.epfl.ctrl",
+   "unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check"
+  ],
+  [
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   "tof@1.5bmin",
+   "unverified",
+   18,
+   "B.bitflip.epfl.ctrl",
+   "unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check"
+  ],
+  [
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   "tof@bmin",
+   "unverified",
+   18,
+   "B.bitflip.epfl.ctrl",
+   "unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check"
+  ],
+  [
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   "tof@inf",
+   "unverified",
+   18,
+   "B.bitflip.epfl.ctrl",
+   "unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check"
+  ],
+  [
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   "tof@inf",
+   "unverified",
+   16,
+   "B.bitflip.arith.majority.n41",
+   "unverified: SAT miter exceeded 600 s"
+  ],
+  [
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   "cx@inf",
+   "unverified",
+   15,
+   "B.bitflip.arith.majority.n41",
+   "unverified: SAT miter exceeded 600 s"
+  ],
+  [
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   "t_mbu@inf",
+   "unverified",
+   15,
+   "B.bitflip.arith.majority.n41",
+   "unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check"
+  ],
+  [
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   "cx@inf",
+   "timeout",
+   15,
+   "B.bitflip.arith.mul_bit.n14.j8",
+   "killed after 80.1 s (budget 60.0 s + grace 20.0 s)"
+  ],
+  [
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   "tof@1.5bmin",
+   "timeout",
+   15,
+   "B.bitflip.arith.mul_bit.n14.j8",
+   "killed after 80.3 s (budget 60.0 s + grace 20.0 s)"
+  ],
+  [
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   "tof@bmin",
+   "timeout",
+   15,
+   "B.bitflip.arith.mul_bit.n14.j8",
+   "killed after 80.1 s (budget 60.0 s + grace 20.0 s)"
+  ],
+  [
+   "esop(qiskit EsopGenerator)+qiskit MCX",
+   "tof@inf",
+   "timeout",
+   15,
+   "B.bitflip.arith.mul_bit.n14.j8",
+   "killed after 80.1 s (budget 60.0 s + grace 20.0 s)"
+  ],
+  [
+   "bennett(aig) [circuit reused, re-verified on tof_clifford@inf]",
+   "tof_clifford@inf",
+   "fail",
+   9,
+   "B.bitflip.compare.interval.n12.s5106",
+   "gates outside the allowed set: ['mbu']"
+  ],
+  [
+   "solution enumeration + prefix-trie MCX",
+   "cx@inf",
+   "unverified",
+   7,
+   "B.bitflip.compare.eq.n24",
+   "verification exceeded 600 s"
+  ],
+  [
+   "solution enumeration + prefix-trie MCX",
+   "t_mbu@inf",
+   "unverified",
+   7,
+   "B.bitflip.compare.eq.n24",
+   "verification exceeded 600 s"
+  ],
+  [
+   "solution enumeration + prefix-trie MCX",
+   "tof@1.5bmin",
+   "unverified",
+   7,
+   "B.bitflip.compare.eq.n24",
+   "unverified: SAT miter exceeded 600 s"
+  ],
+  [
+   "solution enumeration + prefix-trie MCX",
+   "tof@bmin",
+   "unverified",
+   7,
+   "B.bitflip.compare.eq.n24",
+   "unverified: SAT miter exceeded 600 s"
+  ],
+  [
+   "solution enumeration + prefix-trie MCX",
+   "tof@inf",
+   "unverified",
+   7,
+   "B.bitflip.compare.eq.n24",
+   "unverified: SAT miter exceeded 600 s"
+  ],
+  [
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   "tof@1.5bmin",
+   "unverified",
+   6,
+   "B.bitflip.arith.majority.n41",
+   "unverified: SAT miter exceeded 600 s"
+  ],
+  [
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   "tof@bmin",
+   "unverified",
+   6,
+   "B.bitflip.arith.majority.n41",
+   "verification exceeded 600 s"
+  ],
+  [
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   "cx@inf",
+   "unverified",
+   3,
+   "B.bitflip.arith.majority.n63",
+   "verification exceeded 600 s"
+  ],
+  [
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   "t_mbu@inf",
+   "unverified",
+   3,
+   "B.bitflip.arith.majority.n63",
+   "unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check"
+  ],
+  [
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   "tof@1.5bmin",
+   "unverified",
+   3,
+   "B.bitflip.arith.majority.n63",
+   "unverified: SAT miter exceeded 600 s"
+  ],
+  [
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   "tof@bmin",
+   "unverified",
+   3,
+   "B.bitflip.arith.majority.n63",
+   "unverified: SAT miter exceeded 600 s"
+  ],
+  [
+   "XAG + MC (Meuli et al. 2019, re-impl.)",
+   "tof@inf",
+   "unverified",
+   3,
+   "B.bitflip.arith.majority.n63",
+   "unverified: SAT miter exceeded 600 s"
+  ],
+  [
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   "cx@inf",
+   "timeout",
+   2,
+   "B.bitflip.arith.majority.n51",
+   "minmc: out of time"
+  ],
+  [
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   "t_mbu@inf",
+   "timeout",
+   2,
+   "B.bitflip.arith.majority.n51",
+   "minmc: out of time"
+  ],
+  [
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   "tof@1.5bmin",
+   "timeout",
+   1,
+   "B.bitflip.arith.majority.n63",
+   "minmc: out of time"
+  ],
+  [
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   "tof@bmin",
+   "timeout",
+   1,
+   "B.bitflip.arith.majority.n63",
+   "minmc: out of time"
+  ],
+  [
+   "XAG MC cut rewriting (mockturtle xag_minmc_resynthesis)",
+   "tof@inf",
+   "timeout",
+   1,
+   "B.bitflip.arith.majority.n63",
+   "minmc: out of time"
+  ],
+  [
+   "bennett(aig)",
+   "cx@inf",
+   "unverified",
+   1,
+   "B.bitflip.iscas85.c6288",
+   "unverified: SAT miter exceeded 600 s"
+  ],
+  [
+   "bennett(aig)",
+   "t_mbu@inf",
+   "unverified",
+   1,
+   "B.bitflip.iscas85.c6288",
+   "unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check"
+  ],
+  [
+   "bennett(aig)",
+   "tof@1.5bmin",
+   "unverified",
+   1,
+   "B.bitflip.iscas85.c6288",
+   "unverified: SAT miter exceeded 600 s"
+  ],
+  [
+   "bennett(aig)",
+   "tof@inf",
+   "unverified",
+   1,
+   "B.bitflip.iscas85.c6288",
+   "unverified: SAT miter exceeded 600 s"
+  ],
+  [
+   "cone_bennett(abc resyn2)",
+   "cx@inf",
+   "unverified",
+   1,
+   "B.bitflip.iscas85.c6288",
+   "unverified: SAT miter exceeded 600 s"
+  ],
+  [
+   "cone_bennett(abc resyn2)",
+   "t_mbu@inf",
+   "unverified",
+   1,
+   "B.bitflip.iscas85.c6288",
+   "unverified: non-+-1 phases (S/T/RCCX/RC3X) above the exhaustive limit: no symbolic phase check"
+  ],
+  [
+   "cone_bennett(abc resyn2)",
+   "tof@1.5bmin",
+   "unverified",
+   1,
+   "B.bitflip.iscas85.c6288",
+   "unverified: SAT miter exceeded 600 s"
+  ],
+  [
+   "cone_bennett(abc resyn2)",
+   "tof@bmin",
+   "unverified",
+   1,
+   "B.bitflip.iscas85.c6288",
+   "unverified: SAT miter exceeded 600 s"
+  ],
+  [
+   "cone_bennett(abc resyn2)",
+   "tof@inf",
+   "unverified",
+   1,
+   "B.bitflip.iscas85.c6288",
+   "unverified: SAT miter exceeded 600 s"
+  ]
+ ]
+}

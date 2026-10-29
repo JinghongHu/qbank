@@ -1,0 +1,16 @@
+tool,track,status,count,example_instance,reason
+"OLSQ2 (TB, swap objective)",depth2q,unsupported,1356,C.hamlib.heis.graph-2D-grid-nonpbc-qubitnodes_Lx-2_Ly-53_h-1,OLSQ2 limited to <= 16 qubits and <= 80 gates here
+"OLSQ2 (TB, swap objective)",swaps,unsupported,1356,C.hamlib.heis.graph-2D-grid-nonpbc-qubitnodes_Lx-2_Ly-53_h-1,OLSQ2 limited to <= 16 qubits and <= 80 gates here
+"OLSQ2 (TB, swap objective)",swaps_commuting,unsupported,567,C.hamlib.heis.graph-2D-grid-nonpbc-qubitnodes_Lx-2_Ly-53_h-1,OLSQ2 limited to <= 16 qubits and <= 80 gates here
+qiskit Commuting2qGateRouter,swaps_commuting,unsupported,231,C.hamlib.heis.graph-2D-grid-nonpbc-qubitnodes_Lx-2_Ly-53_h-1,no simple device path covering the logical qubits was found
+mqt.qmap heuristic,depth2q,timeout,110,C.mqtbench.graphstate.n24,killed after 80.2 s (budget 60.0 s + grace 20.0 s)
+mqt.qmap heuristic,swaps,timeout,109,C.mqtbench.graphstate.n24,killed after 80.2 s (budget 60.0 s + grace 20.0 s)
+"OLSQ2 (TB, swap objective)",depth2q,timeout,106,C.hamlib.heis.graph-2D-grid-pbc-qubitnodes_Lx-3_Ly-3_h-1,OLSQ2 did not finish within the budget
+"OLSQ2 (TB, swap objective)",swaps,timeout,106,C.hamlib.heis.graph-2D-grid-pbc-qubitnodes_Lx-3_Ly-3_h-1,OLSQ2 did not finish within the budget
+"OLSQ2 (TB, swap objective)",swaps_commuting,timeout,74,C.hamlib.heis.graph-2D-grid-pbc-qubitnodes_Lx-3_Ly-3_h-1,OLSQ2 did not finish within the budget
+mqt.qmap heuristic,swaps_commuting,timeout,61,C.qaoa.heavy_hex.n147.s23306,result delivered after the budget (72.1 s)
+pytket LexiRoute,depth2q,timeout,3,C.hamlib.heis.graph-2D-triag-nonpbc-qubitnodes_Lx-13_Ly-13_h-1,killed after 80.0 s (budget 60.0 s + grace 20.0 s)
+pytket LexiRoute,swaps,timeout,3,C.hamlib.heis.graph-2D-triag-nonpbc-qubitnodes_Lx-13_Ly-13_h-1,killed after 80.0 s (budget 60.0 s + grace 20.0 s)
+pytket LexiRoute,swaps_commuting,timeout,3,C.hamlib.heis.graph-2D-triag-nonpbc-qubitnodes_Lx-13_Ly-13_h-1,killed after 80.2 s (budget 60.0 s + grace 20.0 s)
+qiskit LightSABRE (anytime),swaps,timeout,1,C.queko.20QBT_700CYC_QSE_3,result delivered after the budget (60.1 s)
+qiskit LightSABRE + block reordering (anytime),swaps_commuting,timeout,1,C.trotter.random_sparse.n46.s12400,result delivered after the budget (60.0 s)

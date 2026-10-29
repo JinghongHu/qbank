@@ -1,0 +1,120 @@
+{
+ "date": "2026-10-29",
+ "categories": {
+  "A": {
+   "version": "1.2.0",
+   "frozen": true,
+   "totals": {
+    "probe": 34,
+    "test_in": 105,
+    "test_ood": 90,
+    "train": 206,
+    "val": 69
+   },
+   "baseline_records": 23175,
+   "status_counts": {
+    "pass": 20857,
+    "unavailable": 493,
+    "crash": 11,
+    "timeout": 1197,
+    "unsupported": 617
+   },
+   "best_known_pairs": 1834,
+   "best_known_missing": 0,
+   "repro": {
+    "category": "A",
+    "excluded_tools": [
+     "mqt.qmap.synthesize_clifford(SAT, two_qubit_gates)"
+    ],
+    "n": 20,
+    "reproduced": 20
+   }
+  },
+  "B": {
+   "version": "1.3.0",
+   "frozen": true,
+   "totals": {
+    "probe": 20,
+    "test_in": 88,
+    "test_ood": 92,
+    "train": 254,
+    "val": 75
+   },
+   "baseline_records": 22466,
+   "status_counts": {
+    "pass": 14210,
+    "unsupported": 7065,
+    "timeout": 596,
+    "unverified": 410,
+    "fail": 185
+   },
+   "best_known_pairs": 2708,
+   "best_known_missing": 0,
+   "repro": {
+    "category": "B",
+    "excluded_tools": [],
+    "n": 20,
+    "reproduced": 20
+   }
+  },
+  "C": {
+   "version": "1.1.0",
+   "frozen": true,
+   "totals": {
+    "probe": 60,
+    "test_in": 270,
+    "test_ood": 555,
+    "train": 540,
+    "val": 180
+   },
+   "baseline_records": 17130,
+   "status_counts": {
+    "unsupported": 3510,
+    "pass": 13043,
+    "timeout": 577
+   },
+   "best_known_pairs": 3925,
+   "best_known_missing": 0,
+   "repro": {
+    "category": "C",
+    "excluded_tools": [
+     "OLSQ2 (TB, swap objective)"
+    ],
+    "n": 20,
+    "reproduced": 20
+   }
+  },
+  "D": {
+   "version": "1.0.0",
+   "frozen": true,
+   "totals": {
+    "probe": 30,
+    "test_in": 92,
+    "test_ood": 88,
+    "train": 245,
+    "val": 75
+   },
+   "baseline_records": 8283,
+   "status_counts": {
+    "unsupported": 2638,
+    "pass": 5587,
+    "fail": 30,
+    "timeout": 12,
+    "tool_error": 6,
+    "unverified": 10
+   },
+   "best_known_pairs": 1474,
+   "best_known_missing": 0,
+   "repro": {
+    "category": "D",
+    "checker_sha256": "aa7ccbe157f7bd4ddc52e8b5b5a3af1dac01f476268442b1ec089ea184018088",
+    "excluded_tools": [],
+    "gate_identical": 5,
+    "n": 20,
+    "reproduced": 20,
+    "reverified": 15,
+    "run_date": "2026-10-29"
+   }
+  }
+ }
+}

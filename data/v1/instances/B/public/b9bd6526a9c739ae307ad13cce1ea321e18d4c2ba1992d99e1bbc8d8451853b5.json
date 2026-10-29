@@ -1,0 +1,116 @@
+{
+ "aiger_b64": "YWlnIDY5IDI0IDAgMSA0NQoxMzkKGBgYGBkYAQUBBB4YHxgBBAEEJBglGAEEAQQqGCsYAQQBBDAYMRgBBAEENhg3GAEEAQQ8GD0YAQQBBEIYQxgBBAEESBhJGAEEAQROGE8YAQQBBFQYVRgBBAEEaTAgYTAKaTEgYTEKaTIgYTIKaTMgYTMKaTQgYTQKaTUgYTUKaTYgYTYKaTcgYTcKaTggYTgKaTkgYTkKaTEwIGExMAppMTEgYTExCmkxMiBiMAppMTMgYjEKaTE0IGIyCmkxNSBiMwppMTYgYjQKaTE3IGI1CmkxOCBiNgppMTkgYjcKaTIwIGI4CmkyMSBiOQppMjIgYjEwCmkyMyBiMTEKbzAgY2FycnkK",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:b9bd6526a9c739ae307ad13cce1ea321e18d4c2ba1992d99e1bbc8d8451853b5",
+ "input_names": [
+  "a0",
+  "a1",
+  "a2",
+  "a3",
+  "a4",
+  "a5",
+  "a6",
+  "a7",
+  "a8",
+  "a9",
+  "a10",
+  "a11",
+  "b0",
+  "b1",
+  "b2",
+  "b3",
+  "b4",
+  "b5",
+  "b6",
+  "b7",
+  "b8",
+  "b9",
+  "b10",
+  "b11"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 24,
+ "n_outputs": 1,
+ "output_names": [
+  "carry"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23
+  ],
+  "outputs": [
+   24
+  ]
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 105
+  },
+  "tof@bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 70
+  },
+  "tof@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

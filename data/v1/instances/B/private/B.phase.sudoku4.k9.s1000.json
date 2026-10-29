@@ -1,0 +1,135 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_phase_clean"
+ ],
+ "family": "sudoku",
+ "hash": "sha256:6399a61ab4f82b5f970d2321e8dd79847f1ab80b1809229ceace419886220b41",
+ "id": "B.phase.sudoku4.k9.s1000",
+ "params": {
+  "k": 9,
+  "seed": 1000,
+  "size": 4
+ },
+ "private": {
+  "aig_ands": 190,
+  "b_min": 105,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 105,
+   "cone_bennett(abc resyn2)": 105
+  },
+  "blanks": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    2
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    0
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    3,
+    2
+   ]
+  ],
+  "m": 1,
+  "n": 18,
+  "n_solutions": 1,
+  "n_solutions_method": "exhaustive",
+  "size_bin": "M",
+  "solution": [
+   [
+    2,
+    0,
+    3,
+    1
+   ],
+   [
+    1,
+    3,
+    0,
+    2
+   ],
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   [
+    3,
+    2,
+    1,
+    0
+   ]
+  ],
+  "solution_fraction_log2": -18.0,
+  "solution_sparse": true
+ },
+ "public_hash": "sha256:6399a61ab4f82b5f970d2321e8dd79847f1ab80b1809229ceace419886220b41",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "sudoku",
+  "ref": "parametrised QCircuitBench grover_sudoku (4x4 and 6x6)",
+  "version": "1"
+ },
+ "task": "oracle_phase_clean",
+ "tracks": [
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 105
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 158
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

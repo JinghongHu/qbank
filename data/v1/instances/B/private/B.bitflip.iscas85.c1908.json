@@ -1,0 +1,72 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_bitflip_clean"
+ ],
+ "family": "iscas85",
+ "hash": "sha256:890db861c74aab64f637a96a46e5eb40e94d9679c9a816abe0702f2edbea69e1",
+ "id": "B.bitflip.iscas85.c1908",
+ "params": {
+  "file": "c1908.bench"
+ },
+ "private": {
+  "aig_ands": 414,
+  "b_min": 312,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 418,
+   "cone_bennett(abc resyn2)": 312
+  },
+  "m": 25,
+  "n": 33,
+  "n_solutions": null,
+  "n_solutions_method": "multi-output",
+  "redistributable": false,
+  "size_bin": "between",
+  "solution_fraction_log2": null,
+  "solution_sparse": false
+ },
+ "public_hash": "sha256:890db861c74aab64f637a96a46e5eb40e94d9679c9a816abe0702f2edbea69e1",
+ "qbank_version": "1.2.0",
+ "source": {
+  "archive_sha256": "398f9c8c59e14f342f2257284a96273a6cde0b0a7b064d22966b4e6aed4a3b47",
+  "file": "c1908.bench",
+  "kind": "external",
+  "license": "none stated",
+  "name": "ISCAS-85",
+  "ref": "https://ddd.fit.cvut.cz/www/prj/Benchmarks/",
+  "version": "CTU benchmark collection ISCAS.7z"
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": [
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 312
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 468
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

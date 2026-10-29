@@ -1,0 +1,73 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_phase_clean"
+ ],
+ "family": "satlib",
+ "hash": "sha256:49e10d71baf15a4fb8b7802e0c7fe10d55f5b85e3a6eebbcca66ab189183e7d4",
+ "id": "B.phase.satlib.uf50-0115",
+ "params": {
+  "file": "uf50-0115.cnf"
+ },
+ "private": {
+  "aig_ands": 651,
+  "b_min": 627,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 627,
+   "cone_bennett(abc resyn2)": 627
+  },
+  "m": 1,
+  "n": 50,
+  "n_solutions": 235,
+  "n_solutions_method": "SAT enumeration",
+  "redistributable": false,
+  "satisfiable": true,
+  "size_bin": "XL",
+  "solution_fraction_log2": -42.1235,
+  "solution_sparse": true
+ },
+ "public_hash": "sha256:49e10d71baf15a4fb8b7802e0c7fe10d55f5b85e3a6eebbcca66ab189183e7d4",
+ "qbank_version": "1.2.0",
+ "source": {
+  "archive_sha256": "a40862e52dfdce78620b037254579a02dbda8182d2879433658a4c15cb00327c",
+  "file": "uf50-0115.cnf",
+  "kind": "external",
+  "license": "none stated",
+  "name": "SATLIB uf50-218.tar.gz",
+  "ref": "https://www.cs.ubc.ca/~hoos/SATLIB/benchm.html",
+  "version": "SATLIB 1.4.4"
+ },
+ "task": "oracle_phase_clean",
+ "tracks": [
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 627
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 941
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

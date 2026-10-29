@@ -1,0 +1,81 @@
+{
+ "category": "D",
+ "contracts": [
+  "state_approx",
+  "state_exact"
+ ],
+ "family": "sparse_struct",
+ "hash": "sha256:56349df036fb3c93d87ffabf3c0c264c1f0ac072e6794df2c26b8c77b53a1ea2",
+ "id": "D.sparse_struct.rm1_m3.ph.s30201",
+ "params": {
+  "amplitudes": "random phases",
+  "n": 8,
+  "nonzeros": 16,
+  "seed": 30201,
+  "support": "rm1_m3"
+ },
+ "private": {
+  "size_bin": "S"
+ },
+ "public_hash": "sha256:56349df036fb3c93d87ffabf3c0c264c1f0ac072e6794df2c26b8c77b53a1ea2",
+ "qbank_version": "1.0.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "structured support (rm1_m3), random phases",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "state_prep",
+ "tracks": [
+  {
+   "contract": "state_exact",
+   "metric": "cx_count",
+   "name": "cx",
+   "tolerance": 1e-09
+  },
+  {
+   "contract": "state_exact",
+   "coupling_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "metric": "two_qubit_depth",
+   "name": "depth2q@line",
+   "output_map_allowed": true,
+   "tolerance": 1e-09
+  },
+  {
+   "contract": "state_approx",
+   "metric": "cx_count",
+   "min_fidelity": 0.99,
+   "name": "cx@F0.99"
+  }
+ ]
+}

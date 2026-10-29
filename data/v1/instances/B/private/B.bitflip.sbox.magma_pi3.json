@@ -1,0 +1,72 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_bitflip_clean"
+ ],
+ "family": "sbox",
+ "hash": "sha256:785e7002959643e254c291859ed53ad234f36c2caeba822d04b7a704ea71e0ed",
+ "id": "B.bitflip.sbox.magma_pi3",
+ "params": {
+  "sbox": "GOST R 34.12-2015 (Magma) Pi'_3"
+ },
+ "private": {
+  "aig_ands": 26,
+  "b_min": 9,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 33,
+   "cone_bennett(abc resyn2)": 17,
+   "esop+mcx": 9
+  },
+  "m": 4,
+  "n": 4,
+  "n_solutions": null,
+  "n_solutions_method": "multi-output",
+  "redistributable": true,
+  "size_bin": "XS",
+  "solution_fraction_log2": null,
+  "solution_sparse": false
+ },
+ "public_hash": "sha256:785e7002959643e254c291859ed53ad234f36c2caeba822d04b7a704ea71e0ed",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "external",
+  "license": "IETF RFC (table values of a published standard)",
+  "name": "GOST R 34.12-2015 (Magma) Pi'_3",
+  "ref": "https://www.rfc-editor.org/rfc/rfc8891.txt",
+  "sha256": "338f68b510190c36e0cdfd0077e2d93ef9e29a5e5665ef1c8b82e5564c6c0775",
+  "version": "RFC 8891"
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": [
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 9
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 14
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

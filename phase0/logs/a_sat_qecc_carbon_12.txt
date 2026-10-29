@@ -1,0 +1,4 @@
+
+== carbon_12: n=12 k=2  negative controls: {'wrong_sign_detected_gf2': True, 'wrong_sign_detected_stim': True, 'logical_flip_rejected_gf2': True, 'logical_flip_rejected_stim': True}
+  mqt.qecc.gate_optimal_prep_circuit(SAT)      900.02s {'status': 'timeout', 'two_qubit_gates': None, 'two_qubit_depth': None, 'verified_gf2': None, 'verified_stim': None, 'pauli_correction': None} 
+written /Users/hjh/PycharmProjects/Qevovle/qbank/phase0/logs/a_smoke_t900_carbon_12.json

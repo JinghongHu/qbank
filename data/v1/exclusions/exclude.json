@@ -1,0 +1,4 @@
+{
+ "_doc": "User-provided exclusion list (task spec §6). Entries (and their equivalent forms) must not enter test splits. Formats: {\"category\": \"A\", \"type\": \"css_code\", \"n\": N, \"hx\": [[cols...], ...], \"hz\": [[...]]} | {\"category\": \"A\", \"type\": \"stabilizer_state\", \"n\": N, \"stabilizers\": [\"+XZ...\", ...]} | {\"category\": \"A\", \"type\": \"hash\", \"hash\": \"sha256:...\"}. Empty by default.",
+ "entries": []
+}

@@ -1,0 +1,173 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "trotter",
+ "hash": "sha256:9eaf8ca48331e4a50d4f9cc61f53ca8a24a1222b905ee3e7122d668031f28123",
+ "id": "C.trotter.grid.n26.s21201",
+ "params": {
+  "device_kind": "grid",
+  "model": "heisenberg",
+  "n": 26,
+  "seed": 21201
+ },
+ "private": {
+  "device": "grid_6x5",
+  "interaction_edges": [
+   [
+    0,
+    3
+   ],
+   [
+    0,
+    16
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    3,
+    16
+   ],
+   [
+    3,
+    21
+   ],
+   [
+    3,
+    24
+   ],
+   [
+    4,
+    9
+   ],
+   [
+    4,
+    17
+   ],
+   [
+    4,
+    21
+   ],
+   [
+    5,
+    16
+   ],
+   [
+    5,
+    19
+   ],
+   [
+    5,
+    23
+   ],
+   [
+    6,
+    17
+   ],
+   [
+    7,
+    20
+   ],
+   [
+    8,
+    20
+   ],
+   [
+    9,
+    18
+   ],
+   [
+    10,
+    16
+   ],
+   [
+    10,
+    21
+   ],
+   [
+    12,
+    13
+   ],
+   [
+    13,
+    25
+   ],
+   [
+    14,
+    17
+   ],
+   [
+    14,
+    25
+   ],
+   [
+    15,
+    16
+   ],
+   [
+    15,
+    17
+   ],
+   [
+    15,
+    23
+   ],
+   [
+    15,
+    24
+   ],
+   [
+    18,
+    21
+   ],
+   [
+    19,
+    21
+   ],
+   [
+    20,
+    22
+   ],
+   [
+    22,
+    24
+   ],
+   [
+    23,
+    25
+   ]
+  ],
+  "size_bin": "M"
+ },
+ "public_hash": "sha256:9eaf8ca48331e4a50d4f9cc61f53ca8a24a1222b905ee3e7122d668031f28123",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "trotter_on_grid",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_phase_clean"
+ ],
+ "family": "triangle",
+ "hash": "sha256:489f0a5fbde07084d4f5c457398b7cb6872737bdf16be187a959712fa5682de9",
+ "id": "B.phase.triangle.v7.s2",
+ "params": {
+  "p": 0.5,
+  "seed": 2,
+  "v": 7
+ },
+ "private": {
+  "aig_ands": 23,
+  "b_min": 9,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 20,
+   "cone_bennett(abc resyn2)": 20,
+   "esop+mcx": 9
+  },
+  "edges": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    2
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    6
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    4,
+    5
+   ]
+  ],
+  "m": 1,
+  "n": 7,
+  "n_solutions": 4,
+  "n_solutions_method": "exhaustive",
+  "n_triangles": 4,
+  "size_bin": "S",
+  "solution_fraction_log2": -5.0,
+  "solution_sparse": true
+ },
+ "public_hash": "sha256:489f0a5fbde07084d4f5c457398b7cb6872737bdf16be187a959712fa5682de9",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "triangle",
+  "ref": "parametrised QCircuitBench grover_triangle",
+  "version": "1"
+ },
+ "task": "oracle_phase_clean",
+ "tracks": [
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 9
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 14
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_phase_clean"
+ ],
+ "family": "sudoku",
+ "hash": "sha256:213a5dc254e140659f97c56fdce6ec530d2920281b485c96ec2887d45a53c1b3",
+ "id": "B.phase.sudoku6.k15.s23003",
+ "params": {
+  "k": 15,
+  "seed": 23003,
+  "size": 6
+ },
+ "private": {
+  "aig_ands": 685,
+  "b_min": 576,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 576,
+   "cone_bennett(abc resyn2)": 576
+  },
+  "blanks": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    5
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    4,
+    0
+   ],
+   [
+    4,
+    3
+   ],
+   [
+    4,
+    4
+   ],
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    1
+   ],
+   [
+    5,
+    2
+   ],
+   [
+    5,
+    4
+   ]
+  ],
+  "m": 1,
+  "n": 45,
+  "n_solutions": 2,
+  "n_solutions_method": "BDD model count",
+  "size_bin": "XL",
+  "solution": [
+   [
+    4,
+    1,
+    3,
+    2,
+    5,
+    0
+   ],
+   [
+    5,
+    0,
+    2,
+    3,
+    4,
+    1
+   ],
+   [
+    1,
+    2,
+    4,
+    5,
+    0,
+    3
+   ],
+   [
+    0,
+    3,
+    5,
+    4,
+    1,
+    2
+   ],
+   [
+    2,
+    5,
+    1,
+    0,
+    3,
+    4
+   ],
+   [
+    3,
+    4,
+    0,
+    1,
+    2,
+    5
+   ]
+  ],
+  "solution_fraction_log2": -44.0,
+  "solution_sparse": true
+ },
+ "public_hash": "sha256:213a5dc254e140659f97c56fdce6ec530d2920281b485c96ec2887d45a53c1b3",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "sudoku",
+  "ref": "parametrised QCircuitBench grover_sudoku (4x4 and 6x6)",
+  "version": "1"
+ },
+ "task": "oracle_phase_clean",
+ "tracks": [
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 576
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 864
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_phase_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

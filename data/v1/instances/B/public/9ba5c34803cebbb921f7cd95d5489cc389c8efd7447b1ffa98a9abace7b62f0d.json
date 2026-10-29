@@ -1,0 +1,132 @@
+{
+ "aiger_b64": "YWlnIDE4MSA3IDAgMjYgMTc0CjQ1CjcwCjg2CjEwNAoxNDIKMTU2CjE3OQoxOTEKMjA3CjIxMgoyMjIKMjM0CjI1MQoyNTYKMjYwCjI3MgoyODIKMjkwCjI5OAozMDIKMzIwCjMzOAozNDQKMQozNTQKMzYyCgsDCAICAg4EAgwBBAEUFgMCFBcCARABIQEGASMBDhsQASwBLBEaATEBBAEyMgEBNAE7AT0BPQEKIyI3CwFJAQQBSwEeAUwBTk8GAhs3IwECAVoBKgFcMS8BAmIFYAICAmEHAl1nBQJhbAQBAgFtAQoBfQESAX8BflMzAYcBAYUBAQaCAQYBHgGPAQGOAWEzAZMBAQSLAQ4Ce3QLZT0BAgGjAQEIAaQBpgECAqQBAQStAQICgQFZWwGkAQG1AQEGiwEyAb4BAb8BvwEDAgHEAQICpQEBBAsmAcoBAY4BMToB0wE5mgECAQF2oQE8Ad4BAd4BAeABAeABAeIBFdIBAawBAegB6AEFqQFHAQIB8QEBCFejAQH3AQH5AR/dAQH9AbsBSAGEAgGEAgGGAgGHAgGJAsUBSwGOAgGQAgGRAgGTAgmPAgGZAgGZAgGbAhuFAgGhAgGhAgGjAu0BOQGnAqwCAgK1AecBPQGuAgIDiQItAZwBAbcCAQawAgYBtAIBtgIBxQIBxwIBxwIBOAHIAgHKAiSxAQHOAgEYlwG+AdEBhwEBAgHYAgHaAtkBhgEB4AIB4AIB4gJpMCBvcGNvZGVbMF0KaTEgb3Bjb2RlWzFdCmkyIG9wY29kZVsyXQppMyBvcGNvZGVbM10KaTQgb3Bjb2RlWzRdCmk1IG9wX2V4dFswXQppNiBvcF9leHRbMV0KbzAgc2VsX3JlZ19kc3RbMF0KbzEgc2VsX3JlZ19kc3RbMV0KbzIgc2VsX2FsdV9vcEJbMF0KbzMgc2VsX2FsdV9vcEJbMV0KbzQgYWx1X29wWzBdCm81IGFsdV9vcFsxXQpvNiBhbHVfb3BbMl0KbzcgYWx1X29wX2V4dFswXQpvOCBhbHVfb3BfZXh0WzFdCm85IGFsdV9vcF9leHRbMl0KbzEwIGFsdV9vcF9leHRbM10KbzExIGhhbHQKbzEyIHJlZ193cml0ZQpvMTMgc2VsX3BjX29wQQpvMTQgc2VsX3BjX29wQgpvMTUgYmVxegpvMTYgYm5legpvMTcgYmdlegpvMTggYmx0egpvMTkganVtcApvMjAgQ2luCm8yMSBpbnZBCm8yMiBpbnZCCm8yMyBzaWduCm8yNCBtZW1fd3JpdGUKbzI1IHNlbF93Ygo=",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:9ba5c34803cebbb921f7cd95d5489cc389c8efd7447b1ffa98a9abace7b62f0d",
+ "input_names": [
+  "opcode[0]",
+  "opcode[1]",
+  "opcode[2]",
+  "opcode[3]",
+  "opcode[4]",
+  "op_ext[0]",
+  "op_ext[1]"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 7,
+ "n_outputs": 26,
+ "output_names": [
+  "sel_reg_dst[0]",
+  "sel_reg_dst[1]",
+  "sel_alu_opB[0]",
+  "sel_alu_opB[1]",
+  "alu_op[0]",
+  "alu_op[1]",
+  "alu_op[2]",
+  "alu_op_ext[0]",
+  "alu_op_ext[1]",
+  "alu_op_ext[2]",
+  "alu_op_ext[3]",
+  "halt",
+  "reg_write",
+  "sel_pc_opA",
+  "sel_pc_opB",
+  "beqz",
+  "bnez",
+  "bgez",
+  "bltz",
+  "jump",
+  "Cin",
+  "invA",
+  "invB",
+  "sign",
+  "mem_write",
+  "sel_wb"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "outputs": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32
+  ]
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 75
+  },
+  "tof@bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 50
+  },
+  "tof@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

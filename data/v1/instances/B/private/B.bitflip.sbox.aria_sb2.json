@@ -1,0 +1,72 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_bitflip_clean"
+ ],
+ "family": "sbox",
+ "hash": "sha256:7a1c5771715752f1a0fdc3f46449e1ca728b23df163a31659ebb6c8640c0c491",
+ "id": "B.bitflip.sbox.aria_sb2",
+ "params": {
+  "sbox": "ARIA SB2"
+ },
+ "private": {
+  "aig_ands": 706,
+  "b_min": 17,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 709,
+   "cone_bennett(abc resyn2)": 162,
+   "esop+mcx": 17
+  },
+  "m": 8,
+  "n": 8,
+  "n_solutions": null,
+  "n_solutions_method": "multi-output",
+  "redistributable": true,
+  "size_bin": "S",
+  "solution_fraction_log2": null,
+  "solution_sparse": false
+ },
+ "public_hash": "sha256:7a1c5771715752f1a0fdc3f46449e1ca728b23df163a31659ebb6c8640c0c491",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "external",
+  "license": "IETF RFC (table values of a published standard)",
+  "name": "ARIA SB2",
+  "ref": "https://www.rfc-editor.org/rfc/rfc5794.txt",
+  "sha256": "e83bdeb56937cb26fc4e3cd6c230ddfa971bc27056c5f202d55820af350cd89d",
+  "version": "RFC 5794"
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": [
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 17
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 26
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

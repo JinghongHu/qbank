@@ -1,0 +1,22 @@
+instance_id,family,size_bin,track,tool,status_6,value_6,status_60,value_60,status_600,value_600
+D.dense.n3.s305,dense,S,cx,bqskit compile(StateVector),pass,3,timeout,,pass,3
+D.dense.n3.s305,dense,S,cx,qclib MergeInitialize,pass,31,pass,31,pass,31
+D.dense.n4.s10400,dense,S,cx,bqskit compile(StateVector),tool_error,,timeout,,pass,6
+D.dense.n4.s10400,dense,S,cx,qclib MergeInitialize,pass,159,pass,159,pass,159
+D.dicke.n14.k7,dicke,M,cx,qclib MergeInitialize,timeout,,timeout,,pass,344447
+D.sparse_struct.fixed_weight.n20.w4.m60.s35000,sparse_struct,M,cx,qclib MergeInitialize,pass,607,pass,607,pass,607
+D.dicke.n7.k2,dicke,S,cx,qclib MergeInitialize,pass,139,pass,139,pass,139
+D.sparse_struct.hamming_r3.amp.s30502,sparse_struct,S,cx,qclib MergeInitialize,pass,168,pass,168,pass,168
+D.sparse.n32.m3.s23021,sparse,XL,cx,qclib MergeInitialize,pass,27,pass,27,pass,27
+D.w.n10,w,M,cx,qclib MergeInitialize,pass,17,pass,17,pass,17
+D.w.n56,w,XL,cx,qclib MergeInitialize,pass,109,pass,109,pass,109
+D.sparse.n11.m2.s14,sparse,S,cx,qclib MergeInitialize,pass,7,pass,7,pass,7
+D.sparse.n15.m2.s1006,sparse,M,cx,qclib MergeInitialize,pass,7,pass,7,pass,7
+D.dicke.n25.k2,dicke,L,cx,qclib MergeInitialize,pass,2578,pass,2578,pass,2578
+D.w.n8,w,S,cx,qclib MergeInitialize,pass,13,pass,13,pass,13
+D.dense.n7.s700,dense,S,cx,qclib MergeInitialize,pass,5335,pass,5335,pass,5335
+D.sparse.n24.m36.s2031,sparse,L,cx,qclib MergeInitialize,pass,597,pass,597,pass,597
+D.sparse_struct.fixed_weight.n29.w2.m42.s35008,sparse_struct,L,cx,qclib MergeInitialize,pass,262,pass,262,pass,262
+D.w.n25,w,L,cx,qclib MergeInitialize,pass,47,pass,47,pass,47
+D.dicke.n19.k2,dicke,M,cx,qclib MergeInitialize,pass,1441,pass,1441,pass,1441
+D.dense.n10.s21001,dense,M,cx,qclib MergeInitialize,timeout,,pass,95861,pass,95861

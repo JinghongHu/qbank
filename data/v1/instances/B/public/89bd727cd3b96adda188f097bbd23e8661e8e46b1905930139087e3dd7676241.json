@@ -1,0 +1,110 @@
+{
+ "aiger_b64": "YWlnIDI5NCAyMiAwIDEgMjcyCjU4OAopAywBLgIsAioCKAIvBTIDAQIzBTYDAQICBjkJPAcBAj0JQAcBAgIGRwVKAwECSwVOAwECAgZNBVADAQJRBVQDAQICBlcJWgcBAlsJXgcBAgIGbAFnBWoDAQJrBW4DAQICBngBdgFxBXQDAQJ1BXgDAQICBnsJfgcBAn8JggEHAQICBoUBDYgBCwECiQENjAELAQICBpcBBZoBAwECmwEFngEDAQICBqEBCaQBBwECpQEJqAEHAQICBq8BBbIBAwECswEFtgEDAQICBtMBA8kBA9gBAs4BAtEBDdQBCwEC1QEN2AELAQICBvYBAdwBAesBEe4BDwEC7wER8gEPAQICBu0BHfABGwEC8QEd9AEbAQICBvsBDf4BCwEC/wENggILAQICBqECCaQCBwECpQIJqAIHAQICBp8CGaICFwECowIZpgIXAQICBqECJaQCIwECpQIlqAIjAQICBrsCEb4CDwECvwIRwgIPAQICBr0CHcACGwECwQIdxAIbAQICBssCDc4CCwECzwIN0gILAQICBtQCAvICAdkCHdwCGwEC3QId4AIbAQICBuYCAYsDA4cDDYoDCwECiwMNjgMLAQICBoEDEYQDDwEChQMRiAMPAQICBpMDCZYDBwEClwMJmgMHAQICBpUDEZgDDwECmQMRnAMPAQICBqYDAZkDAosDDvECDtcCDskCDscCAq0CDpMCDvkBDvUBAucBDucBbtkBDr8BDqUBDosBDnEObwJhAvcBygG/AYYCV+wCmQMqgQKMAUEO1wGKAYUB7AE3AnWsAdkDAjydAzoCOAI2AjQCNPkBMgIwAi4CLrcDLAIqAigCJgIkAiICIAIeAhwCGgIYAhYCFo0BFAISAhACDgIMAgoCBgIEAgICAg5pMCBjZWxsMDJfYjAKaTEgY2VsbDAyX2IxCmkyIGNlbGwxMV9iMAppMyBjZWxsMTFfYjEKaTQgY2VsbDEyX2IwCmk1IGNlbGwxMl9iMQppNiBjZWxsMTNfYjAKaTcgY2VsbDEzX2IxCmk4IGNlbGwyMF9iMAppOSBjZWxsMjBfYjEKaTEwIGNlbGwyMV9iMAppMTEgY2VsbDIxX2IxCmkxMiBjZWxsMjJfYjAKaTEzIGNlbGwyMl9iMQppMTQgY2VsbDMwX2IwCmkxNSBjZWxsMzBfYjEKaTE2IGNlbGwzMV9iMAppMTcgY2VsbDMxX2IxCmkxOCBjZWxsMzJfYjAKaTE5IGNlbGwzMl9iMQppMjAgY2VsbDMzX2IwCmkyMSBjZWxsMzNfYjEKbzAgdmFsaWQK",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:89bd727cd3b96adda188f097bbd23e8661e8e46b1905930139087e3dd7676241",
+ "input_names": [
+  "cell02_b0",
+  "cell02_b1",
+  "cell11_b0",
+  "cell11_b1",
+  "cell12_b0",
+  "cell12_b1",
+  "cell13_b0",
+  "cell13_b1",
+  "cell20_b0",
+  "cell20_b1",
+  "cell21_b0",
+  "cell21_b1",
+  "cell22_b0",
+  "cell22_b1",
+  "cell30_b0",
+  "cell30_b1",
+  "cell31_b0",
+  "cell31_b1",
+  "cell32_b0",
+  "cell32_b1",
+  "cell33_b0",
+  "cell33_b1"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 22,
+ "n_outputs": 1,
+ "output_names": [
+  "valid"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21
+  ],
+  "outputs": []
+ },
+ "task": "oracle_phase_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 372
+  },
+  "tof@bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 248
+  },
+  "tof@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

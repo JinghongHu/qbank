@@ -1,0 +1,25 @@
+.venv/
+external/
+__pycache__/
+*.pyc
+.cache/
+
+# ---- 2026-10-29: git repository contents (private repo for review) ----
+.DS_Store
+.pytest_cache/
+abc.history
+# large or regenerable data (run outputs, cache, all baseline circuits, equivalent variants)
+data/v1/cache/
+data/v1/variants/
+data/v1/baselines/*/circuits/
+data/v1/baselines/*/best_circuits/
+
+# reports of September 2026 (superseded by results/2026-10-29/; kept locally)
+results/2026-09-26/
+results/2026-09-27/
+
+# build plan and the combined build report: kept locally, not part of the benchmark repository
+PLAN.md
+results/2026-10-29/REPORT_FULL.md
+# build logs of September 2026 (kept locally)
+results/phase1_logs/

@@ -1,0 +1,183 @@
+{
+ "category": "D",
+ "contracts": [
+  "state_exact"
+ ],
+ "family": "w",
+ "hash": "sha256:a853a7581f83af7d27f01ec49893dcfd5a45641c9106a264b34278d0f7cebfbb",
+ "id": "D.w.n36",
+ "params": {
+  "n": 36
+ },
+ "private": {
+  "nonzeros": 36,
+  "size_bin": "L"
+ },
+ "public_hash": "sha256:a853a7581f83af7d27f01ec49893dcfd5a45641c9106a264b34278d0f7cebfbb",
+ "qbank_version": "1.0.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "w",
+  "ref": "",
+  "version": "1"
+ },
+ "task": "state_prep",
+ "tracks": [
+  {
+   "contract": "state_exact",
+   "metric": "cx_count",
+   "name": "cx",
+   "tolerance": 1e-09
+  },
+  {
+   "contract": "state_exact",
+   "coupling_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     15,
+     16
+    ],
+    [
+     16,
+     17
+    ],
+    [
+     17,
+     18
+    ],
+    [
+     18,
+     19
+    ],
+    [
+     19,
+     20
+    ],
+    [
+     20,
+     21
+    ],
+    [
+     21,
+     22
+    ],
+    [
+     22,
+     23
+    ],
+    [
+     23,
+     24
+    ],
+    [
+     24,
+     25
+    ],
+    [
+     25,
+     26
+    ],
+    [
+     26,
+     27
+    ],
+    [
+     27,
+     28
+    ],
+    [
+     28,
+     29
+    ],
+    [
+     29,
+     30
+    ],
+    [
+     30,
+     31
+    ],
+    [
+     31,
+     32
+    ],
+    [
+     32,
+     33
+    ],
+    [
+     33,
+     34
+    ],
+    [
+     34,
+     35
+    ]
+   ],
+   "metric": "two_qubit_depth",
+   "name": "depth2q@line",
+   "output_map_allowed": true,
+   "tolerance": 1e-09
+  }
+ ]
+}

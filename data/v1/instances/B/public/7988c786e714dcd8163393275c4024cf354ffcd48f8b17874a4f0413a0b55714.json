@@ -1,0 +1,90 @@
+{
+ "aiger_b64": "YWlnIDIyIDYgMCA2IDE2CjM1CjQ1CjAKMAowCjAKCQMMAQUDCAEFAgMCBAIECgwCAwICAQ4EDggUBgMCAgFpMCB4MF9iMAppMSB4MF9iMQppMiB4MV9iMAppMyB4MV9iMQppNCB4Ml9iMAppNSB4Ml9iMQpvMCBmMF9iMApvMSBmMF9iMQpvMiBmMV9iMApvMyBmMV9iMQpvNCBmMl9iMApvNSBmMl9iMQo=",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:7988c786e714dcd8163393275c4024cf354ffcd48f8b17874a4f0413a0b55714",
+ "input_names": [
+  "x0_b0",
+  "x0_b1",
+  "x1_b0",
+  "x1_b1",
+  "x2_b0",
+  "x2_b1"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 6,
+ "n_outputs": 6,
+ "output_names": [
+  "f0_b0",
+  "f0_b1",
+  "f1_b0",
+  "f1_b1",
+  "f2_b0",
+  "f2_b1"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "outputs": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ]
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 20
+  },
+  "tof@bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 13
+  },
+  "tof@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

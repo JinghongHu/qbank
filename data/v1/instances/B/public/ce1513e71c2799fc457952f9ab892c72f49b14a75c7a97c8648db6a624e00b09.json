@@ -1,0 +1,98 @@
+{
+ "aiger_b64": "YWlnIDQxMSAxMCAwIDYgNDAxCjM2MQo3MzcKNzM5CjM2Ngo4MTgKODIyCgoCAgcMDBUECgYLBAIRAQQYARQIGQMCFAMDAiMdCw4WAgIBBgILLwM4BDAEATICLT8FOwJEAwMyAT0CPwI8Kh0CSQEEARsSIAEWATceQQECAVosFwJLMTQBAgIHAhVoAWAIBWQIZAECbgUCVlgWEXEUbwEHBm5OAhwqAQICBQERAQyNAQlcLwIaHEYCCAEEMlgClAGXAQ8CmQEBBAGWAaABDRyFAQECAT+nAQ6UARsCAq4BAR4uAgIBBgEuVlwnDQJWAQQBwAGJAToB0AECYQEGAckBRIkBAs8BugEVP5kBAgIBBgF1nwEEAeEBAt0BWAIC3wEBBAHoAXsJhwFNWpgBAgIBBgHwAQEMAhsCKwJBAlMCXQH7AYMCBYYCA4gCB6YBYwECAZECAosCrQFlEMgBAQIRfALfAQIEAZsCsQFyAQICEQGmAvgBMgGcAgGpAsQBbcABcgECAbsCmgIOArkCNNYBxgF2AsACAQQCBwHFAgEQAhkCIQHEAkz+AU3+AcgCBwECAgUB0QIBDFiFAgKsAuYCBALhAgLGAusCBAjfAu8CBfICAwq/AtYCHrgCNAECAQ3yAgnuAg0CAgEGAf0CIqQCGO4CAscCAQQB7QImqgIkrQIBAgGTAwEIAY8D4gI/AQIBngM3uQIChwP1AjIBAgIHAiUCOQG1AgSzAgECtQMHCbUDDLMDAcUCBqwDEvACXrICAQICBQHPAgEMvwKVAQECBAIBAibGAgy+AgLKA88B7gECmwNy9gEWtgIBAssCMM0CDH7kAgGEAQGJAekDAgI4FeMDAuwDAQQBQokBAgHGA/cDCQECAaEBVcUC+QMTAQIBhAQ40ANfxgIBAgGnAzABMQMBAgFqOAI5AgECAXMBCAHzA+oDQwJVYb4CAqAEAVYCBQILAbEEZs8DAoIBAQQCKQIzAboEZym6BBMCwgQBBAHQBGgDaQUBAgGIAXAEcQQBAgGRAQEIAfUDjgHIAwECAeAEuQHBAtoEFgECAeEEAQgCIwHtBAEyAnMCfwKNAQHzBPsEBALRAf4C/QEBBwQFAbICAgMBgwWMBQXkAakDAQIBlQUCjwXrAagDAZED7wGrAwGwArICaAHsAQIEAaEFASYCDQITAawFrgUK0ALiAgECAbEFN84CAb0FhgK4AwK6BdgCygICwQXiAloBAgIHAckFARACFQIfAcgFAUbtAgbQA4gCAtMFAc4FAYsClQLSAwHiBQKZAoMCNwGGAogCNQECAe8FpgIWAQICDQHbBaECygMCAQH2Ba8BhgEBsgEB/gUCmgXNAsECAdACAa4CowMJrAMElwYCAqYFAQQCBwILAhMBlwacAQYBAgIjAkMBnQb1BSIBUmkwIGEKaTEgYgppMiBjCmkzIGQKaTQgZQppNSBmCmk2IGcKaTcgaAppOCBpCmk5IGoKbzAgawpvMSBsCm8yIG0KbzMgbgpvNCBvCm81IHAK",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:ce1513e71c2799fc457952f9ab892c72f49b14a75c7a97c8648db6a624e00b09",
+ "input_names": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 10,
+ "n_outputs": 6,
+ "output_names": [
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "outputs": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ]
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 26
+  },
+  "tof@bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 17
+  },
+  "tof@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

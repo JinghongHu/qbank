@@ -1,0 +1,241 @@
+{
+ "format": "qbank.public/1",
+ "gate_set": [
+  "h",
+  "s",
+  "sdg",
+  "x",
+  "y",
+  "z",
+  "sx",
+  "sxdg",
+  "cx",
+  "cz",
+  "cy",
+  "swap"
+ ],
+ "hash": "sha256:c09ccaa582faf27d25b9689899eaab44c18b81fa818571d1fa9023284fe21aaa",
+ "hx": [
+  [
+   0,
+   3,
+   9
+  ],
+  [
+   1,
+   4,
+   9,
+   10
+  ],
+  [
+   2,
+   5,
+   10
+  ],
+  [
+   3,
+   6,
+   11
+  ],
+  [
+   4,
+   7,
+   11,
+   12
+  ],
+  [
+   5,
+   8,
+   12
+  ]
+ ],
+ "hz": [
+  [
+   0,
+   1,
+   9
+  ],
+  [
+   1,
+   2,
+   10
+  ],
+  [
+   3,
+   4,
+   9,
+   11
+  ],
+  [
+   4,
+   5,
+   10,
+   12
+  ],
+  [
+   6,
+   7,
+   11
+  ],
+  [
+   7,
+   8,
+   12
+  ]
+ ],
+ "n": 13,
+ "task": "css_logical_zero",
+ "tracks": {
+  "a2a_2q": {
+   "connectivity": "all",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates"
+  },
+  "codespace_a2a_2q": {
+   "connectivity": "all",
+   "contract": "codespace_state",
+   "metric": "two_qubit_gates"
+  },
+  "grid_2q": {
+   "connectivity": {
+    "cols": 4,
+    "edges": [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      6
+     ],
+     [
+      3,
+      7
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      4,
+      8
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      5,
+      9
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      6,
+      10
+     ],
+     [
+      7,
+      11
+     ],
+     [
+      8,
+      9
+     ],
+     [
+      8,
+      12
+     ],
+     [
+      9,
+      10
+     ],
+     [
+      10,
+      11
+     ]
+    ],
+    "kind": "grid"
+   },
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "output_map": "free"
+  },
+  "line_2q": {
+   "connectivity": {
+    "edges": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      7,
+      8
+     ],
+     [
+      8,
+      9
+     ],
+     [
+      9,
+      10
+     ],
+     [
+      10,
+      11
+     ],
+     [
+      11,
+      12
+     ]
+    ],
+    "kind": "line"
+   },
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "output_map": "free"
+  }
+ }
+}

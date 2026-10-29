@@ -1,0 +1,61 @@
+{
+ "category": "C",
+ "contracts": [
+  "routing_commuting",
+  "routing_equiv"
+ ],
+ "family": "hamlib",
+ "hash": "sha256:682f2cd3b1cbf6679f96941c02aedf5b16b5e7c3dd361e614c63f23f0641ea3b",
+ "id": "C.hamlib.tfim.graph-1D-grid-pbc-qubitnodes_Lx-50_h-1",
+ "params": {
+  "lattice": "graph-1D-grid-pbc-qubitnodes_Lx-50_h-1",
+  "model": "tfim",
+  "n": 50
+ },
+ "private": {
+  "coefficients": [
+   [
+    "1q",
+    1.0
+   ],
+   [
+    "2q",
+    1.0
+   ]
+  ],
+  "device": "heavy_hex_d5",
+  "redistributable": false,
+  "size_bin": "L"
+ },
+ "public_hash": "sha256:682f2cd3b1cbf6679f96941c02aedf5b16b5e7c3dd361e614c63f23f0641ea3b",
+ "qbank_version": "1.1.0",
+ "source": {
+  "dataset": "graph-1D-grid-pbc-qubitnodes_Lx-50_h-1",
+  "file": "condensedmatter/tfim/tfim.zip",
+  "kind": "external",
+  "license": "none (portal states no licence)",
+  "name": "HamLib",
+  "redistributable": false,
+  "ref": "arXiv:2306.13126; portal.nersc.gov/cfs/m888/dcamps/hamlib/",
+  "version": "v1.1",
+  "zip_sha256": "841f2139213b08ee03125fa196d77cf090293aaa69993391fc1e02b0a9968eee"
+ },
+ "task": "routing",
+ "tracks": [
+  {
+   "contract": "routing_equiv",
+   "metric": "swaps",
+   "name": "swaps"
+  },
+  {
+   "contract": "routing_equiv",
+   "metric": "two_qubit_depth",
+   "name": "depth2q"
+  },
+  {
+   "contract": "routing_commuting",
+   "metric": "swaps",
+   "name": "swaps_commuting"
+  }
+ ]
+}

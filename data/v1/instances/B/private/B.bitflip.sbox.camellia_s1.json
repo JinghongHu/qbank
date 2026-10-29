@@ -1,0 +1,72 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_bitflip_clean"
+ ],
+ "family": "sbox",
+ "hash": "sha256:72afe3ff5147ec80573de3d23ef69dcf6cc6c5ecdf3f989d399d0741fc217328",
+ "id": "B.bitflip.sbox.camellia_s1",
+ "params": {
+  "sbox": "Camellia SBOX1"
+ },
+ "private": {
+  "aig_ands": 699,
+  "b_min": 17,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 686,
+   "cone_bennett(abc resyn2)": 160,
+   "esop+mcx": 17
+  },
+  "m": 8,
+  "n": 8,
+  "n_solutions": null,
+  "n_solutions_method": "multi-output",
+  "redistributable": true,
+  "size_bin": "S",
+  "solution_fraction_log2": null,
+  "solution_sparse": false
+ },
+ "public_hash": "sha256:72afe3ff5147ec80573de3d23ef69dcf6cc6c5ecdf3f989d399d0741fc217328",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "external",
+  "license": "IETF RFC (table values of a published standard)",
+  "name": "Camellia SBOX1",
+  "ref": "https://www.rfc-editor.org/rfc/rfc3713.txt",
+  "sha256": "126cea1768aed9257fbdf52a4e1938eb15d79c8aacb83d14f60f1320d5b8770f",
+  "version": "RFC 3713"
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": [
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 17
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 26
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

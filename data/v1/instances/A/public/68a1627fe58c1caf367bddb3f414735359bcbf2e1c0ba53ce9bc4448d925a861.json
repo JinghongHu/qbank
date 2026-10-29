@@ -1,0 +1,63 @@
+{
+ "code_stabilizers": [
+  "-XIZIZZIZZIZIXII",
+  "-IXIZIZZIZZIZIXI",
+  "-IIXIZIZZIZZIZIX",
+  "-IZIXZZZZZZZZXIZ",
+  "-ZZIIYZIZIIIZIZY",
+  "-ZZIIIYZIIIZIXXY",
+  "-ZZIIIIYZZIZZYII",
+  "+IZZIIIIYZZIZZYI",
+  "-IIZZIIIIYZZIZZY",
+  "+ZIZZZIIIZYIZYYY",
+  "+ZZZZZZIIZZXIXZZ",
+  "+ZIIZIZIIZIIXZZX"
+ ],
+ "format": "qbank.public/1",
+ "gate_set": [
+  "h",
+  "s",
+  "sdg",
+  "x",
+  "y",
+  "z",
+  "sx",
+  "sxdg",
+  "cx",
+  "cz",
+  "cy",
+  "swap"
+ ],
+ "hash": "sha256:68a1627fe58c1caf367bddb3f414735359bcbf2e1c0ba53ce9bc4448d925a861",
+ "n": 15,
+ "stabilizers": [
+  "-YIIZZIIIIIIZZII",
+  "+IYIZZIZIIZZIIZI",
+  "-IIYZZIZZIZIZZIZ",
+  "-ZZZYZIZIIZIIZIZ",
+  "-ZZZZYZIZIIZIIZI",
+  "-IIIIZYZZIIIZZZI",
+  "-IZZZIZYIIIIIIII",
+  "-IIZIZZIYIZZIZII",
+  "-IIIIIIIIYZIZZZI",
+  "-IZZZIIIZZYZIIII",
+  "+IZIIZIIZIZYZZZZ",
+  "+ZIZIIZIIZIZYZZZ",
+  "+ZIZZIZIZZIZZYII",
+  "-IZIIZZIIZIZZIYI",
+  "+IIZZIIIIIIZZIIY"
+ ],
+ "task": "stabilizer_state",
+ "tracks": {
+  "a2a_2q": {
+   "connectivity": "all",
+   "contract": "stabilizer_state",
+   "metric": "two_qubit_gates"
+  },
+  "codespace_a2a_2q": {
+   "connectivity": "all",
+   "contract": "codespace_state",
+   "metric": "two_qubit_gates"
+  }
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "aiger_b64": "YWlnIDE1MyAxMiAwIDEgMTQxCjMwNgoDDAIJEAcCEh0CAhkgAwIaEAgTCwIXIgsCGR4KAi8hEgIwLgMCKicXAjsuEAI8MQ0CQQgzPA0COkkCAjs/CgJRRA4CT0wDAllWCAJgXwMCVVoEAlJZBgJjZwMCcGsJAmNnBwJ3bAoCe2wSAnJzCwJxKEp6CAJ7hAEKAowBiwEEAoQBhAEFApQBMmY0Z4gBFAKJAZIBDgKTAZUBAgKhAZgBEgKdAacBBgKmAaMBDwKeAaABCwKvAWJMqAEHArUBjgEwqwECArsBugEJAq8BtgEIAscBrwEEqQEEpQEEnwEEmQEEkwEEjwECiQEEgwEEfQR3BHEEawRlBGECWwRVBFMCTQRHBEEEPQI5AjcwNZgBMAIuAiwCKgIoAiYCJAIiAiACHgIcAhoCGjEYAhYCFAISAhACDgIKAggCBgIEAgQSAgJpMCB2MQppMSB2MgppMiB2MwppMyB2NAppNCB2NQppNSB2NgppNiB2NwppNyB2OAppOCB2OQppOSB2MTAKaTEwIHYxMQppMTEgdjEyCm8wIHNhdAo=",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:21c1702ae6b41afbfda823c5b86bc05e8c1de6782a1d53ddb1ea2553efaa44d3",
+ "input_names": [
+  "v1",
+  "v2",
+  "v3",
+  "v4",
+  "v5",
+  "v6",
+  "v7",
+  "v8",
+  "v9",
+  "v10",
+  "v11",
+  "v12"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 12,
+ "n_outputs": 1,
+ "output_names": [
+  "sat"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "outputs": []
+ },
+ "task": "oracle_phase_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 21
+  },
+  "tof@bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 14
+  },
+  "tof@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

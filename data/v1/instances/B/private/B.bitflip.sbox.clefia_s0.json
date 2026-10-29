@@ -1,0 +1,72 @@
+{
+ "category": "B",
+ "contracts": [
+  "oracle_bitflip_clean"
+ ],
+ "family": "sbox",
+ "hash": "sha256:83d7fe54f2781c95183a8d5bd958c5d4a6d990c8b38ebc71c28e1318725fbdc6",
+ "id": "B.bitflip.sbox.clefia_s0",
+ "params": {
+  "sbox": "CLEFIA S0"
+ },
+ "private": {
+  "aig_ands": 704,
+  "b_min": 17,
+  "b_min_widths": {
+   "bennett(abc resyn2)": 706,
+   "cone_bennett(abc resyn2)": 159,
+   "esop+mcx": 17
+  },
+  "m": 8,
+  "n": 8,
+  "n_solutions": null,
+  "n_solutions_method": "multi-output",
+  "redistributable": true,
+  "size_bin": "S",
+  "solution_fraction_log2": null,
+  "solution_sparse": false
+ },
+ "public_hash": "sha256:83d7fe54f2781c95183a8d5bd958c5d4a6d990c8b38ebc71c28e1318725fbdc6",
+ "qbank_version": "1.2.0",
+ "source": {
+  "kind": "external",
+  "license": "IETF RFC (table values of a published standard)",
+  "name": "CLEFIA S0",
+  "ref": "https://www.rfc-editor.org/rfc/rfc6114.txt",
+  "sha256": "d62a3f085cd067c8bdc8b82b0064b097739926385aaad177590285773973a082",
+  "version": "RFC 6114"
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": [
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@bmin",
+   "qubit_budget": 17
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@1.5bmin",
+   "qubit_budget": 26
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "toffoli_count",
+   "name": "tof@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "t_count",
+   "name": "t_mbu@inf",
+   "qubit_budget": null
+  },
+  {
+   "contract": "oracle_bitflip_clean",
+   "metric": "cx_count",
+   "name": "cx@inf",
+   "qubit_budget": null
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "aiger_b64": "YWlnIDY1IDIyIDAgMSA0MwoxMzAKFRcYFQECGRccFQECHRcgFQECIRckFQECJRcoFQECKRcsFQECLRcwFQECMRc0FQECNRc4FQECORc8FQECPRdAFQECOAYuBiQGGgYQBggCBgIGCgQCAgJpMCBhMAppMSBhMQppMiBhMgppMyBhMwppNCBhNAppNSBhNQppNiBhNgppNyBhNwppOCBhOAppOSBhOQppMTAgYTEwCmkxMSBiMAppMTIgYjEKaTEzIGIyCmkxNCBiMwppMTUgYjQKaTE2IGI1CmkxNyBiNgppMTggYjcKaTE5IGI4CmkyMCBiOQppMjEgYjEwCm8wIGFfZXFfYgo=",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:6862ffc5d21926ff2e92805d6c37ef766f9bf5dbc9bba3ff3e26475541b2914a",
+ "input_names": [
+  "a0",
+  "a1",
+  "a2",
+  "a3",
+  "a4",
+  "a5",
+  "a6",
+  "a7",
+  "a8",
+  "a9",
+  "a10",
+  "b0",
+  "b1",
+  "b2",
+  "b3",
+  "b4",
+  "b5",
+  "b6",
+  "b7",
+  "b8",
+  "b9",
+  "b10"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 22,
+ "n_outputs": 1,
+ "output_names": [
+  "a_eq_b"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21
+  ],
+  "outputs": [
+   22
+  ]
+ },
+ "task": "oracle_bitflip_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 99
+  },
+  "tof@bmin": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 66
+  },
+  "tof@inf": {
+   "contract": "oracle_bitflip_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

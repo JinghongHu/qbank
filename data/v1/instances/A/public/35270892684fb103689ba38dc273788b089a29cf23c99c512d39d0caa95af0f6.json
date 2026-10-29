@@ -1,0 +1,185 @@
+{
+ "format": "qbank.public/1",
+ "gate_set": [
+  "h",
+  "s",
+  "sdg",
+  "x",
+  "y",
+  "z",
+  "sx",
+  "sxdg",
+  "cx",
+  "cz",
+  "cy",
+  "swap"
+ ],
+ "hash": "sha256:35270892684fb103689ba38dc273788b089a29cf23c99c512d39d0caa95af0f6",
+ "hx": [
+  [
+   3,
+   4
+  ],
+  [
+   0,
+   1,
+   5
+  ],
+  [
+   0,
+   1,
+   3,
+   5,
+   6
+  ],
+  [
+   0,
+   1,
+   2,
+   3
+  ]
+ ],
+ "hz": [
+  [
+   0,
+   1,
+   8
+  ],
+  [
+   7,
+   8
+  ],
+  [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6,
+   7
+  ],
+  [
+   0,
+   3,
+   4,
+   5,
+   6,
+   8
+  ]
+ ],
+ "n": 9,
+ "task": "css_logical_zero",
+ "tracks": {
+  "a2a_2q": {
+   "connectivity": "all",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates"
+  },
+  "codespace_a2a_2q": {
+   "connectivity": "all",
+   "contract": "codespace_state",
+   "metric": "two_qubit_gates"
+  },
+  "grid_2q": {
+   "connectivity": {
+    "cols": 3,
+    "edges": [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      4,
+      7
+     ],
+     [
+      5,
+      8
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      7,
+      8
+     ]
+    ],
+    "kind": "grid"
+   },
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "output_map": "free"
+  },
+  "line_2q": {
+   "connectivity": {
+    "edges": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      7,
+      8
+     ]
+    ],
+    "kind": "line"
+   },
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "output_map": "free"
+  }
+ }
+}

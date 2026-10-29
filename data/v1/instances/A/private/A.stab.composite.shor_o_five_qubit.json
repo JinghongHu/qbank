@@ -1,0 +1,71 @@
+{
+ "category": "A",
+ "contracts": [
+  "stabilizer_state",
+  "codespace_state"
+ ],
+ "family": "composite",
+ "hash": "sha256:0fe97ce7335493decf35b4d07ed13dfc09ea6f76e161d2cb280a7951326a4793",
+ "id": "A.stab.composite.shor_o_five_qubit",
+ "params": {
+  "inner": "five_qubit",
+  "outer": "shor_concat_3x3"
+ },
+ "private": {
+  "aliases": [],
+  "code": {
+   "k": 1,
+   "n": 45,
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": null,
+     "k": 1,
+     "method": "not computed (normalizer dim 46 > 26)"
+    },
+    "k": 1,
+    "logical_z_ok": true,
+    "n": 45
+   }
+  },
+  "components": [
+   "shor",
+   "five_qubit"
+  ],
+  "composite": true,
+  "logical_z": [
+   "+ZIXXIIIIIIIIIIIZIXXIIIIIIIIIIIZIXXIIIIIIIIIII"
+  ],
+  "no_room": false,
+  "notes": [],
+  "size_bin": "S",
+  "size_features": {
+   "k": 1,
+   "n": 45
+  }
+ },
+ "public_hash": "sha256:0fe97ce7335493decf35b4d07ed13dfc09ea6f76e161d2cb280a7951326a4793",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "concatenate",
+  "ref": "construction rule of StabilizerBench (arXiv:2604.21287, data/generate_code.py) re-implemented",
+  "version": "1"
+ },
+ "task": "stabilizer_state",
+ "tracks": [
+  {
+   "connectivity": "all",
+   "contract": "stabilizer_state",
+   "metric": "two_qubit_gates",
+   "name": "a2a_2q"
+  },
+  {
+   "connectivity": "all",
+   "contract": "codespace_state",
+   "metric": "two_qubit_gates",
+   "name": "codespace_a2a_2q"
+  }
+ ]
+}

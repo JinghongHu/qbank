@@ -1,0 +1,92 @@
+{
+ "aiger_b64": "YWlnIDE1NSAxMyAwIDEgMTQyCjMxMAoCCQIWDBICGg4TAhMNFQIPGQ0CKBkTAiggAgIdJQcCISoFAjI2BgI6LwwCMzYDAjIyCwI/QgkCRkcJAjlEAwJMQg0CUUoDAlxMDAJTYgECZVcQAmVmBAJoYwMCXWIRAnBpCQJtZxUCZmkIAm9tAgKCAXwDAn15CgJ/ewoCkQGMAQIClQFUN4MBDgKWAYoBEgKMAZEBDwKbAZUBEwKfAZMBAwKlAZgBAQKrAZ8BEgKhAaQBDwKuAakBCQKmAUJ3qQEGArsBtAEQAroBtAEKArwBugEBAskBjAEwflG1AQSvAQSpAQSjAQSdAQSXAQSRAQSLAQSFAQR/BHkEcwRtBGcEYQRbBFcEUQRLBEUEPwQ7BDUEMQIuAiwCKgIoAiYCJAIiAiACHgIcAhoCGAIWAhQCEgIQAg4CDAIKAggCBgIEAgRZAgJpMCB2MQppMSB2MgppMiB2MwppMyB2NAppNCB2NQppNSB2NgppNiB2NwppNyB2OAppOCB2OQppOSB2MTAKaTEwIHYxMQppMTEgdjEyCmkxMiB2MTMKbzAgc2F0Cg==",
+ "format": "qbank.public/1",
+ "gate_set": [
+  "x",
+  "cx",
+  "ccx",
+  "ccz",
+  "rccx",
+  "rc3x",
+  "swap",
+  "z",
+  "s",
+  "sdg",
+  "t",
+  "tdg",
+  "cz"
+ ],
+ "hash": "sha256:a5a3bca83407c76b295082d07a5b3ce7e23ada87f1f3aeb8e53b5ef117de9e63",
+ "input_names": [
+  "v1",
+  "v2",
+  "v3",
+  "v4",
+  "v5",
+  "v6",
+  "v7",
+  "v8",
+  "v9",
+  "v10",
+  "v11",
+  "v12",
+  "v13"
+ ],
+ "mbu_op": "(\"mbu\", [q], [correction]) : X-measure q, apply the diagonal correction if outcome 1; q ends in |0>",
+ "n_inputs": 13,
+ "n_outputs": 1,
+ "output_names": [
+  "sat"
+ ],
+ "register": {
+  "inputs": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "outputs": []
+ },
+ "task": "oracle_phase_clean",
+ "tracks": {
+  "cx@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "cx_count",
+   "qubit_budget": null
+  },
+  "t_mbu@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": true,
+   "metric": "t_count",
+   "qubit_budget": null
+  },
+  "tof@1.5bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 96
+  },
+  "tof@bmin": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": 64
+  },
+  "tof@inf": {
+   "contract": "oracle_phase_clean",
+   "mbu_allowed": false,
+   "metric": "toffoli_count",
+   "qubit_budget": null
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "category": "A",
+ "contracts": [
+  "css_logical_zero",
+  "codespace_state"
+ ],
+ "family": "color_488",
+ "hash": "sha256:1ba8b8fe712bd39578a1d4d67f4b77f29184c4ae08e9c14299a759865939e059",
+ "id": "A.css_zero.color_488.d9",
+ "params": {
+  "d": 9
+ },
+ "private": {
+  "aliases": [],
+  "code": {
+   "k": 1,
+   "n": 49,
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": 9,
+     "dX": 9,
+     "dZ": 9,
+     "k": 1,
+     "method": "exact_kernel_enumeration"
+    },
+    "k": 1,
+    "max_x_weight": 8,
+    "max_z_weight": 8,
+    "n": 49,
+    "rank_hx": 24,
+    "rank_hz": 24
+   }
+  },
+  "composite": false,
+  "no_room": false,
+  "notes": [],
+  "size_bin": "S",
+  "size_features": {
+   "k": 1,
+   "n": 49
+  }
+ },
+ "public_hash": "sha256:1ba8b8fe712bd39578a1d4d67f4b77f29184c4ae08e9c14299a759865939e059",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "library",
+  "license": "MIT",
+  "name": "mqt.qecc.codes.SquareOctagonColorCode",
+  "ref": "Bombin & Martin-Delgado 2006 (topological color codes)",
+  "version": "mqt.qecc 2.0.0"
+ },
+ "task": "css_logical_zero",
+ "tracks": [
+  {
+   "connectivity": "all",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "a2a_2q"
+  },
+  {
+   "connectivity": "line",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "line_2q"
+  },
+  {
+   "connectivity": "grid",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "grid_2q"
+  },
+  {
+   "connectivity": "all",
+   "contract": "codespace_state",
+   "metric": "two_qubit_gates",
+   "name": "codespace_a2a_2q"
+  }
+ ]
+}

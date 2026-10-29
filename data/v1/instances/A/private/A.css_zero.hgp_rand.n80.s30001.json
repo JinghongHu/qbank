@@ -1,0 +1,85 @@
+{
+ "category": "A",
+ "contracts": [
+  "css_logical_zero",
+  "codespace_state"
+ ],
+ "family": "hgp_rand",
+ "hash": "sha256:f98b151a99ea4ba83e1e08716fa61cdfedab74bf5b53b36c22cb18b049e28fb9",
+ "id": "A.css_zero.hgp_rand.n80.s30001",
+ "params": {
+  "attempt": 0,
+  "dc": 6,
+  "dv": 3,
+  "n_c": 8,
+  "seed": 30001
+ },
+ "private": {
+  "aliases": [],
+  "code": {
+   "k": 16,
+   "n": 80,
+   "verification": {
+    "commute": true,
+    "distance": {
+     "d": 2,
+     "dX": null,
+     "dZ": null,
+     "d_lower": null,
+     "k": 16,
+     "method": "low_weight_search(w<=4)"
+    },
+    "k": 16,
+    "max_x_weight": 7,
+    "max_z_weight": 7,
+    "n": 80,
+    "rank_hx": 32,
+    "rank_hz": 32
+   }
+  },
+  "composite": false,
+  "no_room": false,
+  "notes": [],
+  "size_bin": "M",
+  "size_features": {
+   "k": 16,
+   "n": 80
+  }
+ },
+ "public_hash": "sha256:f98b151a99ea4ba83e1e08716fa61cdfedab74bf5b53b36c22cb18b049e28fb9",
+ "qbank_version": "1.1.0",
+ "source": {
+  "kind": "generator",
+  "license": "qbank",
+  "name": "hgp_random_ldpc",
+  "ref": "Tillich & Zemor 2009 (hypergraph product)",
+  "version": "1"
+ },
+ "task": "css_logical_zero",
+ "tracks": [
+  {
+   "connectivity": "all",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "a2a_2q"
+  },
+  {
+   "connectivity": "line",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "line_2q"
+  },
+  {
+   "connectivity": "grid",
+   "contract": "css_logical_zero",
+   "metric": "two_qubit_gates",
+   "name": "grid_2q"
+  },
+  {
+   "connectivity": "all",
+   "contract": "codespace_state",
+   "metric": "two_qubit_gates",
+   "name": "codespace_a2a_2q"
+  }
+ ]
+}

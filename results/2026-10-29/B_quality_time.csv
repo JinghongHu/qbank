@@ -1,0 +1,97 @@
+instance_id,family,size_bin,track,tool,status_6,value_6,status_60,value_60,status_600,value_600
+B.bitflip.arith.majority.n21,arith,L,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",pass,271,pass,271,pass,271
+B.bitflip.arith.majority.n21,arith,L,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),timeout,,pass,159,pass,159
+B.bitflip.arith.majority.n21,arith,L,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,unsupported,,unsupported,,unsupported,
+B.bitflip.arith.majority.n21,arith,L,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",timeout,,timeout,,timeout,
+B.bitflip.arith.majority.n23,arith,L,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",pass,305,pass,305,pass,305
+B.bitflip.arith.majority.n23,arith,L,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),timeout,,pass,167,pass,167
+B.bitflip.arith.majority.n23,arith,L,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,unsupported,,unsupported,,unsupported,
+B.bitflip.arith.majority.n23,arith,L,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",timeout,,timeout,,timeout,
+B.bitflip.arith.majority.n63,arith,XL,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",unverified,,unverified,,unverified,
+B.bitflip.arith.majority.n63,arith,XL,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),timeout,,timeout,,unverified,
+B.bitflip.arith.majority.n63,arith,XL,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,unsupported,,unsupported,,unsupported,
+B.bitflip.arith.majority.n63,arith,XL,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",unsupported,,unsupported,,unsupported,
+B.bitflip.arith.mul_bit.n12.j8,arith,S,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",,,pass,235,,
+B.bitflip.arith.mul_bit.n12.j8,arith,S,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),,,pass,105,,
+B.bitflip.arith.mul_bit.n12.j8,arith,S,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,,,pass,10212,,
+B.bitflip.arith.mul_bit.n12.j8,arith,S,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",,,timeout,,,
+B.bitflip.arith.mul_bit.n12.j9,arith,S,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",,,pass,261,,
+B.bitflip.arith.mul_bit.n12.j9,arith,S,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),,,pass,117,,
+B.bitflip.arith.mul_bit.n12.j9,arith,S,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,,,pass,7609,,
+B.bitflip.arith.mul_bit.n12.j9,arith,S,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",,,timeout,,,
+B.bitflip.arith.mul_bit.n14.j13,arith,M,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",,,pass,419,,
+B.bitflip.arith.mul_bit.n14.j13,arith,M,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),,,pass,179,,
+B.bitflip.arith.mul_bit.n14.j13,arith,M,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,,,pass,7483,,
+B.bitflip.arith.mul_bit.n14.j13,arith,M,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",,,timeout,,,
+B.bitflip.arith.mul_bit.n14.j8,arith,M,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",,,pass,268,,
+B.bitflip.arith.mul_bit.n14.j8,arith,M,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),,,pass,119,,
+B.bitflip.arith.mul_bit.n14.j8,arith,M,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,,,timeout,,,
+B.bitflip.arith.mul_bit.n14.j8,arith,M,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",,,timeout,,,
+B.bitflip.arith.mul_bit.n14.j9,arith,M,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",,,pass,319,,
+B.bitflip.arith.mul_bit.n14.j9,arith,M,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),,,pass,139,,
+B.bitflip.arith.mul_bit.n14.j9,arith,M,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,,,timeout,,,
+B.bitflip.arith.mul_bit.n14.j9,arith,M,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",,,timeout,,,
+B.bitflip.arith.mul_bit.n16.j10,arith,M,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",,,pass,423,,
+B.bitflip.arith.mul_bit.n16.j10,arith,M,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),,,pass,177,,
+B.bitflip.arith.mul_bit.n16.j10,arith,M,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,,,timeout,,,
+B.bitflip.arith.mul_bit.n16.j10,arith,M,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",,,timeout,,,
+B.bitflip.arith.mul_bit.n16.j13,arith,M,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",,,pass,531,,
+B.bitflip.arith.mul_bit.n16.j13,arith,M,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),,,pass,225,,
+B.bitflip.arith.mul_bit.n16.j13,arith,M,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,,,timeout,,,
+B.bitflip.arith.mul_bit.n16.j13,arith,M,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",,,unsupported,,,
+B.bitflip.arith.mul_bit.n18.j9,arith,M,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",,,pass,366,,
+B.bitflip.arith.mul_bit.n18.j9,arith,M,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),,,pass,159,,
+B.bitflip.arith.mul_bit.n18.j9,arith,M,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,,,unsupported,,,
+B.bitflip.arith.mul_bit.n18.j9,arith,M,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",,,timeout,,,
+B.bitflip.arith.prod_parity.n12,arith,S,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",pass,306,pass,306,pass,306
+B.bitflip.arith.prod_parity.n12,arith,S,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),timeout,,pass,130,pass,130
+B.bitflip.arith.prod_parity.n12,arith,S,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,pass,17761,pass,17761,pass,17761
+B.bitflip.arith.prod_parity.n12,arith,S,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",timeout,,timeout,,timeout,
+B.bitflip.simon3.t8.s11002,simon3,M,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",pass,568,pass,568,pass,568
+B.bitflip.simon3.t8.s11002,simon3,M,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),timeout,,pass,250,pass,250
+B.bitflip.simon3.t8.s11002,simon3,M,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,timeout,,timeout,,timeout,
+B.bitflip.simon3.t8.s11002,simon3,M,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",timeout,,timeout,,timeout,
+B.phase.sudoku4.k11.s2002,sudoku,L,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",pass,156,pass,156,pass,156
+B.phase.sudoku4.k11.s2002,sudoku,L,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),timeout,,pass,132,pass,132
+B.phase.sudoku4.k11.s2002,sudoku,L,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,unsupported,,unsupported,,unsupported,
+B.phase.sudoku4.k11.s2002,sudoku,L,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",timeout,,timeout,,pass,1002
+B.bitflip.arith.carry.n8,arith,S,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",,,pass,25,,
+B.bitflip.arith.carry.n8,arith,S,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),,,pass,7,,
+B.bitflip.arith.carry.n8,arith,S,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,,,pass,416,,
+B.bitflip.arith.carry.n8,arith,S,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",,,pass,50,,
+B.bitflip.sbox.camellia_s1,sbox,S,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",pass,1322,pass,1322,pass,1322
+B.bitflip.sbox.camellia_s1,sbox,S,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),timeout,,pass,1214,pass,1214
+B.bitflip.sbox.camellia_s1,sbox,S,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,pass,5581,pass,5581,pass,5581
+B.bitflip.sbox.camellia_s1,sbox,S,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",unsupported,,unsupported,,unsupported,
+B.phase.sudoku4.k9.s1006,sudoku,M,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",pass,102,pass,102,pass,102
+B.phase.sudoku4.k9.s1006,sudoku,M,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),timeout,,pass,96,pass,96
+B.phase.sudoku4.k9.s1006,sudoku,M,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,unsupported,,unsupported,,unsupported,
+B.phase.sudoku4.k9.s1006,sudoku,M,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",timeout,,pass,614,pass,614
+B.bitflip.mcnc.count,mcnc,between,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",pass,148,pass,148,pass,148
+B.bitflip.mcnc.count,mcnc,between,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),timeout,,pass,78,pass,78
+B.bitflip.mcnc.count,mcnc,between,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,unsupported,,unsupported,,unsupported,
+B.bitflip.mcnc.count,mcnc,between,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",timeout,,pass,480,pass,480
+B.bitflip.epfl.dec,epfl,S,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",pass,352,pass,352,pass,352
+B.bitflip.epfl.dec,epfl,S,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),timeout,,pass,352,pass,352
+B.bitflip.epfl.dec,epfl,S,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,unverified,,unverified,,unverified,
+B.bitflip.epfl.dec,epfl,S,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",timeout,,timeout,,pass,712
+B.bitflip.simon3.t11.s2011,simon3,L,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",pass,1040,pass,1040,pass,1040
+B.bitflip.simon3.t11.s2011,simon3,L,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),timeout,,pass,504,pass,504
+B.bitflip.simon3.t11.s2011,simon3,L,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,unsupported,,unsupported,,unsupported,
+B.bitflip.simon3.t11.s2011,simon3,L,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",unsupported,,unsupported,,unsupported,
+B.bitflip.simon3.t30.s23001,simon3,XL,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",pass,11722,pass,11722,pass,11722
+B.bitflip.simon3.t30.s23001,simon3,XL,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),timeout,,unverified,,unverified,
+B.bitflip.simon3.t30.s23001,simon3,XL,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,unsupported,,unsupported,,unsupported,
+B.bitflip.simon3.t30.s23001,simon3,XL,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",unsupported,,unsupported,,unsupported,
+B.bitflip.compare.lt_const.n19.s5012,compare,L,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",,,pass,41,,
+B.bitflip.compare.lt_const.n19.s5012,compare,L,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),,,pass,35,,
+B.bitflip.compare.lt_const.n19.s5012,compare,L,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,,,unsupported,,,
+B.bitflip.compare.lt_const.n19.s5012,compare,L,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",,,pass,82,,
+B.bitflip.epfl.router,epfl,XL,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",pass,340,pass,340,pass,340
+B.bitflip.epfl.router,epfl,XL,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),timeout,,pass,284,pass,284
+B.bitflip.epfl.router,epfl,XL,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,unsupported,,unsupported,,unsupported,
+B.bitflip.epfl.router,epfl,XL,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",timeout,,timeout,,pass,914
+B.bitflip.probe.n6.s40604,probe_small,probe,tof@inf,"XAG + MC (Meuli et al. 2019, re-impl.)",timeout,,pass,12,pass,12
+B.bitflip.probe.n6.s40604,probe_small,probe,tof@inf,XAG MC cut rewriting (mockturtle xag_minmc_resynthesis),timeout,,pass,9,pass,9
+B.bitflip.probe.n6.s40604,probe_small,probe,tof@inf,esop(qiskit EsopGenerator)+qiskit MCX,pass,126,pass,126,pass,126
+B.bitflip.probe.n6.s40604,probe_small,probe,tof@inf,"pebbling SAT (Meuli et al. 2019, re-impl.)",pass,126,pass,126,pass,126

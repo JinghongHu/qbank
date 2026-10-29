@@ -1,0 +1,174 @@
+{
+ "format": "qbank.public/1",
+ "gate_set": [
+  "h",
+  "s",
+  "sdg",
+  "x",
+  "y",
+  "z",
+  "sx",
+  "sxdg",
+  "cx",
+  "cz",
+  "cy",
+  "swap"
+ ],
+ "hash": "sha256:9c2844102a713102932a184a50078f6abc45573be24e65b7fc153c304a7690b3",
+ "n": 12,
+ "stabilizers": [
+  "-YIZYYYZYXXXX",
+  "-XXXXZZIXZZXI",
+  "-ZXIIZXIYIXXZ",
+  "-ZYZZXIIXXZIZ",
+  "+YXIZYXXYIYXX",
+  "+XXZIZIYYXIYI",
+  "-XYZZZXZYIIYY",
+  "-ZIZIIZYIZXYZ",
+  "+YIIIZYIXYZZY",
+  "-IIZYXYXZXYZY",
+  "-ZYXXYXYZYIIY",
+  "+ZZXYZYXIYIZX"
+ ],
+ "task": "stabilizer_state",
+ "tracks": {
+  "a2a_2q": {
+   "connectivity": "all",
+   "contract": "stabilizer_state",
+   "metric": "two_qubit_gates"
+  },
+  "grid_2q": {
+   "connectivity": {
+    "cols": 4,
+    "edges": [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      6
+     ],
+     [
+      3,
+      7
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      4,
+      8
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      5,
+      9
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      6,
+      10
+     ],
+     [
+      7,
+      11
+     ],
+     [
+      8,
+      9
+     ],
+     [
+      9,
+      10
+     ],
+     [
+      10,
+      11
+     ]
+    ],
+    "kind": "grid"
+   },
+   "contract": "stabilizer_state",
+   "metric": "two_qubit_gates",
+   "output_map": "free"
+  },
+  "line_2q": {
+   "connectivity": {
+    "edges": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      7,
+      8
+     ],
+     [
+      8,
+      9
+     ],
+     [
+      9,
+      10
+     ],
+     [
+      10,
+      11
+     ]
+    ],
+    "kind": "line"
+   },
+   "contract": "stabilizer_state",
+   "metric": "two_qubit_gates",
+   "output_map": "free"
+  }
+ }
+}

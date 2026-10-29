@@ -1,0 +1,24 @@
+[
+ {
+  "code": "surface_rot_d3",
+  "n": 9,
+  "k": 1,
+  "tool": "mqt.qecc.gate_optimal_prep_circuit(SAT)",
+  "status": "ok",
+  "time_s": 245.2085192091763,
+  "raw_check_gf2": [
+   [],
+   []
+  ],
+  "raw_check_stim": [
+   [],
+   []
+  ],
+  "verified_gf2": true,
+  "verified_stim": true,
+  "checkers_agree": true,
+  "two_qubit_gates": 8,
+  "depth": 4,
+  "two_qubit_depth": 3
+ }
+]
